@@ -13753,7 +13753,7 @@
  "BITS C790T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 1,
   "code": "BITS C790T",
   "description": null,
   "equivalent_stated": [],
@@ -13778,12 +13778,13 @@
   },
   "title": "Independent Study",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS C791T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 1,
   "code": "BITS C791T",
   "description": null,
   "equivalent_stated": [],
@@ -13808,12 +13809,13 @@
   },
   "title": "Teaching Practice I",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS C797T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 1,
   "code": "BITS C797T",
   "description": null,
   "equivalent_stated": [],
@@ -13851,12 +13853,13 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS C799T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 10,
   "code": "BITS C799T",
   "description": null,
   "equivalent_stated": [],
@@ -13881,12 +13884,13 @@
   },
   "title": "Ph D Thesis",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS E574": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 5,
   "code": "BITS E574",
   "description": null,
   "equivalent_stated": [],
@@ -13913,12 +13917,13 @@
   },
   "title": "Study In Advanced Topic Ii",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS E584": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "BITS E584",
   "description": null,
   "equivalent_stated": [],
@@ -13945,12 +13950,13 @@
   },
   "title": "Case Studies Ii",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS E594": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 5,
   "code": "BITS E594",
   "description": null,
   "equivalent_stated": [],
@@ -13977,12 +13983,13 @@
   },
   "title": "Reading Course Ii",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS E793T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 1,
   "code": "BITS E793T",
   "description": null,
   "equivalent_stated": [],
@@ -14007,7 +14014,8 @@
   },
   "title": "Practice Lect Series I",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS F101": {
   "L": null,
@@ -14187,7 +14195,7 @@
  "BITS F103": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "BITS F103",
   "description": null,
   "equivalent_stated": [],
@@ -14268,12 +14276,13 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS F110": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 2,
   "code": "BITS F110",
   "description": null,
   "equivalent_stated": [],
@@ -14309,7 +14318,8 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS F111": {
   "L": 3,
@@ -18567,7 +18577,7 @@
  "BITS F332": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "BITS F332",
   "description": null,
   "equivalent_stated": [],
@@ -18611,7 +18621,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS F333": {
   "L": null,
@@ -20480,7 +20491,7 @@
  "BITS F426T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 20,
   "code": "BITS F426T",
   "description": null,
   "equivalent_stated": [],
@@ -20503,7 +20514,8 @@
   },
   "title": "Thesis",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS F427": {
   "L": 3,
@@ -26537,7 +26549,7 @@
  "BITS G561T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 16,
   "code": "BITS G561T",
   "description": null,
   "equivalent_stated": [],
@@ -26575,12 +26587,13 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS G562T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 16,
   "code": "BITS G562T",
   "description": null,
   "equivalent_stated": [],
@@ -26616,12 +26629,13 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS G563T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 16,
   "code": "BITS G563T",
   "description": null,
   "equivalent_stated": [],
@@ -26657,12 +26671,13 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS G564T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 9,
   "code": "BITS G564T",
   "description": null,
   "equivalent_stated": [],
@@ -26698,7 +26713,8 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS G565T": {
   "L": null,
@@ -27064,7 +27080,7 @@
  "BITS G629T": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 16,
   "code": "BITS G629T",
   "description": null,
   "equivalent_stated": [],
@@ -27102,7 +27118,8 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS G640": {
   "L": null,
@@ -27614,7 +27631,7 @@
  "BITS G661": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 5,
   "code": "BITS G661",
   "description": null,
   "equivalent_stated": [],
@@ -27641,12 +27658,13 @@
   },
   "title": "Research Methodology I",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "BITS K101": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 1,
   "code": "BITS K101",
   "description": null,
   "equivalent_stated": [],
@@ -27680,7 +27698,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "BITS N101T": {
   "L": null,
@@ -59455,7 +59474,7 @@
  "CS G569": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "CS G569",
   "description": null,
   "equivalent_stated": [],
@@ -59523,7 +59542,8 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "CS G611": {
   "L": 2,
@@ -61853,7 +61873,7 @@
  "DE G612": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "DE G612",
   "description": null,
   "equivalent_stated": [],
@@ -61956,7 +61976,8 @@
     ],
     "score": 6.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "DE G621": {
   "L": null,
@@ -67531,7 +67552,7 @@
  "ECON F315": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "ECON F315",
   "description": null,
   "equivalent_stated": [],
@@ -67647,7 +67668,8 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "ECON F341": {
   "L": 3,
@@ -69071,7 +69093,7 @@
  "ECON F412": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "ECON F412",
   "description": null,
   "equivalent_stated": [],
@@ -69177,7 +69199,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "ECON F413": {
   "L": 3,
@@ -69734,7 +69757,7 @@
  "ECON F417": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "ECON F417",
   "description": null,
   "equivalent_stated": [],
@@ -69855,7 +69878,8 @@
     ],
     "score": 14.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "ECON F418": {
   "L": 3,
@@ -81411,7 +81435,7 @@
  "EEE G595": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 5,
   "code": "EEE G595",
   "description": null,
   "equivalent_stated": [],
@@ -81519,7 +81543,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "EEE G596": {
   "L": 5,
@@ -84458,7 +84483,7 @@
  "ENVS F212": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "ENVS F212",
   "description": null,
   "equivalent_stated": [],
@@ -84614,7 +84639,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "ENVS F213": {
   "L": 3,
@@ -91293,7 +91319,7 @@
  "GS F376": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "GS F376",
   "description": null,
   "equivalent_stated": [],
@@ -91318,12 +91344,13 @@
   },
   "title": "Design Project",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "GS F377": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "GS F377",
   "description": null,
   "equivalent_stated": [],
@@ -91348,7 +91375,8 @@
   },
   "title": "Design Project",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "GS F491": {
   "L": null,
@@ -94390,7 +94418,7 @@
  "HSS F324": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "HSS F324",
   "description": null,
   "equivalent_stated": [],
@@ -94526,7 +94554,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "HSS F325": {
   "L": 3,
@@ -106218,7 +106247,7 @@
  "MATH F201": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "MATH F201",
   "description": null,
   "equivalent_stated": [],
@@ -106241,7 +106270,8 @@
   },
   "title": "Differential Equatio",
   "title_source": "timetable",
-  "topics": {}
+  "topics": {},
+  "units_source": "timetable"
  },
  "MATH F211": {
   "L": 3,
@@ -124656,7 +124686,7 @@
  "ME G523": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 2,
   "code": "ME G523",
   "description": null,
   "equivalent_stated": [],
@@ -124692,7 +124722,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "ME G532": {
   "L": 3,
@@ -126409,7 +126440,7 @@
  "ME G615": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "ME G615",
   "description": null,
   "equivalent_stated": [],
@@ -126497,7 +126528,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "ME G621": {
   "L": 2,
@@ -138343,7 +138375,7 @@
  "MPBA G515": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 3,
   "code": "MPBA G515",
   "description": null,
   "equivalent_stated": [],
@@ -138471,7 +138503,8 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "MPBA G516": {
   "L": null,
@@ -162910,7 +162943,7 @@
  "SCM G511": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 2,
   "code": "SCM G511",
   "description": null,
   "equivalent_stated": [],
@@ -163058,12 +163091,13 @@
     ],
     "score": 2.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "SCM G513": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "SCM G513",
   "description": null,
   "equivalent_stated": [],
@@ -163251,12 +163285,13 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "SCM G514": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "SCM G514",
   "description": null,
   "equivalent_stated": [],
@@ -163399,12 +163434,13 @@
     ],
     "score": 3.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "SCM G515": {
   "L": null,
   "P": null,
-  "U": null,
+  "U": 4,
   "code": "SCM G515",
   "description": null,
   "equivalent_stated": [],
@@ -163492,7 +163528,8 @@
     ],
     "score": 9.0
    }
-  }
+  },
+  "units_source": "timetable"
  },
  "SNS F211": {
   "L": 3,

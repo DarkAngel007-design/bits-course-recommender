@@ -296,7 +296,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -356,7 +356,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -466,7 +466,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -747,7 +747,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 16 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -755,7 +755,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -1061,7 +1061,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -1121,7 +1121,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -1231,7 +1231,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -1433,7 +1433,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 13 - 5)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 43 - 15)"
+     "units": "max(15, 129 - 46 - 8 - 43 - 15)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -1441,7 +1441,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 22,
+    "min_units": 17,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -1739,7 +1739,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -1799,7 +1799,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -1909,7 +1909,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -2110,7 +2110,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 13 - 5)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 43 - 15)"
+     "units": "max(15, 129 - 46 - 8 - 43 - 15)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -2118,7 +2118,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 22,
+    "min_units": 17,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -2432,7 +2432,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -2492,7 +2492,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -2592,7 +2592,7 @@
     ],
     "kind": "named",
     "min_courses": 16,
-    "min_units": 38,
+    "min_units": 43,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -2836,7 +2836,7 @@
     "derivation": {
      "courses": "max(5, 41 - 16 - 3 - 15 - 5)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 38 - 8 - 45 - 15)"
+     "units": "max(15, 129 - 43 - 8 - 45 - 15)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -2844,7 +2844,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 23,
+    "min_units": 18,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -3166,7 +3166,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -3226,7 +3226,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -3336,7 +3336,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -3612,7 +3612,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 15 - 5)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 45 - 15)"
+     "units": "max(15, 129 - 46 - 8 - 45 - 15)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -3620,7 +3620,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -3934,7 +3934,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -3994,7 +3994,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -4104,7 +4104,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -4334,7 +4334,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 14 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -4342,7 +4342,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -4656,7 +4656,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -4716,7 +4716,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -4826,7 +4826,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -5087,7 +5087,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 14 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -5095,7 +5095,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -5410,7 +5410,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -5470,7 +5470,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -5580,7 +5580,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -5848,7 +5848,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 15 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 50 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 50 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -5856,7 +5856,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 18,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -6170,7 +6170,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -6230,7 +6230,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -6340,7 +6340,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -6599,7 +6599,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 14 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -6607,7 +6607,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -6921,7 +6921,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -6981,7 +6981,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -7101,7 +7101,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -7347,7 +7347,7 @@
     "derivation": {
      "courses": "max(5, 41 - 18 - 3 - 14 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 44 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 49 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -7355,7 +7355,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 17,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -7669,7 +7669,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -7729,7 +7729,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -7839,7 +7839,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -8084,7 +8084,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 14 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -8092,7 +8092,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -8461,7 +8461,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -8621,7 +8621,7 @@
        "BITS K101"
       ],
       "sem": 2,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -8720,7 +8720,7 @@
     ],
     "kind": "named",
     "min_courses": 26,
-    "min_units": 68,
+    "min_units": 73,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -8920,7 +8920,7 @@
     "derivation": {
      "courses": "max(5, 41 - 26 - 3 - 16 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 68 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 73 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -9250,7 +9250,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -9310,7 +9310,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -9420,7 +9420,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -9663,7 +9663,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 15 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -9671,7 +9671,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -9993,7 +9993,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -10053,7 +10053,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -10163,7 +10163,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -10398,7 +10398,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 15 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -10406,7 +10406,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -10736,7 +10736,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -10796,7 +10796,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -10906,7 +10906,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -11143,7 +11143,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 16 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -11151,7 +11151,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -11481,7 +11481,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -11541,7 +11541,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -11651,7 +11651,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -11948,7 +11948,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 16 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -11956,7 +11956,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -12338,7 +12338,7 @@
        "BITS F110"
       ],
       "sem": 1,
-      "units": null,
+      "units": 2,
       "year": "I"
      },
      {
@@ -12448,7 +12448,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 43,
+    "min_units": 45,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -12722,7 +12722,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 15 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 43 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 45 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -12730,7 +12730,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 18,
+    "min_units": 16,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -13092,7 +13092,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -13172,7 +13172,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -13292,7 +13292,7 @@
     ],
     "kind": "named",
     "min_courses": 20,
-    "min_units": 50,
+    "min_units": 55,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -13552,7 +13552,7 @@
     "derivation": {
      "courses": "max(5, 41 - 20 - 3 - 16 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 50 - 8 - 48 - 12)"
+     "units": "max(15, 129 - 55 - 8 - 48 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -13874,7 +13874,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -13934,7 +13934,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -14033,7 +14033,7 @@
     ],
     "kind": "named",
     "min_courses": 16,
-    "min_units": 38,
+    "min_units": 43,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -14935,7 +14935,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -14995,7 +14995,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -15105,7 +15105,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -16003,7 +16003,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -16063,7 +16063,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -16173,7 +16173,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -17103,7 +17103,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -17163,7 +17163,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -17283,7 +17283,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -18215,7 +18215,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -18275,7 +18275,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -18385,7 +18385,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -19312,7 +19312,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -19372,7 +19372,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -19492,7 +19492,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -20406,7 +20406,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -20466,7 +20466,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -20576,7 +20576,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -21528,7 +21528,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -21688,7 +21688,7 @@
        "BITS K101"
       ],
       "sem": 2,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -21767,7 +21767,7 @@
     ],
     "kind": "named",
     "min_courses": 24,
-    "min_units": 62,
+    "min_units": 67,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -22643,7 +22643,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -22703,7 +22703,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -22813,7 +22813,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -23732,7 +23732,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -23792,7 +23792,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -23902,7 +23902,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -24821,7 +24821,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -24881,7 +24881,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -24991,7 +24991,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -26023,7 +26023,7 @@
        "BITS F110"
       ],
       "sem": 1,
-      "units": null,
+      "units": 2,
       "year": "I"
      },
      {
@@ -26132,7 +26132,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 43,
+    "min_units": 45,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -27082,7 +27082,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -27142,7 +27142,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -27252,7 +27252,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -28199,7 +28199,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -28259,7 +28259,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -28369,7 +28369,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -29273,7 +29273,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -29333,7 +29333,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -29443,7 +29443,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -30371,7 +30371,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -30431,7 +30431,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -30541,7 +30541,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -31478,7 +31478,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -31538,7 +31538,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -31657,7 +31657,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -32579,7 +32579,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -32639,7 +32639,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -32759,7 +32759,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -33676,7 +33676,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -33736,7 +33736,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -33846,7 +33846,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -34805,7 +34805,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -34965,7 +34965,7 @@
        "BITS K101"
       ],
       "sem": 2,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -35045,7 +35045,7 @@
     ],
     "kind": "named",
     "min_courses": 24,
-    "min_units": 62,
+    "min_units": 67,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -35927,7 +35927,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -35987,7 +35987,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -36097,7 +36097,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -37022,7 +37022,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -37082,7 +37082,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -37192,7 +37192,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -38117,7 +38117,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -38177,7 +38177,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -38287,7 +38287,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -39326,7 +39326,7 @@
        "BITS F110"
       ],
       "sem": 1,
-      "units": null,
+      "units": 2,
       "year": "I"
      },
      {
@@ -39436,7 +39436,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 43,
+    "min_units": 45,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -40383,7 +40383,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -40443,7 +40443,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -40552,7 +40552,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -41477,7 +41477,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -41537,7 +41537,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -41646,7 +41646,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -42525,7 +42525,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -42585,7 +42585,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -42694,7 +42694,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -43485,7 +43485,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -43545,7 +43545,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -43644,7 +43644,7 @@
     ],
     "kind": "named",
     "min_courses": 16,
-    "min_units": 38,
+    "min_units": 43,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -44518,7 +44518,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -44578,7 +44578,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -44687,7 +44687,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -45595,7 +45595,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -45655,7 +45655,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -45774,7 +45774,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -46669,7 +46669,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -46729,7 +46729,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -46838,7 +46838,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -47772,7 +47772,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -47932,7 +47932,7 @@
        "BITS K101"
       ],
       "sem": 2,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -48011,7 +48011,7 @@
     ],
     "kind": "named",
     "min_courses": 24,
-    "min_units": 62,
+    "min_units": 67,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -48868,7 +48868,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -48928,7 +48928,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -49037,7 +49037,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -49937,7 +49937,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -49997,7 +49997,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -50106,7 +50106,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -51006,7 +51006,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -51066,7 +51066,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -51175,7 +51175,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -52189,7 +52189,7 @@
        "BITS F110"
       ],
       "sem": 1,
-      "units": null,
+      "units": 2,
       "year": "I"
      },
      {
@@ -52298,7 +52298,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 43,
+    "min_units": 45,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -53230,7 +53230,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -53290,7 +53290,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -53400,7 +53400,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -54335,7 +54335,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -54395,7 +54395,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -54505,7 +54505,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -55386,7 +55386,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -55446,7 +55446,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -55556,7 +55556,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -56465,7 +56465,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -56525,7 +56525,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -56635,7 +56635,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -57562,7 +57562,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -57622,7 +57622,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -57732,7 +57732,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -58650,7 +58650,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -58710,7 +58710,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -58830,7 +58830,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -59735,7 +59735,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -59795,7 +59795,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -59905,7 +59905,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -60849,7 +60849,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -61009,7 +61009,7 @@
        "BITS K101"
       ],
       "sem": 2,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -61089,7 +61089,7 @@
     ],
     "kind": "named",
     "min_courses": 24,
-    "min_units": 62,
+    "min_units": 67,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -61956,7 +61956,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -62016,7 +62016,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -62126,7 +62126,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -63004,7 +63004,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -63064,7 +63064,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -63174,7 +63174,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -64072,7 +64072,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -64132,7 +64132,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -64242,7 +64242,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -65266,7 +65266,7 @@
        "BITS F110"
       ],
       "sem": 1,
-      "units": null,
+      "units": 2,
       "year": "I"
      },
      {
@@ -65376,7 +65376,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 43,
+    "min_units": 45,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -66325,7 +66325,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -66385,7 +66385,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -66495,7 +66495,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -67452,7 +67452,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -67512,7 +67512,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -67622,7 +67622,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -68524,7 +68524,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -68584,7 +68584,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -68683,7 +68683,7 @@
     ],
     "kind": "named",
     "min_courses": 16,
-    "min_units": 38,
+    "min_units": 43,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -69618,7 +69618,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -69678,7 +69678,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -69788,7 +69788,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -70725,7 +70725,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -70785,7 +70785,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -70895,7 +70895,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -71824,7 +71824,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -71884,7 +71884,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -72004,7 +72004,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -72928,7 +72928,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -72988,7 +72988,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -73098,7 +73098,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -74064,7 +74064,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -74224,7 +74224,7 @@
        "BITS K101"
       ],
       "sem": 2,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -74304,7 +74304,7 @@
     ],
     "kind": "named",
     "min_courses": 24,
-    "min_units": 62,
+    "min_units": 67,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -75193,7 +75193,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -75253,7 +75253,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -75363,7 +75363,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -76287,7 +76287,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -76347,7 +76347,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -76457,7 +76457,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -77386,7 +77386,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -77446,7 +77446,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -77556,7 +77556,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -78602,7 +78602,7 @@
        "BITS F110"
       ],
       "sem": 1,
-      "units": null,
+      "units": 2,
       "year": "I"
      },
      {
@@ -78712,7 +78712,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 43,
+    "min_units": 45,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -79667,7 +79667,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -79727,7 +79727,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -79837,7 +79837,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -80765,7 +80765,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -80825,7 +80825,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -80935,7 +80935,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -81817,7 +81817,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -81877,7 +81877,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -81987,7 +81987,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -82901,7 +82901,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -82961,7 +82961,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -83081,7 +83081,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -83997,7 +83997,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -84057,7 +84057,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -84167,7 +84167,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -85078,7 +85078,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -85138,7 +85138,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -85258,7 +85258,7 @@
     ],
     "kind": "named",
     "min_courses": 18,
-    "min_units": 44,
+    "min_units": 49,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -86156,7 +86156,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -86216,7 +86216,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -86326,7 +86326,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -87263,7 +87263,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -87423,7 +87423,7 @@
        "BITS K101"
       ],
       "sem": 2,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -87503,7 +87503,7 @@
     ],
     "kind": "named",
     "min_courses": 24,
-    "min_units": 62,
+    "min_units": 67,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -88363,7 +88363,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -88423,7 +88423,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -88533,7 +88533,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -89436,7 +89436,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -89496,7 +89496,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -89606,7 +89606,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -90509,7 +90509,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -90569,7 +90569,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -90679,7 +90679,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -91696,7 +91696,7 @@
        "BITS F110"
       ],
       "sem": 1,
-      "units": null,
+      "units": 2,
       "year": "I"
      },
      {
@@ -91806,7 +91806,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 43,
+    "min_units": 45,
     "note": "General institutional requirements are the same for both degrees and are not repeated.",
     "provenance": "stated"
    },
@@ -92619,7 +92619,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -92679,7 +92679,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -92789,7 +92789,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -93364,7 +93364,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -93424,7 +93424,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -93534,7 +93534,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -93782,7 +93782,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 15 - 4)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 47 - 12)"
+     "units": "max(15, 129 - 46 - 8 - 47 - 12)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -93790,7 +93790,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 21,
+    "min_units": 16,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -94103,7 +94103,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -94163,7 +94163,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -94272,7 +94272,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -94504,7 +94504,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 14 - 6)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 42 - 18)"
+     "units": "max(15, 129 - 46 - 8 - 42 - 18)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -94512,7 +94512,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 20,
+    "min_units": 15,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -94810,7 +94810,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -94870,7 +94870,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -94980,7 +94980,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -95189,7 +95189,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 12 - 7)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 36 - 21)"
+     "units": "max(15, 129 - 46 - 8 - 36 - 21)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -95197,7 +95197,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 23,
+    "min_units": 18,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -95510,7 +95510,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -95570,7 +95570,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -95679,7 +95679,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -95897,7 +95897,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 14 - 5)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 42 - 15)"
+     "units": "max(15, 129 - 46 - 8 - 42 - 15)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -95905,7 +95905,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 23,
+    "min_units": 18,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -96219,7 +96219,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -96279,7 +96279,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -96389,7 +96389,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -96630,7 +96630,7 @@
     "derivation": {
      "courses": "max(5, 41 - 17 - 3 - 14 - 5)",
      "formula": "max(category minimum, coursework minimum - GIR - HUEL - DC - DEL)",
-     "units": "max(15, 129 - 41 - 8 - 42 - 15)"
+     "units": "max(15, 129 - 46 - 8 - 42 - 15)"
     },
     "evidence": [
      "ev_3b2cf5a91794",
@@ -96638,7 +96638,7 @@
     ],
     "kind": "pool",
     "min_courses": 5,
-    "min_units": 23,
+    "min_units": 18,
     "pool_ref": "any_offered",
     "provenance": "derived"
    },
@@ -96960,7 +96960,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -97020,7 +97020,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -97130,7 +97130,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -97703,7 +97703,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -97763,7 +97763,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -97903,7 +97903,7 @@
     ],
     "kind": "named",
     "min_courses": 20,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
@@ -98475,7 +98475,7 @@
        "BITS F103"
       ],
       "sem": 1,
-      "units": null,
+      "units": 4,
       "year": "I"
      },
      {
@@ -98535,7 +98535,7 @@
        "BITS K101"
       ],
       "sem": 1,
-      "units": null,
+      "units": 1,
       "year": "I"
      },
      {
@@ -98645,7 +98645,7 @@
     ],
     "kind": "named",
     "min_courses": 17,
-    "min_units": 41,
+    "min_units": 46,
     "note": "Named general-institutional courses from the semester-wise chart (years I-II).",
     "provenance": "stated"
    },
