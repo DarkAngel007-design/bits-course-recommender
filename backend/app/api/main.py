@@ -157,6 +157,30 @@ def meta():
     }
 
 
+@app.get("/curricula/resolve")
+def resolve_curriculum(programmes: str):
+    snap = snapshot()
+    want = [p for p in programmes.split(",") if p]
+    cur = next((c for c in snap.curricula.values()
+                if (c["type"] == "single" and c["programmes"] == want) or
+                (c["type"] == "dual" and len(want) == 2 and set(c["programmes"]) == set(want))), None)
+    if not cur:
+        raise HTTPException(404, "no curriculum for this programme combination")
+    return {"id": cur["id"], "name": cur["name"], "type": cur["type"], "named_placement": cur["named_placement"],
+            "evidence": cur["evidence"]}
+
+
+@app.get("/demo-profiles")
+def demo_profiles():
+    """Synthetic golden profiles (the same fixtures the test suite uses)."""
+    import json
+    path = Path(__file__).resolve().parents[3] / "tests" / "fixtures" / "golden_profiles.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text())
+    return {k: {"label": v["label"], "profile": v["profile"]} for k, v in data.items() if not k.startswith("_")}
+
+
 @app.get("/courses")
 def search_courses(q: str = Query("", max_length=80), offered_only: bool = False, limit: int = Query(20, le=100)):
     snap = snapshot()

@@ -174,7 +174,7 @@ def recommend(profile: StudentProfile, snap: Snapshot, intent: Intent, parser: s
                            "topic_relevance": rel, "topic_hits": topic_hits, "bm25": bm, "soft_total": soft_total})
 
     # topical intent: drop candidates with no textual/topic relevance at all
-    topical = bool(intent.topics or terms)
+    topical = bool((intent.topics and intent.topic_mode == "filter") or terms)
     max_bm = max([c["bm25"] for c in candidates] + [1e-9])
     for c in candidates:
         c["text_relevance"] = c["bm25"] / max_bm if terms else 0.0

@@ -59,6 +59,9 @@ class Intent(BaseModel):
     hard_filters: list[HardFilter] = Field(default_factory=list)
     soft_preferences: list[SoftPreference] = Field(default_factory=list)
     count: int = Field(5, ge=1, le=20)
+    topic_mode: Literal["filter", "rank"] = Field(
+        "filter", description="filter: topics named in the query restrict results; rank: topics only come from the "
+                              "profile's interests and are used for ordering")
     schedule: SchedulePrefs = Field(default_factory=SchedulePrefs)
     clarifications: list[str] = Field(default_factory=list)
     unsupported: list[str] = Field(default_factory=list, description="Requested properties the data cannot support")
@@ -194,6 +197,7 @@ def parse_rules(query: str, profile_interests: list[str] | None = None) -> Inten
         for i in profile_interests:
             it.topics += resolve_interest(i)
         it.topics = list(dict.fromkeys(it.topics))
+        it.topic_mode = "rank"
     return Intent.model_validate(it.model_dump())
 
 
@@ -255,6 +259,8 @@ def interpret(query: str, profile_interests: list[str] | None = None, use_llm: b
         if it is not None:
             # deterministic safety net: never lose an explicit hard constraint the rules parser saw
             rules = parse_rules(query, profile_interests)
+            if rules.topic_mode == "rank" and it.topics:
+                it.topic_mode = "rank"  # the request itself named no topic; interests only order results
             have = {(f.property, str(f.value)) for f in it.hard_filters}
             for f in rules.hard_filters:
                 if (f.property, str(f.value)) not in have and f.property in ("midsem_present", "attendance_none",
