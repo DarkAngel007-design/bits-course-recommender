@@ -1,0 +1,99 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "manifest",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "created_from": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "bytes": {
+      "type": "integer"
+     },
+     "doc_id": {
+      "type": "string"
+     },
+     "family": {
+      "type": "string"
+     },
+     "file": {
+      "type": "string"
+     },
+     "pages": {
+      "type": "integer"
+     },
+     "sha256": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "bytes",
+     "doc_id",
+     "family",
+     "file",
+     "pages",
+     "sha256"
+    ]
+   }
+  },
+  "curriculum_edition": {
+   "type": "string"
+  },
+  "duplicate_handout_groups": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   }
+  },
+  "parser_version": {
+   "type": "string"
+  },
+  "rules_version": {
+   "type": "string"
+  },
+  "schema_version": {
+   "type": "string"
+  },
+  "snapshot_id": {
+   "type": "string"
+  },
+  "term": {
+   "type": "object",
+   "properties": {
+    "campus": {
+     "type": "string"
+    },
+    "id": {
+     "type": "string"
+    },
+    "label": {
+     "type": "string"
+    },
+    "start_year": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "campus",
+    "id",
+    "label",
+    "start_year"
+   ]
+  }
+ },
+ "required": [
+  "created_from",
+  "curriculum_edition",
+  "duplicate_handout_groups",
+  "parser_version",
+  "rules_version",
+  "schema_version",
+  "snapshot_id",
+  "term"
+ ]
+}

@@ -12,7 +12,7 @@ from __future__ import annotations
 from ..catalog.store import Snapshot
 from .history import History
 from .models import StudentProfile, sem_index
-from .requirements import elective_candidates, own_context, project_kind
+from .requirements import elective_candidates, minor_exclusion, own_context, project_kind
 
 
 def _check(cid: str, status: str, message: str, evidence: list[str] | None = None, **extra) -> dict:
@@ -80,7 +80,8 @@ def contribution(code: str, profile: StudentProfile, snap: Snapshot, cur: dict |
                 "note": note, "evidence": snap.rule_evidence("elective_overflow_to_open")[:1]})
     if profile.minor:
         m = snap.minors["minors"].get(profile.minor)
-        if m and code in {c["code"] for c in m["core"] + m["electives"]}:
+        excl = minor_exclusion(profile, snap)
+        if m and code in {c["code"] for c in m["core"] + m["electives"]} and not (excl and excl["excluded"]):
             role = "core" if code in {c["code"] for c in m["core"]} else "elective"
             out.append({"category": "MINOR", "key": "MINOR", "kind": role, "label": f"Minor in {m['name']} ({role})",
                         "remaining_need": True, "evidence": m["evidence"][:1]})
@@ -246,12 +247,6 @@ def evaluate_offering(offering: dict, profile: StudentProfile, snap: Snapshot, s
         if pk:
             checks.append(_check("project_allotment", "unknown", "Project-type course: registration depends on "
                                  "allotment/supervisor consent.", snap.rule_evidence("project_course_limits")))
-    # minor exclusions
-    if profile.minor:
-        m = snap.minors["minors"].get(profile.minor)
-        if m and m.get("exclusions") and code in {c["code"] for c in m["core"] + m["electives"]}:
-            checks.append(_check("minor_exclusion", "unknown", "Minor has an exclusion clause: " + m["exclusions"][0],
-                                 m.get("notes", [])))
 
     statuses = [c["status"] for c in checks]
     status = "ineligible" if "fail" in statuses else ("needs_verification" if "unknown" in statuses else "eligible")

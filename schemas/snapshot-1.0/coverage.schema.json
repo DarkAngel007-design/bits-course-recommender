@@ -1,0 +1,291 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "coverage",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "catalog_courses": {
+   "type": "integer"
+  },
+  "curricula": {
+   "type": "integer"
+  },
+  "curricula_by_type": {
+   "type": "object",
+   "properties": {
+    "dual": {
+     "type": "integer"
+    },
+    "single": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "dual",
+    "single"
+   ]
+  },
+  "handout_attendance_status": {
+   "type": "object",
+   "properties": {
+    "explicitly_not_required": {
+     "type": "integer"
+    },
+    "n/a": {
+     "type": "integer"
+    },
+    "none_found": {
+     "type": "integer"
+    },
+    "requirement_stated": {
+     "type": "integer"
+    },
+    "statement_without_requirement": {
+     "type": "integer"
+    },
+    "unknown": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "explicitly_not_required",
+    "n/a",
+    "none_found",
+    "requirement_stated",
+    "statement_without_requirement",
+    "unknown"
+   ]
+  },
+  "handout_extraction": {
+   "type": "object",
+   "properties": {
+    "no_evaluation": {
+     "type": "integer"
+    },
+    "no_text_layer": {
+     "type": "integer"
+    },
+    "ok": {
+     "type": "integer"
+    },
+    "partial": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "no_evaluation",
+    "no_text_layer",
+    "ok",
+    "partial"
+   ]
+  },
+  "handout_midsem_status": {
+   "type": "object",
+   "properties": {
+    "explicit_from_complete_table": {
+     "type": "integer"
+    },
+    "n/a": {
+     "type": "integer"
+    },
+    "stated": {
+     "type": "integer"
+    },
+    "unknown": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "explicit_from_complete_table",
+    "n/a",
+    "stated",
+    "unknown"
+   ]
+  },
+  "handouts_distinct": {
+   "type": "integer"
+  },
+  "offered_courses": {
+   "type": "integer"
+  },
+  "offered_with_bulletin_description": {
+   "type": "integer"
+  },
+  "offered_with_handout": {
+   "type": "integer"
+  },
+  "offerings_by_status": {
+   "type": "object",
+   "properties": {
+    "cancelled": {
+     "type": "integer"
+    },
+    "offered": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "cancelled",
+    "offered"
+   ]
+  },
+  "offerings_offered": {
+   "type": "integer"
+  },
+  "offerings_total": {
+   "type": "integer"
+  },
+  "prerequisite_status": {
+   "type": "object",
+   "properties": {
+    "none_stated": {
+     "type": "integer"
+    },
+    "not_in_bulletin": {
+     "type": "integer"
+    },
+    "parsed": {
+     "type": "integer"
+    },
+    "parsed_partial": {
+     "type": "integer"
+    },
+    "unresolved": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "none_stated",
+    "not_in_bulletin",
+    "parsed",
+    "parsed_partial",
+    "unresolved"
+   ]
+  },
+  "review_queue": {
+   "type": "object",
+   "properties": {
+    "by_kind": {
+     "type": "object",
+     "properties": {
+      "ambiguous_mapping": {
+       "type": "integer"
+      },
+      "conflict": {
+       "type": "integer"
+      },
+      "missing": {
+       "type": "integer"
+      },
+      "unparsed": {
+       "type": "integer"
+      },
+      "unreliable": {
+       "type": "integer"
+      },
+      "validation_failure": {
+       "type": "integer"
+      }
+     },
+     "required": [
+      "ambiguous_mapping",
+      "conflict",
+      "missing",
+      "unparsed",
+      "unreliable",
+      "validation_failure"
+     ]
+    },
+    "by_severity": {
+     "type": "object",
+     "properties": {
+      "error": {
+       "type": "integer"
+      },
+      "info": {
+       "type": "integer"
+      },
+      "warning": {
+       "type": "integer"
+      }
+     },
+     "required": [
+      "error",
+      "info",
+      "warning"
+     ]
+    },
+    "total": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "by_kind",
+    "by_severity",
+    "total"
+   ]
+  },
+  "rules_reviewed": {
+   "type": "integer"
+  },
+  "supported_scope": {
+   "type": "object",
+   "properties": {
+    "campus": {
+     "type": "string"
+    },
+    "curriculum_edition": {
+     "type": "string"
+    },
+    "limitations": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "resolved_admission_years": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     }
+    },
+    "term": {
+     "type": "string"
+    },
+    "unsupported": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "required": [
+    "campus",
+    "curriculum_edition",
+    "limitations",
+    "resolved_admission_years",
+    "term",
+    "unsupported"
+   ]
+  }
+ },
+ "required": [
+  "catalog_courses",
+  "curricula",
+  "curricula_by_type",
+  "handout_attendance_status",
+  "handout_extraction",
+  "handout_midsem_status",
+  "handouts_distinct",
+  "offered_courses",
+  "offered_with_bulletin_description",
+  "offered_with_handout",
+  "offerings_by_status",
+  "offerings_offered",
+  "offerings_total",
+  "prerequisite_status",
+  "review_queue",
+  "rules_reviewed",
+  "supported_scope"
+ ]
+}

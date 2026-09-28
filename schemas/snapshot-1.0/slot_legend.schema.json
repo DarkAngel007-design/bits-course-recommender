@@ -1,0 +1,145 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "slot_legend",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "exam_sessions": {
+   "type": "object",
+   "properties": {
+    "AN": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "AN1": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "AN2": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "FN": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "FN1": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "FN2": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "required": [
+    "AN",
+    "AN1",
+    "AN2",
+    "FN",
+    "FN1",
+    "FN2"
+   ]
+  },
+  "hours": {
+   "type": "object",
+   "properties": {
+    "1": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "2": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "3": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "4": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "5": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "6": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "7": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "8": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "9": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "10": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "required": [
+    "1",
+    "10",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ]
+  }
+ },
+ "required": [
+  "evidence",
+  "exam_sessions",
+  "hours"
+ ]
+}

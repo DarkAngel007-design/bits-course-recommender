@@ -945,6 +945,17 @@
   "pdf_page": 55,
   "printed_page": "45"
  },
+ "ev_02be331192ad": {
+  "confidence": 1.0,
+  "doc_id": "doc_0ee23e970b7b",
+  "excerpt": "This minor programme is exclusively designed for first-degree students of non-Computer Science disciplines.",
+  "family": "bulletin",
+  "file": "bulletin.pdf",
+  "id": "ev_02be331192ad",
+  "parser": "bulletin.minor_exclusion@1.0.0",
+  "pdf_page": 340,
+  "printed_page": "IV-132"
+ },
  "ev_02c5768e99b5": {
   "confidence": 0.6,
   "doc_id": "doc_580add45796a",

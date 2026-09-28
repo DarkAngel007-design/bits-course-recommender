@@ -1,0 +1,93 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "project_rules",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "discipline_elective_max_projects": {
+   "type": "integer"
+  },
+  "discipline_elective_subhead_max": {
+   "type": "object",
+   "properties": {
+    "design": {
+     "type": "integer"
+    },
+    "laboratory": {
+     "type": "integer"
+    },
+    "special": {
+     "type": "integer"
+    },
+    "study": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "design",
+    "laboratory",
+    "special",
+    "study"
+   ]
+  },
+  "evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "open_elective_max_projects": {
+   "type": "integer"
+  },
+  "project_codes": {
+   "type": "object",
+   "properties": {
+    "design": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "laboratory": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "special": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "study": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "required": [
+    "design",
+    "laboratory",
+    "special",
+    "study"
+   ]
+  },
+  "review_status": {
+   "type": "string"
+  },
+  "total_elective_max_projects": {
+   "type": "integer"
+  }
+ },
+ "required": [
+  "discipline_elective_max_projects",
+  "discipline_elective_subhead_max",
+  "evidence",
+  "open_elective_max_projects",
+  "project_codes",
+  "review_status",
+  "total_elective_max_projects"
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "offerings",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "description": "Map of id -> record (offerings)",
+ "additionalProperties": {
+  "type": "object",
+  "properties": {
+   "campus": {
+    "type": "string"
+   },
+   "cohort_evidence": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "cohort_scope": {
+    "type": "object",
+    "properties": {
+     "exclude_admission_years": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     },
+     "note": {
+      "type": "string"
+     },
+     "admission_years": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     }
+    },
+    "required": [
+     "note"
+    ]
+   },
+   "component_types": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "computer_code": {
+    "type": "string"
+   },
+   "course_code": {
+    "type": "string"
+   },
+   "credit": {
+    "type": "object",
+    "properties": {
+     "L": {
+      "type": "integer"
+     },
+     "P": {
+      "type": "integer"
+     },
+     "S": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "T": {
+      "type": "integer"
+     },
+     "system": {
+      "type": "string"
+     },
+     "value": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "L",
+     "P",
+     "S",
+     "T",
+     "system",
+     "value"
+    ]
+   },
+   "evidence": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "exams": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "date": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "end": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "raw": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "session": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "start": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "status": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "date",
+      "end",
+      "evidence",
+      "raw",
+      "session",
+      "start",
+      "status",
+      "type"
+     ]
+    }
+   },
+   "id": {
+    "type": "string"
+   },
+   "pages": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "id": {
+       "type": "string"
+      },
+      "instructor_in_charge": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "instructors": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "label": {
+       "type": "string"
+      },
+      "meetings": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "day": {
+          "type": "string"
+         },
+         "end": {
+          "type": [
+           "null",
+           "string"
+          ]
+         },
+         "hour": {
+          "type": "integer"
+         },
+         "start": {
+          "type": [
+           "null",
+           "string"
+          ]
+         },
+         "verification_status": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "day",
+         "end",
+         "hour",
+         "start",
+         "verification_status"
+        ]
+       }
+      },
+      "raw_slot": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "room": {
+       "type": [
+        "null",
+        "string"
+       ]
+      },
+      "schedule_status": {
+       "type": "string"
+      },
+      "status": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "evidence",
+      "id",
+      "instructor_in_charge",
+      "instructors",
+      "label",
+      "meetings",
+      "raw_slot",
+      "room",
+      "schedule_status",
+      "status",
+      "type"
+     ]
+    }
+   },
+   "status": {
+    "type": "string"
+   },
+   "term": {
+    "type": "string"
+   },
+   "title_timetable": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "campus",
+   "cohort_evidence",
+   "cohort_scope",
+   "component_types",
+   "computer_code",
+   "course_code",
+   "credit",
+   "evidence",
+   "exams",
+   "id",
+   "pages",
+   "sections",
+   "status",
+   "term",
+   "title_timetable"
+  ]
+ }
+}

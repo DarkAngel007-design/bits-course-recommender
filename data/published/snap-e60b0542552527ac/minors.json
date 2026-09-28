@@ -644,11 +644,15 @@
    "evidence": [
     "ev_b95879e36238"
    ],
-   "exclusions": [],
+   "exclusions": [
+    "This minor programme is exclusively designed for first-degree students of non-Computer Science disciplines."
+   ],
    "min_courses": 6,
    "min_units": 18,
    "name": "Computing and Intelligence",
-   "notes": [],
+   "notes": [
+    "ev_02be331192ad"
+   ],
    "pages": [
     340
    ]

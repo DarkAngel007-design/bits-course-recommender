@@ -1,0 +1,8081 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "programmes",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "description": "Map of id -> record (programmes)",
+ "additionalProperties": {
+  "type": "object",
+  "properties": {
+   "compulsory_electives": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "core": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "course_evidence": {
+    "type": "object",
+    "properties": {
+     "AUE F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F345": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F361": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F362": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F421": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AUE F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F469": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F230": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F323": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F427": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F433": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F433": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G513": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F245": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F345": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F346": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F347": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F352": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F467": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIOT F492": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G671": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F429": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F412": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F421": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F433": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F471": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F497": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F498": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G511": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G512": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G513": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G522": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G523": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G524": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G526": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G527": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G528": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G529": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G532": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G533": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G551": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G552": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G554": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G556": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G557": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G558": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G568": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G613": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G614": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G616": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G617": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G618": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G619": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G620": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G622": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE G641": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F325": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F323": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST F332": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST F334": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST F339": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST G521": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F217": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F366": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F376": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHE F491": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F353": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F381": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F231": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F320": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F324": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F325": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F331": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F345": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F412": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F421": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F426": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F429": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F430": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CE F435": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F364": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F386": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F452": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F453": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F454": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F459": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F463": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F464": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F465": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F466": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F471": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F222": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F301": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F303": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F320": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F322": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F351": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F363": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F364": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F372": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F401": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F402": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F407": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F426": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F427": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F429": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F430": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F433": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F435": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F436": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F437": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F441": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F444": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F446": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F468": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F469": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS G513": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS G514": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS G519": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS G520": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS G527": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS G557": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "IS F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "IS F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "IS F462": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F231": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F421": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F441": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SS G514": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS F451": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CS G553": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F331": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F216": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F245": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F246": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F318": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F345": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F346": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F426": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F427": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F429": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F430": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F433": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F435": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F436": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F437": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F438": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F462": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F472": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F473": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F474": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F475": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F476": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F477": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE F478": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE G512": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE G513": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "EEE G626": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F216": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F429": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F430": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F473": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F216": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F472": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "INSTR F412": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F327": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F441": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F222": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECOM F462": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MEL G621": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F333": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F221": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F222": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F223": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F224": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F232": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F322": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F331": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F332": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ENVS F333": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F442": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F485": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F340": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F426": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F436": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F443": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F484": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F216": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F217": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F218": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F219": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F220": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F221": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F222": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F318": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F319": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F320": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F412": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F453": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F463": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F471": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F472": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F473": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F474": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F354": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F245": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MAC F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F426": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F451": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F462": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "DE G513": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "DE G514": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "DE G531": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F216": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F217": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F218": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F219": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F220": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F221": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F318": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F319": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F320": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F324": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F325": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F427": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F429": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F430": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F435": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F437": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F438": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F441": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F451": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F452": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F461": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F472": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F482": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F483": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F485": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G511": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G512": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G514": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G515": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G533": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G534": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G544": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME G614": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MF F421": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST G522": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F221": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "AN F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F319": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F372": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F442": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS G541": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECE F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "IS F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ME F439": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F322": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F323": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F371": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "RIA F372": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F219": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F216": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F217": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F441": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F442": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA F461": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA G546": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F216": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F217": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F231": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F352": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F411": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F421": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F441": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO F451": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G512": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G513": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G515": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G522": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G523": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G524": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G525": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G526": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G528": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G544": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G545": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G561": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G570": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G612": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G631": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G632": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G642": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G643": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G651": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G661": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHA G529": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F223": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F320": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F323": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F324": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F326": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F327": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F328": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F329": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F330": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F334": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F335": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F336": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F337": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F412": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM F430": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G513": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G521": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G541": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G555": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G556": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G557": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G558": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G559": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G561": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G562": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "CHEM G563": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F345": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F351": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F352": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F355": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F356": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F357": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F412": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F435": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ECON F471": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "FIN F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "FIN F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F385": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F221": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F222": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F223": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F224": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F231": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F232": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F234": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F245": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F321": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F322": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F325": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F326": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F327": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F331": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F333": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F334": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F227": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F232": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F247": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F319": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F323": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F328": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F346": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F384": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F399": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F233": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "GS F332": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F233": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F234": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F235": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F236": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "HSS F345": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F232": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F368": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F314": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F353": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F354": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F378": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F427": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F429": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F444": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F445": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F456": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F471": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F481": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MATH F492": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BITS F446": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F215": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F316": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F317": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F318": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F344": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F346": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F378": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F379": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F412": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F413": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F414": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F415": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F416": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F417": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F418": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F419": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F420": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F421": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F422": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F423": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F424": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F425": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F426": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F427": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F428": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F431": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F432": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F433": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F434": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F435": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F438": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY G512": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F320": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F436": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "PHY F437": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "BIO G510": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MEL G514": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST F333": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST F337": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "MST F338": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F211": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F212": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F213": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F214": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F241": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F242": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F243": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F244": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F311": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F312": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F313": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F315": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F341": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F342": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F343": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "SNS F345": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": []
+   },
+   "degree": {
+    "type": "string"
+   },
+   "discipline_prefix": {
+    "type": "string"
+   },
+   "elective_groups": {
+    "type": "object",
+    "properties": {
+     "Track - 1: Environment and sustainable design": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "Track - 2: Urban studies": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "Track - 3: Emerging Technologies": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "Track - 4: Construction & Finance": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "Pool-1 (Three Courses from pool-1)": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "Pool-2 (Any Two Courses from pool-2)": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": []
+   },
+   "electives": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "id": {
+    "type": "string"
+   },
+   "list_evidence": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "list_heading": {
+    "type": "string"
+   },
+   "name": {
+    "type": "string"
+   },
+   "units": {
+    "type": "object",
+    "properties": {
+     "AUE F211": {
+      "type": "integer"
+     },
+     "AUE F212": {
+      "type": "integer"
+     },
+     "AUE F213": {
+      "type": "integer"
+     },
+     "AUE F241": {
+      "type": "integer"
+     },
+     "AUE F242": {
+      "type": "integer"
+     },
+     "AUE F243": {
+      "type": "integer"
+     },
+     "AUE F311": {
+      "type": "integer"
+     },
+     "AUE F312": {
+      "type": "integer"
+     },
+     "AUE F313": {
+      "type": "integer"
+     },
+     "AUE F314": {
+      "type": "integer"
+     },
+     "AUE F341": {
+      "type": "integer"
+     },
+     "AUE F342": {
+      "type": "integer"
+     },
+     "AUE F343": {
+      "type": "integer"
+     },
+     "AUE F344": {
+      "type": "integer"
+     },
+     "AUE F345": {
+      "type": "integer"
+     },
+     "AUE F361": {
+      "type": "integer"
+     },
+     "AUE F362": {
+      "type": "integer"
+     },
+     "AUE F421": {
+      "type": "integer"
+     },
+     "AUE F422": {
+      "type": "integer"
+     },
+     "AUE F423": {
+      "type": "integer"
+     },
+     "AUE F424": {
+      "type": "integer"
+     },
+     "AUE F425": {
+      "type": "integer"
+     },
+     "BITS F469": {
+      "type": "integer"
+     },
+     "CE F230": {
+      "type": "integer"
+     },
+     "CE F321": {
+      "type": "integer"
+     },
+     "CE F323": {
+      "type": "integer"
+     },
+     "CE F342": {
+      "type": "integer"
+     },
+     "CE F416": {
+      "type": "integer"
+     },
+     "CE F417": {
+      "type": "integer"
+     },
+     "CE F420": {
+      "type": "integer"
+     },
+     "CE F422": {
+      "type": "integer"
+     },
+     "CE F423": {
+      "type": "integer"
+     },
+     "CE F425": {
+      "type": "integer"
+     },
+     "CE F427": {
+      "type": "integer"
+     },
+     "CE F428": {
+      "type": "integer"
+     },
+     "CE F431": {
+      "type": "integer"
+     },
+     "CE F433": {
+      "type": "integer"
+     },
+     "CE F434": {
+      "type": "integer"
+     },
+     "ME F433": {
+      "type": "integer"
+     },
+     "ME G513": {
+      "type": "integer"
+     },
+     "BIOT F211": {
+      "type": "integer"
+     },
+     "BIOT F212": {
+      "type": "integer"
+     },
+     "BIOT F213": {
+      "type": "integer"
+     },
+     "BIOT F215": {
+      "type": "integer"
+     },
+     "BIOT F241": {
+      "type": "integer"
+     },
+     "BIOT F242": {
+      "type": "integer"
+     },
+     "BIOT F243": {
+      "type": "integer"
+     },
+     "BIOT F244": {
+      "type": "integer"
+     },
+     "BIOT F245": {
+      "type": "integer"
+     },
+     "BIOT F311": {
+      "type": "integer"
+     },
+     "BIOT F314": {
+      "type": "integer"
+     },
+     "BIOT F342": {
+      "type": "integer"
+     },
+     "BIOT F343": {
+      "type": "integer"
+     },
+     "BIOT F344": {
+      "type": "integer"
+     },
+     "BIOT F345": {
+      "type": "integer"
+     },
+     "BIOT F346": {
+      "type": "integer"
+     },
+     "BIOT F347": {
+      "type": "integer"
+     },
+     "BIOT F352": {
+      "type": "integer"
+     },
+     "BIOT F413": {
+      "type": "integer"
+     },
+     "BIOT F416": {
+      "type": "integer"
+     },
+     "BIOT F417": {
+      "type": "integer"
+     },
+     "BIOT F420": {
+      "type": "integer"
+     },
+     "BIOT F422": {
+      "type": "integer"
+     },
+     "BIOT F423": {
+      "type": "integer"
+     },
+     "BIOT F424": {
+      "type": "integer"
+     },
+     "BITS F467": {
+      "type": "integer"
+     },
+     "BIOT F492": {
+      "type": "integer"
+     },
+     "BIO G671": {
+      "type": "integer"
+     },
+     "BITS F415": {
+      "type": "integer"
+     },
+     "BITS F416": {
+      "type": "integer"
+     },
+     "BITS F417": {
+      "type": "integer"
+     },
+     "BITS F418": {
+      "type": "integer"
+     },
+     "BITS F429": {
+      "type": "integer"
+     },
+     "CHE F211": {
+      "type": "integer"
+     },
+     "CHE F212": {
+      "type": "integer"
+     },
+     "CHE F213": {
+      "type": "integer"
+     },
+     "CHE F214": {
+      "type": "integer"
+     },
+     "CHE F241": {
+      "type": "integer"
+     },
+     "CHE F242": {
+      "type": "integer"
+     },
+     "CHE F243": {
+      "type": "integer"
+     },
+     "CHE F244": {
+      "type": "integer"
+     },
+     "CHE F311": {
+      "type": "integer"
+     },
+     "CHE F312": {
+      "type": "integer"
+     },
+     "CHE F313": {
+      "type": "integer"
+     },
+     "CHE F314": {
+      "type": "integer"
+     },
+     "CHE F315": {
+      "type": "integer"
+     },
+     "CHE F316": {
+      "type": "integer"
+     },
+     "CHE F317": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "CHE F341": {
+      "type": "integer"
+     },
+     "CHE F342": {
+      "type": "integer"
+     },
+     "CHE F343": {
+      "type": "integer"
+     },
+     "CHE F411": {
+      "type": "integer"
+     },
+     "CHE F412": {
+      "type": "integer"
+     },
+     "CHE F413": {
+      "type": "integer"
+     },
+     "CHE F414": {
+      "type": "integer"
+     },
+     "CHE F415": {
+      "type": "integer"
+     },
+     "CHE F416": {
+      "type": "integer"
+     },
+     "CHE F417": {
+      "type": "integer"
+     },
+     "CHE F418": {
+      "type": "integer"
+     },
+     "CHE F419": {
+      "type": "integer"
+     },
+     "CHE F421": {
+      "type": "integer"
+     },
+     "CHE F422": {
+      "type": "integer"
+     },
+     "CHE F423": {
+      "type": "integer"
+     },
+     "CHE F424": {
+      "type": "integer"
+     },
+     "CHE F425": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "CHE F433": {
+      "type": "integer"
+     },
+     "CHE F471": {
+      "type": "integer"
+     },
+     "CHE F497": {
+      "type": "integer"
+     },
+     "CHE F498": {
+      "type": "integer"
+     },
+     "CHE G511": {
+      "type": "integer"
+     },
+     "CHE G512": {
+      "type": "integer"
+     },
+     "CHE G513": {
+      "type": "integer"
+     },
+     "CHE G522": {
+      "type": "integer"
+     },
+     "CHE G523": {
+      "type": "integer"
+     },
+     "CHE G524": {
+      "type": "integer"
+     },
+     "CHE G526": {
+      "type": "integer"
+     },
+     "CHE G527": {
+      "type": "integer"
+     },
+     "CHE G528": {
+      "type": "integer"
+     },
+     "CHE G529": {
+      "type": "integer"
+     },
+     "CHE G532": {
+      "type": "integer"
+     },
+     "CHE G533": {
+      "type": "integer"
+     },
+     "CHE G551": {
+      "type": "integer"
+     },
+     "CHE G552": {
+      "type": "integer"
+     },
+     "CHE G554": {
+      "type": "integer"
+     },
+     "CHE G556": {
+      "type": "integer"
+     },
+     "CHE G557": {
+      "type": "integer"
+     },
+     "CHE G558": {
+      "type": "integer"
+     },
+     "CHE G568": {
+      "type": "integer"
+     },
+     "CHE G613": {
+      "type": "integer"
+     },
+     "CHE G614": {
+      "type": "integer"
+     },
+     "CHE G616": {
+      "type": "integer"
+     },
+     "CHE G617": {
+      "type": "integer"
+     },
+     "CHE G618": {
+      "type": "integer"
+     },
+     "CHE G619": {
+      "type": "integer"
+     },
+     "CHE G620": {
+      "type": "integer"
+     },
+     "CHE G622": {
+      "type": "integer"
+     },
+     "CHE G641": {
+      "type": "integer"
+     },
+     "CHEM F325": {
+      "type": "integer"
+     },
+     "ME F323": {
+      "type": "integer"
+     },
+     "MST F332": {
+      "type": "integer"
+     },
+     "MST F334": {
+      "type": "integer"
+     },
+     "MST F339": {
+      "type": "integer"
+     },
+     "MST G521": {
+      "type": "integer"
+     },
+     "BITS F217": {
+      "type": "integer"
+     },
+     "CHE F366": {
+      "type": "null"
+     },
+     "CHE F376": {
+      "type": "null"
+     },
+     "CHE F491": {
+      "type": "integer"
+     },
+     "ECON F353": {
+      "type": "integer"
+     },
+     "HSS F381": {
+      "type": "integer"
+     },
+     "BITS F313": {
+      "type": "integer"
+     },
+     "CE F211": {
+      "type": "integer"
+     },
+     "CE F213": {
+      "type": "integer"
+     },
+     "CE F231": {
+      "type": "integer"
+     },
+     "CE F241": {
+      "type": "integer"
+     },
+     "CE F242": {
+      "type": "integer"
+     },
+     "CE F243": {
+      "type": "integer"
+     },
+     "CE F244": {
+      "type": "integer"
+     },
+     "CE F312": {
+      "type": "integer"
+     },
+     "CE F313": {
+      "type": "integer"
+     },
+     "CE F320": {
+      "type": "integer"
+     },
+     "CE F324": {
+      "type": "integer"
+     },
+     "CE F325": {
+      "type": "integer"
+     },
+     "CE F331": {
+      "type": "integer"
+     },
+     "CE F343": {
+      "type": "integer"
+     },
+     "CE F345": {
+      "type": "integer"
+     },
+     "CE F411": {
+      "type": "integer"
+     },
+     "CE F412": {
+      "type": "integer"
+     },
+     "CE F413": {
+      "type": "integer"
+     },
+     "CE F415": {
+      "type": "integer"
+     },
+     "CE F419": {
+      "type": "integer"
+     },
+     "CE F421": {
+      "type": "integer"
+     },
+     "CE F426": {
+      "type": "integer"
+     },
+     "CE F429": {
+      "type": "integer"
+     },
+     "CE F430": {
+      "type": "integer"
+     },
+     "CE F432": {
+      "type": "integer"
+     },
+     "CE F435": {
+      "type": "integer"
+     },
+     "BITS F311": {
+      "type": "integer"
+     },
+     "BITS F312": {
+      "type": "integer"
+     },
+     "BITS F343": {
+      "type": "integer"
+     },
+     "BITS F364": {
+      "type": "integer"
+     },
+     "BITS F386": {
+      "type": "integer"
+     },
+     "BITS F452": {
+      "type": "integer"
+     },
+     "BITS F453": {
+      "type": "integer"
+     },
+     "BITS F454": {
+      "type": "integer"
+     },
+     "BITS F459": {
+      "type": "integer"
+     },
+     "BITS F463": {
+      "type": "integer"
+     },
+     "BITS F464": {
+      "type": "integer"
+     },
+     "BITS F465": {
+      "type": "integer"
+     },
+     "BITS F466": {
+      "type": "integer"
+     },
+     "BITS F471": {
+      "type": "integer"
+     },
+     "CS F211": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "CS F212": {
+      "type": "integer"
+     },
+     "CS F213": {
+      "type": "integer"
+     },
+     "CS F214": {
+      "type": "integer"
+     },
+     "CS F215": {
+      "type": "integer"
+     },
+     "CS F222": {
+      "type": "integer"
+     },
+     "CS F241": {
+      "type": "integer"
+     },
+     "CS F301": {
+      "type": "integer"
+     },
+     "CS F303": {
+      "type": "integer"
+     },
+     "CS F314": {
+      "type": "integer"
+     },
+     "CS F315": {
+      "type": "integer"
+     },
+     "CS F316": {
+      "type": "integer"
+     },
+     "CS F317": {
+      "type": "integer"
+     },
+     "CS F320": {
+      "type": "integer"
+     },
+     "CS F321": {
+      "type": "integer"
+     },
+     "CS F322": {
+      "type": "integer"
+     },
+     "CS F342": {
+      "type": "integer"
+     },
+     "CS F351": {
+      "type": "integer"
+     },
+     "CS F363": {
+      "type": "integer"
+     },
+     "CS F364": {
+      "type": "integer"
+     },
+     "CS F372": {
+      "type": "integer"
+     },
+     "CS F401": {
+      "type": "integer"
+     },
+     "CS F402": {
+      "type": "integer"
+     },
+     "CS F407": {
+      "type": "integer"
+     },
+     "CS F413": {
+      "type": "integer"
+     },
+     "CS F415": {
+      "type": "integer"
+     },
+     "CS F422": {
+      "type": "integer"
+     },
+     "CS F424": {
+      "type": "integer"
+     },
+     "CS F425": {
+      "type": "integer"
+     },
+     "CS F426": {
+      "type": "integer"
+     },
+     "CS F427": {
+      "type": "integer"
+     },
+     "CS F428": {
+      "type": "integer"
+     },
+     "CS F429": {
+      "type": "integer"
+     },
+     "CS F430": {
+      "type": "integer"
+     },
+     "CS F431": {
+      "type": "integer"
+     },
+     "CS F432": {
+      "type": "integer"
+     },
+     "CS F433": {
+      "type": "integer"
+     },
+     "CS F434": {
+      "type": "integer"
+     },
+     "CS F435": {
+      "type": "integer"
+     },
+     "CS F436": {
+      "type": "integer"
+     },
+     "CS F437": {
+      "type": "integer"
+     },
+     "CS F441": {
+      "type": "integer"
+     },
+     "CS F444": {
+      "type": "integer"
+     },
+     "CS F446": {
+      "type": "integer"
+     },
+     "CS F468": {
+      "type": "integer"
+     },
+     "CS F469": {
+      "type": "integer"
+     },
+     "CS G513": {
+      "type": "integer"
+     },
+     "CS G514": {
+      "type": "integer"
+     },
+     "CS G519": {
+      "type": "integer"
+     },
+     "CS G520": {
+      "type": "integer"
+     },
+     "CS G527": {
+      "type": "integer"
+     },
+     "CS G557": {
+      "type": "integer"
+     },
+     "IS F311": {
+      "type": "integer"
+     },
+     "IS F341": {
+      "type": "integer"
+     },
+     "IS F462": {
+      "type": "integer"
+     },
+     "MATH F231": {
+      "type": "integer"
+     },
+     "MATH F421": {
+      "type": "integer"
+     },
+     "MATH F441": {
+      "type": "integer"
+     },
+     "SS G514": {
+      "type": "integer"
+     },
+     "CS F451": {
+      "type": "integer"
+     },
+     "CS G553": {
+      "type": "integer"
+     },
+     "ECE F312": {
+      "type": "integer"
+     },
+     "ECE F314": {
+      "type": "integer"
+     },
+     "ECE F331": {
+      "type": "integer"
+     },
+     "ECE F343": {
+      "type": "integer"
+     },
+     "ECE F423": {
+      "type": "integer"
+     },
+     "EEE F211": {
+      "type": "integer"
+     },
+     "EEE F212": {
+      "type": "integer"
+     },
+     "EEE F214": {
+      "type": "integer"
+     },
+     "EEE F215": {
+      "type": "integer"
+     },
+     "EEE F216": {
+      "type": "integer"
+     },
+     "EEE F241": {
+      "type": "integer"
+     },
+     "EEE F242": {
+      "type": "integer"
+     },
+     "EEE F243": {
+      "type": "integer"
+     },
+     "EEE F244": {
+      "type": "integer"
+     },
+     "EEE F245": {
+      "type": "integer"
+     },
+     "EEE F246": {
+      "type": "integer"
+     },
+     "EEE F311": {
+      "type": "integer"
+     },
+     "EEE F312": {
+      "type": "integer"
+     },
+     "EEE F313": {
+      "type": "integer"
+     },
+     "EEE F318": {
+      "type": "integer"
+     },
+     "EEE F341": {
+      "type": "integer"
+     },
+     "EEE F342": {
+      "type": "integer"
+     },
+     "EEE F345": {
+      "type": "integer"
+     },
+     "EEE F346": {
+      "type": "integer"
+     },
+     "EEE F411": {
+      "type": "integer"
+     },
+     "EEE F414": {
+      "type": "integer"
+     },
+     "EEE F416": {
+      "type": "integer"
+     },
+     "EEE F417": {
+      "type": "integer"
+     },
+     "EEE F418": {
+      "type": "integer"
+     },
+     "EEE F419": {
+      "type": "integer"
+     },
+     "EEE F420": {
+      "type": "integer"
+     },
+     "EEE F422": {
+      "type": "integer"
+     },
+     "EEE F423": {
+      "type": "integer"
+     },
+     "EEE F424": {
+      "type": "integer"
+     },
+     "EEE F425": {
+      "type": "integer"
+     },
+     "EEE F426": {
+      "type": "integer"
+     },
+     "EEE F427": {
+      "type": "integer"
+     },
+     "EEE F428": {
+      "type": "integer"
+     },
+     "EEE F429": {
+      "type": "integer"
+     },
+     "EEE F430": {
+      "type": "integer"
+     },
+     "EEE F431": {
+      "type": "integer"
+     },
+     "EEE F432": {
+      "type": "integer"
+     },
+     "EEE F433": {
+      "type": "integer"
+     },
+     "EEE F434": {
+      "type": "integer"
+     },
+     "EEE F435": {
+      "type": "integer"
+     },
+     "EEE F436": {
+      "type": "integer"
+     },
+     "EEE F437": {
+      "type": "integer"
+     },
+     "EEE F438": {
+      "type": "integer"
+     },
+     "EEE F462": {
+      "type": "integer"
+     },
+     "EEE F472": {
+      "type": "integer"
+     },
+     "EEE F473": {
+      "type": "integer"
+     },
+     "EEE F474": {
+      "type": "integer"
+     },
+     "EEE F475": {
+      "type": "integer"
+     },
+     "EEE F476": {
+      "type": "integer"
+     },
+     "EEE F477": {
+      "type": "integer"
+     },
+     "EEE F478": {
+      "type": "integer"
+     },
+     "EEE G512": {
+      "type": "integer"
+     },
+     "EEE G513": {
+      "type": "integer"
+     },
+     "EEE G626": {
+      "type": "integer"
+     },
+     "INSTR F423": {
+      "type": "integer"
+     },
+     "MATH F212": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "ME F344": {
+      "type": "integer"
+     },
+     "INSTR F211": {
+      "type": "integer"
+     },
+     "INSTR F212": {
+      "type": "integer"
+     },
+     "INSTR F214": {
+      "type": "integer"
+     },
+     "INSTR F215": {
+      "type": "integer"
+     },
+     "INSTR F216": {
+      "type": "integer"
+     },
+     "INSTR F241": {
+      "type": "integer"
+     },
+     "INSTR F242": {
+      "type": "integer"
+     },
+     "INSTR F243": {
+      "type": "integer"
+     },
+     "INSTR F244": {
+      "type": "integer"
+     },
+     "INSTR F311": {
+      "type": "integer"
+     },
+     "INSTR F312": {
+      "type": "integer"
+     },
+     "INSTR F313": {
+      "type": "integer"
+     },
+     "INSTR F341": {
+      "type": "integer"
+     },
+     "INSTR F342": {
+      "type": "integer"
+     },
+     "INSTR F343": {
+      "type": "integer"
+     },
+     "INSTR F413": {
+      "type": "integer"
+     },
+     "INSTR F414": {
+      "type": "integer"
+     },
+     "INSTR F415": {
+      "type": "integer"
+     },
+     "INSTR F419": {
+      "type": "integer"
+     },
+     "INSTR F420": {
+      "type": "integer"
+     },
+     "INSTR F422": {
+      "type": "integer"
+     },
+     "INSTR F424": {
+      "type": "integer"
+     },
+     "INSTR F428": {
+      "type": "integer"
+     },
+     "INSTR F429": {
+      "type": "integer"
+     },
+     "INSTR F430": {
+      "type": "integer"
+     },
+     "INSTR F432": {
+      "type": "integer"
+     },
+     "INSTR F473": {
+      "type": "integer"
+     },
+     "ECE F211": {
+      "type": "integer"
+     },
+     "ECE F212": {
+      "type": "integer"
+     },
+     "ECE F214": {
+      "type": "integer"
+     },
+     "ECE F215": {
+      "type": "integer"
+     },
+     "ECE F216": {
+      "type": "integer"
+     },
+     "ECE F241": {
+      "type": "integer"
+     },
+     "ECE F242": {
+      "type": "integer"
+     },
+     "ECE F243": {
+      "type": "integer"
+     },
+     "ECE F244": {
+      "type": "integer"
+     },
+     "ECE F311": {
+      "type": "integer"
+     },
+     "ECE F341": {
+      "type": "integer"
+     },
+     "ECE F344": {
+      "type": "integer"
+     },
+     "ECE F414": {
+      "type": "integer"
+     },
+     "ECE F416": {
+      "type": "integer"
+     },
+     "ECE F418": {
+      "type": "integer"
+     },
+     "ECE F424": {
+      "type": "integer"
+     },
+     "ECE F428": {
+      "type": "integer"
+     },
+     "ECE F431": {
+      "type": "integer"
+     },
+     "ECE F434": {
+      "type": "integer"
+     },
+     "ECE F472": {
+      "type": "integer"
+     },
+     "INSTR F412": {
+      "type": "integer"
+     },
+     "BITS F327": {
+      "type": "integer"
+     },
+     "BITS F441": {
+      "type": "integer"
+     },
+     "ECOM F211": {
+      "type": "integer"
+     },
+     "ECOM F213": {
+      "type": "integer"
+     },
+     "ECOM F214": {
+      "type": "integer"
+     },
+     "ECOM F215": {
+      "type": "integer"
+     },
+     "ECOM F222": {
+      "type": "integer"
+     },
+     "ECOM F241": {
+      "type": "integer"
+     },
+     "ECOM F242": {
+      "type": "integer"
+     },
+     "ECOM F243": {
+      "type": "integer"
+     },
+     "ECOM F244": {
+      "type": "integer"
+     },
+     "ECOM F313": {
+      "type": "integer"
+     },
+     "ECOM F321": {
+      "type": "integer"
+     },
+     "ECOM F342": {
+      "type": "integer"
+     },
+     "ECOM F343": {
+      "type": "integer"
+     },
+     "ECOM F462": {
+      "type": "integer"
+     },
+     "MEL G621": {
+      "type": "integer"
+     },
+     "BIO F241": {
+      "type": "integer"
+     },
+     "CHEM F333": {
+      "type": "integer"
+     },
+     "CHEM F431": {
+      "type": "integer"
+     },
+     "ENVS F211": {
+      "type": "integer"
+     },
+     "ENVS F212": {
+      "type": "integer"
+     },
+     "ENVS F221": {
+      "type": "integer"
+     },
+     "ENVS F222": {
+      "type": "integer"
+     },
+     "ENVS F223": {
+      "type": "integer"
+     },
+     "ENVS F224": {
+      "type": "integer"
+     },
+     "ENVS F232": {
+      "type": "integer"
+     },
+     "ENVS F311": {
+      "type": "integer"
+     },
+     "ENVS F312": {
+      "type": "integer"
+     },
+     "ENVS F313": {
+      "type": "integer"
+     },
+     "ENVS F314": {
+      "type": "integer"
+     },
+     "ENVS F321": {
+      "type": "integer"
+     },
+     "ENVS F322": {
+      "type": "integer"
+     },
+     "ENVS F331": {
+      "type": "integer"
+     },
+     "ENVS F332": {
+      "type": "integer"
+     },
+     "ENVS F333": {
+      "type": "integer"
+     },
+     "MF F442": {
+      "type": "integer"
+     },
+     "MF F485": {
+      "type": "integer"
+     },
+     "ECON F411": {
+      "type": "integer"
+     },
+     "ME F321": {
+      "type": "integer"
+     },
+     "ME F340": {
+      "type": "integer"
+     },
+     "ME F416": {
+      "type": "integer"
+     },
+     "ME F417": {
+      "type": "integer"
+     },
+     "ME F419": {
+      "type": "integer"
+     },
+     "ME F424": {
+      "type": "integer"
+     },
+     "ME F425": {
+      "type": "integer"
+     },
+     "ME F426": {
+      "type": "integer"
+     },
+     "ME F432": {
+      "type": "integer"
+     },
+     "ME F436": {
+      "type": "integer"
+     },
+     "ME F443": {
+      "type": "integer"
+     },
+     "ME F484": {
+      "type": "integer"
+     },
+     "MF F211": {
+      "type": "integer"
+     },
+     "MF F216": {
+      "type": "integer"
+     },
+     "MF F217": {
+      "type": "integer"
+     },
+     "MF F218": {
+      "type": "integer"
+     },
+     "MF F219": {
+      "type": "integer"
+     },
+     "MF F220": {
+      "type": "integer"
+     },
+     "MF F221": {
+      "type": "integer"
+     },
+     "MF F222": {
+      "type": "integer"
+     },
+     "MF F314": {
+      "type": "integer"
+     },
+     "MF F315": {
+      "type": "integer"
+     },
+     "MF F316": {
+      "type": "integer"
+     },
+     "MF F317": {
+      "type": "integer"
+     },
+     "MF F318": {
+      "type": "integer"
+     },
+     "MF F319": {
+      "type": "integer"
+     },
+     "MF F320": {
+      "type": "integer"
+     },
+     "MF F321": {
+      "type": "integer"
+     },
+     "MF F411": {
+      "type": "integer"
+     },
+     "MF F412": {
+      "type": "integer"
+     },
+     "MF F413": {
+      "type": "integer"
+     },
+     "MF F414": {
+      "type": "integer"
+     },
+     "MF F418": {
+      "type": "integer"
+     },
+     "MF F422": {
+      "type": "integer"
+     },
+     "MF F453": {
+      "type": "integer"
+     },
+     "MF F463": {
+      "type": "integer"
+     },
+     "MF F471": {
+      "type": "integer"
+     },
+     "MF F472": {
+      "type": "integer"
+     },
+     "MF F473": {
+      "type": "integer"
+     },
+     "MF F474": {
+      "type": "integer"
+     },
+     "BITS F316": {
+      "type": "integer"
+     },
+     "ECON F354": {
+      "type": "integer"
+     },
+     "MAC F211": {
+      "type": "integer"
+     },
+     "MAC F212": {
+      "type": "integer"
+     },
+     "MAC F213": {
+      "type": "integer"
+     },
+     "MAC F214": {
+      "type": "integer"
+     },
+     "MAC F241": {
+      "type": "integer"
+     },
+     "MAC F242": {
+      "type": "integer"
+     },
+     "MAC F243": {
+      "type": "integer"
+     },
+     "MAC F244": {
+      "type": "integer"
+     },
+     "MAC F245": {
+      "type": "integer"
+     },
+     "MAC F311": {
+      "type": "integer"
+     },
+     "MAC F312": {
+      "type": "integer"
+     },
+     "MAC F313": {
+      "type": "integer"
+     },
+     "MAC F314": {
+      "type": "integer"
+     },
+     "MAC F341": {
+      "type": "integer"
+     },
+     "MAC F342": {
+      "type": "integer"
+     },
+     "MAC F411": {
+      "type": "integer"
+     },
+     "MATH F243": {
+      "type": "integer"
+     },
+     "MATH F315": {
+      "type": "integer"
+     },
+     "MATH F424": {
+      "type": "integer"
+     },
+     "MATH F425": {
+      "type": "integer"
+     },
+     "MATH F426": {
+      "type": "integer"
+     },
+     "MATH F428": {
+      "type": "integer"
+     },
+     "AN F311": {
+      "type": "integer"
+     },
+     "AN F312": {
+      "type": "integer"
+     },
+     "AN F313": {
+      "type": "integer"
+     },
+     "AN F314": {
+      "type": "integer"
+     },
+     "AN F315": {
+      "type": "integer"
+     },
+     "AN F316": {
+      "type": "integer"
+     },
+     "BITS F451": {
+      "type": "integer"
+     },
+     "BITS F462": {
+      "type": "integer"
+     },
+     "DE G513": {
+      "type": "integer"
+     },
+     "DE G514": {
+      "type": "integer"
+     },
+     "DE G531": {
+      "type": "integer"
+     },
+     "MATH F313": {
+      "type": "integer"
+     },
+     "ME F211": {
+      "type": "integer"
+     },
+     "ME F212": {
+      "type": "integer"
+     },
+     "ME F216": {
+      "type": "integer"
+     },
+     "ME F217": {
+      "type": "integer"
+     },
+     "ME F218": {
+      "type": "integer"
+     },
+     "ME F219": {
+      "type": "integer"
+     },
+     "ME F220": {
+      "type": "integer"
+     },
+     "ME F221": {
+      "type": "integer"
+     },
+     "ME F314": {
+      "type": "integer"
+     },
+     "ME F315": {
+      "type": "integer"
+     },
+     "ME F316": {
+      "type": "integer"
+     },
+     "ME F317": {
+      "type": "integer"
+     },
+     "ME F318": {
+      "type": "integer"
+     },
+     "ME F319": {
+      "type": "integer"
+     },
+     "ME F320": {
+      "type": "integer"
+     },
+     "ME F324": {
+      "type": "integer"
+     },
+     "ME F325": {
+      "type": "integer"
+     },
+     "ME F341": {
+      "type": "integer"
+     },
+     "ME F411": {
+      "type": "integer"
+     },
+     "ME F413": {
+      "type": "integer"
+     },
+     "ME F414": {
+      "type": "integer"
+     },
+     "ME F415": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "ME F418": {
+      "type": "integer"
+     },
+     "ME F420": {
+      "type": "integer"
+     },
+     "ME F423": {
+      "type": "integer"
+     },
+     "ME F427": {
+      "type": "integer"
+     },
+     "ME F428": {
+      "type": "integer"
+     },
+     "ME F429": {
+      "type": "integer"
+     },
+     "ME F430": {
+      "type": "integer"
+     },
+     "ME F434": {
+      "type": "integer"
+     },
+     "ME F435": {
+      "type": "integer"
+     },
+     "ME F437": {
+      "type": "integer"
+     },
+     "ME F438": {
+      "type": "integer"
+     },
+     "ME F441": {
+      "type": "integer"
+     },
+     "ME F451": {
+      "type": "integer"
+     },
+     "ME F452": {
+      "type": "integer"
+     },
+     "ME F461": {
+      "type": "integer"
+     },
+     "ME F472": {
+      "type": "integer"
+     },
+     "ME F482": {
+      "type": "integer"
+     },
+     "ME F483": {
+      "type": "integer"
+     },
+     "ME F485": {
+      "type": "integer"
+     },
+     "ME G511": {
+      "type": "integer"
+     },
+     "ME G512": {
+      "type": "integer"
+     },
+     "ME G514": {
+      "type": "integer"
+     },
+     "ME G515": {
+      "type": "integer"
+     },
+     "ME G533": {
+      "type": "integer"
+     },
+     "ME G534": {
+      "type": "integer"
+     },
+     "ME G544": {
+      "type": "integer"
+     },
+     "ME G614": {
+      "type": "integer"
+     },
+     "MF F311": {
+      "type": "integer"
+     },
+     "MF F421": {
+      "type": "integer"
+     },
+     "MST G522": {
+      "type": "integer"
+     },
+     "AN F211": {
+      "type": "integer"
+     },
+     "AN F221": {
+      "type": "integer"
+     },
+     "AN F321": {
+      "type": "integer"
+     },
+     "PHY F319": {
+      "type": "integer"
+     },
+     "BITS F372": {
+      "type": "integer"
+     },
+     "BITS F434": {
+      "type": "integer"
+     },
+     "BITS F442": {
+      "type": "integer"
+     },
+     "BITS G541": {
+      "type": "integer"
+     },
+     "ECE F313": {
+      "type": "integer"
+     },
+     "IS F213": {
+      "type": "integer"
+     },
+     "ME F439": {
+      "type": "integer"
+     },
+     "RIA F211": {
+      "type": "integer"
+     },
+     "RIA F212": {
+      "type": "integer"
+     },
+     "RIA F213": {
+      "type": "integer"
+     },
+     "RIA F214": {
+      "type": "integer"
+     },
+     "RIA F241": {
+      "type": "integer"
+     },
+     "RIA F242": {
+      "type": "integer"
+     },
+     "RIA F243": {
+      "type": "integer"
+     },
+     "RIA F244": {
+      "type": "integer"
+     },
+     "RIA F311": {
+      "type": "integer"
+     },
+     "RIA F312": {
+      "type": "integer"
+     },
+     "RIA F313": {
+      "type": "integer"
+     },
+     "RIA F321": {
+      "type": "integer"
+     },
+     "RIA F322": {
+      "type": "integer"
+     },
+     "RIA F323": {
+      "type": "integer"
+     },
+     "RIA F341": {
+      "type": "integer"
+     },
+     "RIA F342": {
+      "type": "integer"
+     },
+     "RIA F343": {
+      "type": "integer"
+     },
+     "RIA F344": {
+      "type": "integer"
+     },
+     "RIA F371": {
+      "type": "integer"
+     },
+     "RIA F372": {
+      "type": "integer"
+     },
+     "BITS F219": {
+      "type": "integer"
+     },
+     "PHA F211": {
+      "type": "integer"
+     },
+     "PHA F214": {
+      "type": "integer"
+     },
+     "PHA F215": {
+      "type": "integer"
+     },
+     "PHA F216": {
+      "type": "integer"
+     },
+     "PHA F217": {
+      "type": "integer"
+     },
+     "PHA F241": {
+      "type": "integer"
+     },
+     "PHA F242": {
+      "type": "integer"
+     },
+     "PHA F243": {
+      "type": "integer"
+     },
+     "PHA F244": {
+      "type": "integer"
+     },
+     "PHA F311": {
+      "type": "integer"
+     },
+     "PHA F312": {
+      "type": "integer"
+     },
+     "PHA F313": {
+      "type": "integer"
+     },
+     "PHA F315": {
+      "type": "integer"
+     },
+     "PHA F316": {
+      "type": "integer"
+     },
+     "PHA F317": {
+      "type": "integer"
+     },
+     "PHA F341": {
+      "type": "integer"
+     },
+     "PHA F342": {
+      "type": "integer"
+     },
+     "PHA F343": {
+      "type": "integer"
+     },
+     "PHA F344": {
+      "type": "integer"
+     },
+     "PHA F413": {
+      "type": "integer"
+     },
+     "PHA F414": {
+      "type": "integer"
+     },
+     "PHA F415": {
+      "type": "integer"
+     },
+     "PHA F416": {
+      "type": "integer"
+     },
+     "PHA F417": {
+      "type": "integer"
+     },
+     "PHA F418": {
+      "type": "integer"
+     },
+     "PHA F419": {
+      "type": "integer"
+     },
+     "PHA F422": {
+      "type": "integer"
+     },
+     "PHA F432": {
+      "type": "integer"
+     },
+     "PHA F441": {
+      "type": "integer"
+     },
+     "PHA F442": {
+      "type": "integer"
+     },
+     "PHA F461": {
+      "type": "integer"
+     },
+     "PHA G546": {
+      "type": "integer"
+     },
+     "BIO F211": {
+      "type": "integer"
+     },
+     "BIO F212": {
+      "type": "integer"
+     },
+     "BIO F213": {
+      "type": "integer"
+     },
+     "BIO F214": {
+      "type": "integer"
+     },
+     "BIO F215": {
+      "type": "integer"
+     },
+     "BIO F216": {
+      "type": "integer"
+     },
+     "BIO F217": {
+      "type": "integer"
+     },
+     "BIO F231": {
+      "type": "integer"
+     },
+     "BIO F242": {
+      "type": "integer"
+     },
+     "BIO F243": {
+      "type": "integer"
+     },
+     "BIO F244": {
+      "type": "integer"
+     },
+     "BIO F311": {
+      "type": "integer"
+     },
+     "BIO F312": {
+      "type": "integer"
+     },
+     "BIO F313": {
+      "type": "integer"
+     },
+     "BIO F314": {
+      "type": "integer"
+     },
+     "BIO F315": {
+      "type": "integer"
+     },
+     "BIO F341": {
+      "type": "integer"
+     },
+     "BIO F342": {
+      "type": "integer"
+     },
+     "BIO F352": {
+      "type": "integer"
+     },
+     "BIO F411": {
+      "type": "integer"
+     },
+     "BIO F413": {
+      "type": "integer"
+     },
+     "BIO F417": {
+      "type": "integer"
+     },
+     "BIO F418": {
+      "type": "integer"
+     },
+     "BIO F419": {
+      "type": "integer"
+     },
+     "BIO F421": {
+      "type": "integer"
+     },
+     "BIO F431": {
+      "type": "integer"
+     },
+     "BIO F441": {
+      "type": "integer"
+     },
+     "BIO F451": {
+      "type": "integer"
+     },
+     "BIO G512": {
+      "type": "integer"
+     },
+     "BIO G513": {
+      "type": "integer"
+     },
+     "BIO G515": {
+      "type": "integer"
+     },
+     "BIO G522": {
+      "type": "integer"
+     },
+     "BIO G523": {
+      "type": "integer"
+     },
+     "BIO G524": {
+      "type": "integer"
+     },
+     "BIO G525": {
+      "type": "integer"
+     },
+     "BIO G526": {
+      "type": "integer"
+     },
+     "BIO G528": {
+      "type": "integer"
+     },
+     "BIO G544": {
+      "type": "integer"
+     },
+     "BIO G545": {
+      "type": "integer"
+     },
+     "BIO G561": {
+      "type": "integer"
+     },
+     "BIO G570": {
+      "type": "integer"
+     },
+     "BIO G612": {
+      "type": "integer"
+     },
+     "BIO G631": {
+      "type": "integer"
+     },
+     "BIO G632": {
+      "type": "integer"
+     },
+     "BIO G642": {
+      "type": "integer"
+     },
+     "BIO G643": {
+      "type": "integer"
+     },
+     "BIO G651": {
+      "type": "integer"
+     },
+     "BIO G661": {
+      "type": "integer"
+     },
+     "CHEM F212": {
+      "type": "integer"
+     },
+     "CHEM F213": {
+      "type": "integer"
+     },
+     "PHA G529": {
+      "type": "integer"
+     },
+     "CHEM F211": {
+      "type": "integer"
+     },
+     "CHEM F214": {
+      "type": "integer"
+     },
+     "CHEM F223": {
+      "type": "integer"
+     },
+     "CHEM F241": {
+      "type": "integer"
+     },
+     "CHEM F242": {
+      "type": "integer"
+     },
+     "CHEM F243": {
+      "type": "integer"
+     },
+     "CHEM F244": {
+      "type": "integer"
+     },
+     "CHEM F311": {
+      "type": "integer"
+     },
+     "CHEM F312": {
+      "type": "integer"
+     },
+     "CHEM F313": {
+      "type": "integer"
+     },
+     "CHEM F320": {
+      "type": "integer"
+     },
+     "CHEM F323": {
+      "type": "integer"
+     },
+     "CHEM F324": {
+      "type": "integer"
+     },
+     "CHEM F326": {
+      "type": "integer"
+     },
+     "CHEM F327": {
+      "type": "integer"
+     },
+     "CHEM F328": {
+      "type": "integer"
+     },
+     "CHEM F329": {
+      "type": "integer"
+     },
+     "CHEM F330": {
+      "type": "integer"
+     },
+     "CHEM F334": {
+      "type": "integer"
+     },
+     "CHEM F335": {
+      "type": "integer"
+     },
+     "CHEM F336": {
+      "type": "integer"
+     },
+     "CHEM F337": {
+      "type": "integer"
+     },
+     "CHEM F341": {
+      "type": "integer"
+     },
+     "CHEM F342": {
+      "type": "integer"
+     },
+     "CHEM F343": {
+      "type": "integer"
+     },
+     "CHEM F412": {
+      "type": "integer"
+     },
+     "CHEM F413": {
+      "type": "integer"
+     },
+     "CHEM F414": {
+      "type": "integer"
+     },
+     "CHEM F415": {
+      "type": "integer"
+     },
+     "CHEM F416": {
+      "type": "integer"
+     },
+     "CHEM F422": {
+      "type": "integer"
+     },
+     "CHEM F423": {
+      "type": "integer"
+     },
+     "CHEM F430": {
+      "type": "integer"
+     },
+     "CHEM G513": {
+      "type": "integer"
+     },
+     "CHEM G521": {
+      "type": "integer"
+     },
+     "CHEM G541": {
+      "type": "integer"
+     },
+     "CHEM G555": {
+      "type": "integer"
+     },
+     "CHEM G556": {
+      "type": "integer"
+     },
+     "CHEM G557": {
+      "type": "integer"
+     },
+     "CHEM G558": {
+      "type": "integer"
+     },
+     "CHEM G559": {
+      "type": "integer"
+     },
+     "CHEM G561": {
+      "type": "integer"
+     },
+     "CHEM G562": {
+      "type": "integer"
+     },
+     "CHEM G563": {
+      "type": "integer"
+     },
+     "PHY F212": {
+      "type": "integer"
+     },
+     "BITS F314": {
+      "type": "integer"
+     },
+     "ECON F211": {
+      "type": "integer"
+     },
+     "ECON F212": {
+      "type": "integer"
+     },
+     "ECON F213": {
+      "type": "integer"
+     },
+     "ECON F214": {
+      "type": "integer"
+     },
+     "ECON F215": {
+      "type": "integer"
+     },
+     "ECON F241": {
+      "type": "integer"
+     },
+     "ECON F242": {
+      "type": "integer"
+     },
+     "ECON F243": {
+      "type": "integer"
+     },
+     "ECON F244": {
+      "type": "integer"
+     },
+     "ECON F311": {
+      "type": "integer"
+     },
+     "ECON F312": {
+      "type": "integer"
+     },
+     "ECON F313": {
+      "type": "integer"
+     },
+     "ECON F314": {
+      "type": "integer"
+     },
+     "ECON F315": {
+      "type": "integer"
+     },
+     "ECON F341": {
+      "type": "integer"
+     },
+     "ECON F342": {
+      "type": "integer"
+     },
+     "ECON F343": {
+      "type": "integer"
+     },
+     "ECON F345": {
+      "type": "integer"
+     },
+     "ECON F351": {
+      "type": "integer"
+     },
+     "ECON F352": {
+      "type": "integer"
+     },
+     "ECON F355": {
+      "type": "integer"
+     },
+     "ECON F356": {
+      "type": "integer"
+     },
+     "ECON F357": {
+      "type": "integer"
+     },
+     "ECON F412": {
+      "type": "integer"
+     },
+     "ECON F413": {
+      "type": "integer"
+     },
+     "ECON F414": {
+      "type": "integer"
+     },
+     "ECON F415": {
+      "type": "integer"
+     },
+     "ECON F417": {
+      "type": "integer"
+     },
+     "ECON F418": {
+      "type": "integer"
+     },
+     "ECON F419": {
+      "type": "integer"
+     },
+     "ECON F420": {
+      "type": "integer"
+     },
+     "ECON F422": {
+      "type": "integer"
+     },
+     "ECON F434": {
+      "type": "integer"
+     },
+     "ECON F435": {
+      "type": "integer"
+     },
+     "ECON F471": {
+      "type": "integer"
+     },
+     "FIN F314": {
+      "type": "integer"
+     },
+     "FIN F414": {
+      "type": "integer"
+     },
+     "MATH F242": {
+      "type": "integer"
+     },
+     "BITS F385": {
+      "type": "integer"
+     },
+     "GS F211": {
+      "type": "integer"
+     },
+     "GS F212": {
+      "type": "integer"
+     },
+     "GS F221": {
+      "type": "integer"
+     },
+     "GS F222": {
+      "type": "integer"
+     },
+     "GS F223": {
+      "type": "integer"
+     },
+     "GS F224": {
+      "type": "integer"
+     },
+     "GS F231": {
+      "type": "integer"
+     },
+     "GS F232": {
+      "type": "integer"
+     },
+     "GS F234": {
+      "type": "integer"
+     },
+     "GS F241": {
+      "type": "integer"
+     },
+     "GS F242": {
+      "type": "integer"
+     },
+     "GS F243": {
+      "type": "integer"
+     },
+     "GS F244": {
+      "type": "integer"
+     },
+     "GS F245": {
+      "type": "integer"
+     },
+     "GS F311": {
+      "type": "integer"
+     },
+     "GS F312": {
+      "type": "integer"
+     },
+     "GS F313": {
+      "type": "integer"
+     },
+     "GS F321": {
+      "type": "integer"
+     },
+     "GS F322": {
+      "type": "integer"
+     },
+     "GS F325": {
+      "type": "integer"
+     },
+     "GS F326": {
+      "type": "integer"
+     },
+     "GS F327": {
+      "type": "integer"
+     },
+     "GS F331": {
+      "type": "integer"
+     },
+     "GS F333": {
+      "type": "integer"
+     },
+     "GS F334": {
+      "type": "integer"
+     },
+     "GS F342": {
+      "type": "integer"
+     },
+     "GS F343": {
+      "type": "integer"
+     },
+     "GS F344": {
+      "type": "integer"
+     },
+     "HSS F227": {
+      "type": "integer"
+     },
+     "HSS F232": {
+      "type": "integer"
+     },
+     "HSS F247": {
+      "type": "integer"
+     },
+     "HSS F315": {
+      "type": "integer"
+     },
+     "HSS F317": {
+      "type": "integer"
+     },
+     "HSS F319": {
+      "type": "integer"
+     },
+     "HSS F323": {
+      "type": "integer"
+     },
+     "HSS F328": {
+      "type": "integer"
+     },
+     "HSS F341": {
+      "type": "integer"
+     },
+     "HSS F343": {
+      "type": "integer"
+     },
+     "HSS F346": {
+      "type": "integer"
+     },
+     "HSS F384": {
+      "type": "integer"
+     },
+     "BITS F214": {
+      "type": "integer"
+     },
+     "BITS F399": {
+      "type": "integer"
+     },
+     "GS F213": {
+      "type": "integer"
+     },
+     "GS F233": {
+      "type": "integer"
+     },
+     "GS F332": {
+      "type": "integer"
+     },
+     "HSS F233": {
+      "type": "integer"
+     },
+     "HSS F234": {
+      "type": "integer"
+     },
+     "HSS F235": {
+      "type": "integer"
+     },
+     "HSS F236": {
+      "type": "integer"
+     },
+     "HSS F312": {
+      "type": "integer"
+     },
+     "HSS F344": {
+      "type": "integer"
+     },
+     "HSS F345": {
+      "type": "integer"
+     },
+     "BITS F232": {
+      "type": "integer"
+     },
+     "BITS F368": {
+      "type": "integer"
+     },
+     "MATH F213": {
+      "type": "integer"
+     },
+     "MATH F214": {
+      "type": "integer"
+     },
+     "MATH F215": {
+      "type": "integer"
+     },
+     "MATH F241": {
+      "type": "integer"
+     },
+     "MATH F244": {
+      "type": "integer"
+     },
+     "MATH F311": {
+      "type": "integer"
+     },
+     "MATH F312": {
+      "type": "integer"
+     },
+     "MATH F314": {
+      "type": "integer"
+     },
+     "MATH F316": {
+      "type": "integer"
+     },
+     "MATH F317": {
+      "type": "integer"
+     },
+     "MATH F341": {
+      "type": "integer"
+     },
+     "MATH F342": {
+      "type": "integer"
+     },
+     "MATH F343": {
+      "type": "integer"
+     },
+     "MATH F353": {
+      "type": "integer"
+     },
+     "MATH F354": {
+      "type": "integer"
+     },
+     "MATH F378": {
+      "type": "integer"
+     },
+     "MATH F420": {
+      "type": "integer"
+     },
+     "MATH F422": {
+      "type": "integer"
+     },
+     "MATH F423": {
+      "type": "integer"
+     },
+     "MATH F427": {
+      "type": "integer"
+     },
+     "MATH F429": {
+      "type": "integer"
+     },
+     "MATH F431": {
+      "type": "integer"
+     },
+     "MATH F432": {
+      "type": "integer"
+     },
+     "MATH F444": {
+      "type": "integer"
+     },
+     "MATH F445": {
+      "type": "integer"
+     },
+     "MATH F456": {
+      "type": "integer"
+     },
+     "MATH F471": {
+      "type": "integer"
+     },
+     "MATH F481": {
+      "type": "integer"
+     },
+     "MATH F492": {
+      "type": "integer"
+     },
+     "BITS F317": {
+      "type": "integer"
+     },
+     "BITS F446": {
+      "type": "integer"
+     },
+     "PHY F211": {
+      "type": "integer"
+     },
+     "PHY F213": {
+      "type": "integer"
+     },
+     "PHY F214": {
+      "type": "integer"
+     },
+     "PHY F215": {
+      "type": "integer"
+     },
+     "PHY F241": {
+      "type": "integer"
+     },
+     "PHY F242": {
+      "type": "integer"
+     },
+     "PHY F243": {
+      "type": "integer"
+     },
+     "PHY F244": {
+      "type": "integer"
+     },
+     "PHY F311": {
+      "type": "integer"
+     },
+     "PHY F312": {
+      "type": "integer"
+     },
+     "PHY F313": {
+      "type": "integer"
+     },
+     "PHY F315": {
+      "type": "integer"
+     },
+     "PHY F316": {
+      "type": "integer"
+     },
+     "PHY F317": {
+      "type": "integer"
+     },
+     "PHY F318": {
+      "type": "integer"
+     },
+     "PHY F341": {
+      "type": "integer"
+     },
+     "PHY F342": {
+      "type": "integer"
+     },
+     "PHY F343": {
+      "type": "integer"
+     },
+     "PHY F344": {
+      "type": "integer"
+     },
+     "PHY F346": {
+      "type": "integer"
+     },
+     "PHY F378": {
+      "type": "integer"
+     },
+     "PHY F379": {
+      "type": "integer"
+     },
+     "PHY F412": {
+      "type": "integer"
+     },
+     "PHY F413": {
+      "type": "integer"
+     },
+     "PHY F414": {
+      "type": "integer"
+     },
+     "PHY F415": {
+      "type": "integer"
+     },
+     "PHY F416": {
+      "type": "integer"
+     },
+     "PHY F417": {
+      "type": "integer"
+     },
+     "PHY F418": {
+      "type": "integer"
+     },
+     "PHY F419": {
+      "type": "integer"
+     },
+     "PHY F420": {
+      "type": "integer"
+     },
+     "PHY F421": {
+      "type": "integer"
+     },
+     "PHY F422": {
+      "type": "integer"
+     },
+     "PHY F423": {
+      "type": "integer"
+     },
+     "PHY F424": {
+      "type": "integer"
+     },
+     "PHY F425": {
+      "type": "integer"
+     },
+     "PHY F426": {
+      "type": "integer"
+     },
+     "PHY F427": {
+      "type": "integer"
+     },
+     "PHY F428": {
+      "type": "integer"
+     },
+     "PHY F431": {
+      "type": "integer"
+     },
+     "PHY F432": {
+      "type": "integer"
+     },
+     "PHY F433": {
+      "type": "integer"
+     },
+     "PHY F434": {
+      "type": "integer"
+     },
+     "PHY F435": {
+      "type": "integer"
+     },
+     "PHY F438": {
+      "type": "integer"
+     },
+     "PHY G512": {
+      "type": "integer"
+     },
+     "PHY F320": {
+      "type": "integer"
+     },
+     "PHY F436": {
+      "type": "integer"
+     },
+     "PHY F437": {
+      "type": "integer"
+     },
+     "BIO G510": {
+      "type": "integer"
+     },
+     "MEL G514": {
+      "type": "integer"
+     },
+     "MST F333": {
+      "type": "integer"
+     },
+     "MST F337": {
+      "type": "integer"
+     },
+     "MST F338": {
+      "type": "integer"
+     },
+     "SNS F211": {
+      "type": "integer"
+     },
+     "SNS F212": {
+      "type": "integer"
+     },
+     "SNS F213": {
+      "type": "integer"
+     },
+     "SNS F214": {
+      "type": "integer"
+     },
+     "SNS F241": {
+      "type": "integer"
+     },
+     "SNS F242": {
+      "type": "integer"
+     },
+     "SNS F243": {
+      "type": "integer"
+     },
+     "SNS F244": {
+      "type": "integer"
+     },
+     "SNS F311": {
+      "type": "integer"
+     },
+     "SNS F312": {
+      "type": "integer"
+     },
+     "SNS F313": {
+      "type": "integer"
+     },
+     "SNS F315": {
+      "type": "integer"
+     },
+     "SNS F341": {
+      "type": "integer"
+     },
+     "SNS F342": {
+      "type": "integer"
+     },
+     "SNS F343": {
+      "type": "integer"
+     },
+     "SNS F345": {
+      "type": "integer"
+     }
+    },
+    "required": []
+   }
+  },
+  "required": [
+   "compulsory_electives",
+   "core",
+   "course_evidence",
+   "degree",
+   "discipline_prefix",
+   "elective_groups",
+   "electives",
+   "id",
+   "list_evidence",
+   "list_heading",
+   "name",
+   "units"
+  ]
+ }
+}

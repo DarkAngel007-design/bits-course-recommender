@@ -1,0 +1,5405 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "curricula",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "description": "Map of id -> record (curricula)",
+ "additionalProperties": {
+  "type": "object",
+  "properties": {
+   "campus_scope": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "chart_page": {
+    "type": "integer"
+   },
+   "cohort": {
+    "type": "object",
+    "properties": {
+     "credit_system": {
+      "type": "string"
+     },
+     "resolved_admission_years": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     }
+    },
+    "required": [
+     "credit_system",
+     "resolved_admission_years"
+    ]
+   },
+   "evidence": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "id": {
+    "type": "string"
+   },
+   "name": {
+    "type": "string"
+   },
+   "named_placement": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "category": {
+       "type": "string"
+      },
+      "codes": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "sem": {
+       "type": "integer"
+      },
+      "year": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "category",
+      "codes",
+      "sem",
+      "year"
+     ]
+    }
+   },
+   "programmes": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "requirements": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "category": {
+       "type": "string"
+      },
+      "courses": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "category": {
+          "type": "string"
+         },
+         "choice": {
+          "type": "boolean"
+         },
+         "codes": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "sem": {
+          "type": "integer"
+         },
+         "units": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "year": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "choice",
+         "codes",
+         "units"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "kind": {
+       "type": "string"
+      },
+      "min_courses": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "min_units": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "note": {
+       "type": "string"
+      },
+      "provenance": {
+       "type": "string"
+      },
+      "placement": {
+       "type": "object",
+       "properties": {
+        "AUE F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F314": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F344": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AUE F345": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F230": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F215": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F245": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F314": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIOT F344": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F214": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F241": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F242": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F243": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F244": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F314": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F341": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F342": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHE F343": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F231": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F320": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F321": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CE F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F215": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F222": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F301": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F303": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F351": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F363": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F364": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CS F372": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F212": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F215": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F241": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F242": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F243": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F244": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F312": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F341": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "EEE F342": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F344": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F212": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F215": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "INSTR F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F212": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F215": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F331": {
+         "type": "null"
+        },
+        "ECE F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F344": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECE F434": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F215": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F222": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F321": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECOM F462": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F221": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F222": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F223": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F224": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F232": {
+         "type": "null"
+        },
+        "ENVS F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F314": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F321": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ENVS F322": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F216": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F217": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F218": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F219": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F220": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F221": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F222": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F314": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F315": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F316": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F317": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F318": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F319": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MF F320": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F213": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F214": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F241": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F245": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F311": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F314": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MAC F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AN F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AN F221": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AN F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AN F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AN F315": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "AN F321": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F216": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F217": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F220": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F221": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F314": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F316": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F317": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F318": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F319": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F218": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F219": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F315": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F320": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ME F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "RIA F344": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BITS F219": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F215": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F216": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F217": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F243": {
+         "type": "null"
+        },
+        "PHA F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F315": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHA F344": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F215": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F241": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F242": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F243": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F244": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F341": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "BIO F342": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "CHEM F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F241": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F242": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F243": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F244": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F341": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F342": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "ECON F343": {
+         "type": [
+          "null",
+          "object"
+         ],
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F215": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "MATH F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "PHY F344": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F214": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F242": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F313": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F341": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "SNS F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F221": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F222": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F223": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F224": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F241": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F243": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F244": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F245": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F321": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F322": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F342": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F343": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F211": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F212": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F213": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F231": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F232": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F233": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F234": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F311": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F312": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F331": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F332": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F333": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        },
+        "GS F334": {
+         "type": "object",
+         "properties": {
+          "sem": {
+           "type": "integer"
+          },
+          "year": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "sem",
+          "year"
+         ]
+        }
+       },
+       "required": []
+      },
+      "compulsory": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "groups": {
+       "type": "object",
+       "properties": {
+        "Track - 1: Environment and sustainable design": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "Track - 2: Urban studies": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "Track - 3: Emerging Technologies": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "Track - 4: Construction & Finance": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "Pool-1 (Three Courses from pool-1)": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "Pool-2 (Any Two Courses from pool-2)": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": []
+      },
+      "pool": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "pool_ref": {
+       "type": "string"
+      },
+      "derivation": {
+       "type": "object",
+       "properties": {
+        "courses": {
+         "type": "string"
+        },
+        "formula": {
+         "type": "string"
+        },
+        "units": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "courses",
+        "formula",
+        "units"
+       ]
+      },
+      "options": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "degree": {
+       "type": "string"
+      },
+      "shared_with_other_degree": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "rule": {
+       "type": "string"
+      },
+      "count": {
+       "type": "integer"
+      }
+     },
+     "required": [
+      "category",
+      "evidence",
+      "kind",
+      "provenance"
+     ]
+    }
+   },
+   "review_status": {
+    "type": "string"
+   },
+   "type": {
+    "type": "string"
+   },
+   "version": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "campus_scope",
+   "chart_page",
+   "cohort",
+   "evidence",
+   "id",
+   "name",
+   "named_placement",
+   "programmes",
+   "requirements",
+   "review_status",
+   "type",
+   "version"
+  ]
+ }
+}

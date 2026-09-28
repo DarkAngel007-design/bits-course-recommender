@@ -1,0 +1,694 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "topics",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "algorithms_theory": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "artificial_intelligence": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "biology": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "chemistry": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "communication": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "data_science": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "economics": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "electronics_vlsi": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "entrepreneurship": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "environment": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "finance": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "hci_design": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "healthcare": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "history_society": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "literature_languages": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "machine_learning": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "management": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "manufacturing": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "materials_nano": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "mathematics": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "mechanics_structures": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "media_arts": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "networks": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "philosophy_ethics": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "physics": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "power_energy": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "psychology": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "quantum": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "robotics": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "security": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "signal_processing": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "software_engineering": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "space_aero": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "statistics": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "systems": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  },
+  "thermal_fluids": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "aliases",
+    "label"
+   ]
+  }
+ },
+ "required": [
+  "algorithms_theory",
+  "artificial_intelligence",
+  "biology",
+  "chemistry",
+  "communication",
+  "data_science",
+  "economics",
+  "electronics_vlsi",
+  "entrepreneurship",
+  "environment",
+  "finance",
+  "hci_design",
+  "healthcare",
+  "history_society",
+  "literature_languages",
+  "machine_learning",
+  "management",
+  "manufacturing",
+  "materials_nano",
+  "mathematics",
+  "mechanics_structures",
+  "media_arts",
+  "networks",
+  "philosophy_ethics",
+  "physics",
+  "power_energy",
+  "psychology",
+  "quantum",
+  "robotics",
+  "security",
+  "signal_processing",
+  "software_engineering",
+  "space_aero",
+  "statistics",
+  "systems",
+  "thermal_fluids"
+ ]
+}

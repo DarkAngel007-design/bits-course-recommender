@@ -1,0 +1,2453 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "minors",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "general": {
+   "type": "object",
+   "properties": {
+    "core_max_courses": {
+     "type": "integer"
+    },
+    "core_max_units": {
+     "type": "integer"
+    },
+    "declare_by": {
+     "type": "string"
+    },
+    "electives_min_courses": {
+     "type": "integer"
+    },
+    "electives_min_units": {
+     "type": "integer"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "max_overlap_units": {
+     "type": "integer"
+    },
+    "max_overlap_with_mandatory_courses": {
+     "type": "integer"
+    },
+    "max_project_courses": {
+     "type": "integer"
+    },
+    "min_cgpa_in_minor_courses": {
+     "type": "number"
+    },
+    "total_min_courses": {
+     "type": "integer"
+    },
+    "total_min_units": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "core_max_courses",
+    "core_max_units",
+    "declare_by",
+    "electives_min_courses",
+    "electives_min_units",
+    "evidence",
+    "max_overlap_units",
+    "max_overlap_with_mandatory_courses",
+    "max_project_courses",
+    "min_cgpa_in_minor_courses",
+    "total_min_courses",
+    "total_min_units"
+   ]
+  },
+  "minors": {
+   "type": "object",
+   "properties": {
+    "Aeronautics": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Biomedical Engineering": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Computational Economics": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Computational Mechanics": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Computing and Intelligence": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Data Science": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Data Science in Climate and Health": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "English Studies": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Entrepreneurship": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Film and Media": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Finance": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Management": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Materials Science and Engineering": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Nanoscience and Nanobiotechnology": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Philosophy, Economics, and Politics": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Physics": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Public Policy": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Quantum Information and Technologies": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Robotics and Automation": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Semiconductor Devices and Technology": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Supply Chain Analytics": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Tissue Engineering": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    },
+    "Water and Sanitation": {
+     "type": "object",
+     "properties": {
+      "core": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "electives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "U": {
+          "type": "integer"
+         },
+         "code": {
+          "type": "string"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "U",
+         "code",
+         "evidence",
+         "title"
+        ]
+       }
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exclusions": {
+       "type": "array"
+      },
+      "min_courses": {
+       "type": "integer"
+      },
+      "min_units": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "notes": {
+       "type": "array"
+      },
+      "pages": {
+       "type": "array",
+       "items": {
+        "type": "integer"
+       }
+      }
+     },
+     "required": [
+      "core",
+      "electives",
+      "evidence",
+      "exclusions",
+      "min_courses",
+      "min_units",
+      "name",
+      "notes",
+      "pages"
+     ]
+    }
+   },
+   "required": [
+    "Aeronautics",
+    "Biomedical Engineering",
+    "Computational Economics",
+    "Computational Mechanics",
+    "Computing and Intelligence",
+    "Data Science",
+    "Data Science in Climate and Health",
+    "English Studies",
+    "Entrepreneurship",
+    "Film and Media",
+    "Finance",
+    "Management",
+    "Materials Science and Engineering",
+    "Nanoscience and Nanobiotechnology",
+    "Philosophy, Economics, and Politics",
+    "Physics",
+    "Public Policy",
+    "Quantum Information and Technologies",
+    "Robotics and Automation",
+    "Semiconductor Devices and Technology",
+    "Supply Chain Analytics",
+    "Tissue Engineering",
+    "Water and Sanitation"
+   ]
+  }
+ },
+ "required": [
+  "general",
+  "minors"
+ ]
+}

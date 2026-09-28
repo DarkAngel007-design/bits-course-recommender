@@ -1,0 +1,660 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "handouts",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "description": "Map of id -> record (handouts)",
+ "additionalProperties": {
+  "type": "object",
+  "properties": {
+   "attendance": {
+    "type": "object",
+    "properties": {
+     "mandatory_statements": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "marks_component": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "min_percentage": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "not_mandatory_statements": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "statements": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "status": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "mandatory_statements",
+     "marks_component",
+     "min_percentage",
+     "not_mandatory_statements",
+     "statements",
+     "status"
+    ]
+   },
+   "components_present": {
+    "type": "object",
+    "properties": {
+     "assignment": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     },
+     "attendance": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     },
+     "case_study": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     },
+     "lab": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     },
+     "presentation": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     },
+     "project": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     },
+     "quiz": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     },
+     "viva": {
+      "type": "object",
+      "properties": {
+       "evidence": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "status": {
+        "type": "string"
+       },
+       "value": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "weight": {
+        "type": [
+         "integer",
+         "null",
+         "number"
+        ]
+       }
+      },
+      "required": [
+       "evidence",
+       "status",
+       "value",
+       "weight"
+      ]
+     }
+    },
+    "required": [
+     "assignment",
+     "attendance",
+     "case_study",
+     "lab",
+     "presentation",
+     "project",
+     "quiz",
+     "viva"
+    ]
+   },
+   "compre": {
+    "type": "object",
+    "properties": {
+     "evidence": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "status": {
+      "type": "string"
+     },
+     "value": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "weight": {
+      "type": [
+       "integer",
+       "null",
+       "number"
+      ]
+     }
+    },
+    "required": [
+     "evidence",
+     "status",
+     "value",
+     "weight"
+    ]
+   },
+   "course_codes": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "description": {
+    "type": [
+     "null",
+     "string"
+    ]
+   },
+   "doc_id": {
+    "type": "string"
+   },
+   "evaluation": {
+    "type": "object",
+    "properties": {
+     "complete": {
+      "type": "boolean"
+     },
+     "components": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "date_raw": {
+         "type": [
+          "null",
+          "string"
+         ]
+        },
+        "duration_min": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "name": {
+         "type": "string"
+        },
+        "nature": {
+         "type": [
+          "null",
+          "string"
+         ]
+        },
+        "page": {
+         "type": "integer"
+        },
+        "type": {
+         "type": "string"
+        },
+        "weight": {
+         "type": [
+          "null",
+          "number"
+         ]
+        },
+        "weight_normalized_from_marks": {
+         "type": "boolean"
+        },
+        "weight_raw": {
+         "type": [
+          "null",
+          "string"
+         ]
+        }
+       },
+       "required": [
+        "date_raw",
+        "duration_min",
+        "name",
+        "nature",
+        "page",
+        "type",
+        "weight",
+        "weight_raw"
+       ]
+      }
+     },
+     "method": {
+      "type": "string"
+     },
+     "total_weight": {
+      "type": [
+       "integer",
+       "number"
+      ]
+     }
+    },
+    "required": [
+     "complete",
+     "components",
+     "method",
+     "total_weight"
+    ]
+   },
+   "evidence": {
+    "type": "object",
+    "properties": {
+     "course_codes": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "description": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "evaluation": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "makeup": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "attendance": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": []
+   },
+   "extraction_status": {
+    "type": "string"
+   },
+   "file_codes": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "files": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "id": {
+    "type": "string"
+   },
+   "instructor_in_charge": {
+    "type": [
+     "null",
+     "string"
+    ]
+   },
+   "makeup": {
+    "type": "object",
+    "properties": {
+     "conditions": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "mentions_components": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "no_makeup_at_all": {
+      "type": "boolean"
+     },
+     "no_makeup_for": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "status": {
+      "type": "string"
+     },
+     "text": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "status",
+     "text"
+    ]
+   },
+   "midsem": {
+    "type": "object",
+    "properties": {
+     "duration_min": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "nature": {
+      "type": [
+       "null",
+       "string"
+      ]
+     },
+     "status": {
+      "type": "string"
+     },
+     "value": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "weight": {
+      "type": [
+       "integer",
+       "null",
+       "number"
+      ]
+     }
+    },
+    "required": [
+     "evidence",
+     "status",
+     "value",
+     "weight"
+    ]
+   },
+   "nc_policy": {
+    "type": [
+     "null",
+     "string"
+    ]
+   },
+   "open_book_weight": {
+    "type": [
+     "integer",
+     "null",
+     "number"
+    ]
+   },
+   "pages": {
+    "type": "integer"
+   },
+   "scope": {
+    "type": [
+     "null",
+     "string"
+    ]
+   },
+   "sha256": {
+    "type": "string"
+   },
+   "syllabus_text": {
+    "type": [
+     "null",
+     "string"
+    ]
+   },
+   "title": {
+    "type": [
+     "null",
+     "string"
+    ]
+   }
+  },
+  "required": [
+   "course_codes",
+   "doc_id",
+   "evidence",
+   "extraction_status",
+   "file_codes",
+   "files",
+   "id",
+   "pages",
+   "sha256"
+  ]
+ }
+}

@@ -281,6 +281,23 @@ def _label(rq: dict, snap: Snapshot, cur: dict) -> str:
     return base
 
 
+def minor_exclusion(profile: StudentProfile, snap: Snapshot) -> dict | None:
+    """Apply a minor's stated exclusion clause, e.g. '...exclusively designed for first-degree students of
+    non-Computer Science disciplines.' Returns {excluded: bool|None, clause, evidence} or None."""
+    import re
+    m = snap.minors["minors"].get(profile.minor or "")
+    if not m or not m.get("exclusions"):
+        return None
+    clause = m["exclusions"][0]
+    hit = re.search(r"non-([A-Z][A-Za-z &]+?)\s+(?:disciplines?|programmes?|students)", clause)
+    progs = [snap.programmes[p]["name"] for p in profile.programmes if p in snap.programmes]
+    excluded = None
+    if hit:
+        disc = hit.group(1).strip().lower()
+        excluded = any(disc in n.lower() for n in progs)
+    return {"excluded": excluded, "clause": clause, "evidence": m.get("notes", [])}
+
+
 def _minor_progress(profile: StudentProfile, snap: Snapshot, history: History, earned: dict, cur: dict, ctx: dict) -> dict:
     m = snap.minors["minors"].get(profile.minor)
     if not m:
@@ -308,13 +325,15 @@ def _minor_progress(profile: StudentProfile, snap: Snapshot, history: History, e
         counted.append({"code": code, "units": u, "role": "core" if code in core else "elective"})
     done_core = [c for c in core if any(x["code"] == c for x in counted)]
     tc, tu = len(counted), sum(x["units"] for x in counted)
+    excl = minor_exclusion(profile, snap)
     return {
         "name": m["name"],
+        "exclusion": excl,
         "required": {"courses": m["min_courses"], "units": m["min_units"]},
         "earned": {"courses": tc, "units": tu, "list": counted},
         "core": {"all": core, "done": done_core, "remaining": [c for c in core if c not in done_core]},
         "overlap_with_mandatory": overlap,
-        "status": "met" if tc >= m["min_courses"] and tu >= m["min_units"] and not [c for c in core if c not in done_core]
+        "status": "excluded" if excl and excl["excluded"] else "met" if tc >= m["min_courses"] and tu >= m["min_units"] and not [c for c in core if c not in done_core]
         else "in_progress",
         "exclusions": m.get("exclusions", []),
         "notes": notes,

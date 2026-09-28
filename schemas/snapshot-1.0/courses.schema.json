@@ -1,0 +1,1419 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "courses",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "description": "Map of id -> record (courses)",
+ "additionalProperties": {
+  "type": "object",
+  "properties": {
+   "L": {
+    "type": [
+     "integer",
+     "null"
+    ]
+   },
+   "P": {
+    "type": [
+     "integer",
+     "null"
+    ]
+   },
+   "U": {
+    "type": [
+     "integer",
+     "null"
+    ]
+   },
+   "bulletin_page": {
+    "type": "integer"
+   },
+   "code": {
+    "type": "string"
+   },
+   "description": {
+    "type": [
+     "null",
+     "string"
+    ]
+   },
+   "equivalent_stated": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "evidence": {
+    "type": "object",
+    "properties": {
+     "bulletin": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "timetable": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": []
+   },
+   "handouts": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "level": {
+    "type": "string"
+   },
+   "offerings": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "prefix": {
+    "type": "string"
+   },
+   "prerequisite": {
+    "type": "object",
+    "properties": {
+     "expression": {
+      "type": [
+       "null",
+       "object"
+      ],
+      "properties": {
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "course": {
+           "type": "string"
+          },
+          "items": {
+           "type": "array",
+           "items": {
+            "type": "object",
+            "properties": {
+             "course": {
+              "type": "string"
+             }
+            },
+            "required": [
+             "course"
+            ]
+           }
+          },
+          "op": {
+           "type": "string"
+          }
+         },
+         "required": []
+        }
+       },
+       "op": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "items",
+       "op"
+      ]
+     },
+     "stated": {
+      "type": "boolean"
+     },
+     "status": {
+      "type": "string"
+     },
+     "text": {
+      "type": [
+       "null",
+       "string"
+      ]
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "expression",
+     "stated",
+     "status",
+     "text"
+    ]
+   },
+   "title": {
+    "type": "string"
+   },
+   "title_source": {
+    "type": "string"
+   },
+   "topics": {
+    "type": "object",
+    "properties": {
+     "mechanics_structures": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "thermal_fluids": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "economics": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "manufacturing": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "software_engineering": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "space_aero": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "history_society": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "materials_nano": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "power_energy": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "entrepreneurship": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "data_science": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "environment": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "philosophy_ethics": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "finance": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "literature_languages": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "machine_learning": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "statistics": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "management": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "networks": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "security": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "algorithms_theory": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "artificial_intelligence": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "media_arts": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "healthcare": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "mathematics": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "hci_design": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "psychology": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "chemistry": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "biology": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "systems": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "electronics_vlsi": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "signal_processing": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "physics": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "robotics": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "quantum": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     },
+     "communication": {
+      "type": "object",
+      "properties": {
+       "hits": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "count": {
+           "type": "integer"
+          },
+          "field": {
+           "type": "string"
+          },
+          "keyword": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "count",
+          "field",
+          "keyword"
+         ]
+        }
+       },
+       "score": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "hits",
+       "score"
+      ]
+     }
+    },
+    "required": []
+   },
+   "units_note": {
+    "type": [
+     "null",
+     "string"
+    ]
+   },
+   "units_source": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "L",
+   "P",
+   "U",
+   "code",
+   "description",
+   "equivalent_stated",
+   "evidence",
+   "handouts",
+   "level",
+   "offerings",
+   "prefix",
+   "prerequisite",
+   "title",
+   "title_source",
+   "topics"
+  ]
+ }
+}

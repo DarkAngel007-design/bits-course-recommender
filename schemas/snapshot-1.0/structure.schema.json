@@ -1,0 +1,103 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "structure",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "coursework": {
+   "type": "object",
+   "properties": {
+    "min_courses": {
+     "type": "integer"
+    },
+    "min_units": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "min_courses",
+    "min_units"
+   ]
+  },
+  "dual_degree_evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "humanities": {
+   "type": "object",
+   "properties": {
+    "min_courses": {
+     "type": "integer"
+    },
+    "min_units": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "min_courses",
+    "min_units"
+   ]
+  },
+  "notes_evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "open_electives": {
+   "type": "object",
+   "properties": {
+    "max_courses": {
+     "type": "integer"
+    },
+    "max_units": {
+     "type": "integer"
+    },
+    "min_courses": {
+     "type": "integer"
+    },
+    "min_units": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "max_courses",
+    "max_units",
+    "min_courses",
+    "min_units"
+   ]
+  },
+  "total": {
+   "type": "object",
+   "properties": {
+    "min_courses": {
+     "type": "integer"
+    },
+    "min_units": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "min_courses",
+    "min_units"
+   ]
+  }
+ },
+ "required": [
+  "coursework",
+  "dual_degree_evidence",
+  "evidence",
+  "humanities",
+  "notes_evidence",
+  "open_electives",
+  "total"
+ ]
+}

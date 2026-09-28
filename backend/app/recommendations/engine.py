@@ -180,7 +180,8 @@ def recommend(profile: StudentProfile, snap: Snapshot, intent: Intent, parser: s
         c["text_relevance"] = c["bm25"] / max_bm if terms else 0.0
         need = 1.0 if (c["contrib"] and c["contrib"].get("remaining_need")) else 0.0
         c["score"] = round(W_TOPIC * c["topic_relevance"] + W_TEXT * c["text_relevance"] + c["soft_total"] + W_NEED * need, 4)
-        c["relevant"] = (c["topic_relevance"] > 0 or c["text_relevance"] > 0.05) if topical else True
+        # floor: a single passing keyword mention is not an interest match
+        c["relevant"] = (c["topic_relevance"] >= 0.1 or c["text_relevance"] > 0.05) if topical else True
     relevant = [c for c in candidates if c["relevant"]]
     irrelevant_count = len(candidates) - len(relevant)
     relevant.sort(key=lambda c: (-c["score"], c["offering"]["course_code"]))
@@ -301,7 +302,8 @@ def _card(c: dict, snap: Snapshot, req: dict, intent: Intent, kind: str, reason:
     for t in c["topic_hits"]:
         kws = sorted({x["keyword"] for x in t["hits"]})[:4]
         fields = sorted({x["field"].replace("_", " ") for x in t["hits"]})
-        why.append(f"Matches '{snap.topics[t['topic']]['label']}' via {', '.join(kws)} (in {', '.join(fields)})")
+        weak = "Weak match to" if c["topic_relevance"] < 0.35 else "Matches"
+        why.append(f"{weak} '{snap.topics[t['topic']]['label']}' via {', '.join(kws)} (in {', '.join(fields)})")
     if c.get("text_relevance", 0) > 0.05:
         why.append(f"Course text matches your terms: {', '.join(intent.search_terms[:4])}")
     for hres in c["hard"]:

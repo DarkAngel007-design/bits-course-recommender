@@ -1,0 +1,47 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "humanities_pool",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "courses": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "U": {
+      "type": "integer"
+     },
+     "code": {
+      "type": "string"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "title": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "U",
+     "code",
+     "evidence",
+     "title"
+    ]
+   }
+  },
+  "own_discipline_exclusion_evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ },
+ "required": [
+  "courses",
+  "own_discipline_exclusion_evidence"
+ ]
+}

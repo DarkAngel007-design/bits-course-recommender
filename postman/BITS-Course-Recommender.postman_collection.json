@@ -1,0 +1,1311 @@
+{
+ "info": {
+  "name": "BITS Course Recommender API",
+  "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+  "description": "Run the folders in order. Profiles are synthetic. The owner token from 'Create profile' is stored automatically."
+ },
+ "item": [
+  {
+   "name": "Meta",
+   "item": [
+    {
+     "name": "Health",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/health",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "health"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Meta, coverage and supported scope",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/meta",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "meta"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('has dataset version', () => pm.expect(pm.response.json().dataset_version).to.be.a('string'));",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Search courses",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/courses?q=CS F4&limit=10",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "courses"
+       ],
+       "query": [
+        {
+         "key": "q",
+         "value": "CS F4"
+        },
+        {
+         "key": "limit",
+         "value": "10"
+        }
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Course detail",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/courses/CS F469",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "courses",
+        "CS F469"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Resolve curriculum",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/curricula/resolve?programmes=BE-COMPUTER-SCIENCE",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "curricula",
+        "resolve"
+       ],
+       "query": [
+        {
+         "key": "programmes",
+         "value": "BE-COMPUTER-SCIENCE"
+        }
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Profiles",
+   "item": [
+    {
+     "name": "Create profile (synthetic)",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/profiles",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "profiles"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"campus\": \"Pilani\",\n  \"admission_year\": 2025,\n  \"programmes\": [\n    \"BE-COMPUTER-SCIENCE\"\n  ],\n  \"current_semester\": 5,\n  \"interests\": [\n    \"artificial intelligence\",\n    \"machine learning\"\n  ],\n  \"attempts\": [\n    {\n      \"course_code\": \"BITS F103\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"BIO F101\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CHEM F101\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"MATH F101\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"PHY F101\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"BITS F101\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"BITS F111\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"BITS F112\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F111\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"MATH F113\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"MATH F102\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"EEE F111\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"BITS F102\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"BITS K101\",\n      \"grade\": \"GOOD\"\n    },\n    {\n      \"course_code\": \"MATH F211\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F214\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F222\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F213\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F215\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"ECON F211\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F211\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F241\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"CS F212\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"BITS F225\",\n      \"grade\": \"B\"\n    },\n    {\n      \"course_code\": \"HSS F222\",\n      \"grade\": \"A-\"\n    },\n    {\n      \"course_code\": \"GS F221\",\n      \"grade\": \"A-\"\n    }\n  ]\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "const j = pm.response.json();",
+         "pm.collectionVariables.set('profileId', j.id);",
+         "pm.collectionVariables.set('ownerToken', j.owner_token);",
+         "pm.test('returns owner token', () => pm.expect(j.owner_token).to.be.a('string'));",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Get profile",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/profiles/{{profileId}}",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "profiles",
+        "{{profileId}}"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Update profile (expected_version=1)",
+     "request": {
+      "method": "PATCH",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/profiles/{{profileId}}",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "profiles",
+        "{{profileId}}"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"expected_version\": 1,\n  \"profile\": {\n    \"campus\": \"Pilani\",\n    \"admission_year\": 2025,\n    \"programmes\": [\n      \"BE-COMPUTER-SCIENCE\"\n    ],\n    \"current_semester\": 5,\n    \"interests\": [\n      \"artificial intelligence\",\n      \"machine learning\"\n    ],\n    \"attempts\": [\n      {\n        \"course_code\": \"BITS F103\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BIO F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CHEM F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"MATH F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"PHY F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F111\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F112\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F111\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"MATH F113\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"MATH F102\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"EEE F111\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F102\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS K101\",\n        \"grade\": \"GOOD\"\n      },\n      {\n        \"course_code\": \"MATH F211\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F214\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F222\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F213\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F215\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"ECON F211\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F211\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F241\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F212\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F225\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"HSS F222\",\n        \"grade\": \"A-\"\n      },\n      {\n        \"course_code\": \"GS F221\",\n        \"grade\": \"A-\"\n      }\n    ],\n    \"minor\": \"Finance\"\n  }\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Stale update -> 409",
+     "request": {
+      "method": "PATCH",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/profiles/{{profileId}}",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "profiles",
+        "{{profileId}}"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"expected_version\": 1,\n  \"profile\": {\n    \"campus\": \"Pilani\",\n    \"admission_year\": 2025,\n    \"programmes\": [\n      \"BE-COMPUTER-SCIENCE\"\n    ],\n    \"current_semester\": 5,\n    \"interests\": [\n      \"artificial intelligence\",\n      \"machine learning\"\n    ],\n    \"attempts\": [\n      {\n        \"course_code\": \"BITS F103\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BIO F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CHEM F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"MATH F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"PHY F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F101\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F111\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F112\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F111\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"MATH F113\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"MATH F102\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"EEE F111\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F102\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS K101\",\n        \"grade\": \"GOOD\"\n      },\n      {\n        \"course_code\": \"MATH F211\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F214\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F222\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F213\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F215\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"ECON F211\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F211\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F241\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"CS F212\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"BITS F225\",\n        \"grade\": \"B\"\n      },\n      {\n        \"course_code\": \"HSS F222\",\n        \"grade\": \"A-\"\n      },\n      {\n        \"course_code\": \"GS F221\",\n        \"grade\": \"A-\"\n      }\n    ]\n  }\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('409 on stale version', () => pm.expect(pm.response.code).to.eql(409));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Requirements (completed / projected / remaining)",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/profiles/{{profileId}}/requirements",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "profiles",
+        "{{profileId}}",
+        "requirements"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('requirements available', () => pm.expect(pm.response.json().requirements.available).to.eql(true));",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Recommendations",
+   "item": [
+    {
+     "name": "Parse intent",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/intent/parse",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "intent",
+        "parse"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"query\": \"Suggest an AI-related DEL with no midsem\"\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Recommend: Suggest DELs related to AI.",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/recommendations",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "recommendations"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"query\": \"Suggest DELs related to AI.\"\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "const j = pm.response.json();",
+         "pm.test('matches are eligible', () => j.matches.forEach(m => pm.expect(m.eligibility.status).to.eql('eligible')));",
+         "if (j.matches.length) { pm.collectionVariables.set('offeringId', j.matches[0].offering_id); pm.collectionVariables.set('evidenceId', j.matches[0].evidence[0]); }",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Recommend: I want an OPEL with no attendance requirement.",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/recommendations",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "recommendations"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"query\": \"I want an OPEL with no attendance requirement.\"\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "const j = pm.response.json();",
+         "pm.test('matches are eligible', () => j.matches.forEach(m => pm.expect(m.eligibility.status).to.eql('eligible')));",
+         "if (j.matches.length) { pm.collectionVariables.set('offeringId', j.matches[0].offering_id); pm.collectionVariables.set('evidenceId', j.matches[0].evidence[0]); }",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Recommend: Suggest courses with no midsem and a lenient makeup policy.",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/recommendations",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "recommendations"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"query\": \"Suggest courses with no midsem and a lenient makeup policy.\"\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "const j = pm.response.json();",
+         "pm.test('matches are eligible', () => j.matches.forEach(m => pm.expect(m.eligibility.status).to.eql('eligible')));",
+         "if (j.matches.length) { pm.collectionVariables.set('offeringId', j.matches[0].offering_id); pm.collectionVariables.set('evidenceId', j.matches[0].evidence[0]); }",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Recommend: I need a HUEL and prefer project-based evaluation.",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/recommendations",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "recommendations"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"query\": \"I need a HUEL and prefer project-based evaluation.\"\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "const j = pm.response.json();",
+         "pm.test('matches are eligible', () => j.matches.forEach(m => pm.expect(m.eligibility.status).to.eql('eligible')));",
+         "if (j.matches.length) { pm.collectionVariables.set('offeringId', j.matches[0].offering_id); pm.collectionVariables.set('evidenceId', j.matches[0].evidence[0]); }",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Recommend: Suggest an AI-related DEL with no midsem",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/recommendations",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "recommendations"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"query\": \"Suggest an AI-related DEL with no midsem\"\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "const j = pm.response.json();",
+         "pm.test('matches are eligible', () => j.matches.forEach(m => pm.expect(m.eligibility.status).to.eql('eligible')));",
+         "if (j.matches.length) { pm.collectionVariables.set('offeringId', j.matches[0].offering_id); pm.collectionVariables.set('evidenceId', j.matches[0].evidence[0]); }",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Recommend with edited intent",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/recommendations",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "recommendations"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"intent\": {\n    \"category\": \"OPEL\",\n    \"topics\": [\n      \"finance\"\n    ],\n    \"hard_filters\": [\n      {\n        \"property\": \"midsem_present\",\n        \"value\": true\n      }\n    ],\n    \"soft_preferences\": [\n      {\n        \"property\": \"open_book\",\n        \"weight\": 1\n      }\n    ],\n    \"count\": 5,\n    \"schedule\": {\n      \"no_early_classes\": true,\n      \"free_days\": [\n        \"Sat\"\n      ],\n      \"compact\": false\n    }\n  }\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Evaluate eligibility",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/eligibility/evaluate",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "eligibility",
+        "evaluate"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"course_codes\": [\n    \"CS F407\",\n    \"MAC F313\",\n    \"CS U469\"\n  ]\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Offering detail",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/offerings/{{offeringId}}",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "offerings",
+        "{{offeringId}}"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Plans",
+   "item": [
+    {
+     "name": "Validate plan",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/plans/validate",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "plans",
+        "validate"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"offering_ids\": [\n    \"{{offeringId}}\"\n  ],\n  \"preferences\": {\n    \"no_early_classes\": true,\n    \"free_days\": [\n      \"Sat\"\n    ]\n  }\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Solve sections",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/plans/solve",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "plans",
+        "solve"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"offering_ids\": [\n    \"{{offeringId}}\"\n  ]\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Save plan",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/plans",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "plans"
+       ]
+      },
+      "body": {
+       "mode": "raw",
+       "raw": "{\n  \"profile_id\": \"{{profileId}}\",\n  \"offering_ids\": [\n    \"{{offeringId}}\"\n  ],\n  \"name\": \"Demo\"\n}",
+       "options": {
+        "raw": {
+         "language": "json"
+        }
+       }
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.collectionVariables.set('planId', pm.response.json().id);",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Get plan (stale check + revalidation)",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/plans/{{planId}}",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "plans",
+        "{{planId}}"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "List plans",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Profile-Token",
+        "value": "{{ownerToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/profiles/{{profileId}}/plans",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "profiles",
+        "{{profileId}}",
+        "plans"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sources",
+   "item": [
+    {
+     "name": "Evidence record",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       }
+      ],
+      "description": "Set evidenceId from any 'evidence' array in a response.",
+      "url": {
+       "raw": "{{baseUrl}}/sources/{{evidenceId}}",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "sources",
+        "{{evidenceId}}"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Admin",
+   "item": [
+    {
+     "name": "Ingestion runs / snapshots",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Admin-Token",
+        "value": "{{adminToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/admin/ingestion-runs",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "admin",
+        "ingestion-runs"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.collectionVariables.set('snapshotId', pm.response.json().current);",
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Review queue (errors)",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Admin-Token",
+        "value": "{{adminToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/admin/review-queue?severity=error&limit=50",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "admin",
+        "review-queue"
+       ],
+       "query": [
+        {
+         "key": "severity",
+         "value": "error"
+        },
+        {
+         "key": "limit",
+         "value": "50"
+        }
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Rules",
+     "request": {
+      "method": "GET",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Admin-Token",
+        "value": "{{adminToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/admin/rules",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "admin",
+        "rules"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Publish snapshot",
+     "request": {
+      "method": "POST",
+      "header": [
+       {
+        "key": "Content-Type",
+        "value": "application/json"
+       },
+       {
+        "key": "X-Admin-Token",
+        "value": "{{adminToken}}"
+       }
+      ],
+      "description": "",
+      "url": {
+       "raw": "{{baseUrl}}/admin/datasets/{{snapshotId}}/publish",
+       "host": [
+        "{{baseUrl}}"
+       ],
+       "path": [
+        "admin",
+        "datasets",
+        "{{snapshotId}}",
+        "publish"
+       ]
+      }
+     },
+     "event": [
+      {
+       "listen": "test",
+       "script": {
+        "type": "text/javascript",
+        "exec": [
+         "pm.test('status is 2xx', () => pm.expect(pm.response.code).to.be.within(200, 299));"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "variable": [
+  {
+   "key": "baseUrl",
+   "value": "http://localhost:8000"
+  },
+  {
+   "key": "adminToken",
+   "value": "dev-admin-token"
+  },
+  {
+   "key": "profileId",
+   "value": ""
+  },
+  {
+   "key": "ownerToken",
+   "value": ""
+  },
+  {
+   "key": "offeringId",
+   "value": ""
+  },
+  {
+   "key": "planId",
+   "value": ""
+  },
+  {
+   "key": "evidenceId",
+   "value": ""
+  },
+  {
+   "key": "snapshotId",
+   "value": ""
+  }
+ ]
+}

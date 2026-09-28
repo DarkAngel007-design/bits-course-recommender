@@ -1,0 +1,268 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "rules",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "reviewed_by": {
+   "type": "string"
+  },
+  "rules": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "applies_to": {
+      "type": "string"
+     },
+     "description": {
+      "type": "string"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "id": {
+      "type": "string"
+     },
+     "params": {
+      "type": "object",
+      "properties": {
+       "credit_system": {
+        "type": "string"
+       },
+       "excludes": {
+        "type": "string"
+       },
+       "max_units": {
+        "type": "integer"
+       },
+       "clearing_grades": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "non_clearing_reports": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "policy": {
+        "type": "string"
+       },
+       "points": {
+        "type": "object",
+        "properties": {
+         "A": {
+          "type": "integer"
+         },
+         "A-": {
+          "type": "integer"
+         },
+         "B": {
+          "type": "integer"
+         },
+         "B-": {
+          "type": "integer"
+         },
+         "C": {
+          "type": "integer"
+         },
+         "C-": {
+          "type": "integer"
+         },
+         "D": {
+          "type": "integer"
+         },
+         "E": {
+          "type": "integer"
+         }
+        },
+        "required": [
+         "A",
+         "A-",
+         "B",
+         "B-",
+         "C",
+         "C-",
+         "D",
+         "E"
+        ]
+       },
+       "waivable_by": {
+        "type": "string"
+       },
+       "approval": {
+        "type": "string"
+       },
+       "authoritative_source": {
+        "type": "string"
+       },
+       "dca_may_examine_max_missing": {
+        "type": "integer"
+       },
+       "max_missing": {
+        "type": "integer"
+       },
+       "own_programme_prior_prep_through": {
+        "type": "object",
+        "properties": {
+         "sem": {
+          "type": "integer"
+         },
+         "year": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "sem",
+         "year"
+        ]
+       },
+       "requires": {
+        "type": "string"
+       },
+       "cgpa_threshold": {
+        "type": "null"
+       },
+       "cgpa_threshold_source": {
+        "type": "string"
+       },
+       "max_hd_courses_per_semester": {
+        "type": "integer"
+       },
+       "counts_as": {
+        "type": "string"
+       },
+       "unless_in": {
+        "type": "string"
+       },
+       "max_extra_electives": {
+        "type": "integer"
+       },
+       "order": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "shared_dc_counts_once": {
+        "type": "boolean"
+       },
+       "de_of_one_degree_counts_as_opel_of_other": {
+        "type": "boolean"
+       },
+       "open_elective_requirement": {
+        "type": "string"
+       },
+       "de_max": {
+        "type": "integer"
+       },
+       "design_max": {
+        "type": "integer"
+       },
+       "laboratory_max": {
+        "type": "integer"
+       },
+       "opel_max": {
+        "type": "integer"
+       },
+       "special_max": {
+        "type": "integer"
+       },
+       "study_max": {
+        "type": "integer"
+       },
+       "total_max": {
+        "type": "integer"
+       },
+       "mandatory_categories": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "max_courses": {
+        "type": "integer"
+       },
+       "max_project_courses": {
+        "type": "integer"
+       },
+       "requires_part_of_current_prescribed_programme": {
+        "type": "boolean"
+       },
+       "admission_years": {
+        "type": "array",
+        "items": {
+         "type": "integer"
+        }
+       },
+       "comcod_min": {
+        "type": "integer"
+       },
+       "institute_minimum_attendance": {
+        "type": "null"
+       },
+       "duration_min": {
+        "type": "integer"
+       },
+       "weight_range": {
+        "type": "array",
+        "items": {
+         "type": "integer"
+        }
+       },
+       "declare_by": {
+        "type": "string"
+       }
+      },
+      "required": []
+     },
+     "review_status": {
+      "type": "string"
+     },
+     "source": {
+      "type": "object",
+      "properties": {
+       "excerpt": {
+        "type": "string"
+       },
+       "family": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "excerpt",
+       "family"
+      ]
+     },
+     "type": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "applies_to",
+     "description",
+     "evidence",
+     "id",
+     "params",
+     "review_status",
+     "source",
+     "type"
+    ]
+   }
+  },
+  "version": {
+   "type": "string"
+  }
+ },
+ "required": [
+  "reviewed_by",
+  "rules",
+  "version"
+ ]
+}

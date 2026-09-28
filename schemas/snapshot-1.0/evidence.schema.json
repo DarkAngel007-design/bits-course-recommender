@@ -1,0 +1,53 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "evidence",
+ "x-schema-version": "1.0",
+ "type": "object",
+ "description": "Map of id -> record (evidence)",
+ "additionalProperties": {
+  "type": "object",
+  "properties": {
+   "confidence": {
+    "type": "number"
+   },
+   "doc_id": {
+    "type": "string"
+   },
+   "excerpt": {
+    "type": "string"
+   },
+   "family": {
+    "type": "string"
+   },
+   "file": {
+    "type": "string"
+   },
+   "id": {
+    "type": "string"
+   },
+   "parser": {
+    "type": "string"
+   },
+   "pdf_page": {
+    "type": "integer"
+   },
+   "printed_page": {
+    "type": [
+     "null",
+     "string"
+    ]
+   }
+  },
+  "required": [
+   "confidence",
+   "doc_id",
+   "excerpt",
+   "family",
+   "file",
+   "id",
+   "parser",
+   "pdf_page",
+   "printed_page"
+  ]
+ }
+}

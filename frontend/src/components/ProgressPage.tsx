@@ -110,10 +110,11 @@ export default function ProgressPage() {
 
         {req.minor && <section className="card">
           <h3>Minor in {req.minor.name}</h3>
+          {req.minor.status === "excluded" && <div className="banner bad">Not available to your programme: “{req.minor.exclusion.clause}”
+            <button className="link" onClick={() => showEvidence(req.minor.exclusion.evidence, "Minor exclusion")}>source</button></div>}
           <p>{req.minor.earned.courses}/{req.minor.required.courses} courses · {req.minor.earned.units}/{req.minor.required.units} units ·
             core remaining: {req.minor.core?.remaining?.join(", ") || "none"}</p>
           {req.minor.notes?.map((n: string) => <p key={n} className="small warn-text">{n}</p>)}
-          {req.minor.exclusions?.length > 0 && <p className="small warn-text">Exclusion clause: {req.minor.exclusions[0]}</p>}
           <p className="small muted">{req.minor.approval_needed}</p>
         </section>}
 

@@ -1,0 +1,1910 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "BITS Academic Course Recommender API",
+  "description": "Evidence-backed course recommendations computed live from a published dataset snapshot.",
+  "version": "1.0.0"
+ },
+ "paths": {
+  "/health": {
+   "get": {
+    "summary": "Health",
+    "operationId": "health_health_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/meta": {
+   "get": {
+    "summary": "Meta",
+    "operationId": "meta_meta_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/curricula/resolve": {
+   "get": {
+    "summary": "Resolve Curriculum",
+    "operationId": "resolve_curriculum_curricula_resolve_get",
+    "parameters": [
+     {
+      "name": "programmes",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Programmes"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/demo-profiles": {
+   "get": {
+    "summary": "Demo Profiles",
+    "description": "Synthetic golden profiles (the same fixtures the test suite uses).",
+    "operationId": "demo_profiles_demo_profiles_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/courses": {
+   "get": {
+    "summary": "Search Courses",
+    "operationId": "search_courses_courses_get",
+    "parameters": [
+     {
+      "name": "q",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "string",
+       "maxLength": 80,
+       "default": "",
+       "title": "Q"
+      }
+     },
+     {
+      "name": "offered_only",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "boolean",
+       "default": false,
+       "title": "Offered Only"
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "integer",
+       "maximum": 100,
+       "default": 20,
+       "title": "Limit"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/courses/{code}": {
+   "get": {
+    "summary": "Get Course",
+    "operationId": "get_course_courses__code__get",
+    "parameters": [
+     {
+      "name": "code",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Code"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/offerings/{offering_id}": {
+   "get": {
+    "summary": "Get Offering",
+    "operationId": "get_offering_offerings__offering_id__get",
+    "parameters": [
+     {
+      "name": "offering_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Offering Id"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/sources/{evidence_id}": {
+   "get": {
+    "summary": "Get Source",
+    "operationId": "get_source_sources__evidence_id__get",
+    "parameters": [
+     {
+      "name": "evidence_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Evidence Id"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/documents/{doc_id}": {
+   "get": {
+    "summary": "Get Document",
+    "operationId": "get_document_documents__doc_id__get",
+    "parameters": [
+     {
+      "name": "doc_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Doc Id"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/profiles": {
+   "post": {
+    "summary": "Create Profile",
+    "operationId": "create_profile_profiles_post",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/StudentProfile"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "201": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/profiles/{profile_id}": {
+   "get": {
+    "summary": "Get Profile",
+    "operationId": "get_profile_profiles__profile_id__get",
+    "parameters": [
+     {
+      "name": "profile_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Profile Id"
+      }
+     },
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   },
+   "patch": {
+    "summary": "Patch Profile",
+    "operationId": "patch_profile_profiles__profile_id__patch",
+    "parameters": [
+     {
+      "name": "profile_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Profile Id"
+      }
+     },
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/ProfilePatch"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/profiles/{profile_id}/requirements": {
+   "get": {
+    "summary": "Get Requirements",
+    "operationId": "get_requirements_profiles__profile_id__requirements_get",
+    "parameters": [
+     {
+      "name": "profile_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Profile Id"
+      }
+     },
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/eligibility/evaluate": {
+   "post": {
+    "summary": "Eligibility",
+    "operationId": "eligibility_eligibility_evaluate_post",
+    "parameters": [
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/EligibilityRequest"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/intent/parse": {
+   "post": {
+    "summary": "Parse Intent",
+    "operationId": "parse_intent_intent_parse_post",
+    "parameters": [
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/IntentRequest"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/recommendations": {
+   "post": {
+    "summary": "Recommendations",
+    "operationId": "recommendations_recommendations_post",
+    "parameters": [
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/RecommendationRequest"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/plans/validate": {
+   "post": {
+    "summary": "Plans Validate",
+    "operationId": "plans_validate_plans_validate_post",
+    "parameters": [
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/PlanRequest"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/plans/solve": {
+   "post": {
+    "summary": "Plans Solve",
+    "operationId": "plans_solve_plans_solve_post",
+    "parameters": [
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/PlanRequest"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/plans": {
+   "post": {
+    "summary": "Plans Save",
+    "operationId": "plans_save_plans_post",
+    "parameters": [
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/PlanRequest"
+       }
+      }
+     }
+    },
+    "responses": {
+     "201": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/profiles/{profile_id}/plans": {
+   "get": {
+    "summary": "List Plans",
+    "operationId": "list_plans_profiles__profile_id__plans_get",
+    "parameters": [
+     {
+      "name": "profile_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Profile Id"
+      }
+     },
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/plans/{plan_id}": {
+   "get": {
+    "summary": "Get Plan",
+    "operationId": "get_plan_plans__plan_id__get",
+    "parameters": [
+     {
+      "name": "plan_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Plan Id"
+      }
+     },
+     {
+      "name": "revalidate",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "boolean",
+       "default": true,
+       "title": "Revalidate"
+      }
+     },
+     {
+      "name": "x-profile-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Profile-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/admin/ingestion-runs": {
+   "get": {
+    "summary": "Admin Runs",
+    "operationId": "admin_runs_admin_ingestion_runs_get",
+    "parameters": [
+     {
+      "name": "x-admin-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Admin-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/admin/review-queue": {
+   "get": {
+    "summary": "Admin Review",
+    "operationId": "admin_review_admin_review_queue_get",
+    "parameters": [
+     {
+      "name": "kind",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "Kind"
+      }
+     },
+     {
+      "name": "severity",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "Severity"
+      }
+     },
+     {
+      "name": "q",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "Q"
+      }
+     },
+     {
+      "name": "offset",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "integer",
+       "default": 0,
+       "title": "Offset"
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "integer",
+       "maximum": 500,
+       "default": 50,
+       "title": "Limit"
+      }
+     },
+     {
+      "name": "x-admin-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Admin-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/admin/rules": {
+   "get": {
+    "summary": "Admin Rules",
+    "operationId": "admin_rules_admin_rules_get",
+    "parameters": [
+     {
+      "name": "x-admin-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Admin-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/admin/datasets/{snapshot_id}/publish": {
+   "post": {
+    "summary": "Admin Publish",
+    "operationId": "admin_publish_admin_datasets__snapshot_id__publish_post",
+    "parameters": [
+     {
+      "name": "snapshot_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Snapshot Id"
+      }
+     },
+     {
+      "name": "x-admin-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Admin-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Approval": {
+    "properties": {
+     "type": {
+      "type": "string",
+      "enum": [
+       "prerequisite_waiver",
+       "dca_prior_preparation",
+       "hd_course_permission",
+       "minor_admission",
+       "extra_elective_permission",
+       "other"
+      ],
+      "title": "Type"
+     },
+     "course_code": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Course Code"
+     },
+     "note": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Note"
+     }
+    },
+    "type": "object",
+    "required": [
+     "type"
+    ],
+    "title": "Approval"
+   },
+   "CourseAttempt": {
+    "properties": {
+     "course_code": {
+      "type": "string",
+      "title": "Course Code"
+     },
+     "status": {
+      "type": "string",
+      "enum": [
+       "completed",
+       "in_progress"
+      ],
+      "title": "Status",
+      "default": "completed"
+     },
+     "grade": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Grade",
+      "description": "Letter grade (A..E), non-letter grade (GOOD, CLR...) or report (NC, W, RC, I, GA)"
+     },
+     "term": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Term"
+     },
+     "attempt_order": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Attempt Order",
+      "description": "1 for first attempt, 2 for a repeat, ..."
+     },
+     "credit_value": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Credit Value"
+     },
+     "credit_system": {
+      "anyOf": [
+       {
+        "type": "string",
+        "enum": [
+         "units",
+         "credit_hours"
+        ]
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Credit System"
+     }
+    },
+    "type": "object",
+    "required": [
+     "course_code"
+    ],
+    "title": "CourseAttempt"
+   },
+   "EligibilityRequest": {
+    "properties": {
+     "profile_id": {
+      "type": "string",
+      "title": "Profile Id"
+     },
+     "offering_ids": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Offering Ids"
+     },
+     "course_codes": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Course Codes"
+     },
+     "strict_prerequisites": {
+      "type": "boolean",
+      "title": "Strict Prerequisites",
+      "default": false
+     }
+    },
+    "type": "object",
+    "required": [
+     "profile_id"
+    ],
+    "title": "EligibilityRequest"
+   },
+   "HTTPValidationError": {
+    "properties": {
+     "detail": {
+      "items": {
+       "$ref": "#/components/schemas/ValidationError"
+      },
+      "type": "array",
+      "title": "Detail"
+     }
+    },
+    "type": "object",
+    "title": "HTTPValidationError"
+   },
+   "HardFilter": {
+    "properties": {
+     "property": {
+      "type": "string",
+      "enum": [
+       "midsem_present",
+       "compre_present",
+       "attendance_none",
+       "has_component",
+       "no_component",
+       "department",
+       "level",
+       "units",
+       "instructor",
+       "course_code"
+      ],
+      "title": "Property"
+     },
+     "value": {
+      "anyOf": [
+       {
+        "type": "boolean"
+       },
+       {
+        "type": "integer"
+       },
+       {
+        "type": "string"
+       }
+      ],
+      "title": "Value"
+     },
+     "source_text": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Source Text",
+      "description": "The query words this filter came from"
+     }
+    },
+    "type": "object",
+    "required": [
+     "property",
+     "value"
+    ],
+    "title": "HardFilter"
+   },
+   "Intent": {
+    "properties": {
+     "category": {
+      "type": "string",
+      "enum": [
+       "ANY",
+       "CDC",
+       "DEL",
+       "HUEL",
+       "OPEL",
+       "MINOR"
+      ],
+      "title": "Category",
+      "default": "ANY"
+     },
+     "topics": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Topics",
+      "description": "Taxonomy topic ids"
+     },
+     "search_terms": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Search Terms",
+      "description": "Extra free-text interest words"
+     },
+     "hard_filters": {
+      "items": {
+       "$ref": "#/components/schemas/HardFilter"
+      },
+      "type": "array",
+      "title": "Hard Filters"
+     },
+     "soft_preferences": {
+      "items": {
+       "$ref": "#/components/schemas/SoftPreference"
+      },
+      "type": "array",
+      "title": "Soft Preferences"
+     },
+     "count": {
+      "type": "integer",
+      "maximum": 20.0,
+      "minimum": 1.0,
+      "title": "Count",
+      "default": 5
+     },
+     "topic_mode": {
+      "type": "string",
+      "enum": [
+       "filter",
+       "rank"
+      ],
+      "title": "Topic Mode",
+      "description": "filter: topics named in the query restrict results; rank: topics only come from the profile's interests and are used for ordering",
+      "default": "filter"
+     },
+     "schedule": {
+      "$ref": "#/components/schemas/SchedulePrefs"
+     },
+     "clarifications": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Clarifications"
+     },
+     "unsupported": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Unsupported",
+      "description": "Requested properties the data cannot support"
+     }
+    },
+    "type": "object",
+    "title": "Intent"
+   },
+   "IntentRequest": {
+    "properties": {
+     "query": {
+      "type": "string",
+      "maxLength": 500,
+      "minLength": 1,
+      "title": "Query"
+     },
+     "use_llm": {
+      "type": "boolean",
+      "title": "Use Llm",
+      "default": true
+     },
+     "profile_id": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Profile Id"
+     }
+    },
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "title": "IntentRequest"
+   },
+   "PlanRequest": {
+    "properties": {
+     "profile_id": {
+      "type": "string",
+      "title": "Profile Id"
+     },
+     "offering_ids": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Offering Ids"
+     },
+     "locked_sections": {
+      "additionalProperties": {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      "type": "object",
+      "title": "Locked Sections"
+     },
+     "preferences": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/PrefsIn"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "name": {
+      "type": "string",
+      "title": "Name",
+      "default": "Semester plan"
+     }
+    },
+    "type": "object",
+    "required": [
+     "profile_id",
+     "offering_ids"
+    ],
+    "title": "PlanRequest"
+   },
+   "PrefsIn": {
+    "properties": {
+     "no_early_classes": {
+      "type": "boolean",
+      "title": "No Early Classes",
+      "default": false
+     },
+     "free_days": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Free Days"
+     },
+     "compact": {
+      "type": "boolean",
+      "title": "Compact",
+      "default": false
+     },
+     "hard": {
+      "type": "boolean",
+      "title": "Hard",
+      "default": true
+     }
+    },
+    "type": "object",
+    "title": "PrefsIn"
+   },
+   "ProfilePatch": {
+    "properties": {
+     "expected_version": {
+      "type": "integer",
+      "title": "Expected Version"
+     },
+     "profile": {
+      "$ref": "#/components/schemas/StudentProfile"
+     }
+    },
+    "type": "object",
+    "required": [
+     "expected_version",
+     "profile"
+    ],
+    "title": "ProfilePatch"
+   },
+   "RecommendationRequest": {
+    "properties": {
+     "profile_id": {
+      "type": "string",
+      "title": "Profile Id"
+     },
+     "query": {
+      "type": "string",
+      "maxLength": 500,
+      "title": "Query",
+      "default": ""
+     },
+     "intent": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Intent"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Edited intent; when present the query is not re-parsed"
+     },
+     "use_llm": {
+      "type": "boolean",
+      "title": "Use Llm",
+      "default": true
+     },
+     "plan_offering_ids": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Plan Offering Ids"
+     },
+     "strict_prerequisites": {
+      "type": "boolean",
+      "title": "Strict Prerequisites",
+      "default": false
+     },
+     "check_schedule": {
+      "anyOf": [
+       {
+        "type": "boolean"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Check Schedule"
+     }
+    },
+    "type": "object",
+    "required": [
+     "profile_id"
+    ],
+    "title": "RecommendationRequest"
+   },
+   "SchedulePrefs": {
+    "properties": {
+     "no_early_classes": {
+      "type": "boolean",
+      "title": "No Early Classes",
+      "default": false
+     },
+     "free_days": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Free Days"
+     },
+     "compact": {
+      "type": "boolean",
+      "title": "Compact",
+      "default": false
+     }
+    },
+    "type": "object",
+    "title": "SchedulePrefs"
+   },
+   "SoftPreference": {
+    "properties": {
+     "property": {
+      "type": "string",
+      "enum": [
+       "project_based",
+       "lenient_makeup",
+       "open_book",
+       "low_exam_weight",
+       "topic"
+      ],
+      "title": "Property"
+     },
+     "value": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Value"
+     },
+     "weight": {
+      "type": "number",
+      "maximum": 3.0,
+      "minimum": 0.0,
+      "title": "Weight",
+      "default": 1.0
+     },
+     "source_text": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Source Text"
+     }
+    },
+    "type": "object",
+    "required": [
+     "property"
+    ],
+    "title": "SoftPreference"
+   },
+   "StudentProfile": {
+    "properties": {
+     "campus": {
+      "type": "string",
+      "title": "Campus",
+      "default": "Pilani"
+     },
+     "admission_year": {
+      "type": "integer",
+      "maximum": 2100.0,
+      "minimum": 2000.0,
+      "title": "Admission Year"
+     },
+     "programmes": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "maxItems": 2,
+      "minItems": 1,
+      "title": "Programmes",
+      "description": "Programme ids, e.g. ['BE-COMPUTER-SCIENCE']"
+     },
+     "current_semester": {
+      "type": "integer",
+      "maximum": 12.0,
+      "minimum": 1.0,
+      "title": "Current Semester",
+      "description": "1 = year I first semester, 3 = year II first semester ..."
+     },
+     "current_term": {
+      "type": "string",
+      "title": "Current Term",
+      "default": "2026-27-S1"
+     },
+     "minor": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Minor"
+     },
+     "interests": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Interests"
+     },
+     "attempts": {
+      "items": {
+       "$ref": "#/components/schemas/CourseAttempt"
+      },
+      "type": "array",
+      "title": "Attempts"
+     },
+     "approvals": {
+      "items": {
+       "$ref": "#/components/schemas/Approval"
+      },
+      "type": "array",
+      "title": "Approvals"
+     },
+     "cgpa": {
+      "anyOf": [
+       {
+        "type": "number",
+        "maximum": 10.0,
+        "minimum": 0.0
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Cgpa"
+     },
+     "curriculum_attested": {
+      "type": "boolean",
+      "title": "Curriculum Attested",
+      "description": "Student confirms the bulletin 2025-26 chart applies (non-2025 cohorts)",
+      "default": false
+     },
+     "display_name": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Display Name"
+     }
+    },
+    "type": "object",
+    "required": [
+     "admission_year",
+     "programmes",
+     "current_semester"
+    ],
+    "title": "StudentProfile"
+   },
+   "ValidationError": {
+    "properties": {
+     "loc": {
+      "items": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "integer"
+        }
+       ]
+      },
+      "type": "array",
+      "title": "Location"
+     },
+     "msg": {
+      "type": "string",
+      "title": "Message"
+     },
+     "type": {
+      "type": "string",
+      "title": "Error Type"
+     },
+     "input": {
+      "title": "Input"
+     },
+     "ctx": {
+      "type": "object",
+      "title": "Context"
+     }
+    },
+    "type": "object",
+    "required": [
+     "loc",
+     "msg",
+     "type"
+    ],
+    "title": "ValidationError"
+   }
+  }
+ }
+}

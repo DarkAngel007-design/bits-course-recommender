@@ -71,3 +71,11 @@ def test_attested_cohort_is_provisional(golden, make_state):
     _, scope, _, req = make_state(prof)
     assert scope["status"] == "attested"
     assert req["provisional"] is True
+
+
+def test_minor_exclusion_clause(make_state):
+    base = {"admission_year": 2025, "current_semester": 5, "minor": "Computing and Intelligence"}
+    _, _, _, cs = make_state({**base, "programmes": ["BE-COMPUTER-SCIENCE"]})
+    _, _, _, me = make_state({**base, "programmes": ["BE-MECHANICAL"]})
+    assert cs["minor"]["status"] == "excluded" and cs["minor"]["exclusion"]["evidence"]
+    assert me["minor"]["status"] != "excluded"

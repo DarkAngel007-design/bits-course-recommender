@@ -523,6 +523,24 @@ def extract_minors(doc: dict, pages: list[str], reg: Registry) -> dict:
                 cur[section].append({"code": code, "title": title, "U": U, "evidence": [ev]})
                 if pno not in cur["pages"]:
                     cur["pages"].append(pno)
+    # Exclusion clauses often span several lines: search each minor's full section text.
+    flat_pages = {pno: squash(pages[pno - 1]) for pno in range(start + 1, end)}
+    names = list(minors)
+    for pno, text in flat_pages.items():
+        for i, name in enumerate(names):
+            k = text.find(f"Minor in {name}")
+            if k < 0:
+                continue
+            others = [text.find(f"Minor in {n}", k + 5) for n in names if n != name]
+            nxt = min([o for o in others if o > k] or [len(text)])
+            seg = text[k:nxt]
+            for mm in re.finditer(r"[^.]*(?:exclusively (?:designed|meant) for|not (?:be )?(?:eligible|open)|"
+                                  r"cannot (?:opt|take|register)|excluded)[^.]*\.", seg, re.I):
+                sent = squash(mm.group(0))
+                m = minors[name]
+                if sent not in m["exclusions"]:
+                    m["exclusions"].append(sent)
+                    m["notes"].append(reg.cite(doc, pno, sent, "bulletin.minor_exclusion", printed_page=_printed(pages[pno - 1])))
     for m in minors.values():
         if m["min_courses"] is None:
             m["min_courses"] = general["total_min_courses"]

@@ -1,0 +1,41 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "relationships",
+ "x-schema-version": "1.0",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "applicability": {
+    "type": "string"
+   },
+   "evidence": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "source": {
+    "type": "string"
+   },
+   "target": {
+    "type": "string"
+   },
+   "type": {
+    "type": "string"
+   },
+   "targets": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   }
+  },
+  "required": [
+   "applicability",
+   "evidence",
+   "source",
+   "type"
+  ]
+ }
+}
