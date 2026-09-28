@@ -1,0 +1,6847 @@
+[
+ {
+  "evidence": [],
+  "field": "text",
+  "id": "rv_90074db0f938",
+  "kind": "unparsed",
+  "message": "Handout has no extractable text layer (scanned image); OCR required",
+  "severity": "error",
+  "status": "open",
+  "subject": "handout:handouts/348_MAC_F214.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "course_codes",
+  "id": "rv_ac7f55d501de",
+  "kind": "ambiguous_mapping",
+  "message": "File name code BIO U101 not among handout course numbers ['BIO F101']",
+  "severity": "info",
+  "status": "open",
+  "subject": "handout:handouts/025_BIO_U101.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "course_codes",
+  "id": "rv_9ec796c95978",
+  "kind": "ambiguous_mapping",
+  "message": "File name code BITS F101 not among handout course numbers ['SW E101']",
+  "severity": "info",
+  "status": "open",
+  "subject": "handout:handouts/032_BITS_F101-1.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "course_codes",
+  "id": "rv_4781153768b3",
+  "kind": "ambiguous_mapping",
+  "message": "File name code CS F111 not among handout course numbers ['CS U111']",
+  "severity": "info",
+  "status": "open",
+  "subject": "handout:handouts/160_CS_F111.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "course_codes",
+  "id": "rv_dcef57fa7bd9",
+  "kind": "ambiguous_mapping",
+  "message": "File name code CS F215 not among handout course numbers ['EEE F342', 'ECE F342', 'INSTR F342', 'CS F342']",
+  "severity": "info",
+  "status": "open",
+  "subject": "handout:handouts/162_CS_F215.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "course_codes",
+  "id": "rv_da7bb911b849",
+  "kind": "ambiguous_mapping",
+  "message": "File name code MAC F367 not among handout course numbers ['MATH F367']",
+  "severity": "info",
+  "status": "open",
+  "subject": "handout:handouts/354_MAC_F367.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "course_codes",
+  "id": "rv_3fb8eca4100e",
+  "kind": "ambiguous_mapping",
+  "message": "File name code MPBA G520 not among handout course numbers ['MPBA G521', 'BITS F455']",
+  "severity": "info",
+  "status": "open",
+  "subject": "handout:handouts/452_MPBA_G520.pdf"
+ },
+ {
+  "evidence": [
+   "ev_6c380e5bdf49"
+  ],
+  "field": "core",
+  "id": "rv_51f953f0d0d4",
+  "kind": "conflict",
+  "message": "Core-list courses absent from the semester chart: BIOT F344",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-BIOTECHNOLOGY"
+ },
+ {
+  "evidence": [
+   "ev_9caef98a82ea"
+  ],
+  "field": "core",
+  "id": "rv_bced63c489b3",
+  "kind": "conflict",
+  "message": "Core-list courses absent from the semester chart: ECE F331",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ELECTRONICS-COMMUNICATION"
+ },
+ {
+  "evidence": [
+   "ev_66cee3699b15"
+  ],
+  "field": "core",
+  "id": "rv_b1a71228d325",
+  "kind": "conflict",
+  "message": "Core-list courses absent from the semester chart: ENVS F232",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_aa2e4643c371"
+  ],
+  "field": "core",
+  "id": "rv_aba8db88f0f1",
+  "kind": "conflict",
+  "message": "Core-list courses absent from the semester chart: PHA F243",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BPHARM"
+ },
+ {
+  "evidence": [
+   "ev_1ac418d43425"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_c6a45803f4a9",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BIO U101"
+ },
+ {
+  "evidence": [
+   "ev_143c41b127ab"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_6491880588ff",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BIO U320"
+ },
+ {
+  "evidence": [
+   "ev_e245b1bf696c"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_5fceb7e991e8",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BIO U417"
+ },
+ {
+  "evidence": [
+   "ev_0cba76bfbf54"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_5bfec166d40b",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BIOT U317"
+ },
+ {
+  "evidence": [
+   "ev_ba3d0ab1d774"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_3eace089d945",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS C790T"
+ },
+ {
+  "evidence": [
+   "ev_b50fb345004b"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_ae8d2eca0044",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS C791T"
+ },
+ {
+  "evidence": [
+   "ev_0e57c1f1ab5e"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_84db48756050",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS C797T"
+ },
+ {
+  "evidence": [
+   "ev_6dd7c5cb691c"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_e2afe1465077",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS C799T"
+ },
+ {
+  "evidence": [
+   "ev_87835814e857"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_5d2803a43d9b",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS E574"
+ },
+ {
+  "evidence": [
+   "ev_e6922efa500b"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_ee47c5a29b5d",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS E584"
+ },
+ {
+  "evidence": [
+   "ev_fe45fafa5dbb"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_298b9fa46a90",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS E594"
+ },
+ {
+  "evidence": [
+   "ev_c479313752df"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_b97474ee2c28",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS E793T"
+ },
+ {
+  "evidence": [
+   "ev_d3cdb02cc91f"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_5f58fe8bee21",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS F103"
+ },
+ {
+  "evidence": [
+   "ev_2b89b3e296a8"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_560257aee173",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS F110"
+ },
+ {
+  "evidence": [
+   "ev_ee6a13c6aa86"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_a03711864d66",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS F332"
+ },
+ {
+  "evidence": [
+   "ev_4ac459415b98"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_9bcff92f3159",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS F426T"
+ },
+ {
+  "evidence": [
+   "ev_fe1d3331f9ae"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_53651fcf8c3f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS G561T"
+ },
+ {
+  "evidence": [
+   "ev_8b7288b15c35"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_19c0306ed929",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS G562T"
+ },
+ {
+  "evidence": [
+   "ev_a75ac4429818"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_048ff230088f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS G563T"
+ },
+ {
+  "evidence": [
+   "ev_e4ecfdc17b1f"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_994718e7bb79",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS G564T"
+ },
+ {
+  "evidence": [
+   "ev_2cb0943aaae8"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_071ba60437ca",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS G629T"
+ },
+ {
+  "evidence": [
+   "ev_17dbf0eced7e"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_e9c957c67936",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS G661"
+ },
+ {
+  "evidence": [
+   "ev_e7e0daabf9e0"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_f70b381b9fae",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS K101"
+ },
+ {
+  "evidence": [
+   "ev_00c2e8e8191a"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_e87e03919c3f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U103"
+ },
+ {
+  "evidence": [
+   "ev_72e9ad1640d8"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_f4b5c37a6000",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U104"
+ },
+ {
+  "evidence": [
+   "ev_8dc66773b58d"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_606499714d31",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U106"
+ },
+ {
+  "evidence": [
+   "ev_b8481c1acc7a"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_ddb43ea7b71a",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U107"
+ },
+ {
+  "evidence": [
+   "ev_d8a8c9d1595e"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_d644c9e78c80",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U415"
+ },
+ {
+  "evidence": [
+   "ev_07a581285d7c"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_a6b15a7a85b9",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U429"
+ },
+ {
+  "evidence": [
+   "ev_17764d0e3a2d"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_f2b76a576f7f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U462"
+ },
+ {
+  "evidence": [
+   "ev_b8bdb076ffb2"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_9fa0056267d9",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U463"
+ },
+ {
+  "evidence": [
+   "ev_f2281d71ee76"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_8b52a7cba31f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U467"
+ },
+ {
+  "evidence": [
+   "ev_1fb5d54a2ccd"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_05c4281e524f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:BITS U468"
+ },
+ {
+  "evidence": [
+   "ev_15c84f50257b"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_a240a4f6336f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CE U434"
+ },
+ {
+  "evidence": [
+   "ev_dd52eae2ceae"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_d17b191506f2",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CHE U411"
+ },
+ {
+  "evidence": [
+   "ev_64e64baa5745"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_167314f70397",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CHE U497"
+ },
+ {
+  "evidence": [
+   "ev_c300ef2111d6"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_89b39531bf82",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CHEM U101"
+ },
+ {
+  "evidence": [
+   "ev_a7b5c7da634c"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_d5e58358f79d",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CHEM U102"
+ },
+ {
+  "evidence": [
+   "ev_205e98b67f49"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_0f3a6d2f3dcb",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CHEM U110"
+ },
+ {
+  "evidence": [
+   "ev_955aa233d187"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_38d44a32d845",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS G569"
+ },
+ {
+  "evidence": [
+   "ev_941dbdfb83fd"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_703f11898c17",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U101"
+ },
+ {
+  "evidence": [
+   "ev_e3d6c8a609ac"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_f747b5b3fc22",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U111"
+ },
+ {
+  "evidence": [
+   "ev_280539826f7c"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_6475f4ee1572",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U311"
+ },
+ {
+  "evidence": [
+   "ev_c11592bc43a7"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_319d81c53f98",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U407"
+ },
+ {
+  "evidence": [
+   "ev_9c2e171d009d"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_e25cca0729ee",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U415"
+ },
+ {
+  "evidence": [
+   "ev_6ad5f957aede"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_54efc2d0e3cf",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U425"
+ },
+ {
+  "evidence": [
+   "ev_3e209b138624"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_ada07761c4c0",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U429"
+ },
+ {
+  "evidence": [
+   "ev_14b546c209bf"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_35e8b6c2febc",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U446"
+ },
+ {
+  "evidence": [
+   "ev_1a7bcf4f7a2f"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_3a70383fea01",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U469"
+ },
+ {
+  "evidence": [
+   "ev_2fc1cb43ea86"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_194935449fbd",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:CS U471"
+ },
+ {
+  "evidence": [
+   "ev_480525bb1a28"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_7be67595323e",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:DE G612"
+ },
+ {
+  "evidence": [
+   "ev_845cbc072d88"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_3d45b49c22f5",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ECON F315"
+ },
+ {
+  "evidence": [
+   "ev_6a18384a5619"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_b80f81e2a887",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ECON F412"
+ },
+ {
+  "evidence": [
+   "ev_449ac020ae57"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_be2e4df9e375",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ECON F417"
+ },
+ {
+  "evidence": [
+   "ev_cd6601a5d833"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_da200dafdb83",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:EEE G549"
+ },
+ {
+  "evidence": [
+   "ev_e2c4653ee2fd"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_551e29ded463",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:EEE G595"
+ },
+ {
+  "evidence": [
+   "ev_8b612ba4ff6b"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_e5d3612f6191",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:EEE U111"
+ },
+ {
+  "evidence": [
+   "ev_505f4e90446b"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_a216002ffcb7",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:EEE U411"
+ },
+ {
+  "evidence": [
+   "ev_b7bc34aec195"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_f950f9d892c0",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:EEE U422"
+ },
+ {
+  "evidence": [
+   "ev_b37a8ffe45f0"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_40cca74002ba",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:EEE U437"
+ },
+ {
+  "evidence": [
+   "ev_58cdff3f0948"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_ed3de47340d1",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ENVS F212"
+ },
+ {
+  "evidence": [
+   "ev_95d2f53ecd81"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_839e5dae0c98",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:GS F376"
+ },
+ {
+  "evidence": [
+   "ev_0036ad92cb16"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_7fe50f4f7ef9",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:GS F377"
+ },
+ {
+  "evidence": [
+   "ev_978d5ccbfd49"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_b68e7be76909",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:HSS F324"
+ },
+ {
+  "evidence": [
+   "ev_2c93f511540c"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_f49824a524a4",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:HSS U141"
+ },
+ {
+  "evidence": [
+   "ev_c0d03f566117"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_738250b241b3",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:MATH F201"
+ },
+ {
+  "evidence": [
+   "ev_4a9516050904"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_9268ef43485f",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:MATH U101"
+ },
+ {
+  "evidence": [
+   "ev_4bd57add5c59"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_efe7fc460fb0",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:MATH U110"
+ },
+ {
+  "evidence": [
+   "ev_7449acbf0b32"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_250f78163fb2",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:MATH U421"
+ },
+ {
+  "evidence": [
+   "ev_d31e7b54a049"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_aa2438b78443",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:MATH U444"
+ },
+ {
+  "evidence": [
+   "ev_5b7676e17bbd"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_cc02051fdb22",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ME G523"
+ },
+ {
+  "evidence": [
+   "ev_4b6bbb621362"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_4d038051f7b5",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ME G552"
+ },
+ {
+  "evidence": [
+   "ev_29c73774b2b3"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_4e546a6d0170",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ME G553"
+ },
+ {
+  "evidence": [
+   "ev_17d74f332ecb"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_e4bf722d8a08",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ME G615"
+ },
+ {
+  "evidence": [
+   "ev_6f08a043951d"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_dd7e1e96a12d",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ME U308"
+ },
+ {
+  "evidence": [
+   "ev_8d152d24633d"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_b19662430528",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ME U423"
+ },
+ {
+  "evidence": [
+   "ev_c14ffd1db8bf"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_83fad0ad8aa0",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ME U443"
+ },
+ {
+  "evidence": [
+   "ev_7284cd74083b"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_1a50068cfc7b",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:MGTS U102"
+ },
+ {
+  "evidence": [
+   "ev_76fd0fe12560"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_d841460c1ff9",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:MPBA G515"
+ },
+ {
+  "evidence": [
+   "ev_765fb1495ca4"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_6c867dda50b5",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:PHY U101"
+ },
+ {
+  "evidence": [
+   "ev_cd14519f7426"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_2a781d2054c4",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:PHY U102"
+ },
+ {
+  "evidence": [
+   "ev_78b66514c5a6"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_6bbe1a0bd9d2",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:PHY U110"
+ },
+ {
+  "evidence": [
+   "ev_4ccee8d2173e"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_ab10afbbfdee",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:PHY U413"
+ },
+ {
+  "evidence": [
+   "ev_f558667d6de6"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_80587be1e006",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:PHY U416"
+ },
+ {
+  "evidence": [
+   "ev_eca06622215d"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_aca844eefbf7",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:PHY U422"
+ },
+ {
+  "evidence": [
+   "ev_8ae59bf0f82f"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_daa9aa41b8e0",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:SCM G511"
+ },
+ {
+  "evidence": [
+   "ev_e0e3fcf279b5"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_ef33428d0893",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:SCM G513"
+ },
+ {
+  "evidence": [
+   "ev_438d290701ef"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_f10475eaed0d",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:SCM G514"
+ },
+ {
+  "evidence": [
+   "ev_816b95cfdb0e"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_b25d1aa32798",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:SCM G515"
+ },
+ {
+  "evidence": [
+   "ev_da46012e0ef0"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_1ec39915b849",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:SW E101"
+ },
+ {
+  "evidence": [
+   "ev_3874a8e3728e"
+  ],
+  "field": "bulletin_description",
+  "id": "rv_29f60a9dbb1e",
+  "kind": "missing",
+  "message": "Offered in timetable but not described in bulletin Part VI",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:SW E102"
+ },
+ {
+  "evidence": [
+   "ev_2713766fd473"
+  ],
+  "field": "AUE F341",
+  "id": "rv_7c7a904ce57a",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ARCHITECTURE-AND-URBAN-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_eefeb58052f7"
+  ],
+  "field": "BIOT F245",
+  "id": "rv_ebb917ff6e63",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-BIOTECHNOLOGY-WITH-SPECIALIZATION-IN-APPLIED-MOLECULAR-BI@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_6c380e5bdf49"
+  ],
+  "field": "BIOT F245",
+  "id": "rv_94ce71dee961",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-BIOTECHNOLOGY@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_9caef98a82ea"
+  ],
+  "field": "ECE F343",
+  "id": "rv_3877fb497deb",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ELECTRONICS-COMMUNICATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_66cee3699b15"
+  ],
+  "field": "ENVS F221",
+  "id": "rv_368d29581df0",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_66cee3699b15"
+  ],
+  "field": "ENVS F222",
+  "id": "rv_e646d36d7c86",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_66cee3699b15"
+  ],
+  "field": "ENVS F232",
+  "id": "rv_fce6ab91f6ed",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_ad04bf7f1cad"
+  ],
+  "field": "RIA F212",
+  "id": "rv_dc23ec6cb534",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:BE-ROBOTICS-INDUSTRIAL-AUTOMATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_db90e094fe10"
+  ],
+  "field": "EE F215",
+  "id": "rv_34548b686a3e",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-BIOLOGICAL-SCIENCES+BE-ELECTRICAL-ELECTRONICS@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_53a478b73e23"
+  ],
+  "field": "ECE F343",
+  "id": "rv_1ea3ab63b8e7",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-BIOLOGICAL-SCIENCES+BE-ELECTRONICS-COMMUNICATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_bcdf5e95a931"
+  ],
+  "field": "ENVS F221",
+  "id": "rv_c37301ade6f5",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-BIOLOGICAL-SCIENCES+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_bcdf5e95a931"
+  ],
+  "field": "ENVS F222",
+  "id": "rv_3dff7481d367",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-BIOLOGICAL-SCIENCES+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_bcdf5e95a931"
+  ],
+  "field": "ENVS F232",
+  "id": "rv_17575460cf1e",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-BIOLOGICAL-SCIENCES+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_a22d07c2523f"
+  ],
+  "field": "RIA F212",
+  "id": "rv_cc8ded875448",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-BIOLOGICAL-SCIENCES+BE-ROBOTICS-INDUSTRIAL-AUTOMATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_072262394bd1"
+  ],
+  "field": "ECE F343",
+  "id": "rv_c2bb85c3e537",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-CHEMISTRY+BE-ELECTRONICS-COMMUNICATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_8e1720280420"
+  ],
+  "field": "ENVS F221",
+  "id": "rv_128c70b4965c",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-CHEMISTRY+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_8e1720280420"
+  ],
+  "field": "ENVS F222",
+  "id": "rv_6cffb37c1486",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-CHEMISTRY+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_8e1720280420"
+  ],
+  "field": "ENVS F232",
+  "id": "rv_81d093eb615d",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-CHEMISTRY+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_f226f397e1a4"
+  ],
+  "field": "RIA F212",
+  "id": "rv_0870be9a9f97",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-CHEMISTRY+BE-ROBOTICS-INDUSTRIAL-AUTOMATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_781e8e719fea"
+  ],
+  "field": "ECE F343",
+  "id": "rv_5068104207bd",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-ECONOMICS+BE-ELECTRONICS-COMMUNICATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_2ed046799ddd"
+  ],
+  "field": "ENVS F221",
+  "id": "rv_f4ffc394fd7e",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-ECONOMICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_2ed046799ddd"
+  ],
+  "field": "ENVS F222",
+  "id": "rv_75a7209bba69",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-ECONOMICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_2ed046799ddd"
+  ],
+  "field": "ENVS F232",
+  "id": "rv_cc3a7c7bbfe6",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-ECONOMICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_f12721c4dfe8"
+  ],
+  "field": "RIA F212",
+  "id": "rv_3922a87df1e7",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-ECONOMICS+BE-ROBOTICS-INDUSTRIAL-AUTOMATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_0db2030c594a"
+  ],
+  "field": "ECE F343",
+  "id": "rv_8654b04565ea",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-MATHEMATICS+BE-ELECTRONICS-COMMUNICATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_23d2d0216491"
+  ],
+  "field": "ENVS F221",
+  "id": "rv_5b8b8443f178",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-MATHEMATICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_23d2d0216491"
+  ],
+  "field": "ENVS F222",
+  "id": "rv_81866dff4cf4",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-MATHEMATICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_23d2d0216491"
+  ],
+  "field": "ENVS F232",
+  "id": "rv_d2cff66fb25e",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-MATHEMATICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_acacf7604dd1"
+  ],
+  "field": "RIA F212",
+  "id": "rv_96a3b613d17f",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-MATHEMATICS+BE-ROBOTICS-INDUSTRIAL-AUTOMATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_965bcbe638a4"
+  ],
+  "field": "ECE F343",
+  "id": "rv_a8e33648033a",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-PHYSICS+BE-ELECTRONICS-COMMUNICATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_fc51fa2cbee7"
+  ],
+  "field": "ENVS F221",
+  "id": "rv_b9e3d76c4b95",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-PHYSICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_fc51fa2cbee7"
+  ],
+  "field": "ENVS F222",
+  "id": "rv_05c756ef5a69",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-PHYSICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_fc51fa2cbee7"
+  ],
+  "field": "ENVS F232",
+  "id": "rv_62ed1226defb",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-PHYSICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_6088a408d79d"
+  ],
+  "field": "RIA F212",
+  "id": "rv_25c357024a7d",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-PHYSICS+BE-ROBOTICS-INDUSTRIAL-AUTOMATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_8079dd96cbb1"
+  ],
+  "field": "EE F215",
+  "id": "rv_4d665c211a0b",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ELECTRICAL-ELECTRONICS@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_a39cfe5a9b35"
+  ],
+  "field": "ECE F343",
+  "id": "rv_50f42a65724c",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ELECTRONICS-COMMUNICATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_d860dbc97c6a"
+  ],
+  "field": "ENVS F221",
+  "id": "rv_63e5449aff16",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_d860dbc97c6a"
+  ],
+  "field": "ENVS F222",
+  "id": "rv_f7e4b62ee8fe",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_d860dbc97c6a"
+  ],
+  "field": "ENVS F232",
+  "id": "rv_c305a8ea8530",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_c130e81109ad"
+  ],
+  "field": "RIA F212",
+  "id": "rv_a7aa59b54f3b",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:DUAL-MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ROBOTICS-INDUSTRIAL-AUTOMATION@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "BITS F421",
+  "id": "rv_72155ffd5674",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:MSC-PHYSICS@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "BITS F425",
+  "id": "rv_74a1ca3c95a1",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:MSC-PHYSICS@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "BITS F424",
+  "id": "rv_a855d126edcc",
+  "kind": "missing",
+  "message": "Curriculum course not found in bulletin descriptions or timetable",
+  "severity": "info",
+  "status": "open",
+  "subject": "curriculum:MSC-PHYSICS@bulletin-2025-26"
+ },
+ {
+  "evidence": [
+   "ev_dce67235e400"
+  ],
+  "field": "handout",
+  "id": "rv_0c1303ef48e9",
+  "kind": "missing",
+  "message": "No handout supplied for CHE G617",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:10"
+ },
+ {
+  "evidence": [
+   "ev_8f712e22aa36"
+  ],
+  "field": "handout",
+  "id": "rv_335f06c28a2b",
+  "kind": "missing",
+  "message": "No handout supplied for BIO F111",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1002"
+ },
+ {
+  "evidence": [
+   "ev_8ba381daeb10"
+  ],
+  "field": "handout",
+  "id": "rv_192b5669d024",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F112",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1005"
+ },
+ {
+  "evidence": [
+   "ev_5602927a40b8"
+  ],
+  "field": "handout",
+  "id": "rv_e1d5f01affcc",
+  "kind": "missing",
+  "message": "No handout supplied for CHEM F111",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1007"
+ },
+ {
+  "evidence": [
+   "ev_38798c8c2f43"
+  ],
+  "field": "handout",
+  "id": "rv_f44d12958adb",
+  "kind": "missing",
+  "message": "No handout supplied for MATH F111",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1010"
+ },
+ {
+  "evidence": [
+   "ev_61ad6a076527"
+  ],
+  "field": "handout",
+  "id": "rv_bc742f4c52d8",
+  "kind": "missing",
+  "message": "No handout supplied for MATH F112",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1011"
+ },
+ {
+  "evidence": [
+   "ev_5e53fb05d7b3"
+  ],
+  "field": "handout",
+  "id": "rv_5af514c1e62b",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F110",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1014"
+ },
+ {
+  "evidence": [
+   "ev_4331c9760e41"
+  ],
+  "field": "handout",
+  "id": "rv_22db7ea63c0a",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F111",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1015"
+ },
+ {
+  "evidence": [
+   "ev_81575298419c"
+  ],
+  "field": "handout",
+  "id": "rv_a4aaa6d25d96",
+  "kind": "missing",
+  "message": "No handout supplied for EEE F212",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1078"
+ },
+ {
+  "evidence": [
+   "ev_a9c454642f49"
+  ],
+  "field": "handout",
+  "id": "rv_2f45b5af81ce",
+  "kind": "missing",
+  "message": "No handout supplied for CS F214",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1090"
+ },
+ {
+  "evidence": [
+   "ev_be70d796ea1f"
+  ],
+  "field": "handout",
+  "id": "rv_a3f4a0a1d19e",
+  "kind": "missing",
+  "message": "No handout supplied for INSTR F212",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1097"
+ },
+ {
+  "evidence": [
+   "ev_040d07188e7b"
+  ],
+  "field": "handout",
+  "id": "rv_8803dacd0f7a",
+  "kind": "missing",
+  "message": "No handout supplied for GS F244",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1161"
+ },
+ {
+  "evidence": [
+   "ev_4daf21e2e064"
+  ],
+  "field": "handout",
+  "id": "rv_9adf293a0a99",
+  "kind": "missing",
+  "message": "No handout supplied for CE F242",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1192"
+ },
+ {
+  "evidence": [
+   "ev_f09185b55d10"
+  ],
+  "field": "handout",
+  "id": "rv_d13774b90d43",
+  "kind": "missing",
+  "message": "No handout supplied for PHA F342",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1298"
+ },
+ {
+  "evidence": [
+   "ev_5b0c53a764e1"
+  ],
+  "field": "handout",
+  "id": "rv_de509f254869",
+  "kind": "missing",
+  "message": "No handout supplied for CS F363",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1318"
+ },
+ {
+  "evidence": [
+   "ev_dfd0f2de5939"
+  ],
+  "field": "handout",
+  "id": "rv_e3bd7a2b2afa",
+  "kind": "missing",
+  "message": "No handout supplied for CS F303",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1320"
+ },
+ {
+  "evidence": [
+   "ev_a91bb483bc6d"
+  ],
+  "field": "handout",
+  "id": "rv_ba28805c26d1",
+  "kind": "missing",
+  "message": "No handout supplied for ECE F212",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1381"
+ },
+ {
+  "evidence": [
+   "ev_2c5c1b489d58"
+  ],
+  "field": "handout",
+  "id": "rv_8d87b717caa5",
+  "kind": "missing",
+  "message": "No handout supplied for MATH F243",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1467"
+ },
+ {
+  "evidence": [
+   "ev_7acea2b8dcc2"
+  ],
+  "field": "handout",
+  "id": "rv_da879d865ee8",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F412",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1592"
+ },
+ {
+  "evidence": [
+   "ev_e9d119ca3065"
+  ],
+  "field": "handout",
+  "id": "rv_c2305f672288",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F421T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1593"
+ },
+ {
+  "evidence": [
+   "ev_84e29acb8e4b"
+  ],
+  "field": "handout",
+  "id": "rv_a5c4e09763b8",
+  "kind": "missing",
+  "message": "No handout supplied for HSS F332",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1601"
+ },
+ {
+  "evidence": [
+   "ev_bafa9de2ed49"
+  ],
+  "field": "handout",
+  "id": "rv_4d627ba1502c",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F413",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1615"
+ },
+ {
+  "evidence": [
+   "ev_87f8f18c6dc0"
+  ],
+  "field": "handout",
+  "id": "rv_282651943131",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F422T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1616"
+ },
+ {
+  "evidence": [
+   "ev_cd898c153e61"
+  ],
+  "field": "handout",
+  "id": "rv_e6d27be8ce64",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F423T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1617"
+ },
+ {
+  "evidence": [
+   "ev_37c457913bf5"
+  ],
+  "field": "handout",
+  "id": "rv_3075a2a8b1e2",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F424T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1619"
+ },
+ {
+  "evidence": [
+   "ev_cdeac21a33c7"
+  ],
+  "field": "handout",
+  "id": "rv_174b315bb4b9",
+  "kind": "missing",
+  "message": "No handout supplied for BIO F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1650"
+ },
+ {
+  "evidence": [
+   "ev_5a3d2a54dec8"
+  ],
+  "field": "handout",
+  "id": "rv_29f80d217472",
+  "kind": "missing",
+  "message": "No handout supplied for BIO F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1651"
+ },
+ {
+  "evidence": [
+   "ev_3ec13912b22d"
+  ],
+  "field": "handout",
+  "id": "rv_ec972372be40",
+  "kind": "missing",
+  "message": "No handout supplied for CE F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1652"
+ },
+ {
+  "evidence": [
+   "ev_4159a7babc9a"
+  ],
+  "field": "handout",
+  "id": "rv_68cbfee55cb7",
+  "kind": "missing",
+  "message": "No handout supplied for CHEM F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1654"
+ },
+ {
+  "evidence": [
+   "ev_95935f5ccd0f"
+  ],
+  "field": "handout",
+  "id": "rv_8128ec285149",
+  "kind": "missing",
+  "message": "No handout supplied for CS F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1655"
+ },
+ {
+  "evidence": [
+   "ev_89c713ea78f2"
+  ],
+  "field": "handout",
+  "id": "rv_25827cc12df5",
+  "kind": "missing",
+  "message": "No handout supplied for ECON F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1656"
+ },
+ {
+  "evidence": [
+   "ev_7962f84eeb2a"
+  ],
+  "field": "handout",
+  "id": "rv_1549ca154ca0",
+  "kind": "missing",
+  "message": "No handout supplied for FIN F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1658"
+ },
+ {
+  "evidence": [
+   "ev_a194dfcfafed"
+  ],
+  "field": "handout",
+  "id": "rv_96b587e58fcf",
+  "kind": "missing",
+  "message": "No handout supplied for ME F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1663"
+ },
+ {
+  "evidence": [
+   "ev_096636962e8c"
+  ],
+  "field": "handout",
+  "id": "rv_07c59e85d04c",
+  "kind": "missing",
+  "message": "No handout supplied for MF F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1664"
+ },
+ {
+  "evidence": [
+   "ev_c7a21a88c89a"
+  ],
+  "field": "handout",
+  "id": "rv_7a36478a7519",
+  "kind": "missing",
+  "message": "No handout supplied for PHA F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1665"
+ },
+ {
+  "evidence": [
+   "ev_9ec67b13c44d"
+  ],
+  "field": "handout",
+  "id": "rv_3d4b377211fc",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F266",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1666"
+ },
+ {
+  "evidence": [
+   "ev_3fb4dedffcf4"
+  ],
+  "field": "handout",
+  "id": "rv_1ed44ff896bf",
+  "kind": "missing",
+  "message": "No handout supplied for CE F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1667"
+ },
+ {
+  "evidence": [
+   "ev_5f4a24eea056"
+  ],
+  "field": "handout",
+  "id": "rv_9aad48390fa1",
+  "kind": "missing",
+  "message": "No handout supplied for CHEM F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1669"
+ },
+ {
+  "evidence": [
+   "ev_970a61dde053"
+  ],
+  "field": "handout",
+  "id": "rv_02909370b430",
+  "kind": "missing",
+  "message": "No handout supplied for CS F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1670"
+ },
+ {
+  "evidence": [
+   "ev_f9f84e955eb8"
+  ],
+  "field": "handout",
+  "id": "rv_0fef0d7d0677",
+  "kind": "missing",
+  "message": "No handout supplied for ME F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1680"
+ },
+ {
+  "evidence": [
+   "ev_6cfde5b86cb1"
+  ],
+  "field": "handout",
+  "id": "rv_f27091396efb",
+  "kind": "missing",
+  "message": "No handout supplied for MF F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1681"
+ },
+ {
+  "evidence": [
+   "ev_af7ec7cab381"
+  ],
+  "field": "handout",
+  "id": "rv_aea684f5e657",
+  "kind": "missing",
+  "message": "No handout supplied for PHA F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1682"
+ },
+ {
+  "evidence": [
+   "ev_3b6ec487da48"
+  ],
+  "field": "handout",
+  "id": "rv_a424ad71617d",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1683"
+ },
+ {
+  "evidence": [
+   "ev_ff6dd7810809"
+  ],
+  "field": "handout",
+  "id": "rv_574cda5d7fe0",
+  "kind": "missing",
+  "message": "No handout supplied for ECON F366",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1684"
+ },
+ {
+  "evidence": [
+   "ev_b89032c21adc"
+  ],
+  "field": "handout",
+  "id": "rv_1f8d30b95522",
+  "kind": "missing",
+  "message": "No handout supplied for BIO F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1685"
+ },
+ {
+  "evidence": [
+   "ev_2dad3acad49e"
+  ],
+  "field": "handout",
+  "id": "rv_da07dc452c60",
+  "kind": "missing",
+  "message": "No handout supplied for CE F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1686"
+ },
+ {
+  "evidence": [
+   "ev_d31177a0f987"
+  ],
+  "field": "handout",
+  "id": "rv_128091799716",
+  "kind": "missing",
+  "message": "No handout supplied for CHEM F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1688"
+ },
+ {
+  "evidence": [
+   "ev_df355e7cd9f9"
+  ],
+  "field": "handout",
+  "id": "rv_f296231d8110",
+  "kind": "missing",
+  "message": "No handout supplied for CS F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1689"
+ },
+ {
+  "evidence": [
+   "ev_e88ed6056ae0"
+  ],
+  "field": "handout",
+  "id": "rv_ce6a389fe13e",
+  "kind": "missing",
+  "message": "No handout supplied for ECON F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1690"
+ },
+ {
+  "evidence": [
+   "ev_e4ca774a0263"
+  ],
+  "field": "handout",
+  "id": "rv_fe368f017151",
+  "kind": "missing",
+  "message": "No handout supplied for ME F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1697"
+ },
+ {
+  "evidence": [
+   "ev_3408833d8bc2"
+  ],
+  "field": "handout",
+  "id": "rv_0ef78f08624b",
+  "kind": "missing",
+  "message": "No handout supplied for MF F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1698"
+ },
+ {
+  "evidence": [
+   "ev_945aca56931e"
+  ],
+  "field": "handout",
+  "id": "rv_11d044e88d20",
+  "kind": "missing",
+  "message": "No handout supplied for PHA F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1699"
+ },
+ {
+  "evidence": [
+   "ev_7bb03ce30e7f"
+  ],
+  "field": "handout",
+  "id": "rv_bd2436149d91",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F376",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1700"
+ },
+ {
+  "evidence": [
+   "ev_c679c666330f"
+  ],
+  "field": "handout",
+  "id": "rv_86ed3f0b6d95",
+  "kind": "missing",
+  "message": "No handout supplied for BIO F491",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1710"
+ },
+ {
+  "evidence": [
+   "ev_344dee3beb73"
+  ],
+  "field": "handout",
+  "id": "rv_79d3eae1556e",
+  "kind": "missing",
+  "message": "No handout supplied for CS F491",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1714"
+ },
+ {
+  "evidence": [
+   "ev_f78de7485a3a"
+  ],
+  "field": "handout",
+  "id": "rv_13107e587558",
+  "kind": "missing",
+  "message": "No handout supplied for PHA F491",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1724"
+ },
+ {
+  "evidence": [
+   "ev_92d5c2c972c0"
+  ],
+  "field": "handout",
+  "id": "rv_4747d979c448",
+  "kind": "missing",
+  "message": "No handout supplied for ECON F491",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1726"
+ },
+ {
+  "evidence": [
+   "ev_ab6cc708aea3"
+  ],
+  "field": "handout",
+  "id": "rv_a360bf6d0c3d",
+  "kind": "missing",
+  "message": "No handout supplied for BIO F367",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1736"
+ },
+ {
+  "evidence": [
+   "ev_2b3c58ac00a0"
+  ],
+  "field": "handout",
+  "id": "rv_bd68d777f83c",
+  "kind": "missing",
+  "message": "No handout supplied for CS F367",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1740"
+ },
+ {
+  "evidence": [
+   "ev_18a2acca93a1"
+  ],
+  "field": "handout",
+  "id": "rv_09305d98765e",
+  "kind": "missing",
+  "message": "No handout supplied for ECON F367",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1741"
+ },
+ {
+  "evidence": [
+   "ev_b26f6abcc937"
+  ],
+  "field": "handout",
+  "id": "rv_56c0973c67db",
+  "kind": "missing",
+  "message": "No handout supplied for ME F367",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1748"
+ },
+ {
+  "evidence": [
+   "ev_a66f7327ca2f"
+  ],
+  "field": "handout",
+  "id": "rv_2cd6ca1cd6c0",
+  "kind": "missing",
+  "message": "No handout supplied for PHA F367",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1750"
+ },
+ {
+  "evidence": [
+   "ev_5f1777188fc1"
+  ],
+  "field": "handout",
+  "id": "rv_e0f6692b5b6a",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F367",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1751"
+ },
+ {
+  "evidence": [
+   "ev_df557a778887"
+  ],
+  "field": "handout",
+  "id": "rv_b20dc8b2d1bc",
+  "kind": "missing",
+  "message": "No handout supplied for BIO F377",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1752"
+ },
+ {
+  "evidence": [
+   "ev_f5a0f0ec036a"
+  ],
+  "field": "handout",
+  "id": "rv_58189db13704",
+  "kind": "missing",
+  "message": "No handout supplied for CE F377",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1753"
+ },
+ {
+  "evidence": [
+   "ev_61f968d35efd"
+  ],
+  "field": "handout",
+  "id": "rv_4e9ff7c595c6",
+  "kind": "missing",
+  "message": "No handout supplied for CS F377",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1756"
+ },
+ {
+  "evidence": [
+   "ev_bcf23af940ca"
+  ],
+  "field": "handout",
+  "id": "rv_138d556d928d",
+  "kind": "missing",
+  "message": "No handout supplied for ME F377",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1764"
+ },
+ {
+  "evidence": [
+   "ev_28b9db15d453"
+  ],
+  "field": "handout",
+  "id": "rv_6d502935fac0",
+  "kind": "missing",
+  "message": "No handout supplied for PHA F377",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1766"
+ },
+ {
+  "evidence": [
+   "ev_fd178a500846"
+  ],
+  "field": "handout",
+  "id": "rv_10b9860e91b0",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F382",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1791"
+ },
+ {
+  "evidence": [
+   "ev_53c93a78a32a"
+  ],
+  "field": "handout",
+  "id": "rv_cd21daf98d95",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F469",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1798"
+ },
+ {
+  "evidence": [
+   "ev_09be45d08e7d"
+  ],
+  "field": "handout",
+  "id": "rv_5bd5be082dc0",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F112",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1859"
+ },
+ {
+  "evidence": [
+   "ev_1d3400be00ba"
+  ],
+  "field": "handout",
+  "id": "rv_914dce16f95e",
+  "kind": "missing",
+  "message": "No handout supplied for MATH F444",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1881"
+ },
+ {
+  "evidence": [
+   "ev_7e3f08fe6166"
+  ],
+  "field": "handout",
+  "id": "rv_e1860fc1f242",
+  "kind": "missing",
+  "message": "No handout supplied for PHA G642",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2069"
+ },
+ {
+  "evidence": [
+   "ev_b1f797d4f6d9"
+  ],
+  "field": "handout",
+  "id": "rv_111b0be313b9",
+  "kind": "missing",
+  "message": "No handout supplied for CHE F422",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2178"
+ },
+ {
+  "evidence": [
+   "ev_283506e82686"
+  ],
+  "field": "handout",
+  "id": "rv_c9c6e7b87ee4",
+  "kind": "missing",
+  "message": "No handout supplied for SAN G514",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2300"
+ },
+ {
+  "evidence": [
+   "ev_d3e2837f7b7f"
+  ],
+  "field": "handout",
+  "id": "rv_56cd002b0f7f",
+  "kind": "missing",
+  "message": "No handout supplied for MPBA G525",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2477"
+ },
+ {
+  "evidence": [
+   "ev_5deed51e35d7"
+  ],
+  "field": "handout",
+  "id": "rv_0cb87977f325",
+  "kind": "missing",
+  "message": "No handout supplied for MAC F313",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2652"
+ },
+ {
+  "evidence": [
+   "ev_4b28ecb318ac"
+  ],
+  "field": "handout",
+  "id": "rv_d09552edd714",
+  "kind": "missing",
+  "message": "No handout supplied for CHE F425",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2743"
+ },
+ {
+  "evidence": [
+   "ev_16b4cb8f2083"
+  ],
+  "field": "handout",
+  "id": "rv_00b09d812180",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F240",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2751"
+ },
+ {
+  "evidence": [
+   "ev_d94213995ce2"
+  ],
+  "field": "handout",
+  "id": "rv_e5bc92e417b1",
+  "kind": "missing",
+  "message": "No handout supplied for CHE G513",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:279"
+ },
+ {
+  "evidence": [
+   "ev_2b16f7199c4c"
+  ],
+  "field": "handout",
+  "id": "rv_62c8f1db36ac",
+  "kind": "missing",
+  "message": "No handout supplied for SNS F241",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2806"
+ },
+ {
+  "evidence": [
+   "ev_4ac459415b98"
+  ],
+  "field": "handout",
+  "id": "rv_2cf3473e4338",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F426T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2834"
+ },
+ {
+  "evidence": [
+   "ev_434634a73abb"
+  ],
+  "field": "handout",
+  "id": "rv_5900689ee313",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F102",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2861"
+ },
+ {
+  "evidence": [
+   "ev_bfe2a0cd81c0"
+  ],
+  "field": "handout",
+  "id": "rv_dd0b45f4d219",
+  "kind": "missing",
+  "message": "No handout supplied for CHEM F101",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2864"
+ },
+ {
+  "evidence": [
+   "ev_8d5a394cb8ae"
+  ],
+  "field": "handout",
+  "id": "rv_6b9e0fa8b4f7",
+  "kind": "missing",
+  "message": "No handout supplied for PHY F101",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2891"
+ },
+ {
+  "evidence": [
+   "ev_9ce6631e5f06"
+  ],
+  "field": "handout",
+  "id": "rv_e675afd24354",
+  "kind": "missing",
+  "message": "No handout supplied for MEL G528",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2967"
+ },
+ {
+  "evidence": [
+   "ev_e7e0daabf9e0"
+  ],
+  "field": "handout",
+  "id": "rv_edb1be1b871b",
+  "kind": "missing",
+  "message": "No handout supplied for BITS K101",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2983"
+ },
+ {
+  "evidence": [
+   "ev_ee6a13c6aa86"
+  ],
+  "field": "handout",
+  "id": "rv_f6ab2a586dc6",
+  "kind": "missing",
+  "message": "No handout supplied for BITS F332",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3007"
+ },
+ {
+  "evidence": [
+   "ev_5b7676e17bbd"
+  ],
+  "field": "handout",
+  "id": "rv_1cb8001b36db",
+  "kind": "missing",
+  "message": "No handout supplied for ME G523",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3028"
+ },
+ {
+  "evidence": [
+   "ev_c0d03f566117"
+  ],
+  "field": "handout",
+  "id": "rv_7f01f9742f05",
+  "kind": "missing",
+  "message": "No handout supplied for MATH F201",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3118"
+ },
+ {
+  "evidence": [
+   "ev_8dc66773b58d"
+  ],
+  "field": "handout",
+  "id": "rv_e7ebb45b1065",
+  "kind": "missing",
+  "message": "No handout supplied for BITS U106",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5004"
+ },
+ {
+  "evidence": [
+   "ev_3874a8e3728e"
+  ],
+  "field": "handout",
+  "id": "rv_00765e65e6b4",
+  "kind": "missing",
+  "message": "No handout supplied for SW E102",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5049"
+ },
+ {
+  "evidence": [
+   "ev_0cba76bfbf54"
+  ],
+  "field": "handout",
+  "id": "rv_fe222f1572e4",
+  "kind": "missing",
+  "message": "No handout supplied for BIOT U317",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5091"
+ },
+ {
+  "evidence": [
+   "ev_e245b1bf696c"
+  ],
+  "field": "handout",
+  "id": "rv_2a25c2231cfa",
+  "kind": "missing",
+  "message": "No handout supplied for BIO U417",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5116"
+ },
+ {
+  "evidence": [
+   "ev_9c2e171d009d"
+  ],
+  "field": "handout",
+  "id": "rv_4c743f171a14",
+  "kind": "missing",
+  "message": "No handout supplied for CS U415",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5342"
+ },
+ {
+  "evidence": [
+   "ev_ebea2cc56f25"
+  ],
+  "field": "handout",
+  "id": "rv_a1b459234724",
+  "kind": "missing",
+  "message": "No handout supplied for CE G529",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:546"
+ },
+ {
+  "evidence": [
+   "ev_030e3652e3c4"
+  ],
+  "field": "handout",
+  "id": "rv_7c0997e195ef",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G513",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:547"
+ },
+ {
+  "evidence": [
+   "ev_ba3d0ab1d774"
+  ],
+  "field": "handout",
+  "id": "rv_025cc4167e31",
+  "kind": "missing",
+  "message": "No handout supplied for BITS C790T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:549"
+ },
+ {
+  "evidence": [
+   "ev_6dd7c5cb691c"
+  ],
+  "field": "handout",
+  "id": "rv_589101bbe9f5",
+  "kind": "missing",
+  "message": "No handout supplied for BITS C799T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:553"
+ },
+ {
+  "evidence": [
+   "ev_eca06622215d"
+  ],
+  "field": "handout",
+  "id": "rv_216ea5855910",
+  "kind": "missing",
+  "message": "No handout supplied for PHY U422",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5871"
+ },
+ {
+  "evidence": [
+   "ev_b50fb345004b"
+  ],
+  "field": "handout",
+  "id": "rv_c51e1643b39e",
+  "kind": "missing",
+  "message": "No handout supplied for BITS C791T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:596"
+ },
+ {
+  "evidence": [
+   "ev_1f836a5498b1"
+  ],
+  "field": "handout",
+  "id": "rv_99d6616b636d",
+  "kind": "missing",
+  "message": "No handout supplied for BITS C790T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6001"
+ },
+ {
+  "evidence": [
+   "ev_42dde6674b3d"
+  ],
+  "field": "handout",
+  "id": "rv_6720715972dc",
+  "kind": "missing",
+  "message": "No handout supplied for BITS C791T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6002"
+ },
+ {
+  "evidence": [
+   "ev_bb06868beff1"
+  ],
+  "field": "handout",
+  "id": "rv_f7e6de923347",
+  "kind": "missing",
+  "message": "No handout supplied for BITS E793T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6011"
+ },
+ {
+  "evidence": [
+   "ev_7158b3e0cd38"
+  ],
+  "field": "handout",
+  "id": "rv_e9f25cdfd0b1",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G513",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6013"
+ },
+ {
+  "evidence": [
+   "ev_66e49edb7cbe"
+  ],
+  "field": "handout",
+  "id": "rv_ad253591518d",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G529",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6022"
+ },
+ {
+  "evidence": [
+   "ev_5402df9f3ac9"
+  ],
+  "field": "handout",
+  "id": "rv_bdcf313b9bc2",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G539",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6025"
+ },
+ {
+  "evidence": [
+   "ev_7a2438a4fd84"
+  ],
+  "field": "handout",
+  "id": "rv_a0f3efbcb08d",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G649",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6037"
+ },
+ {
+  "evidence": [
+   "ev_b742b398e17a"
+  ],
+  "field": "handout",
+  "id": "rv_982c63de5175",
+  "kind": "missing",
+  "message": "No handout supplied for CE G552",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6103"
+ },
+ {
+  "evidence": [
+   "ev_96023f030e82"
+  ],
+  "field": "handout",
+  "id": "rv_608e2a8d22d0",
+  "kind": "missing",
+  "message": "No handout supplied for CE G568",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6119"
+ },
+ {
+  "evidence": [
+   "ev_815763e2b652"
+  ],
+  "field": "handout",
+  "id": "rv_2a15e9aab4d1",
+  "kind": "missing",
+  "message": "No handout supplied for CHE G513",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6149"
+ },
+ {
+  "evidence": [
+   "ev_862e3ec44ace"
+  ],
+  "field": "handout",
+  "id": "rv_591a89b06a5f",
+  "kind": "missing",
+  "message": "No handout supplied for CHE G523",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6151"
+ },
+ {
+  "evidence": [
+   "ev_e45971c9d3ed"
+  ],
+  "field": "handout",
+  "id": "rv_35b9f0317773",
+  "kind": "missing",
+  "message": "No handout supplied for ME G523",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6433"
+ },
+ {
+  "evidence": [
+   "ev_29a7af58c54d"
+  ],
+  "field": "handout",
+  "id": "rv_acf11db19ea0",
+  "kind": "missing",
+  "message": "No handout supplied for MEL G528",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6499"
+ },
+ {
+  "evidence": [
+   "ev_4bf141d42413"
+  ],
+  "field": "handout",
+  "id": "rv_7e52225b5a68",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G529",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:754"
+ },
+ {
+  "evidence": [
+   "ev_1bd21769510d"
+  ],
+  "field": "handout",
+  "id": "rv_2a84f3537a21",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G539",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:755"
+ },
+ {
+  "evidence": [
+   "ev_ce56727c405e"
+  ],
+  "field": "handout",
+  "id": "rv_f6a5f89ddb5d",
+  "kind": "missing",
+  "message": "No handout supplied for BITS G649",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:757"
+ },
+ {
+  "evidence": [
+   "ev_c479313752df"
+  ],
+  "field": "handout",
+  "id": "rv_8e9dfb223556",
+  "kind": "missing",
+  "message": "No handout supplied for BITS E793T",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:857"
+ },
+ {
+  "evidence": [
+   "ev_8c4ce914c0b4"
+  ],
+  "field": "CHE F317",
+  "id": "rv_35ba9a111d5c",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:CHEMICAL ENGINEERING WITH SPECIALIZATION IN ENERGY, ENVIRONMENT, AND SUSTAINABILITY"
+ },
+ {
+  "evidence": [
+   "ev_393af711e8e7"
+  ],
+  "field": "CHE F425",
+  "id": "rv_b1cf3722d048",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:CHEMICAL ENGINEERING WITH SPECIALIZATION IN ENERGY, ENVIRONMENT, AND SUSTAINABILITY"
+ },
+ {
+  "evidence": [
+   "ev_f84704543471"
+  ],
+  "field": "CHE F366",
+  "id": "rv_a8ce6db71844",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:CHEMICAL ENGINEERING WITH SPECIALIZATION IN ENERGY, ENVIRONMENT, AND SUSTAINABILITY"
+ },
+ {
+  "evidence": [
+   "ev_37d7dca4ba5f"
+  ],
+  "field": "CHE F376",
+  "id": "rv_dc52aa36574c",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:CHEMICAL ENGINEERING WITH SPECIALIZATION IN ENERGY, ENVIRONMENT, AND SUSTAINABILITY"
+ },
+ {
+  "evidence": [
+   "ev_f2f1ced914d3"
+  ],
+  "field": "CS G514",
+  "id": "rv_cbb41a72a8df",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:COMPUTER SCIENCE"
+ },
+ {
+  "evidence": [
+   "ev_86ee561d7ec9"
+  ],
+  "field": "MATH F212",
+  "id": "rv_dcc1088ff6f1",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:ELECTRICAL AND ELECTRONICS ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_84443f0190a3"
+  ],
+  "field": "CS G514",
+  "id": "rv_86a33a52d045",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:ELECTRONICS AND COMPUTER ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_e89fbf3802c2"
+  ],
+  "field": "CS F211",
+  "id": "rv_96986d2dbe16",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:MATHEMATICS"
+ },
+ {
+  "evidence": [
+   "ev_e3247541d810"
+  ],
+  "field": "ME F415",
+  "id": "rv_da7b8d4169cd",
+  "kind": "missing",
+  "message": "Units not parsed in course list",
+  "severity": "info",
+  "status": "open",
+  "subject": "programme_list:MECHANICAL ENGINEERING WITH SPECIALIZATION IN AEROSPACE"
+ },
+ {
+  "evidence": [
+   "ev_849152b9775e"
+  ],
+  "field": "prerequisite",
+  "id": "rv_2d9ec8b96dd5",
+  "kind": "unreliable",
+  "message": "Prerequisite parsed to codes but text contains unparsed qualifiers: 'CE F231 OR CHE F212 OR ME F212 Fluid Mechanics OR MF 218 Transport Phenomena in Manufacturing'",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:AN F311"
+ },
+ {
+  "evidence": [
+   "ev_e9ce2830bf83"
+  ],
+  "field": "prerequisite",
+  "id": "rv_b4169d53be00",
+  "kind": "unreliable",
+  "message": "Prerequisite parsed to codes but text contains unparsed qualifiers: 'CE F231 OR CHE F212 OR ME F212 Fluid Mechanics OR MF 218 Transport Phenomena in Manufacturing'",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:AN F312"
+ },
+ {
+  "evidence": [
+   "ev_11ed9a13365d"
+  ],
+  "field": "prerequisite",
+  "id": "rv_cff1e3f0b044",
+  "kind": "unreliable",
+  "message": "Prerequisite parsed to codes but text contains unparsed qualifiers: 'AUE F211: Basic Design for Visualization'",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:AUE F241"
+ },
+ {
+  "evidence": [
+   "ev_e7b116ae1655"
+  ],
+  "field": "prerequisite",
+  "id": "rv_aee2174c513c",
+  "kind": "unreliable",
+  "message": "Prerequisite parsed to codes but text contains unparsed qualifiers: 'ECE/EEE/INSTR F212: Electromagnetic Theory OR PHY F212: Electromagnetic Theory I. This course will replace the existing course ECE F314 Electromagnetic Fields a'",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:ECE F331"
+ },
+ {
+  "evidence": [
+   "ev_9e35f827ba61"
+  ],
+  "field": "prerequisite",
+  "id": "rv_c5285160e63c",
+  "kind": "unreliable",
+  "message": "Prerequisite parsed to codes but text contains unparsed qualifiers: 'EEE/CS/INSTR/ECE F241 Microprocessor Programming and Interfacing'",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:EEE F439"
+ },
+ {
+  "evidence": [
+   "ev_ca289845cc5e"
+  ],
+  "field": "prerequisite",
+  "id": "rv_8e71e33f3e28",
+  "kind": "unreliable",
+  "message": "Prerequisite parsed to codes but text contains unparsed qualifiers: 'RUS N101T Phrases and sentence patterns in technical literature; special technical vocabulary; reading and translation of current technical literature from Russ'",
+  "severity": "info",
+  "status": "open",
+  "subject": "course:RUS N102T"
+ },
+ {
+  "evidence": [
+   "ev_2b89b3e296a8"
+  ],
+  "field": "credit",
+  "id": "rv_4a310fcc4996",
+  "kind": "validation_failure",
+  "message": "U=2 differs from L+P=3",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1003"
+ },
+ {
+  "evidence": [
+   "ev_08bc1e1d3d8c"
+  ],
+  "field": "status",
+  "id": "rv_0e3e058b5f2d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1209"
+ },
+ {
+  "evidence": [
+   "ev_2e2eecb57cd3"
+  ],
+  "field": "status",
+  "id": "rv_ccc0e560cd2d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1290"
+ },
+ {
+  "evidence": [
+   "ev_c770b9ed089d"
+  ],
+  "field": "status",
+  "id": "rv_b87aadc21970",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1422"
+ },
+ {
+  "evidence": [
+   "ev_c75ab6c2daf6"
+  ],
+  "field": "status",
+  "id": "rv_b2dc830269be",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1553"
+ },
+ {
+  "evidence": [
+   "ev_78846ef96e5b"
+  ],
+  "field": "status",
+  "id": "rv_e84e7cc41768",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1704"
+ },
+ {
+  "evidence": [
+   "ev_b0dcc04c9d5d"
+  ],
+  "field": "status",
+  "id": "rv_a179ec489f13",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1711"
+ },
+ {
+  "evidence": [
+   "ev_54e01a447065"
+  ],
+  "field": "status",
+  "id": "rv_cb65fc1e72e6",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1713"
+ },
+ {
+  "evidence": [
+   "ev_99b8718670a4"
+  ],
+  "field": "status",
+  "id": "rv_bcd53450de72",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1721"
+ },
+ {
+  "evidence": [
+   "ev_55aea90e1cca"
+  ],
+  "field": "status",
+  "id": "rv_120b3d4786ed",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1725"
+ },
+ {
+  "evidence": [
+   "ev_30d938b30c5c"
+  ],
+  "field": "status",
+  "id": "rv_06dc65df19d6",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1737"
+ },
+ {
+  "evidence": [
+   "ev_1b8a0cfb07eb"
+  ],
+  "field": "status",
+  "id": "rv_eb3b7c475cf4",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1739"
+ },
+ {
+  "evidence": [
+   "ev_5bf382625fb2"
+  ],
+  "field": "status",
+  "id": "rv_50a51fe6c052",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1744"
+ },
+ {
+  "evidence": [
+   "ev_97b4bd38145b"
+  ],
+  "field": "status",
+  "id": "rv_e3bc8eaa8e29",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1749"
+ },
+ {
+  "evidence": [
+   "ev_aa01cab20bb1"
+  ],
+  "field": "status",
+  "id": "rv_c9a836f5e509",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1755"
+ },
+ {
+  "evidence": [
+   "ev_9e41c0f75793"
+  ],
+  "field": "status",
+  "id": "rv_145dfb2414c0",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1757"
+ },
+ {
+  "evidence": [
+   "ev_cf767354b434"
+  ],
+  "field": "status",
+  "id": "rv_c4a45f6a8be4",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1763"
+ },
+ {
+  "evidence": [
+   "ev_c43c6c0b06cc"
+  ],
+  "field": "status",
+  "id": "rv_c87d07f19e1f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1765"
+ },
+ {
+  "evidence": [
+   "ev_c50726062263"
+  ],
+  "field": "status",
+  "id": "rv_ccaa0c59d76d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1767"
+ },
+ {
+  "evidence": [
+   "ev_44374c81af7a"
+  ],
+  "field": "credit",
+  "id": "rv_6ad61b4a58c3",
+  "kind": "validation_failure",
+  "message": "U=4 differs from L+P=5",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1806"
+ },
+ {
+  "evidence": [
+   "ev_feff2c86f2e6"
+  ],
+  "field": "status",
+  "id": "rv_40677c4058c1",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:1810"
+ },
+ {
+  "evidence": [
+   "ev_55ecb3da4dff"
+  ],
+  "field": "status",
+  "id": "rv_e711fa6fda8f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2001"
+ },
+ {
+  "evidence": [
+   "ev_55ecb3da4dff"
+  ],
+  "field": "credit",
+  "id": "rv_b494f36b581d",
+  "kind": "validation_failure",
+  "message": "U=3 differs from L+P=4",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2001"
+ },
+ {
+  "evidence": [
+   "ev_bdfee4ae17ac"
+  ],
+  "field": "status",
+  "id": "rv_66f6900eb9cd",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2002"
+ },
+ {
+  "evidence": [
+   "ev_ff7fe1c6a7fe"
+  ],
+  "field": "status",
+  "id": "rv_d1e9417c1e50",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2125"
+ },
+ {
+  "evidence": [
+   "ev_f4741727470c"
+  ],
+  "field": "status",
+  "id": "rv_a6a7aaca5bd5",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2126"
+ },
+ {
+  "evidence": [
+   "ev_a75ac4429818"
+  ],
+  "field": "status",
+  "id": "rv_e992cb70373f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2165"
+ },
+ {
+  "evidence": [
+   "ev_a656d9c7fb3b"
+  ],
+  "field": "credit",
+  "id": "rv_47d2cbf2756e",
+  "kind": "validation_failure",
+  "message": "U=4 differs from L+P=5",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2279"
+ },
+ {
+  "evidence": [
+   "ev_95f94d58c312"
+  ],
+  "field": "status",
+  "id": "rv_2308447fd9df",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2297"
+ },
+ {
+  "evidence": [
+   "ev_dc2f28a2f826"
+  ],
+  "field": "status",
+  "id": "rv_c05d1b1efb14",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2337"
+ },
+ {
+  "evidence": [
+   "ev_71f2c367f89b"
+  ],
+  "field": "status",
+  "id": "rv_3f885313d1e7",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2339"
+ },
+ {
+  "evidence": [
+   "ev_060d260e9aef"
+  ],
+  "field": "status",
+  "id": "rv_4e3b91db0e24",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2340"
+ },
+ {
+  "evidence": [
+   "ev_de2d4403afb7"
+  ],
+  "field": "status",
+  "id": "rv_d35333285952",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2388"
+ },
+ {
+  "evidence": [
+   "ev_b240cbe30849"
+  ],
+  "field": "status",
+  "id": "rv_9370de6fdbf6",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2453"
+ },
+ {
+  "evidence": [
+   "ev_088080d38324"
+  ],
+  "field": "status",
+  "id": "rv_2fc2b3b74e6d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2455"
+ },
+ {
+  "evidence": [
+   "ev_ed72b357c216"
+  ],
+  "field": "status",
+  "id": "rv_4b54ebe02f95",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2456"
+ },
+ {
+  "evidence": [
+   "ev_9fa40e5a6076"
+  ],
+  "field": "status",
+  "id": "rv_dabd2fa6384b",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2457"
+ },
+ {
+  "evidence": [
+   "ev_f287c6a64ea6"
+  ],
+  "field": "status",
+  "id": "rv_31c875827df5",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2458"
+ },
+ {
+  "evidence": [
+   "ev_ba9b17e8a42a"
+  ],
+  "field": "status",
+  "id": "rv_818f7689418d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2459"
+ },
+ {
+  "evidence": [
+   "ev_e6922efa500b"
+  ],
+  "field": "status",
+  "id": "rv_aa6ab7b19633",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2488"
+ },
+ {
+  "evidence": [
+   "ev_e6922efa500b"
+  ],
+  "field": "credit",
+  "id": "rv_a07022162ca7",
+  "kind": "validation_failure",
+  "message": "U=4 differs from L+P=3",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2488"
+ },
+ {
+  "evidence": [
+   "ev_915c43f1f629"
+  ],
+  "field": "status",
+  "id": "rv_bdc9fb87ad29",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2541"
+ },
+ {
+  "evidence": [
+   "ev_0a99dcf41056"
+  ],
+  "field": "status",
+  "id": "rv_c59ca718a9c4",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2591"
+ },
+ {
+  "evidence": [
+   "ev_d3ec0229c038"
+  ],
+  "field": "status",
+  "id": "rv_ded270e22058",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2659"
+ },
+ {
+  "evidence": [
+   "ev_5fdb76120fc8"
+  ],
+  "field": "status",
+  "id": "rv_1f24013893f7",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2661"
+ },
+ {
+  "evidence": [
+   "ev_576c83b5fa23"
+  ],
+  "field": "status",
+  "id": "rv_7509325d7535",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2662"
+ },
+ {
+  "evidence": [
+   "ev_449bbdfbeca2"
+  ],
+  "field": "status",
+  "id": "rv_8bae82c59194",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:270"
+ },
+ {
+  "evidence": [
+   "ev_8d9636dec580"
+  ],
+  "field": "status",
+  "id": "rv_1522e628f53f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:278"
+ },
+ {
+  "evidence": [
+   "ev_ce1711c86ac6"
+  ],
+  "field": "status",
+  "id": "rv_e305af701836",
+  "kind": "validation_failure",
+  "message": "All Lecture, Practical sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2916"
+ },
+ {
+  "evidence": [
+   "ev_8b6448d528d9"
+  ],
+  "field": "status",
+  "id": "rv_ef9a40f3ffab",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2917"
+ },
+ {
+  "evidence": [
+   "ev_a01f481ca9da"
+  ],
+  "field": "status",
+  "id": "rv_1eb66b359c0b",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2940"
+ },
+ {
+  "evidence": [
+   "ev_8ae59bf0f82f"
+  ],
+  "field": "status",
+  "id": "rv_a21001dbe28e",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3012"
+ },
+ {
+  "evidence": [
+   "ev_e0e3fcf279b5"
+  ],
+  "field": "status",
+  "id": "rv_28862aa8431c",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3014"
+ },
+ {
+  "evidence": [
+   "ev_438d290701ef"
+  ],
+  "field": "status",
+  "id": "rv_46b6c04c37ef",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3015"
+ },
+ {
+  "evidence": [
+   "ev_816b95cfdb0e"
+  ],
+  "field": "status",
+  "id": "rv_28b6b59a7f47",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3016"
+ },
+ {
+  "evidence": [
+   "ev_480525bb1a28"
+  ],
+  "field": "status",
+  "id": "rv_57664476c16f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:3026"
+ },
+ {
+  "evidence": [
+   "ev_d7587906bed1"
+  ],
+  "field": "status",
+  "id": "rv_7161f2fa7937",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:304"
+ },
+ {
+  "evidence": [
+   "ev_acb8858209b8"
+  ],
+  "field": "status",
+  "id": "rv_a96cf77b788e",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:325"
+ },
+ {
+  "evidence": [
+   "ev_40d3ca3a8504"
+  ],
+  "field": "status",
+  "id": "rv_462ac3bfb428",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:326"
+ },
+ {
+  "evidence": [
+   "ev_2406736b1dbd"
+  ],
+  "field": "status",
+  "id": "rv_5c44565b5ee8",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:343"
+ },
+ {
+  "evidence": [
+   "ev_fc8edeb70b78"
+  ],
+  "field": "status",
+  "id": "rv_461a1f46449d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:351"
+ },
+ {
+  "evidence": [
+   "ev_ff070bee45dc"
+  ],
+  "field": "status",
+  "id": "rv_78a3b6be634f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:433"
+ },
+ {
+  "evidence": [
+   "ev_07a581285d7c"
+  ],
+  "field": "status",
+  "id": "rv_a91541441a76",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5034"
+ },
+ {
+  "evidence": [
+   "ev_17764d0e3a2d"
+  ],
+  "field": "status",
+  "id": "rv_ee5a3b2f148c",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5041"
+ },
+ {
+  "evidence": [
+   "ev_b8bdb076ffb2"
+  ],
+  "field": "status",
+  "id": "rv_3c059065e2c5",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5042"
+ },
+ {
+  "evidence": [
+   "ev_f2281d71ee76"
+  ],
+  "field": "status",
+  "id": "rv_b976ba34bfb1",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5043"
+ },
+ {
+  "evidence": [
+   "ev_1fb5d54a2ccd"
+  ],
+  "field": "status",
+  "id": "rv_8b084c99b107",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5044"
+ },
+ {
+  "evidence": [
+   "ev_143c41b127ab"
+  ],
+  "field": "status",
+  "id": "rv_40c590158b0f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5094"
+ },
+ {
+  "evidence": [
+   "ev_15c84f50257b"
+  ],
+  "field": "status",
+  "id": "rv_90141754ed8c",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5181"
+ },
+ {
+  "evidence": [
+   "ev_dd52eae2ceae"
+  ],
+  "field": "status",
+  "id": "rv_ee50360bac0a",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5218"
+ },
+ {
+  "evidence": [
+   "ev_64e64baa5745"
+  ],
+  "field": "status",
+  "id": "rv_b129421c4836",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5234"
+ },
+ {
+  "evidence": [
+   "ev_a7b5c7da634c"
+  ],
+  "field": "status",
+  "id": "rv_eaa39becc31e",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5237"
+ },
+ {
+  "evidence": [
+   "ev_14cabea18dd7"
+  ],
+  "field": "status",
+  "id": "rv_e5a5fca74792",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:526"
+ },
+ {
+  "evidence": [
+   "ev_280539826f7c"
+  ],
+  "field": "status",
+  "id": "rv_36799a5c4316",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5303"
+ },
+ {
+  "evidence": [
+   "ev_89fac953c4b3"
+  ],
+  "field": "status",
+  "id": "rv_093f068619b6",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:532"
+ },
+ {
+  "evidence": [
+   "ev_2fc1cb43ea86"
+  ],
+  "field": "status",
+  "id": "rv_b0c83a0b87de",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5375"
+ },
+ {
+  "evidence": [
+   "ev_505f4e90446b"
+  ],
+  "field": "status",
+  "id": "rv_28bb0e337484",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5414"
+ },
+ {
+  "evidence": [
+   "ev_b37a8ffe45f0"
+  ],
+  "field": "status",
+  "id": "rv_7a1a4c095ea5",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5432"
+ },
+ {
+  "evidence": [
+   "ev_7449acbf0b32"
+  ],
+  "field": "status",
+  "id": "rv_6cbfb3c943f0",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5660"
+ },
+ {
+  "evidence": [
+   "ev_d31e7b54a049"
+  ],
+  "field": "status",
+  "id": "rv_a882b2c63a2f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5671"
+ },
+ {
+  "evidence": [
+   "ev_6f08a043951d"
+  ],
+  "field": "status",
+  "id": "rv_d60f6ba47d6a",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5704"
+ },
+ {
+  "evidence": [
+   "ev_8d152d24633d"
+  ],
+  "field": "status",
+  "id": "rv_a457224db518",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5750"
+ },
+ {
+  "evidence": [
+   "ev_4ccee8d2173e"
+  ],
+  "field": "status",
+  "id": "rv_1b4e8f980bc9",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5862"
+ },
+ {
+  "evidence": [
+   "ev_f558667d6de6"
+  ],
+  "field": "status",
+  "id": "rv_96ea96c1f82a",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:5865"
+ },
+ {
+  "evidence": [
+   "ev_507d103fa3b7"
+  ],
+  "field": "status",
+  "id": "rv_830e1c2f30ff",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6003"
+ },
+ {
+  "evidence": [
+   "ev_bb6c8a11cc16"
+  ],
+  "field": "status",
+  "id": "rv_a5eab5eb7c73",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6004"
+ },
+ {
+  "evidence": [
+   "ev_ef3e5535c9db"
+  ],
+  "field": "status",
+  "id": "rv_b227ecd109d7",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6008"
+ },
+ {
+  "evidence": [
+   "ev_dc5b66ba4eb6"
+  ],
+  "field": "status",
+  "id": "rv_55b8662187b6",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6029"
+ },
+ {
+  "evidence": [
+   "ev_3fdd51340ba6"
+  ],
+  "field": "status",
+  "id": "rv_0a2c7c797482",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6034"
+ },
+ {
+  "evidence": [
+   "ev_a6fbb704b690"
+  ],
+  "field": "status",
+  "id": "rv_bc356109e466",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6046"
+ },
+ {
+  "evidence": [
+   "ev_b1075008ed07"
+  ],
+  "field": "status",
+  "id": "rv_3fd426d580d8",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6049"
+ },
+ {
+  "evidence": [
+   "ev_443b03acedfc"
+  ],
+  "field": "status",
+  "id": "rv_562f1bf1763a",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6051"
+ },
+ {
+  "evidence": [
+   "ev_c82181e24ee1"
+  ],
+  "field": "status",
+  "id": "rv_48b01d5408e2",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6100"
+ },
+ {
+  "evidence": [
+   "ev_b2c8700b3b2d"
+  ],
+  "field": "status",
+  "id": "rv_a38d7470194d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6104"
+ },
+ {
+  "evidence": [
+   "ev_32190ef5c195"
+  ],
+  "field": "status",
+  "id": "rv_a3fd1d9b156d",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6134"
+ },
+ {
+  "evidence": [
+   "ev_3a9bc986a834"
+  ],
+  "field": "status",
+  "id": "rv_9149bc8d5dbf",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6136"
+ },
+ {
+  "evidence": [
+   "ev_a6548484ae2f"
+  ],
+  "field": "status",
+  "id": "rv_cad071053e32",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6148"
+ },
+ {
+  "evidence": [
+   "ev_7c2fe2d50899"
+  ],
+  "field": "status",
+  "id": "rv_a00ae3382b14",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6163"
+ },
+ {
+  "evidence": [
+   "ev_d940907c8090"
+  ],
+  "field": "status",
+  "id": "rv_66fd577f276c",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6230"
+ },
+ {
+  "evidence": [
+   "ev_d6822b6e4217"
+  ],
+  "field": "status",
+  "id": "rv_e23f26557aad",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6295"
+ },
+ {
+  "evidence": [
+   "ev_a1ffad16415c"
+  ],
+  "field": "status",
+  "id": "rv_0bc346768311",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6303"
+ },
+ {
+  "evidence": [
+   "ev_15212892633b"
+  ],
+  "field": "status",
+  "id": "rv_4dc10e6e6203",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6307"
+ },
+ {
+  "evidence": [
+   "ev_755fd0e17d8d"
+  ],
+  "field": "status",
+  "id": "rv_ad3340671b6c",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6313"
+ },
+ {
+  "evidence": [
+   "ev_7cab69a1e774"
+  ],
+  "field": "status",
+  "id": "rv_69ecbd61b5d2",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6441"
+ },
+ {
+  "evidence": [
+   "ev_2772dbecdcd0"
+  ],
+  "field": "status",
+  "id": "rv_6bd8515d0a4c",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6491"
+ },
+ {
+  "evidence": [
+   "ev_1c9c19aaa9f5"
+  ],
+  "field": "status",
+  "id": "rv_3f2b33635574",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6505"
+ },
+ {
+  "evidence": [
+   "ev_52a1984e5dbc"
+  ],
+  "field": "status",
+  "id": "rv_7a56a73c33f1",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6516"
+ },
+ {
+  "evidence": [
+   "ev_390520a50b39"
+  ],
+  "field": "status",
+  "id": "rv_281ce8713a39",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6536"
+ },
+ {
+  "evidence": [
+   "ev_25a6b042f8ce"
+  ],
+  "field": "status",
+  "id": "rv_8886641894b9",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6537"
+ },
+ {
+  "evidence": [
+   "ev_fb47c15ea156"
+  ],
+  "field": "status",
+  "id": "rv_356ee903cce2",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6539"
+ },
+ {
+  "evidence": [
+   "ev_be0e8562a3b0"
+  ],
+  "field": "status",
+  "id": "rv_e5e562784ba9",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6542"
+ },
+ {
+  "evidence": [
+   "ev_49196c3c8a8d"
+  ],
+  "field": "status",
+  "id": "rv_b88283c43f8f",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6545"
+ },
+ {
+  "evidence": [
+   "ev_9082ba78d93f"
+  ],
+  "field": "status",
+  "id": "rv_d6a272bd8969",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6546"
+ },
+ {
+  "evidence": [
+   "ev_1acd4d921025"
+  ],
+  "field": "status",
+  "id": "rv_3dde45a96c8e",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6547"
+ },
+ {
+  "evidence": [
+   "ev_14a8f1d5cc33"
+  ],
+  "field": "status",
+  "id": "rv_57f0f5f5a149",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6548"
+ },
+ {
+  "evidence": [
+   "ev_244bda50c0d4"
+  ],
+  "field": "status",
+  "id": "rv_5dafbf05f2b9",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6551"
+ },
+ {
+  "evidence": [
+   "ev_dbbba6251f90"
+  ],
+  "field": "status",
+  "id": "rv_03613a779b92",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6552"
+ },
+ {
+  "evidence": [
+   "ev_5cb38b6ba4c1"
+  ],
+  "field": "status",
+  "id": "rv_25c0164662a8",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6553"
+ },
+ {
+  "evidence": [
+   "ev_7c55dbd51b05"
+  ],
+  "field": "status",
+  "id": "rv_8c4856644267",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6554"
+ },
+ {
+  "evidence": [
+   "ev_f7cf1ca47669"
+  ],
+  "field": "status",
+  "id": "rv_e8acee2b3439",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6556"
+ },
+ {
+  "evidence": [
+   "ev_f0f87d9bdada"
+  ],
+  "field": "status",
+  "id": "rv_07d9416e8afd",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6586"
+ },
+ {
+  "evidence": [
+   "ev_dfa0730ddc02"
+  ],
+  "field": "status",
+  "id": "rv_167faa523acd",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6599"
+ },
+ {
+  "evidence": [
+   "ev_da750856aa33"
+  ],
+  "field": "status",
+  "id": "rv_82dc25c0f3d2",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6602"
+ },
+ {
+  "evidence": [
+   "ev_7a25c43e590f"
+  ],
+  "field": "status",
+  "id": "rv_16de725d17b4",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6606"
+ },
+ {
+  "evidence": [
+   "ev_0ad3aa3175d8"
+  ],
+  "field": "status",
+  "id": "rv_e089b525c453",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6609"
+ },
+ {
+  "evidence": [
+   "ev_d1ee3ca217f9"
+  ],
+  "field": "status",
+  "id": "rv_ca83c26568c4",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6613"
+ },
+ {
+  "evidence": [
+   "ev_ff8d9bfc2bc8"
+  ],
+  "field": "status",
+  "id": "rv_a0abc5b55ffa",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6620"
+ },
+ {
+  "evidence": [
+   "ev_44be4d5e6776"
+  ],
+  "field": "status",
+  "id": "rv_47755cba1ef3",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6621"
+ },
+ {
+  "evidence": [
+   "ev_e967969e4704"
+  ],
+  "field": "status",
+  "id": "rv_de3a2662cd07",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6626"
+ },
+ {
+  "evidence": [
+   "ev_93d137651a75"
+  ],
+  "field": "status",
+  "id": "rv_3465bc51d3e8",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6631"
+ },
+ {
+  "evidence": [
+   "ev_8857a0d3977b"
+  ],
+  "field": "status",
+  "id": "rv_93ba6f46f517",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:6663"
+ },
+ {
+  "evidence": [
+   "ev_df932367bca3"
+  ],
+  "field": "status",
+  "id": "rv_eb705fe2b6bf",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:747"
+ },
+ {
+  "evidence": [
+   "ev_7b2513323e7b"
+  ],
+  "field": "status",
+  "id": "rv_faf8da417de8",
+  "kind": "validation_failure",
+  "message": "All Lecture sections cancelled; offering marked cancelled",
+  "severity": "info",
+  "status": "open",
+  "subject": "offering:2026-27-S1:880"
+ },
+ {
+  "evidence": [],
+  "field": "heading",
+  "id": "rv_c391936b8cab",
+  "kind": "ambiguous_mapping",
+  "message": "Core list on p.332 has no programme heading",
+  "severity": "warning",
+  "status": "open",
+  "subject": "programme_list:UNNAMED_AFTER_SEMICONDUCTOR AND NANOSCIENCE"
+ },
+ {
+  "evidence": [
+   "ev_1f10a301c569",
+   "ev_2a68fe175752"
+  ],
+  "field": "handout",
+  "id": "rv_3d216696fd18",
+  "kind": "conflict",
+  "message": "2 different handout documents list BIO F101; offering-specific facts are shown per handout",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:BIO F101"
+ },
+ {
+  "evidence": [
+   "ev_6da50bbdb2c6",
+   "ev_5f28ade5c389"
+  ],
+  "field": "handout",
+  "id": "rv_e18bcc750217",
+  "kind": "conflict",
+  "message": "2 different handout documents list BIO G523; offering-specific facts are shown per handout",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:BIO G523"
+ },
+ {
+  "evidence": [
+   "ev_5fb4662474e5",
+   "ev_a9362eac9072"
+  ],
+  "field": "title",
+  "id": "rv_96b413a7fee7",
+  "kind": "conflict",
+  "message": "Bulletin describes BITS F335 twice with different titles: 'Discover India' vs 'Discover Dubai'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:BITS F335"
+ },
+ {
+  "evidence": [
+   "ev_91e01fae173f",
+   "ev_4c014b1bd028"
+  ],
+  "field": "handout",
+  "id": "rv_9129eca64409",
+  "kind": "conflict",
+  "message": "2 different handout documents list BITS F467; offering-specific facts are shown per handout",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:BITS F467"
+ },
+ {
+  "evidence": [
+   "ev_750601e09746",
+   "ev_36ba9006514b"
+  ],
+  "field": "handout",
+  "id": "rv_f4f7503bbdf5",
+  "kind": "conflict",
+  "message": "2 different handout documents list CS F342; offering-specific facts are shown per handout",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:CS F342"
+ },
+ {
+  "evidence": [
+   "ev_7112b4554f79",
+   "ev_718368618e43"
+  ],
+  "field": "handout",
+  "id": "rv_14b5f0167270",
+  "kind": "conflict",
+  "message": "2 different handout documents list INSTR F491; offering-specific facts are shown per handout",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:INSTR F491"
+ },
+ {
+  "evidence": [
+   "ev_839bd1b9e95e",
+   "ev_9352febe6afe"
+  ],
+  "field": "handout",
+  "id": "rv_d9c8fba81b58",
+  "kind": "conflict",
+  "message": "2 different handout documents list MEL G623; offering-specific facts are shown per handout",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:MEL G623"
+ },
+ {
+  "evidence": [
+   "ev_c4b711789493",
+   "ev_ea11b6af6526"
+  ],
+  "field": "handout",
+  "id": "rv_cb628c95c7c0",
+  "kind": "conflict",
+  "message": "2 different handout documents list MEL G643; offering-specific facts are shown per handout",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:MEL G643"
+ },
+ {
+  "evidence": [
+   "ev_37f4dac1ea47",
+   "ev_84c6bb189f3f"
+  ],
+  "field": "title",
+  "id": "rv_889bf83ea288",
+  "kind": "conflict",
+  "message": "Bulletin describes RIA F211 twice with different titles: 'Materials and Mechanics for Robotics' vs 'Introduction to Mechanisms and Robotics'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:RIA F211"
+ },
+ {
+  "evidence": [
+   "ev_c41c7279ece2"
+  ],
+  "field": "DC",
+  "id": "rv_e2f7c81cbb78",
+  "kind": "conflict",
+  "message": "Chart states DC 48 units/14 courses; core list has 49 units/14 courses",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:BE-ELECTRONICS-COMMUNICATION"
+ },
+ {
+  "evidence": [
+   "ev_e47ea7f44e28"
+  ],
+  "field": "DC",
+  "id": "rv_97b1d2cfbc63",
+  "kind": "conflict",
+  "message": "Chart states DC 48 units/16 courses; core list has 39 units/13 courses",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_9476b70d0fe7"
+  ],
+  "field": "DC",
+  "id": "rv_3a33f378eaf5",
+  "kind": "conflict",
+  "message": "Chart states DC 48 units/16 courses; core list has 54 units/18 courses",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:BPHARM"
+ },
+ {
+  "evidence": [
+   "ev_40d7358e9256"
+  ],
+  "field": "midsem",
+  "id": "rv_5921c2b2044c",
+  "kind": "conflict",
+  "message": "Section L2 lists midsem '05/10 AN2' but offering lists '09/10 AN1'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2864"
+ },
+ {
+  "evidence": [
+   "ev_40d7358e9256"
+  ],
+  "field": "compre",
+  "id": "rv_c508fd218c5c",
+  "kind": "conflict",
+  "message": "Section L2 lists compre '03/12 AN' but offering lists '14/12 FN'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "offering:2026-27-S1:2864"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL",
+  "id": "rv_890f44114929",
+  "kind": "missing",
+  "message": "Chart does not state discipline-elective totals; DEL requirement left unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:MSC-BIOLOGICAL-SCIENCES"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL",
+  "id": "rv_c1a9f46201b6",
+  "kind": "missing",
+  "message": "Chart does not state discipline-elective totals; DEL requirement left unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:MSC-PHYSICS"
+ },
+ {
+  "evidence": [
+   "ev_d02ace583649"
+  ],
+  "field": "DEL",
+  "id": "rv_afb7be600893",
+  "kind": "missing",
+  "message": "Chart does not state discipline-elective totals; DEL requirement left unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:MSC-PHYSICS-SPECIALIZATION-IN-SPACE-SCIENCE-AND-TECHNOLOGY"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL",
+  "id": "rv_d2e2b4d9b19c",
+  "kind": "missing",
+  "message": "Chart does not state discipline-elective totals; DEL requirement left unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:MSC-SEMICONDUCTOR-AND-NANOSCIENCE"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_76db63e93b77",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-CHEMICAL"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_88eee52fb276",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-CIVIL"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_4c6fd3ab319c",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-COMPUTER-SCIENCE"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_11060209523b",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-ELECTRICAL-ELECTRONICS"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_5164e1be62f3",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-ELECTRONICS-AND-INSTRUMENTATION"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_b3f0f39c1409",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-ELECTRONICS-COMMUNICATION"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_4230b8a719c5",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-ELECTRONICS-COMPUTER-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_b9d6a05df731",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_75ed04221122",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-MANUFACTURING"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_cd9345a66f3a",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-MATHEMATICS-AND-COMPUTING"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_84f438559867",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-MECHANICAL"
+ },
+ {
+  "evidence": [
+   "ev_a3eebe9ac3b4"
+  ],
+  "field": "DEL:MSC-BIOLOGICAL-SCIENCES",
+  "id": "rv_64b5c4ba003d",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-BIOLOGICAL-SCIENCES+BE-ROBOTICS-INDUSTRIAL-AUTOMATION"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_a926e7b41921",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-CHEMICAL"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_546253fdf75b",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-CIVIL"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_7c26f2db8765",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-COMPUTER-SCIENCE"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_0fb415d917ab",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-ELECTRICAL-ELECTRONICS"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_aa25b7d2020b",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-ELECTRONICS-AND-INSTRUMENTATION"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_133d8879575a",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-ELECTRONICS-COMMUNICATION"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_07013c199eaf",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-ELECTRONICS-COMPUTER-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_b878be6891fe",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_c19e28acf269",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-MANUFACTURING"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_41f85a9806af",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-MATHEMATICS-AND-COMPUTING"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_79bfbaa1512a",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-MECHANICAL"
+ },
+ {
+  "evidence": [
+   "ev_e932ea2003f4"
+  ],
+  "field": "DEL:MSC-PHYSICS",
+  "id": "rv_be29376b96da",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-PHYSICS+BE-ROBOTICS-INDUSTRIAL-AUTOMATION"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_4ce717a8b309",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-CHEMICAL"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_39efbb257341",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-CIVIL"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_82130b3c909d",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-COMPUTER-SCIENCE"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_a9a12653d434",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ELECTRICAL-ELECTRONICS"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_8abeb679f23a",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ELECTRONICS-AND-INSTRUMENTATION"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_7f2f38e57347",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ELECTRONICS-COMMUNICATION"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_733c9e1c6660",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ELECTRONICS-COMPUTER-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_7a8a87a51f48",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_ec5558d6555e",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-MANUFACTURING"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_c9c69b51fc24",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-MATHEMATICS-AND-COMPUTING"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_e57cd0c06516",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-MECHANICAL"
+ },
+ {
+  "evidence": [
+   "ev_570a39274615"
+  ],
+  "field": "DEL:MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "id": "rv_57dcd537edca",
+  "kind": "missing",
+  "message": "Single-degree chart gives no DEL totals; requirement unresolved",
+  "severity": "warning",
+  "status": "open",
+  "subject": "curriculum:dual:MSC-SEMICONDUCTOR-AND-NANOSCIENCE+BE-ROBOTICS-INDUSTRIAL-AUTOMATION"
+ },
+ {
+  "evidence": [],
+  "field": "evaluation",
+  "id": "rv_c4343f020a66",
+  "kind": "missing",
+  "message": "Evaluation scheme not found or not parseable",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/032_BITS_F101-1.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "evaluation",
+  "id": "rv_fddbf379f3f7",
+  "kind": "missing",
+  "message": "Evaluation scheme not found or not parseable",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/303_GS_F266.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "evaluation",
+  "id": "rv_3af23a59e667",
+  "kind": "missing",
+  "message": "Evaluation scheme not found or not parseable",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/312_GS_F366.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "evaluation",
+  "id": "rv_58edf8afb196",
+  "kind": "missing",
+  "message": "Evaluation scheme not found or not parseable",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/313_GS_F367.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "evaluation",
+  "id": "rv_d97d092a28c4",
+  "kind": "missing",
+  "message": "Evaluation scheme not found or not parseable",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/327_HSS_F329.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "evaluation",
+  "id": "rv_7939a4605b9a",
+  "kind": "missing",
+  "message": "Evaluation scheme not found or not parseable",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/459_MPBA_G529.pdf"
+ },
+ {
+  "evidence": [
+   "ev_4284ba30acec"
+  ],
+  "field": "prerequisite",
+  "id": "rv_03a863dd4947",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'Fundamental knowledge in workshop practices'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:AN F221"
+ },
+ {
+  "evidence": [
+   "ev_99699493abe0"
+  ],
+  "field": "prerequisite",
+  "id": "rv_1bda32b3d2a6",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'Flight Mechanics and Control, Principles of Aerodynamics, Aircraft Propulsion, Aircraft Structures. Architectural and Urban Engineering'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:AN F321"
+ },
+ {
+  "evidence": [
+   "ev_eb8302677510"
+  ],
+  "field": "prerequisite",
+  "id": "rv_3b072eed20c2",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'This is a general Institutional requirement for all newly admitted FD students'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:BIO F101"
+ },
+ {
+  "evidence": [
+   "ev_fd74d22d3bde"
+  ],
+  "field": "prerequisite",
+  "id": "rv_bd7bf63cdd27",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'This is a GIR for all FD students'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:CHEM F101"
+ },
+ {
+  "evidence": [
+   "ev_b2b6e4ab79c2"
+  ],
+  "field": "prerequisite",
+  "id": "rv_fb5962e09503",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: '. Apparatus in power networks: transformers; synchronous generators; transmission lines, cables, HVDC; loads and power quality. Analysis and operation: power fl'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:EEE F345"
+ },
+ {
+  "evidence": [
+   "ev_8b7c3b4b6f5e"
+  ],
+  "field": "prerequisite",
+  "id": "rv_1ca76a23cb99",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'for another French course. Can be taken only on audit'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:FRE N101T"
+ },
+ {
+  "evidence": [
+   "ev_69dc5ceb1ab8"
+  ],
+  "field": "prerequisite",
+  "id": "rv_8c05835162d3",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'for another German course. Can be taken only on audit'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:GER N101T"
+ },
+ {
+  "evidence": [
+   "ev_ac7118fe667d"
+  ],
+  "field": "prerequisite",
+  "id": "rv_c885e4a552d2",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'can take these courses as audit courses as many times as he needs. Pharmacy'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:MUSIC N313T"
+ },
+ {
+  "evidence": [
+   "ev_8c724d05ee47"
+  ],
+  "field": "prerequisite",
+  "id": "rv_9c213fa2a624",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'This is a GIR for all FD students'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:PHY F101"
+ },
+ {
+  "evidence": [
+   "ev_c358af46af11"
+  ],
+  "field": "prerequisite",
+  "id": "rv_de95c7ca13ce",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'This is a GIR for the B. Pharm students'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:PHY F102"
+ },
+ {
+  "evidence": [
+   "ev_5146f9b8ee0d"
+  ],
+  "field": "prerequisite",
+  "id": "rv_0332226ca25c",
+  "kind": "unreliable",
+  "message": "Prerequisite text could not be reduced to course codes: 'for another Russian course. Can be taken only on audit'",
+  "severity": "warning",
+  "status": "open",
+  "subject": "course:RUS N101T"
+ },
+ {
+  "evidence": [
+   "ev_bbda389b71c7"
+  ],
+  "field": "evaluation",
+  "id": "rv_59d750d7f433",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/029_BITS_E574.pdf"
+ },
+ {
+  "evidence": [
+   "ev_05ea1e4f364d"
+  ],
+  "field": "evaluation",
+  "id": "rv_de29a49d101a",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 66.66% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/033_BITS_F103.pdf"
+ },
+ {
+  "evidence": [
+   "ev_04032462372f"
+  ],
+  "field": "evaluation",
+  "id": "rv_f542ddfccf2b",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 80.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/039_BITS_F219.pdf"
+ },
+ {
+  "evidence": [
+   "ev_4bbf55528b7d"
+  ],
+  "field": "evaluation",
+  "id": "rv_dd40add5aa6e",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 115.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/043_BITS_F314.pdf"
+ },
+ {
+  "evidence": [
+   "ev_c99c9000533e"
+  ],
+  "field": "evaluation",
+  "id": "rv_f3428d58b794",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 120.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/044_BITS_F327.pdf"
+ },
+ {
+  "evidence": [
+   "ev_60b437cbf42c"
+  ],
+  "field": "evaluation",
+  "id": "rv_c7f1e1e1836f",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/047_BITS_F385.pdf"
+ },
+ {
+  "evidence": [
+   "ev_e36e0229acf5"
+  ],
+  "field": "evaluation",
+  "id": "rv_a8cbeb2982fd",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 100.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/051_BITS_F429.pdf"
+ },
+ {
+  "evidence": [
+   "ev_36dd74ce206c"
+  ],
+  "field": "evaluation",
+  "id": "rv_451aec299ea8",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/053_BITS_F437.pdf"
+ },
+ {
+  "evidence": [
+   "ev_f743eabf7569"
+  ],
+  "field": "evaluation",
+  "id": "rv_e7e3dd62a8ea",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 110.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/056_BITS_F463.pdf"
+ },
+ {
+  "evidence": [
+   "ev_9a1f81cab2bf"
+  ],
+  "field": "evaluation",
+  "id": "rv_eae5ba223653",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 100.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/057_BITS_F464.pdf"
+ },
+ {
+  "evidence": [
+   "ev_624ee1b79927"
+  ],
+  "field": "evaluation",
+  "id": "rv_c860e770399d",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 65.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/058_BITS_F467.pdf"
+ },
+ {
+  "evidence": [
+   "ev_ce7190b03615"
+  ],
+  "field": "evaluation",
+  "id": "rv_8dd25f455b04",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 60.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/059_BITS_F468.pdf"
+ },
+ {
+  "evidence": [
+   "ev_bc754fbc9c34"
+  ],
+  "field": "evaluation",
+  "id": "rv_c82b56ef1ba0",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 66.66% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/069_BITS_U103.pdf"
+ },
+ {
+  "evidence": [
+   "ev_ea24a13785b0"
+  ],
+  "field": "evaluation",
+  "id": "rv_7ab0dd9ad4ba",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 195.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/071_BITS_U107.pdf"
+ },
+ {
+  "evidence": [
+   "ev_df35f8360385"
+  ],
+  "field": "evaluation",
+  "id": "rv_0e58815a40ef",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 65.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/074_BITS_U467.pdf"
+ },
+ {
+  "evidence": [
+   "ev_c4601e5f842d"
+  ],
+  "field": "evaluation",
+  "id": "rv_2a1ca0889a2e",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 125.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/075_CE_F211.pdf"
+ },
+ {
+  "evidence": [
+   "ev_142564d4fac3"
+  ],
+  "field": "evaluation",
+  "id": "rv_8a888f36918c",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 100.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/089_CE_G525.pdf"
+ },
+ {
+  "evidence": [
+   "ev_c25b146a7a81"
+  ],
+  "field": "evaluation",
+  "id": "rv_e95864a21808",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 100.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/120_CHE_F214.pdf"
+ },
+ {
+  "evidence": [
+   "ev_806603eb2dec"
+  ],
+  "field": "evaluation",
+  "id": "rv_032efa79e7fd",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 100.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/123_CHE_F312.pdf"
+ },
+ {
+  "evidence": [
+   "ev_6d516a24a5c0"
+  ],
+  "field": "evaluation",
+  "id": "rv_831c7512f28c",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 240.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/125_CHE_F314.pdf"
+ },
+ {
+  "evidence": [
+   "ev_31d5f2e7bdbb"
+  ],
+  "field": "evaluation",
+  "id": "rv_02b45d2563eb",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 95.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/137_CHE_G554.pdf"
+ },
+ {
+  "evidence": [
+   "ev_c848a2a17582"
+  ],
+  "field": "evaluation",
+  "id": "rv_a2ba12ade2ea",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 285.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/156_CHEM_G553.pdf"
+ },
+ {
+  "evidence": [
+   "ev_7c7e49671329"
+  ],
+  "field": "evaluation",
+  "id": "rv_ac2de5cc01d3",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 270.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/160_CS_F111.pdf"
+ },
+ {
+  "evidence": [
+   "ev_fa4c857f1aff"
+  ],
+  "field": "evaluation",
+  "id": "rv_77abd5146e24",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 275.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/162_CS_F215.pdf"
+ },
+ {
+  "evidence": [
+   "ev_1b57f7e42a50"
+  ],
+  "field": "evaluation",
+  "id": "rv_99e42fe63243",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 100.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/166_CS_F320.pdf"
+ },
+ {
+  "evidence": [
+   "ev_5d4b04e33092"
+  ],
+  "field": "evaluation",
+  "id": "rv_bc97800f21fb",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/170_CS_F407.pdf"
+ },
+ {
+  "evidence": [
+   "ev_d250a3c02fbc"
+  ],
+  "field": "evaluation",
+  "id": "rv_cac00df7f8d7",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 30.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/176_CS_G525.pdf"
+ },
+ {
+  "evidence": [
+   "ev_27907f19fb2c"
+  ],
+  "field": "evaluation",
+  "id": "rv_5cbefc316871",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 77.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/186_CS_G623.pdf"
+ },
+ {
+  "evidence": [
+   "ev_7a8b78bc36c7"
+  ],
+  "field": "evaluation",
+  "id": "rv_0b7298b7b2e1",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 90.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/202_DE_G612.pdf"
+ },
+ {
+  "evidence": [
+   "ev_21d68be84044"
+  ],
+  "field": "evaluation",
+  "id": "rv_2b1b888204da",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/218_ECON_F213.pdf"
+ },
+ {
+  "evidence": [
+   "ev_2cb4ac5ccb42"
+  ],
+  "field": "evaluation",
+  "id": "rv_d68f57c98b1c",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 110.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/219_ECON_F214.pdf"
+ },
+ {
+  "evidence": [
+   "ev_9ccfc73a395a"
+  ],
+  "field": "evaluation",
+  "id": "rv_837ac5a0ae19",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 110.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/222_ECON_F313.pdf"
+ },
+ {
+  "evidence": [
+   "ev_a1e291c18b5b"
+  ],
+  "field": "evaluation",
+  "id": "rv_b0df87aac651",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 35.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/250_EEE_F422.pdf"
+ },
+ {
+  "evidence": [
+   "ev_5e6135aeaa8e"
+  ],
+  "field": "evaluation",
+  "id": "rv_ea9cc04aff25",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 95.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/265_EEE_G516.pdf"
+ },
+ {
+  "evidence": [
+   "ev_8b01b36b02ca"
+  ],
+  "field": "evaluation",
+  "id": "rv_3a8d22f92ce2",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 100.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/281_EEE_G626.pdf"
+ },
+ {
+  "evidence": [
+   "ev_3fb2ca38579f"
+  ],
+  "field": "evaluation",
+  "id": "rv_7188a5318aa5",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 90.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/292_GS_F212.pdf"
+ },
+ {
+  "evidence": [
+   "ev_0d154127e8af"
+  ],
+  "field": "evaluation",
+  "id": "rv_909ffdd6c215",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 90.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/293_GS_F213.pdf"
+ },
+ {
+  "evidence": [
+   "ev_19716a2c62cc"
+  ],
+  "field": "evaluation",
+  "id": "rv_e507a3777110",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 60.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/296_GS_F223.pdf"
+ },
+ {
+  "evidence": [
+   "ev_85d48973d2eb"
+  ],
+  "field": "evaluation",
+  "id": "rv_de8711d4ad4e",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/299_GS_F233.pdf"
+ },
+ {
+  "evidence": [
+   "ev_3e2244a8c089"
+  ],
+  "field": "evaluation",
+  "id": "rv_836f22036c13",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/304_GS_F311.pdf"
+ },
+ {
+  "evidence": [
+   "ev_4d4a4bd7e30d"
+  ],
+  "field": "evaluation",
+  "id": "rv_181d2a3d8956",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 105.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/309_GS_F331.pdf"
+ },
+ {
+  "evidence": [
+   "ev_8fd2d94529ca"
+  ],
+  "field": "evaluation",
+  "id": "rv_315e85becd61",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 80.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/314_GS_F376.pdf"
+ },
+ {
+  "evidence": [
+   "ev_90c7cd0d766f"
+  ],
+  "field": "evaluation",
+  "id": "rv_e5a6073a157a",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 80.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/315_GS_F377.pdf"
+ },
+ {
+  "evidence": [
+   "ev_818054028f23"
+  ],
+  "field": "evaluation",
+  "id": "rv_4e582c2583ea",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/324_HSS_F323.pdf"
+ },
+ {
+  "evidence": [
+   "ev_63707760ff2b"
+  ],
+  "field": "evaluation",
+  "id": "rv_a9b813e35988",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/326_HSS_F328.pdf"
+ },
+ {
+  "evidence": [
+   "ev_a473893d8d79"
+  ],
+  "field": "evaluation",
+  "id": "rv_30877e717b1e",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/328_HSS_F334.pdf"
+ },
+ {
+  "evidence": [
+   "ev_cad51af92607"
+  ],
+  "field": "evaluation",
+  "id": "rv_d1645af6770a",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 90.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/332_HSS_U141.pdf"
+ },
+ {
+  "evidence": [
+   "ev_c3c5831fd1a2"
+  ],
+  "field": "evaluation",
+  "id": "rv_94878073a84f",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 125.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/351_MAC_F312.pdf"
+ },
+ {
+  "evidence": [
+   "ev_af8f17e421e9"
+  ],
+  "field": "evaluation",
+  "id": "rv_915006e1e28f",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 80.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/367_MATH_F313.pdf"
+ },
+ {
+  "evidence": [
+   "ev_bb10f66d1a54"
+  ],
+  "field": "evaluation",
+  "id": "rv_713e633c801c",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 65.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/371_MATH_F421.pdf"
+ },
+ {
+  "evidence": [
+   "ev_4a5719678e35"
+  ],
+  "field": "evaluation",
+  "id": "rv_8d66d463d412",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 40.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/379_ME_F216.pdf"
+ },
+ {
+  "evidence": [
+   "ev_76e988663221"
+  ],
+  "field": "evaluation",
+  "id": "rv_e4345e696053",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/383_ME_F316.pdf"
+ },
+ {
+  "evidence": [
+   "ev_068c56502ed8"
+  ],
+  "field": "evaluation",
+  "id": "rv_0d4291677db3",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 120.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/402_ME_G552.pdf"
+ },
+ {
+  "evidence": [
+   "ev_621f7a754136"
+  ],
+  "field": "evaluation",
+  "id": "rv_645109028178",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/413_MEL_G624.pdf"
+ },
+ {
+  "evidence": [
+   "ev_7a9db69fa31e"
+  ],
+  "field": "evaluation",
+  "id": "rv_c5c368ad0759",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 90.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/433_MGTS_U102.pdf"
+ },
+ {
+  "evidence": [
+   "ev_3c435c7e18b8"
+  ],
+  "field": "evaluation",
+  "id": "rv_a4db500dbc1c",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 90.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/434_MPBA_G501.pdf"
+ },
+ {
+  "evidence": [
+   "ev_9d161a5af831"
+  ],
+  "field": "evaluation",
+  "id": "rv_130ad1b16b94",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 80.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/445_MPBA_G507.pdf"
+ },
+ {
+  "evidence": [
+   "ev_ee49d1e7fe55"
+  ],
+  "field": "evaluation",
+  "id": "rv_2e21dce776ad",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 80.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/452_MPBA_G520.pdf"
+ },
+ {
+  "evidence": [
+   "ev_f737f4e8ea4a"
+  ],
+  "field": "evaluation",
+  "id": "rv_41089e733318",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 85.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/462_MPBA_G531.pdf"
+ },
+ {
+  "evidence": [
+   "ev_0f294a8ed27e"
+  ],
+  "field": "evaluation",
+  "id": "rv_fdcc9f769b1a",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 60.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/474_PHA_F312.pdf"
+ },
+ {
+  "evidence": [
+   "ev_5356d57dcbc1"
+  ],
+  "field": "evaluation",
+  "id": "rv_773e50e1fe47",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/484_PHA_G538.pdf"
+ },
+ {
+  "evidence": [
+   "ev_ae31a6c8c74a"
+  ],
+  "field": "evaluation",
+  "id": "rv_a9dd43120e67",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/503_PHA_G623.pdf"
+ },
+ {
+  "evidence": [
+   "ev_1c2415a90f27"
+  ],
+  "field": "evaluation",
+  "id": "rv_5d59511bb4b3",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/513_PHY_F312.pdf"
+ },
+ {
+  "evidence": [
+   "ev_02c5768e99b5"
+  ],
+  "field": "evaluation",
+  "id": "rv_c79d805b2407",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/518_PHY_F422.pdf"
+ },
+ {
+  "evidence": [
+   "ev_00656dd77fff"
+  ],
+  "field": "evaluation",
+  "id": "rv_93d4065625f6",
+  "kind": "unreliable",
+  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/523_PHY_U102.pdf"
+ },
+ {
+  "evidence": [
+   "ev_998e4058ee24"
+  ],
+  "field": "days_hours",
+  "id": "rv_26db08dc7c2f",
+  "kind": "unreliable",
+  "message": "Slot 'M W F 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1007:L1"
+ },
+ {
+  "evidence": [
+   "ev_15d05505faf9"
+  ],
+  "field": "days_hours",
+  "id": "rv_af337f5462d4",
+  "kind": "unreliable",
+  "message": "Slot 'T Th F 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1009:L1"
+ },
+ {
+  "evidence": [
+   "ev_cc79574c2aad"
+  ],
+  "field": "days_hours",
+  "id": "rv_89b4f06628f4",
+  "kind": "unreliable",
+  "message": "Slot 'M 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1009:T1"
+ },
+ {
+  "evidence": [
+   "ev_4147c2a4c27d"
+  ],
+  "field": "days_hours",
+  "id": "rv_325d46504b99",
+  "kind": "unreliable",
+  "message": "Slot 'W 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1092:P9"
+ },
+ {
+  "evidence": [
+   "ev_22bc3dfe38e9"
+  ],
+  "field": "days_hours",
+  "id": "rv_2f16ec7f274e",
+  "kind": "unreliable",
+  "message": "Slot 'T F 2 Th 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1122:L2"
+ },
+ {
+  "evidence": [
+   "ev_6bff18a70018"
+  ],
+  "field": "days_hours",
+  "id": "rv_a54a1fe07449",
+  "kind": "unreliable",
+  "message": "Slot 'M W 10 W 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1210:L1"
+ },
+ {
+  "evidence": [
+   "ev_6c79939ddf3b"
+  ],
+  "field": "days_hours",
+  "id": "rv_46e3d6d85839",
+  "kind": "unreliable",
+  "message": "Slot 'T Th 8 W 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1255:L1"
+ },
+ {
+  "evidence": [
+   "ev_149d40be79cc"
+  ],
+  "field": "days_hours",
+  "id": "rv_c0412240cb53",
+  "kind": "unreliable",
+  "message": "Slot 'M 11 F 10 S 2' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1318:L1"
+ },
+ {
+  "evidence": [
+   "ev_3919b89801e1"
+  ],
+  "field": "days_hours",
+  "id": "rv_a4898459d168",
+  "kind": "unreliable",
+  "message": "Slot 'T 8 W 11 S 5' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1320:L1"
+ },
+ {
+  "evidence": [
+   "ev_a2861c75dc0e"
+  ],
+  "field": "days_hours",
+  "id": "rv_134e18f5616c",
+  "kind": "unreliable",
+  "message": "Slot 'Th 11 12' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:1797:L1"
+ },
+ {
+  "evidence": [
+   "ev_84d5a9e4f470"
+  ],
+  "field": "days_hours",
+  "id": "rv_83775f2d7eac",
+  "kind": "unreliable",
+  "message": "Slot 'M W 10 W 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2147:L1"
+ },
+ {
+  "evidence": [
+   "ev_797dd0e22df4"
+  ],
+  "field": "days_hours",
+  "id": "rv_ec46c0b39af1",
+  "kind": "unreliable",
+  "message": "Slot 'M W 10 F 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2439:L1"
+ },
+ {
+  "evidence": [
+   "ev_446ef67a967d"
+  ],
+  "field": "days_hours",
+  "id": "rv_201cc53c6fba",
+  "kind": "unreliable",
+  "message": "Slot 'S 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2440:P2"
+ },
+ {
+  "evidence": [
+   "ev_b0eb97569637"
+  ],
+  "field": "days_hours",
+  "id": "rv_35730c196be2",
+  "kind": "unreliable",
+  "message": "Slot 'T 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2538:P1"
+ },
+ {
+  "evidence": [
+   "ev_38e53dc01134"
+  ],
+  "field": "days_hours",
+  "id": "rv_d753f51f9f92",
+  "kind": "unreliable",
+  "message": "Slot 'W 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2642:P9"
+ },
+ {
+  "evidence": [
+   "ev_082d7e41151b"
+  ],
+  "field": "days_hours",
+  "id": "rv_19bc7bf6d4b0",
+  "kind": "unreliable",
+  "message": "Slot 'M 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2805:T1"
+ },
+ {
+  "evidence": [
+   "ev_6eae71452459"
+  ],
+  "field": "days_hours",
+  "id": "rv_62bc13511501",
+  "kind": "unreliable",
+  "message": "Slot 'T Th 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2862:P8"
+ },
+ {
+  "evidence": [
+   "ev_901c90626fc2"
+  ],
+  "field": "days_hours",
+  "id": "rv_514daa2187e1",
+  "kind": "unreliable",
+  "message": "Slot 'M 3 W 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2891:L1"
+ },
+ {
+  "evidence": [
+   "ev_d93f801505d7"
+  ],
+  "field": "days_hours",
+  "id": "rv_3a2cdfa49641",
+  "kind": "unreliable",
+  "message": "Slot 'T 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:2891:P2"
+ },
+ {
+  "evidence": [
+   "ev_3f51679b9f48"
+  ],
+  "field": "days_hours",
+  "id": "rv_078718ab94b0",
+  "kind": "unreliable",
+  "message": "Slot 'W 11 12' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:3007:L1"
+ },
+ {
+  "evidence": [
+   "ev_1a20154476f8"
+  ],
+  "field": "days_hours",
+  "id": "rv_e323b740b73c",
+  "kind": "unreliable",
+  "message": "Slot 'T Th 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:5001:P8"
+ },
+ {
+  "evidence": [
+   "ev_ebf03eedd916"
+  ],
+  "field": "days_hours",
+  "id": "rv_c4577e854217",
+  "kind": "unreliable",
+  "message": "Slot 'S 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:5346:P2"
+ },
+ {
+  "evidence": [
+   "ev_dac8a5d1d035"
+  ],
+  "field": "days_hours",
+  "id": "rv_3b0e1fde5f98",
+  "kind": "unreliable",
+  "message": "Slot 'T 10 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:5834:P2"
+ },
+ {
+  "evidence": [
+   "ev_4dc457a64a2c"
+  ],
+  "field": "days_hours",
+  "id": "rv_177b5df4bccc",
+  "kind": "unreliable",
+  "message": "Slot 'M W 10 W 11' uses an hour not defined in the timetable legend (1-10) or is unparsed; meeting times remain unverified",
+  "severity": "warning",
+  "status": "open",
+  "subject": "section:2026-27-S1:6162:L1"
+ }
+]

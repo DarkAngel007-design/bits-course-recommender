@@ -1,0 +1,3194 @@
+[
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_40e21d6bfb0a"
+  ],
+  "source": "BIO F211",
+  "target": "BIO C211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e8dc05e0e76d"
+  ],
+  "source": "BIO F212",
+  "target": "BIO C241",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_74ef3d5b42a8"
+  ],
+  "source": "BIO F213",
+  "target": "BIO C321",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_3a507b4e3a5d"
+  ],
+  "source": "BIO F215",
+  "target": "BIO C331",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e26a739fe25b"
+  ],
+  "source": "BIO F417",
+  "target": "BIO C417",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_fcd045c4e3bb"
+  ],
+  "source": "BIO F418",
+  "target": "BIO C418",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e547a4d4eeae"
+  ],
+  "source": "BIO F421",
+  "target": "BIO C421",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_19c9b9244015"
+  ],
+  "source": "BIO G510",
+  "target": "PHA G510",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_18940e459a82"
+  ],
+  "source": "BITS F217",
+  "target": "GS F212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f38e08e2d4ce"
+  ],
+  "source": "BITS F316",
+  "target": "BITS C473",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_277d5b14617e"
+  ],
+  "source": "BITS F319",
+  "target": "BITS C319",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_277d5b14617e"
+  ],
+  "source": "BITS F319",
+  "target": "MBA C319",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_cd2bc6a7a9a2"
+  ],
+  "source": "BITS F320",
+  "target": "MBA C320",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_cd2bc6a7a9a2"
+  ],
+  "source": "BITS F320",
+  "target": "BITS C320",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c5455ae2a40e"
+  ],
+  "source": "BITS F321",
+  "target": "MBA C321",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c5455ae2a40e"
+  ],
+  "source": "BITS F321",
+  "target": "BITS C321",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c22a6c303009"
+  ],
+  "source": "BITS F343",
+  "target": "EA C482",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_168fa6cac585"
+  ],
+  "source": "BITS F372",
+  "target": "EEE F346",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_168fa6cac585"
+  ],
+  "source": "BITS F372",
+  "target": "BITS C372",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_3610e04a314e"
+  ],
+  "source": "BITS F385",
+  "target": "BITS C385",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_41250dfc07db"
+  ],
+  "source": "BITS F415",
+  "target": "EA C415",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_fc7b99e208c9"
+  ],
+  "source": "BITS F417",
+  "target": "ME F423",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_fc7b99e208c9"
+  ],
+  "source": "BITS F417",
+  "target": "EA C417",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_005fc6ad8905"
+  ],
+  "source": "BITS F431",
+  "target": "EA C412",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d69bcc925413"
+  ],
+  "source": "BITS F441",
+  "target": "EA C441",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_17be881d02c0"
+  ],
+  "source": "BITS F444",
+  "target": "EA C461",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_596eaadc1a6c"
+  ],
+  "source": "BITS F446",
+  "target": "EA C471",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_13b43f0a7725"
+  ],
+  "source": "BITS F447",
+  "target": "EA C473",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0b68f8d8b237"
+  ],
+  "source": "BITS F448",
+  "target": "EA C474",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0b68f8d8b237"
+  ],
+  "source": "BITS F448",
+  "target": "MBA C474",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_3927590ab7d9"
+  ],
+  "source": "BITS F449",
+  "target": "EA C475",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_3927590ab7d9"
+  ],
+  "source": "BITS F449",
+  "target": "MBA C475",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_3927590ab7d9"
+  ],
+  "source": "BITS F449",
+  "target": "ECON F413",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d48d4b5ea668"
+  ],
+  "source": "BITS F461",
+  "target": "BITS C461",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d48d4b5ea668"
+  ],
+  "source": "BITS F461",
+  "target": "IS C341",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_37833313175b"
+  ],
+  "source": "BITS F462",
+  "target": "BITS C462",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_63c84fc41b39"
+  ],
+  "source": "BITS F468",
+  "target": "BITS C468",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_63c84fc41b39"
+  ],
+  "source": "BITS F468",
+  "target": "ECON F415",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5b6a5ec1f685"
+  ],
+  "source": "BITS F482",
+  "target": "BITS C482",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5b6a5ec1f685"
+  ],
+  "source": "BITS F482",
+  "target": "MBA C482",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5b6a5ec1f685"
+  ],
+  "source": "BITS F482",
+  "target": "ECON F414",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_299de544bc00"
+  ],
+  "source": "BITS F488",
+  "target": "BITS C488",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_299de544bc00"
+  ],
+  "source": "BITS F488",
+  "target": "MBA C488",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e4663a21dfe4"
+  ],
+  "source": "BITS F493",
+  "target": "ECON F355",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e4663a21dfe4"
+  ],
+  "source": "BITS F493",
+  "target": "BITS C493",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e4663a21dfe4"
+  ],
+  "source": "BITS F493",
+  "target": "MBA C493",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_457b81ec57fa"
+  ],
+  "source": "BITS F494",
+  "target": "BITS C494",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_457b81ec57fa"
+  ],
+  "source": "BITS F494",
+  "target": "CE F434",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_26aa4e1b7b1f"
+  ],
+  "source": "CE F213",
+  "target": "CE C392",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_987ffc3bc01e"
+  ],
+  "source": "CE F323",
+  "target": "CE C414",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_b7f76f5d4ec7"
+  ],
+  "source": "CE F343",
+  "target": "CE C381",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d81eb7875d5f"
+  ],
+  "source": "CE F416",
+  "target": "CE C416",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_900046a569ae"
+  ],
+  "source": "CE F420",
+  "target": "CE G616",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_900046a569ae"
+  ],
+  "source": "CE F420",
+  "target": "CE C422",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0eca546d66c4"
+  ],
+  "source": "CE F423",
+  "target": "CE C394",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_8be5c8a5df8e"
+  ],
+  "source": "CE F431",
+  "target": "IS C472",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_94bb30b8c6b7"
+  ],
+  "source": "CE F434",
+  "target": "BITS C494",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1e011c384a45"
+  ],
+  "source": "CE G616",
+  "target": "CE F420",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1e011c384a45"
+  ],
+  "source": "CE G616",
+  "target": "CE C422",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_41b831f0a667"
+  ],
+  "source": "CE G641",
+  "target": "ME G641",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_fba48733c703"
+  ],
+  "source": "CHE F213",
+  "target": "CHE C311",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_54491744093e"
+  ],
+  "source": "CHE F411",
+  "target": "CHE C411",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_2d4244aed13e"
+  ],
+  "source": "CHE F414",
+  "target": "CHE C414",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_668204a3665f"
+  ],
+  "source": "CS F213",
+  "target": "IS C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_668204a3665f"
+  ],
+  "source": "CS F213",
+  "target": "IS F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_668204a3665f"
+  ],
+  "source": "CS F213",
+  "target": "CS C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_ad7572780084"
+  ],
+  "source": "CS F214",
+  "target": "IS F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_47c89b865f2f"
+  ],
+  "source": "CS F215",
+  "target": "EEE F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_47c89b865f2f"
+  ],
+  "source": "CS F215",
+  "target": "INSTR F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7da52c1283ce"
+  ],
+  "source": "CS F222",
+  "target": "MATH C222",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7da52c1283ce"
+  ],
+  "source": "CS F222",
+  "target": "IS F222",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1f3e86dfd14d"
+  ],
+  "source": "CS F301",
+  "target": "IS F301",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1f3e86dfd14d"
+  ],
+  "source": "CS F301",
+  "target": "CS C362",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1d3cc3f17620"
+  ],
+  "source": "CS F342",
+  "target": "CS C342",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_aac930c42823"
+  ],
+  "source": "CS F351",
+  "target": "CS C351",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4d2c20fb85ba"
+  ],
+  "source": "CS F372",
+  "target": "CS C372",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4d2c20fb85ba"
+  ],
+  "source": "CS F372",
+  "target": "IS F372",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4d2c20fb85ba"
+  ],
+  "source": "CS F372",
+  "target": "IS C362",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d0da2e743389"
+  ],
+  "source": "CS F415",
+  "target": "CS C415",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d0da2e743389"
+  ],
+  "source": "CS F415",
+  "target": "IS C415",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5d5f62fa7d6d"
+  ],
+  "source": "CS G513",
+  "target": "SS G513",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_b1876cab9d3b"
+  ],
+  "source": "CS G514",
+  "target": "SS G514",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d51ef569ba95"
+  ],
+  "source": "CS G520",
+  "target": "SS G520",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f8d9504239e8"
+  ],
+  "source": "CS G527",
+  "target": "SS G527",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_caa63342dc9a"
+  ],
+  "source": "CS G531",
+  "target": "EEE G531",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_caa63342dc9a"
+  ],
+  "source": "CS G531",
+  "target": "MEL G531",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_9baf41d3ef62"
+  ],
+  "source": "CS G541",
+  "target": "SS G531",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_63bd7ff83bac"
+  ],
+  "source": "CS G551",
+  "target": "SS G551",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_ce676118ffba"
+  ],
+  "source": "CS G653",
+  "target": "SS G653",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7c9002c98eb8"
+  ],
+  "source": "ECON F211",
+  "target": "ECON C212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f1c2bd363cda"
+  ],
+  "source": "ECON F212",
+  "target": "FIN F212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f1c2bd363cda"
+  ],
+  "source": "ECON F212",
+  "target": "ECON C211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_382688db7907"
+  ],
+  "source": "ECON F213",
+  "target": "FIN F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0db147f0c0ba"
+  ],
+  "source": "ECON F214",
+  "target": "FIN F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_169e381899c1"
+  ],
+  "source": "ECON F311",
+  "target": "ECON C372",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_908111e35ad4"
+  ],
+  "source": "ECON F312",
+  "target": "MGTS C424",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_908111e35ad4"
+  ],
+  "source": "ECON F312",
+  "target": "ECON C362",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c009d9fa885d"
+  ],
+  "source": "ECON F355",
+  "target": "BITS F493",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c009d9fa885d"
+  ],
+  "source": "ECON F355",
+  "target": "MBA C493",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c009d9fa885d"
+  ],
+  "source": "ECON F355",
+  "target": "BITS C493",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_641d382a4759"
+  ],
+  "source": "ECON F411",
+  "target": "FIN C411",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_641d382a4759"
+  ],
+  "source": "ECON F411",
+  "target": "MGTS C451",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_641d382a4759"
+  ],
+  "source": "ECON F411",
+  "target": "ME C481",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_641d382a4759"
+  ],
+  "source": "ECON F411",
+  "target": "MBA C454",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_641d382a4759"
+  ],
+  "source": "ECON F411",
+  "target": "ECON C411",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4e6dd6e8b4a3"
+  ],
+  "source": "ECON F412",
+  "target": "ECON C412",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4e6dd6e8b4a3"
+  ],
+  "source": "ECON F412",
+  "target": "CDP C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4e6dd6e8b4a3"
+  ],
+  "source": "ECON F412",
+  "target": "MGTS C412",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4e6dd6e8b4a3"
+  ],
+  "source": "ECON F412",
+  "target": "MBA C437",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_59e239f5bf1b"
+  ],
+  "source": "ECON F413",
+  "target": "MBA C475",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_59e239f5bf1b"
+  ],
+  "source": "ECON F413",
+  "target": "EA C475",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_59e239f5bf1b"
+  ],
+  "source": "ECON F413",
+  "target": "BITS F449",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1c5c02846b8d"
+  ],
+  "source": "ECON F414",
+  "target": "BITS F482",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1c5c02846b8d"
+  ],
+  "source": "ECON F414",
+  "target": "MBA C482",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1c5c02846b8d"
+  ],
+  "source": "ECON F414",
+  "target": "BITS C482",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_88314f193166"
+  ],
+  "source": "ECON F415",
+  "target": "BITS F468",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_88314f193166"
+  ],
+  "source": "ECON F415",
+  "target": "BITS C468",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7c3b677aae9e"
+  ],
+  "source": "EEE F211",
+  "target": "INSTR F211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d015cce72e96"
+  ],
+  "source": "EEE F212",
+  "target": "INSTR F212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a6fb6a12c289"
+  ],
+  "source": "EEE F214",
+  "target": "EEE C381",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a6fb6a12c289"
+  ],
+  "source": "EEE F214",
+  "target": "INSTR F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_60f564753855"
+  ],
+  "source": "EEE F215",
+  "target": "CS F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_60f564753855"
+  ],
+  "source": "EEE F215",
+  "target": "INSTR F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_434062cfee6d"
+  ],
+  "source": "EEE F313",
+  "target": "EEE C443",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_434062cfee6d"
+  ],
+  "source": "EEE F313",
+  "target": "INSTR F313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_26f9fe1aeef7"
+  ],
+  "source": "EEE F346",
+  "target": "BITS C372",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e790cb10683d"
+  ],
+  "source": "EEE F431",
+  "target": "EA C452",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_e07d625b3779"
+  ],
+  "source": "EEE F434",
+  "target": "EEE C434",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_3ea001f2a465"
+  ],
+  "source": "EEE F472",
+  "target": "EEE C472",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_ab66d7c72563"
+  ],
+  "source": "EEE G531",
+  "target": "CS G531",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_ab66d7c72563"
+  ],
+  "source": "EEE G531",
+  "target": "MEL G531",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5bee77259a27"
+  ],
+  "source": "FIN F212",
+  "target": "ECON C211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5bee77259a27"
+  ],
+  "source": "FIN F212",
+  "target": "ECON F212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f97851427da5"
+  ],
+  "source": "FIN F213",
+  "target": "ECON F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5955af7bc61a"
+  ],
+  "source": "FIN F214",
+  "target": "ECON F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4fcc28373188"
+  ],
+  "source": "FIN F314",
+  "target": "FIN C341",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0c71d6ce0c95"
+  ],
+  "source": "FIN F315",
+  "target": "MGTS C382",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0c71d6ce0c95"
+  ],
+  "source": "FIN F315",
+  "target": "FIN C342",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0c71d6ce0c95"
+  ],
+  "source": "FIN F315",
+  "target": "ECON C481",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_3a3c3458129a"
+  ],
+  "source": "GS F223",
+  "target": "BITS C214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5ce119ea77b7"
+  ],
+  "source": "GS F224",
+  "target": "HSS C314",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_51c90a9d75dc"
+  ],
+  "source": "GS F244",
+  "target": "BITS C396",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_04f1cc6a7f42"
+  ],
+  "source": "GS F311",
+  "target": "BITS C484",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_992cd64f9671"
+  ],
+  "source": "GS F321",
+  "target": "BITS C394",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d5f4f1e07d37"
+  ],
+  "source": "GS F322",
+  "target": "HSS C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_2444f558301a"
+  ],
+  "source": "GS F333",
+  "target": "HUM C351",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_9a1bc3afb5bc"
+  ],
+  "source": "GS F343",
+  "target": "BITS C395",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7a52b47cfc4e"
+  ],
+  "source": "HSS F223",
+  "target": "HUM C321",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_88ae381df167"
+  ],
+  "source": "HSS F329",
+  "target": "HUM C381",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0a51b7b9e3b4"
+  ],
+  "source": "HSS F334",
+  "target": "HUM C383",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_215535c3a91b"
+  ],
+  "source": "HSS F343",
+  "target": "HUM C411",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_9a2d651f4083"
+  ],
+  "source": "HSS F344",
+  "target": "HUM C412",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_771133b6fd7b"
+  ],
+  "source": "INSTR F211",
+  "target": "EEE F211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f70f82d0bb00"
+  ],
+  "source": "INSTR F212",
+  "target": "EEE F212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_b8dea96a479f"
+  ],
+  "source": "INSTR F214",
+  "target": "EEE F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_b8dea96a479f"
+  ],
+  "source": "INSTR F214",
+  "target": "EEE C381",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7886c4bb9a1f"
+  ],
+  "source": "INSTR F215",
+  "target": "CS F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7886c4bb9a1f"
+  ],
+  "source": "INSTR F215",
+  "target": "EEE F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d0d4cfaf8cc6"
+  ],
+  "source": "INSTR F312",
+  "target": "INSTR C381",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_17c49e3d7acb"
+  ],
+  "source": "INSTR F313",
+  "target": "EEE C443",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_17c49e3d7acb"
+  ],
+  "source": "INSTR F313",
+  "target": "EEE F313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a7610e31d50a"
+  ],
+  "source": "IS F213",
+  "target": "CS C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a7610e31d50a"
+  ],
+  "source": "IS F213",
+  "target": "CS F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a7610e31d50a"
+  ],
+  "source": "IS F213",
+  "target": "IS C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_84d0f44a4a38"
+  ],
+  "source": "IS F214",
+  "target": "CS F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_09de95644f3b"
+  ],
+  "source": "IS F222",
+  "target": "CS F222",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_09de95644f3b"
+  ],
+  "source": "IS F222",
+  "target": "MATH C222",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4d68454ca036"
+  ],
+  "source": "IS F301",
+  "target": "CS F301",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4d68454ca036"
+  ],
+  "source": "IS F301",
+  "target": "CS C362",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d26a22e8b645"
+  ],
+  "source": "IS F311",
+  "target": "IS C471",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d26a22e8b645"
+  ],
+  "source": "IS F311",
+  "target": "CS C471",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_77217c58ee69"
+  ],
+  "source": "IS F372",
+  "target": "CS F372",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_77217c58ee69"
+  ],
+  "source": "IS F372",
+  "target": "IS C362",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_77217c58ee69"
+  ],
+  "source": "IS F372",
+  "target": "CS C372",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_666964e1efe8"
+  ],
+  "source": "MATH F212",
+  "target": "AAOC C222",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_48ce18750d70"
+  ],
+  "source": "MATH F353",
+  "target": "MATH C353",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1606d94406eb"
+  ],
+  "source": "ME F211",
+  "target": "MF F211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1606d94406eb"
+  ],
+  "source": "ME F211",
+  "target": "ES C221",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7f09b8ba42b4"
+  ],
+  "source": "ME F212",
+  "target": "MF F212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_88f6bd6330f3"
+  ],
+  "source": "ME F213",
+  "target": "MF F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f23fd14473bc"
+  ],
+  "source": "ME F214",
+  "target": "ME C211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f23fd14473bc"
+  ],
+  "source": "ME F214",
+  "target": "MF F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d6fb55f6e6e7"
+  ],
+  "source": "ME F215",
+  "target": "MF F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f114e2a9fd3e"
+  ],
+  "source": "ME F423",
+  "target": "BITS F417",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f114e2a9fd3e"
+  ],
+  "source": "ME F423",
+  "target": "EA C417",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_37f870067db7"
+  ],
+  "source": "ME F441",
+  "target": "ME C441",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a467f45a4f82"
+  ],
+  "source": "ME F443",
+  "target": "MF C441",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a467f45a4f82"
+  ],
+  "source": "ME F443",
+  "target": "MGTS C432",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_a467f45a4f82"
+  ],
+  "source": "ME F443",
+  "target": "ME C443",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_9754ef5e65ff"
+  ],
+  "source": "ME G641",
+  "target": "CE G641",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_685ee663e44a"
+  ],
+  "source": "MEL G531",
+  "target": "EEE G531",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_685ee663e44a"
+  ],
+  "source": "MEL G531",
+  "target": "CS G531",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_baf4d4faf313"
+  ],
+  "source": "MF F211",
+  "target": "ES C221",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_baf4d4faf313"
+  ],
+  "source": "MF F211",
+  "target": "ME F211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_770c24701e8b"
+  ],
+  "source": "MF F212",
+  "target": "ME F212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_09b5b2366c13"
+  ],
+  "source": "MF F213",
+  "target": "ME F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_91f97894f64d"
+  ],
+  "source": "MF F214",
+  "target": "ME F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_91f97894f64d"
+  ],
+  "source": "MF F214",
+  "target": "ME C211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_2c37fc38ff91"
+  ],
+  "source": "MF F215",
+  "target": "ME F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_dfee67f1f898"
+  ],
+  "source": "MF F311",
+  "target": "MF C319",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_b70ea88a4b61"
+  ],
+  "source": "MF F313",
+  "target": "MF C314",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5036803785d0"
+  ],
+  "source": "MF F421",
+  "target": "MBA C421",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5036803785d0"
+  ],
+  "source": "MF F421",
+  "target": "MF C421",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_9efd8d27ec2a"
+  ],
+  "source": "PHA F211",
+  "target": "PHA C212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_1e32fdfdbed0"
+  ],
+  "source": "PHA F212",
+  "target": "PHA C322",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_55ef2a41b0c8"
+  ],
+  "source": "PHA F213",
+  "target": "PHA C241",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_95dc494d89f6"
+  ],
+  "source": "PHA F214",
+  "target": "PHA C321",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_dacda7491df7"
+  ],
+  "source": "PHA F313",
+  "target": "PHA C391",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c627b8ee39e5"
+  ],
+  "source": "PHA F314",
+  "target": "PHA C421",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c54d414c62b6"
+  ],
+  "source": "PHA F413",
+  "target": "PHA C413",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_b66c50db9cdf"
+  ],
+  "source": "PHA F414",
+  "target": "PHA C414",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_f4664a3ff8d4"
+  ],
+  "source": "PHA F416",
+  "target": "PHA C416",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_4d2521ab9e0b"
+  ],
+  "source": "PHA F417",
+  "target": "PHA C417",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_d2626699e8b3"
+  ],
+  "source": "PHA G510",
+  "target": "BIO G510",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_5ea9e7cbe071"
+  ],
+  "source": "PHY F211",
+  "target": "PHY C212",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_712865c61934"
+  ],
+  "source": "PHY F311",
+  "target": "PHY C321",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_32917de205f4"
+  ],
+  "source": "PHY F315",
+  "target": "PHY C242",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_86601384a531"
+  ],
+  "source": "PHY F418",
+  "target": "PHY C432",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_7037d9750ef9"
+  ],
+  "source": "PHY F424",
+  "target": "PHY C411",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0e941642dee2"
+  ],
+  "source": "SS G512",
+  "target": "CS F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0e941642dee2"
+  ],
+  "source": "SS G512",
+  "target": "CS C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0e941642dee2"
+  ],
+  "source": "SS G512",
+  "target": "IS F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_0e941642dee2"
+  ],
+  "source": "SS G512",
+  "target": "IS C313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_ed5389e8521e"
+  ],
+  "source": "SS G513",
+  "target": "CS G513",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_2d85d73076cf"
+  ],
+  "source": "SS G514",
+  "target": "CS G514",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_9317237c08f0"
+  ],
+  "source": "SS G520",
+  "target": "CS G520",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_9e814851c4ca"
+  ],
+  "source": "SS G527",
+  "target": "CS G527",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_8d1bea568b9f"
+  ],
+  "source": "SS G531",
+  "target": "CS G541",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_8726b52dcb30"
+  ],
+  "source": "SS G551",
+  "target": "CS G551",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "listed for First Semester 2026-27",
+  "evidence": [
+   "ev_c02bb0d86445"
+  ],
+  "source": "SS G653",
+  "target": "CS G653",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_2cf2150e1e41"
+  ],
+  "source": "AUE F313",
+  "target": "CE F320",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_b50c17b2d619"
+  ],
+  "source": "AUE F343",
+  "target": "CE F343",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_b734ba129858"
+  ],
+  "source": "AUE F422",
+  "target": "CE G524",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_e615a9474ab8"
+  ],
+  "source": "AUE F424",
+  "target": "CE G527",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_62ad2e4a8d90"
+  ],
+  "source": "BBA F346",
+  "target": "MBA G583",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1e17eb3d3cf9"
+  ],
+  "source": "BBA F418",
+  "target": "MPBA G526",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_4341cc47c182"
+  ],
+  "source": "BITS F240",
+  "target": "BITS F237",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_e672791c397a"
+  ],
+  "source": "BITS F241",
+  "target": "BITS F236",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_82ada17e9c52"
+  ],
+  "source": "BITS F455",
+  "target": "MPBA G520",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1efd36a66c08"
+  ],
+  "source": "ECOM F211",
+  "target": "CS F211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_d622792328fa"
+  ],
+  "source": "ECOM F213",
+  "target": "CS F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1b9554c99c27"
+  ],
+  "source": "ECOM F214",
+  "target": "EEE F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1b9554c99c27"
+  ],
+  "source": "ECOM F214",
+  "target": "INSTR F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1d029d8bf401"
+  ],
+  "source": "ECOM F215",
+  "target": "CS F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1d029d8bf401"
+  ],
+  "source": "ECOM F215",
+  "target": "ECE F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1d029d8bf401"
+  ],
+  "source": "ECOM F215",
+  "target": "EEE F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_d46ca0c24571"
+  ],
+  "source": "ECOM F222",
+  "target": "CS F222",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_57152f2c99a4"
+  ],
+  "source": "ECOM F241",
+  "target": "CS F241",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_57152f2c99a4"
+  ],
+  "source": "ECOM F241",
+  "target": "ECE F241",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_57152f2c99a4"
+  ],
+  "source": "ECOM F241",
+  "target": "EEE F241",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_adf4cf562150"
+  ],
+  "source": "ECOM F242",
+  "target": "ECE F242",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_adf4cf562150"
+  ],
+  "source": "ECOM F242",
+  "target": "EEE F242",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_eeb64a0192c8"
+  ],
+  "source": "ECOM F243",
+  "target": "ECE F243",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_eeb64a0192c8"
+  ],
+  "source": "ECOM F243",
+  "target": "EEE F243",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1deb9ab5ffff"
+  ],
+  "source": "ECOM F244",
+  "target": "ECE F244",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1deb9ab5ffff"
+  ],
+  "source": "ECOM F244",
+  "target": "EEE F244",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_4dcc3a1c5d1c"
+  ],
+  "source": "ECOM F313",
+  "target": "EEE F313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_004811a93bee"
+  ],
+  "source": "ECOM F342",
+  "target": "CS F342",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_9f28da1ce9c3"
+  ],
+  "source": "ECOM F343",
+  "target": "ECE F343",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_c8adca9ba84b"
+  ],
+  "source": "ECOM F462",
+  "target": "IS F462",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_9f4efe71bbd2"
+  ],
+  "source": "MAC F212",
+  "target": "CS F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_9f4efe71bbd2"
+  ],
+  "source": "MAC F212",
+  "target": "IS F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_4f195266b46c"
+  ],
+  "source": "MAC F213",
+  "target": "MATH F213",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_dd581cb06a90"
+  ],
+  "source": "MAC F214",
+  "target": "MATH F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_627014291587"
+  ],
+  "source": "MAC F241",
+  "target": "MATH F313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_84843a8a1f74"
+  ],
+  "source": "MAC F242",
+  "target": "CS F211",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_1795b5088564"
+  ],
+  "source": "MAC F311",
+  "target": "MATH F215",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_6714b8f9bc2e"
+  ],
+  "source": "MAC F312",
+  "target": "CS F320",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_270047e38736"
+  ],
+  "source": "MAC F314",
+  "target": "MATH F420",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_51b6817071f7"
+  ],
+  "source": "MAC F341",
+  "target": "CS F364",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_39d1fc599c75"
+  ],
+  "source": "MAC F342",
+  "target": "MATH F422",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_ceab74f2ad8e"
+  ],
+  "source": "MPBA G501",
+  "target": "MBA G501",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_b6406c6a85ca"
+  ],
+  "source": "ME F216",
+  "target": "MF F216",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_12fda1ed2207"
+  ],
+  "source": "ME F221",
+  "target": "MF F221",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_a40b9afeda08"
+  ],
+  "source": "ME F314",
+  "target": "MF F314",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_e5f554d05476"
+  ],
+  "source": "ME F320",
+  "target": "MF F320",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_288b5e1acce2"
+  ],
+  "source": "MF F216",
+  "target": "ME F216",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_ef2ee0fbe9a7"
+  ],
+  "source": "MF F221",
+  "target": "ME F221",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_bb00b91b8861"
+  ],
+  "source": "MF F314",
+  "target": "ME F314",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_a6fda7d3df7f"
+  ],
+  "source": "MF F320",
+  "target": "ME F320",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_64339d276898"
+  ],
+  "source": "RIA F213",
+  "target": "BITS F232",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_686732bc1946"
+  ],
+  "source": "RIA F241",
+  "target": "BITS F327",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_72c6a4deb427"
+  ],
+  "source": "RIA F242",
+  "target": "ECOM F242",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_72c6a4deb427"
+  ],
+  "source": "RIA F242",
+  "target": "ECE F242",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_72c6a4deb427"
+  ],
+  "source": "RIA F242",
+  "target": "EEE F242",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_96dc6cddc0dd"
+  ],
+  "source": "RIA F243",
+  "target": "ECOM F243",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_96dc6cddc0dd"
+  ],
+  "source": "RIA F243",
+  "target": "ECE F243",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_96dc6cddc0dd"
+  ],
+  "source": "RIA F243",
+  "target": "EEE F243",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_dcaed2b9ebd5"
+  ],
+  "source": "RIA F311",
+  "target": "ME F411",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_465b49acbb22"
+  ],
+  "source": "RIA F313",
+  "target": "BITS F459",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_f636dfe27f7c"
+  ],
+  "source": "RIA F342",
+  "target": "ME F318",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_b92e592d7563"
+  ],
+  "source": "RIA F343",
+  "target": "BITS F451",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_d0f169e01078"
+  ],
+  "source": "SNS F212",
+  "target": "PHY F242",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_731dd0a749a9"
+  ],
+  "source": "SNS F213",
+  "target": "CHE F243",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_d2ea3708952a"
+  ],
+  "source": "SNS F242",
+  "target": "EEE F214",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_654c9f91a967"
+  ],
+  "source": "SNS F311",
+  "target": "PHY F379",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "bulletin course description",
+  "evidence": [
+   "ev_a4b35dd3197d"
+  ],
+  "source": "SNS F313",
+  "target": "CHEM F313",
+  "type": "equivalence"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_6da50bbdb2c6"
+  ],
+  "source": "BIO F212",
+  "targets": [
+   "BIO G523"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_5da986efff2f"
+  ],
+  "source": "BIO F421",
+  "targets": [
+   "BIO U320"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_2a68fe175752"
+  ],
+  "source": "BIO U101",
+  "targets": [
+   "BIO F101"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_7b960d98f680"
+  ],
+  "source": "BITS F101",
+  "targets": [
+   "SW E101"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_8bb27c2b89d1"
+  ],
+  "source": "BITS F415",
+  "targets": [
+   "BITS U415"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_bd63aff2ab8d"
+  ],
+  "source": "BITS F462",
+  "targets": [
+   "BITS U462"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_b2026bf199e7"
+  ],
+  "source": "BITS F464",
+  "targets": [
+   "CS U311"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_28a700de3f8b"
+  ],
+  "source": "ECON F415",
+  "targets": [
+   "BITS F468"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_5c98325e81d8"
+  ],
+  "source": "BITS F482",
+  "targets": [
+   "ECON F414"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_c906a9fff813"
+  ],
+  "source": "CE F434",
+  "targets": [
+   "BITS F494",
+   "CE U434"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_0ff4a9705340"
+  ],
+  "source": "BITS G629T",
+  "targets": [
+   "BITS G561T",
+   "BITS G562T",
+   "BITS G563T",
+   "BITS G564T"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_4c014b1bd028"
+  ],
+  "source": "BITS F467",
+  "targets": [
+   "BITS U467"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_5810a3f355bf"
+  ],
+  "source": "CS F111",
+  "targets": [
+   "CS U111"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_a2bfccad8345"
+  ],
+  "source": "CS F213",
+  "targets": [
+   "MAC F212"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_750601e09746"
+  ],
+  "source": "CS F215",
+  "targets": [
+   "EEE F342",
+   "ECE F342",
+   "INSTR F342",
+   "CS F342",
+   "ECE F215",
+   "EEE F215",
+   "INSTR F215"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_893f6bad9e98"
+  ],
+  "source": "CS F407",
+  "targets": [
+   "CS U407"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_82f20a99f188"
+  ],
+  "source": "CS F429",
+  "targets": [
+   "CS U429"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_f50ca5df56dc"
+  ],
+  "source": "CS F446",
+  "targets": [
+   "CS U446"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_ab862316b0a3"
+  ],
+  "source": "CS F469",
+  "targets": [
+   "CS U469"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_ff669405acf9"
+  ],
+  "source": "CS G527",
+  "targets": [
+   "SS G527"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_b70b8b7eeeb2"
+  ],
+  "source": "EEE F211",
+  "targets": [
+   "ECE F211",
+   "INSTR F211"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_658f8c67202a"
+  ],
+  "source": "EEE F214",
+  "targets": [
+   "INSTR F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_73bf7fdc59b5"
+  ],
+  "source": "EEE F266",
+  "targets": [
+   "INSTR F266",
+   "ECE F266"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_7112b4554f79"
+  ],
+  "source": "EEE F366",
+  "targets": [
+   "INSTR F366",
+   "ECE F366",
+   "ECE F367",
+   "EEE F367",
+   "INSTR F367",
+   "INSTR F491"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_a728343d84e6"
+  ],
+  "source": "EEE F376",
+  "targets": [
+   "INSTR F376",
+   "ECE F376",
+   "ECE F377",
+   "EEE F377",
+   "INSTR F377"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_93d6bad4fce4"
+  ],
+  "source": "ECE F434",
+  "targets": [
+   "EEE F434"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_718368618e43"
+  ],
+  "source": "EEE F491",
+  "targets": [
+   "INSTR F491",
+   "ECE F491"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_24db7cf7b0c6"
+  ],
+  "source": "ECON F212",
+  "targets": [
+   "FIN F212"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_da3039a0030c"
+  ],
+  "source": "ECON F315",
+  "targets": [
+   "FIN F315"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_b942f5b963ef"
+  ],
+  "source": "ECON F412",
+  "targets": [
+   "FIN F313"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_8a9a92e90c75"
+  ],
+  "source": "ECON F417",
+  "targets": [
+   "FIN F413"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_73b9565d36a6"
+  ],
+  "source": "EEE F244",
+  "targets": [
+   "INSTR F244",
+   "ECE F244"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_a910ffedef16"
+  ],
+  "source": "EEE F313",
+  "targets": [
+   "INSTR F313"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_3fd04dabd4a7"
+  ],
+  "source": "EEE F422",
+  "targets": [
+   "EEE U422"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_6191a806da35"
+  ],
+  "source": "ENGL C261",
+  "targets": [
+   "GS F241"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_b11439657404"
+  ],
+  "source": "BITS C484",
+  "targets": [
+   "GS F311"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [],
+  "source": "MAC F214",
+  "targets": [
+   "MATH F214"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_f6aa4d6bcfe5"
+  ],
+  "source": "MAC F367",
+  "targets": [
+   "MATH F367"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_3c4b20bdfb1a"
+  ],
+  "source": "ME F211",
+  "targets": [
+   "MF F211"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_01fa5a9a121d"
+  ],
+  "source": "ME F216",
+  "targets": [
+   "MF F216"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_676027199d7e"
+  ],
+  "source": "ME F314",
+  "targets": [
+   "MF F314"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_d13beeebc0ee"
+  ],
+  "source": "ME F428",
+  "targets": [
+   "ME U428"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_78ce3a96525b"
+  ],
+  "source": "ME F443",
+  "targets": [
+   "ME U443"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_43eb5c03d83f"
+  ],
+  "source": "MPBA G520",
+  "targets": [
+   "MPBA G521",
+   "BITS F455"
+  ],
+  "type": "shared_handout"
+ },
+ {
+  "applicability": "same handout document (not equivalence)",
+  "evidence": [
+   "ev_07e73a9e5832"
+  ],
+  "source": "CS G514",
+  "targets": [
+   "SS G514"
+  ],
+  "type": "shared_handout"
+ }
+]

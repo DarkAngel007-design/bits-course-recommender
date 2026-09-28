@@ -1,0 +1,81 @@
+{
+ "catalog_courses": 2085,
+ "curricula": 99,
+ "curricula_by_type": {
+  "dual": 72,
+  "single": 27
+ },
+ "handout_attendance_status": {
+  "explicitly_not_required": 5,
+  "n/a": 1,
+  "none_found": 193,
+  "requirement_stated": 54,
+  "statement_without_requirement": 116,
+  "unknown": 30
+ },
+ "handout_extraction": {
+  "no_evaluation": 6,
+  "no_text_layer": 1,
+  "ok": 327,
+  "partial": 65
+ },
+ "handout_midsem_status": {
+  "explicit_from_complete_table": 43,
+  "n/a": 1,
+  "stated": 327,
+  "unknown": 28
+ },
+ "handouts_distinct": 399,
+ "offered_courses": 536,
+ "offered_with_bulletin_description": 467,
+ "offered_with_handout": 428,
+ "offerings_by_status": {
+  "cancelled": 128,
+  "offered": 600
+ },
+ "offerings_offered": 600,
+ "offerings_total": 728,
+ "prerequisite_status": {
+  "none_stated": 1907,
+  "not_in_bulletin": 97,
+  "parsed": 64,
+  "parsed_partial": 6,
+  "unresolved": 11
+ },
+ "review_queue": {
+  "by_kind": {
+   "ambiguous_mapping": 7,
+   "conflict": 18,
+   "missing": 307,
+   "unparsed": 1,
+   "unreliable": 106,
+   "validation_failure": 133
+  },
+  "by_severity": {
+   "error": 1,
+   "info": 410,
+   "warning": 161
+  },
+  "total": 572
+ },
+ "rules_reviewed": 35,
+ "supported_scope": {
+  "campus": "Pilani",
+  "curriculum_edition": "bulletin-2025-26",
+  "limitations": [
+   "Authoritative prerequisite list is on an external portal (timetable VI); only prerequisites printed in bulletin course descriptions are evaluated",
+   "CGPA threshold for higher-degree electives is prescribed by AGC and not supplied"
+  ],
+  "resolved_admission_years": [
+   2025
+  ],
+  "term": "First Semester 2026-27",
+  "unsupported": [
+   "Dubai, Goa, Hyderabad, Mumbai campuses (no timetable supplied)",
+   "2026 admissions (credit-hour framework; no applicable curriculum supplied)",
+   "Admission years other than 2025: curriculum applicability not established by supplied documents",
+   "Higher degree and PhD programmes (first-degree requirements only)",
+   "International 2+2 / collaborative programmes"
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "discipline_elective_max_projects": 3,
+ "discipline_elective_subhead_max": {
+  "design": 2,
+  "laboratory": 2,
+  "special": 1,
+  "study": 1
+ },
+ "evidence": [
+  "ev_7faac7ce5257"
+ ],
+ "open_elective_max_projects": 3,
+ "project_codes": {
+  "design": [
+   "F376",
+   "F377"
+  ],
+  "laboratory": [
+   "F366",
+   "F367"
+  ],
+  "special": [
+   "F491"
+  ],
+  "study": [
+   "F266"
+  ]
+ },
+ "review_status": "reviewed",
+ "total_elective_max_projects": 5
+}

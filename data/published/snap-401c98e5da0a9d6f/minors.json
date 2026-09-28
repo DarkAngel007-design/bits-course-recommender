@@ -1,0 +1,2981 @@
+{
+ "general": {
+  "core_max_courses": 4,
+  "core_max_units": 12,
+  "declare_by": "end of 2nd year",
+  "electives_min_courses": 2,
+  "electives_min_units": 6,
+  "evidence": [
+   "ev_db461886198a"
+  ],
+  "max_overlap_units": 6,
+  "max_overlap_with_mandatory_courses": 2,
+  "max_project_courses": 1,
+  "min_cgpa_in_minor_courses": 4.5,
+  "total_min_courses": 5,
+  "total_min_units": 15
+ },
+ "minors": {
+  "Aeronautics": {
+   "core": [
+    {
+     "U": 3,
+     "code": "AN F311",
+     "evidence": [
+      "ev_f38f7fd714a6"
+     ],
+     "title": "Principles of Aerodynamics"
+    },
+    {
+     "U": 3,
+     "code": "AN F312",
+     "evidence": [
+      "ev_370fc7b81244"
+     ],
+     "title": "Aircraft Propulsion"
+    },
+    {
+     "U": 3,
+     "code": "AN F313",
+     "evidence": [
+      "ev_b9b987906165"
+     ],
+     "title": "Flight Mechanics and Controls"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "AN F314",
+     "evidence": [
+      "ev_b5f69c5b8790"
+     ],
+     "title": "Introduction to Flight"
+    },
+    {
+     "U": 3,
+     "code": "AN F315",
+     "evidence": [
+      "ev_69a520a2885d"
+     ],
+     "title": "Aircraft Structures"
+    },
+    {
+     "U": 3,
+     "code": "ME F415",
+     "evidence": [
+      "ev_e45f235031b4"
+     ],
+     "title": "Gas Dynamics"
+    },
+    {
+     "U": 3,
+     "code": "ME F418",
+     "evidence": [
+      "ev_b5f9019615a1"
+     ],
+     "title": "Rocket and Spacecraft Propulsion"
+    },
+    {
+     "U": 3,
+     "code": "ME F435",
+     "evidence": [
+      "ev_249c4c0a14f3"
+     ],
+     "title": "Shape Memory Alloys: Fundamentals and Applications"
+    },
+    {
+     "U": 3,
+     "code": "ME F452",
+     "evidence": [
+      "ev_fb8e19f5a05b"
+     ],
+     "title": "Composite Materials and Design"
+    },
+    {
+     "U": 3,
+     "code": "ME F482",
+     "evidence": [
+      "ev_d5ade4b47473"
+     ],
+     "title": "Combustion"
+    },
+    {
+     "U": 3,
+     "code": "ME F485",
+     "evidence": [
+      "ev_cc90244fc2d5"
+     ],
+     "title": "Numerical Techniques for Fluid Flow & Heat Transfer"
+    },
+    {
+     "U": 3,
+     "code": "EEE F242",
+     "evidence": [
+      "ev_dab462e85874"
+     ],
+     "title": "Control Systems"
+    },
+    {
+     "U": 3,
+     "code": "EEE F417",
+     "evidence": [
+      "ev_0c2bd3f84cad"
+     ],
+     "title": "Computer Based Control Systems"
+    },
+    {
+     "U": 3,
+     "code": "ME F376",
+     "evidence": [
+      "ev_82b4f7a636de"
+     ],
+     "title": "Design Project"
+    }
+   ],
+   "evidence": [
+    "ev_31782a709f4f"
+   ],
+   "exclusions": [],
+   "min_courses": 6,
+   "min_units": 18,
+   "name": "Aeronautics",
+   "notes": [],
+   "pages": [
+    338
+   ]
+  },
+  "Biomedical Engineering": {
+   "core": [
+    {
+     "U": 4,
+     "code": "BITS F418",
+     "evidence": [
+      "ev_d8126563c472"
+     ],
+     "title": "Introduction to Biomedical Engineering"
+    },
+    {
+     "U": 3,
+     "code": "PHA F214",
+     "evidence": [
+      "ev_7e87db43a8b3"
+     ],
+     "title": "Anatomy Physiology & Hygiene"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BIO F215",
+     "evidence": [
+      "ev_e73a7d62d900"
+     ],
+     "title": "Biophysics"
+    },
+    {
+     "U": 3,
+     "code": "BITS F315",
+     "evidence": [
+      "ev_ee13a14a92ab"
+     ],
+     "title": "Introduction to Cognitive Neuroscience"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F414",
+     "evidence": [
+      "ev_f181ccb0f1d1"
+     ],
+     "title": "Bio and Chemical Sensors"
+    },
+    {
+     "U": 3,
+     "code": "MST F333",
+     "evidence": [
+      "ev_f3f5a4755d0c"
+     ],
+     "title": "Introduction to Biomaterials"
+    },
+    {
+     "U": 3,
+     "code": "PHA F215",
+     "evidence": [
+      "ev_973033c563a5"
+     ],
+     "title": "Introduction to Molecular Biology and Immunology"
+    },
+    {
+     "U": 4,
+     "code": "BITS F415",
+     "evidence": [
+      "ev_3af92bf3710f"
+     ],
+     "title": "Introduction to MEMS"
+    },
+    {
+     "U": 4,
+     "code": "BITS F417",
+     "evidence": [
+      "ev_17740b3adb8d"
+     ],
+     "title": "Microfluidics and Its Application"
+    },
+    {
+     "U": 3,
+     "code": "BITS F441",
+     "evidence": [
+      "ev_61e44795ffed"
+     ],
+     "title": "Robotics"
+    },
+    {
+     "U": 4,
+     "code": "BIO G532",
+     "evidence": [
+      "ev_2d55a7c28c84"
+     ],
+     "title": "Biostatistics and Biomodelling"
+    },
+    {
+     "U": 3,
+     "code": "CS F320",
+     "evidence": [
+      "ev_f1fd21d1a2b1"
+     ],
+     "title": "Foundations of Data Science"
+    },
+    {
+     "U": 4,
+     "code": "EEE F420",
+     "evidence": [
+      "ev_20d54d49c64e"
+     ],
+     "title": "Biomedical Signal Processing"
+    },
+    {
+     "U": 3,
+     "code": "EEE F435",
+     "evidence": [
+      "ev_9b4d1f3a7775"
+     ],
+     "title": "Digital Image Processing"
+    },
+    {
+     "U": 3,
+     "code": "ME F324",
+     "evidence": [
+      "ev_d0e6c85e22b6"
+     ],
+     "title": "Cell and Tissue Biomechanics"
+    }
+   ],
+   "evidence": [
+    "ev_34b813396576"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Biomedical Engineering",
+   "notes": [],
+   "pages": [
+    338
+   ]
+  },
+  "Computational Economics": {
+   "core": [
+    {
+     "U": 3,
+     "code": "ECON F215",
+     "evidence": [
+      "ev_56f87b29985d"
+     ],
+     "title": "Computational Methods for Economics"
+    },
+    {
+     "U": 3,
+     "code": "ECON F241",
+     "evidence": [
+      "ev_a8235d68e637"
+     ],
+     "title": "Econometric Methods"
+    },
+    {
+     "U": 3,
+     "code": "ECON F242",
+     "evidence": [
+      "ev_0030c14e56a0"
+     ],
+     "title": "Microeconomics"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F314",
+     "evidence": [
+      "ev_f9c6bca18096"
+     ],
+     "title": "Game Theory and its Applications"
+    },
+    {
+     "U": 3,
+     "code": "BITS F464",
+     "evidence": [
+      "ev_51cbb9ce3ee2"
+     ],
+     "title": "Machine Learning"
+    },
+    {
+     "U": 3,
+     "code": "CS F320",
+     "evidence": [
+      "ev_41e1e27f31dc"
+     ],
+     "title": "Foundations of Data Science"
+    },
+    {
+     "U": 3,
+     "code": "ECON F342",
+     "evidence": [
+      "ev_aa869075f1f6"
+     ],
+     "title": "Applied Econometrics"
+    },
+    {
+     "U": 3,
+     "code": "ECON F419",
+     "evidence": [
+      "ev_b8c10a9dffcf"
+     ],
+     "title": "Advanced Microeconomics"
+    },
+    {
+     "U": 3,
+     "code": "ECON F420",
+     "evidence": [
+      "ev_3666a262eea6"
+     ],
+     "title": "Applied Macroeconometrics"
+    },
+    {
+     "U": 4,
+     "code": "MATH F424",
+     "evidence": [
+      "ev_97fa2cdbf202"
+     ],
+     "title": "Applied Stochastic Process"
+    }
+   ],
+   "evidence": [
+    "ev_7eeff0e08b74"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Computational Economics",
+   "notes": [],
+   "pages": [
+    339
+   ]
+  },
+  "Computational Mechanics": {
+   "core": [
+    {
+     "U": 3,
+     "code": "MATH F313",
+     "evidence": [
+      "ev_ecffaeddab72"
+     ],
+     "title": "Numerical Analysis"
+    },
+    {
+     "U": 4,
+     "code": "ME F427",
+     "evidence": [
+      "ev_707652bd3965"
+     ],
+     "title": "Continuum Mechanics"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F464",
+     "evidence": [
+      "ev_8e54b55ec6d6"
+     ],
+     "title": "Machine Learning"
+    },
+    {
+     "U": 3,
+     "code": "CS F422",
+     "evidence": [
+      "ev_6e500129db2e"
+     ],
+     "title": "Parallel Computing"
+    },
+    {
+     "U": 4,
+     "code": "MATH F425",
+     "evidence": [
+      "ev_da5f9a15d20d"
+     ],
+     "title": "Numerical Linear Algebra"
+    },
+    {
+     "U": null,
+     "code": "MATH F426",
+     "evidence": [
+      "ev_f8be2bd8f991"
+     ],
+     "title": "or"
+    },
+    {
+     "U": 1,
+     "code": "ME G512",
+     "evidence": [
+      "ev_655f9525641f"
+     ],
+     "title": "Mathematical Theory of Finite Element Methods or Finite Element Methods"
+    },
+    {
+     "U": 3,
+     "code": "ME F321",
+     "evidence": [
+      "ev_f60cec07c0dd"
+     ],
+     "title": "Data Mining in Mechanical Sciences"
+    },
+    {
+     "U": 3,
+     "code": "ME F485",
+     "evidence": [
+      "ev_10a904a02db8"
+     ],
+     "title": "Numerical Techniques for Fluid Flow and Heat Transfer"
+    },
+    {
+     "U": 3,
+     "code": "ME F430",
+     "evidence": [
+      "ev_78ecf468d0f9"
+     ],
+     "title": "Fluid-structure Interactions"
+    },
+    {
+     "U": 5,
+     "code": "ME G515",
+     "evidence": [
+      "ev_ade7458e7687"
+     ],
+     "title": "Computational Fluid Dynamics"
+    }
+   ],
+   "evidence": [
+    "ev_8433622e41d6"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Computational Mechanics",
+   "notes": [],
+   "pages": [
+    339
+   ]
+  },
+  "Computing and Intelligence": {
+   "core": [
+    {
+     "U": 4,
+     "code": "BITS F232",
+     "evidence": [
+      "ev_4e4cc6650bf0"
+     ],
+     "title": "Foundations of Data Structures and Algorithms"
+    },
+    {
+     "U": 3,
+     "code": "CS F372",
+     "evidence": [
+      "ev_84913442404b"
+     ],
+     "title": "Operating Systems"
+    },
+    {
+     "U": 3,
+     "code": "CS F407",
+     "evidence": [
+      "ev_b1fedbdb02aa"
+     ],
+     "title": "Artificial intelligence"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F311",
+     "evidence": [
+      "ev_b7bea81a1cae"
+     ],
+     "title": "Image Processing"
+    },
+    {
+     "U": 3,
+     "code": "BITS F452",
+     "evidence": [
+      "ev_10cf751ecdd7"
+     ],
+     "title": "Blockchain Technology"
+    },
+    {
+     "U": 4,
+     "code": "BITS F459",
+     "evidence": [
+      "ev_ceb4b7f27f26"
+     ],
+     "title": "Computer Vision"
+    },
+    {
+     "U": 3,
+     "code": "BITS F463",
+     "evidence": [
+      "ev_185515f839a6"
+     ],
+     "title": "Cryptography"
+    },
+    {
+     "U": 3,
+     "code": "BITS F464",
+     "evidence": [
+      "ev_23aa3be6c430"
+     ],
+     "title": "Machine Learning"
+    },
+    {
+     "U": 4,
+     "code": "CS F212",
+     "evidence": [
+      "ev_3446ed39a71d"
+     ],
+     "title": "Database Systems"
+    },
+    {
+     "U": 4,
+     "code": "CS F213",
+     "evidence": [
+      "ev_dab7298ee6bf"
+     ],
+     "title": "Object Oriented Programming"
+    },
+    {
+     "U": 2,
+     "code": "CS F301",
+     "evidence": [
+      "ev_fcdc8b675aaf"
+     ],
+     "title": "Principles of Programming Languages"
+    },
+    {
+     "U": 4,
+     "code": "CS F303",
+     "evidence": [
+      "ev_1d85bb16f3d9"
+     ],
+     "title": "Computer Networks"
+    },
+    {
+     "U": 3,
+     "code": "CS F314",
+     "evidence": [
+      "ev_6562922ea124"
+     ],
+     "title": "Software Development for Portable Devices"
+    },
+    {
+     "U": 3,
+     "code": "CS F315",
+     "evidence": [
+      "ev_9883ff483b6f"
+     ],
+     "title": "Information and Communication Technologies and Development"
+    },
+    {
+     "U": 3,
+     "code": "CS F321",
+     "evidence": [
+      "ev_ca10181b2517"
+     ],
+     "title": "System Security"
+    },
+    {
+     "U": 3,
+     "code": "CS F415",
+     "evidence": [
+      "ev_cbba664173fb"
+     ],
+     "title": "Data Mining"
+    },
+    {
+     "U": 3,
+     "code": "CS F437",
+     "evidence": [
+      "ev_2c45f6c83925"
+     ],
+     "title": "Generative Artificial Intelligence"
+    },
+    {
+     "U": 3,
+     "code": "IS F311",
+     "evidence": [
+      "ev_765d23977d51"
+     ],
+     "title": "Computer Graphics"
+    },
+    {
+     "U": 4,
+     "code": "IS F341",
+     "evidence": [
+      "ev_ad1ce5b588d7"
+     ],
+     "title": "Software Engineering"
+    }
+   ],
+   "evidence": [
+    "ev_b95879e36238"
+   ],
+   "exclusions": [],
+   "min_courses": 6,
+   "min_units": 18,
+   "name": "Computing and Intelligence",
+   "notes": [],
+   "pages": [
+    340
+   ]
+  },
+  "Data Science": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BITS F464",
+     "evidence": [
+      "ev_120c94d49f37"
+     ],
+     "title": "Machine Learning"
+    },
+    {
+     "U": 3,
+     "code": "CS F320",
+     "evidence": [
+      "ev_c8bcacc3f820"
+     ],
+     "title": "Foundations of Data Science"
+    },
+    {
+     "U": 3,
+     "code": "MATH F432",
+     "evidence": [
+      "ev_4b21819f318b"
+     ],
+     "title": "Applied statistical Methods"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F453",
+     "evidence": [
+      "ev_6adbc18330c6"
+     ],
+     "title": "Computational Learning Theory"
+    },
+    {
+     "U": 3,
+     "code": "BITS F454",
+     "evidence": [
+      "ev_1d98aa9597d5"
+     ],
+     "title": "Bio-Inspired Intelligence: Algorithms and Applications"
+    },
+    {
+     "U": 4,
+     "code": "BITS F459",
+     "evidence": [
+      "ev_164180cd0a43"
+     ],
+     "title": "Computer Vision"
+    },
+    {
+     "U": 3,
+     "code": "CS F317",
+     "evidence": [
+      "ev_91206b171ddc"
+     ],
+     "title": "Reinforcement Learning"
+    },
+    {
+     "U": 3,
+     "code": "CS F407",
+     "evidence": [
+      "ev_d4fe632f464f"
+     ],
+     "title": "Artificial Intelligence"
+    },
+    {
+     "U": 3,
+     "code": "CS F415",
+     "evidence": [
+      "ev_2b13dd51987a"
+     ],
+     "title": "Data Mining"
+    },
+    {
+     "U": 3,
+     "code": "CS F425",
+     "evidence": [
+      "ev_afc1168e070c"
+     ],
+     "title": "Deep Learning"
+    },
+    {
+     "U": 4,
+     "code": "CS F426",
+     "evidence": [
+      "ev_ef720476e526"
+     ],
+     "title": "Graph Mining"
+    },
+    {
+     "U": 3,
+     "code": "CS F429",
+     "evidence": [
+      "ev_114a2d285a40"
+     ],
+     "title": "Natural Language Processing"
+    },
+    {
+     "U": 3,
+     "code": "CS F432",
+     "evidence": [
+      "ev_e189a22b20c5"
+     ],
+     "title": "Brain-inspired Deep Learning"
+    },
+    {
+     "U": 3,
+     "code": "CS F433",
+     "evidence": [
+      "ev_1d8980d1e479"
+     ],
+     "title": "Computational Neuroscience"
+    },
+    {
+     "U": 3,
+     "code": "CS F434",
+     "evidence": [
+      "ev_05a2c4905ccc"
+     ],
+     "title": "Data science for Healthcare"
+    }
+   ],
+   "evidence": [
+    "ev_96a4e9078153"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Data Science",
+   "notes": [],
+   "pages": [
+    340
+   ]
+  },
+  "Data Science in Climate and Health": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BITS F329",
+     "evidence": [
+      "ev_f040652c220d"
+     ],
+     "title": "Project on Social and Environmental Applications of Data Science"
+    },
+    {
+     "U": 3,
+     "code": "BITS F464",
+     "evidence": [
+      "ev_19170ee666e3"
+     ],
+     "title": "Machine Learning"
+    },
+    {
+     "U": 3,
+     "code": "CS F320",
+     "evidence": [
+      "ev_c03785fa1032"
+     ],
+     "title": "Foundations of Data Science"
+    },
+    {
+     "U": 3,
+     "code": "MATH F432",
+     "evidence": [
+      "ev_0aa4cd5f8128"
+     ],
+     "title": "Applied statistical Methods"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "CE F326",
+     "evidence": [
+      "ev_b36bb1c632b2"
+     ],
+     "title": "Impact of Climate Change on Water"
+    },
+    {
+     "U": 3,
+     "code": "CS F434",
+     "evidence": [
+      "ev_fc6608631967"
+     ],
+     "title": "Data science for Healthcare"
+    },
+    {
+     "U": 3,
+     "code": "GS F212",
+     "evidence": [
+      "ev_717b237a066c"
+     ],
+     "title": "Environmental Development and Climate Change"
+    },
+    {
+     "U": 5,
+     "code": "MPH G510",
+     "evidence": [
+      "ev_09c96aeb971b"
+     ],
+     "title": "Biostatistics and Computers in Public Health"
+    }
+   ],
+   "evidence": [
+    "ev_15187fdee095"
+   ],
+   "exclusions": [],
+   "min_courses": 6,
+   "min_units": 17,
+   "name": "Data Science in Climate and Health",
+   "notes": [],
+   "pages": [
+    341
+   ]
+  },
+  "English Studies": {
+   "core": [
+    {
+     "U": 3,
+     "code": "GS F241",
+     "evidence": [
+      "ev_0bfd3b227011"
+     ],
+     "title": "Creative Writing"
+    },
+    {
+     "U": 3,
+     "code": "HSS F337",
+     "evidence": [
+      "ev_06f5fbf797fb"
+     ],
+     "title": "English Literary Forms and Movements"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "GS F221",
+     "evidence": [
+      "ev_b6ff7b31b35e"
+     ],
+     "title": "Business Communication"
+    },
+    {
+     "U": 3,
+     "code": "GS F244",
+     "evidence": [
+      "ev_35dfc9d5abdb"
+     ],
+     "title": "Reporting and Writing for Media"
+    },
+    {
+     "U": 3,
+     "code": "GS F245",
+     "evidence": [
+      "ev_324fdbeecf84"
+     ],
+     "title": "Effective Public Speaking"
+    },
+    {
+     "U": 3,
+     "code": "GS F242",
+     "evidence": [
+      "ev_37e4d3956abd"
+     ],
+     "title": "Cultural Studies"
+    },
+    {
+     "U": 3,
+     "code": "GS F322",
+     "evidence": [
+      "ev_1a6c94ff7a99"
+     ],
+     "title": "Critical Analysis of Literature and Cinema"
+    },
+    {
+     "U": 3,
+     "code": "HSS F221",
+     "evidence": [
+      "ev_83532a219c80"
+     ],
+     "title": "Readings from Drama"
+    },
+    {
+     "U": 3,
+     "code": "HSS F226",
+     "evidence": [
+      "ev_d80088e6c38a"
+     ],
+     "title": "Postmodernism"
+    },
+    {
+     "U": 3,
+     "code": "HSS F237",
+     "evidence": [
+      "ev_9351ce055f9a"
+     ],
+     "title": "Contemporary Indian English Fiction"
+    },
+    {
+     "U": 3,
+     "code": "HSS F316",
+     "evidence": [
+      "ev_df1aeaa0712f"
+     ],
+     "title": "Popular Literature and Culture of South Asia"
+    },
+    {
+     "U": 3,
+     "code": "HSS F327",
+     "evidence": [
+      "ev_1509db90f7fa"
+     ],
+     "title": "Contemporary Drama"
+    },
+    {
+     "U": 3,
+     "code": "HSS F330",
+     "evidence": [
+      "ev_da8a37d5621e"
+     ],
+     "title": "Appreciation of Art"
+    },
+    {
+     "U": 3,
+     "code": "HSS F332",
+     "evidence": [
+      "ev_1b1c40f9dfb4"
+     ],
+     "title": "Cinematic Arts"
+    },
+    {
+     "U": 3,
+     "code": "HSS F335",
+     "evidence": [
+      "ev_45f8ef71c3a1"
+     ],
+     "title": "Literary Criticism"
+    },
+    {
+     "U": 3,
+     "code": "HSS F336",
+     "evidence": [
+      "ev_b2c1dc947b56"
+     ],
+     "title": "Modern Fiction"
+    },
+    {
+     "U": 3,
+     "code": "HSS F338",
+     "evidence": [
+      "ev_9359773310a9"
+     ],
+     "title": "Comparative Indian Literature"
+    },
+    {
+     "U": 3,
+     "code": "HSS F340",
+     "evidence": [
+      "ev_36cfcac3b6a5"
+     ],
+     "title": "Postcolonial Literatures"
+    },
+    {
+     "U": 3,
+     "code": "HSS F349",
+     "evidence": [
+      "ev_f1e8d522e616"
+     ],
+     "title": "Ecocriticism"
+    },
+    {
+     "U": 3,
+     "code": "HSS F373",
+     "evidence": [
+      "ev_fdba49c135ff"
+     ],
+     "title": "Shakespeare and Popular Culture"
+    },
+    {
+     "U": 3,
+     "code": "HSS F399",
+     "evidence": [
+      "ev_2d68241ad38c"
+     ],
+     "title": "Introduction to American Literature"
+    }
+   ],
+   "evidence": [
+    "ev_47c20e9dac3b"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "English Studies",
+   "notes": [],
+   "pages": [
+    341,
+    342
+   ]
+  },
+  "Entrepreneurship": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BITS F468",
+     "evidence": [
+      "ev_c7b54ebc85d5"
+     ],
+     "title": "New Venture Creation"
+    },
+    {
+     "U": null,
+     "code": "BITS F482",
+     "evidence": [
+      "ev_29aecae5b5f8"
+     ],
+     "title": "or"
+    },
+    {
+     "U": 3,
+     "code": "ECON F414",
+     "evidence": [
+      "ev_8b8d038eddc5"
+     ],
+     "title": "Creating and Leading Entrepreneurial Organizations"
+    },
+    {
+     "U": 3,
+     "code": "ECON F212",
+     "evidence": [
+      "ev_67733c706b09"
+     ],
+     "title": "Fundamentals of Finance and Accounting"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F322",
+     "evidence": [
+      "ev_4120ab7d0e0f"
+     ],
+     "title": "Venture Team Development and Organization"
+    },
+    {
+     "U": 3,
+     "code": "BITS F323",
+     "evidence": [
+      "ev_054f0abfb4e9"
+     ],
+     "title": "Venture Finance"
+    },
+    {
+     "U": 3,
+     "code": "BITS F324",
+     "evidence": [
+      "ev_7ada39d7634a"
+     ],
+     "title": "Strategy for Entrepreneurs"
+    },
+    {
+     "U": 3,
+     "code": "BITS F325",
+     "evidence": [
+      "ev_3bceddfe07fc"
+     ],
+     "title": "New Product and Service Design"
+    },
+    {
+     "U": 3,
+     "code": "BITS F326",
+     "evidence": [
+      "ev_9e76c500832d"
+     ],
+     "title": "Design Thinking for Innovation & Entrepreneurship"
+    },
+    {
+     "U": 3,
+     "code": "BITS F427",
+     "evidence": [
+      "ev_911b234b3c07"
+     ],
+     "title": "Digital Marketing"
+    }
+   ],
+   "evidence": [
+    "ev_a54279c90f84"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Entrepreneurship",
+   "notes": [],
+   "pages": [
+    342
+   ]
+  },
+  "Film and Media": {
+   "core": [
+    {
+     "U": 3,
+     "code": "GS F223",
+     "evidence": [
+      "ev_008f795cf203"
+     ],
+     "title": "Introduction to Mass Communication"
+    },
+    {
+     "U": 3,
+     "code": "GS F244",
+     "evidence": [
+      "ev_261eaaf47ad5"
+     ],
+     "title": "Reporting and Writing for Media"
+    },
+    {
+     "U": 3,
+     "code": "GS F322",
+     "evidence": [
+      "ev_bf673f8e9c1b"
+     ],
+     "title": "Critical Analysis of Literature and Cinema"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "GS F224",
+     "evidence": [
+      "ev_2a780e1543e4"
+     ],
+     "title": "Print and Audio Visual Advertising"
+    },
+    {
+     "U": 3,
+     "code": "GS F242",
+     "evidence": [
+      "ev_02303469f1c9"
+     ],
+     "title": "Cultural Studies"
+    },
+    {
+     "U": 3,
+     "code": "GS F321",
+     "evidence": [
+      "ev_603e77f0b31d"
+     ],
+     "title": "Mass Media Content and Design"
+    },
+    {
+     "U": 3,
+     "code": "GS F343",
+     "evidence": [
+      "ev_7e4db54156f5"
+     ],
+     "title": "Short Film and Video Production"
+    },
+    {
+     "U": 3,
+     "code": "HSS F332",
+     "evidence": [
+      "ev_02410ae3c565"
+     ],
+     "title": "Cinematic Arts"
+    },
+    {
+     "U": 3,
+     "code": "HSS F391",
+     "evidence": [
+      "ev_65c0cb3f9b55"
+     ],
+     "title": "Acoustic Humanities"
+    }
+   ],
+   "evidence": [
+    "ev_b79a7063cd8b"
+   ],
+   "exclusions": [],
+   "min_courses": 6,
+   "min_units": 18,
+   "name": "Film and Media",
+   "notes": [],
+   "pages": [
+    342,
+    343
+   ]
+  },
+  "Finance": {
+   "core": [
+    {
+     "U": 3,
+     "code": "ECON F212",
+     "evidence": [
+      "ev_d2583c2694bc"
+     ],
+     "title": "Fundamentals of Finance and Accounting"
+    },
+    {
+     "U": 3,
+     "code": "FIN F315",
+     "evidence": [
+      "ev_3923a5fee467"
+     ],
+     "title": "Financial Management"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "ECON F241",
+     "evidence": [
+      "ev_458f28b9dbc5"
+     ],
+     "title": "Econometric methods"
+    },
+    {
+     "U": 3,
+     "code": "ECON F312",
+     "evidence": [
+      "ev_239b5ac1660e"
+     ],
+     "title": "Money banking and Financial markets"
+    },
+    {
+     "U": 3,
+     "code": "ECON F355",
+     "evidence": [
+      "ev_8bb093e94b88"
+     ],
+     "title": "Business Analysis & Valuation"
+    },
+    {
+     "U": 3,
+     "code": "ECON F411",
+     "evidence": [
+      "ev_11f88915ce41"
+     ],
+     "title": "Project Appraisal"
+    },
+    {
+     "U": 3,
+     "code": "ECON F413",
+     "evidence": [
+      "ev_f4a8a478e887"
+     ],
+     "title": "Financial Engineering"
+    },
+    {
+     "U": 3,
+     "code": "FIN F242",
+     "evidence": [
+      "ev_ef17dbb81aed"
+     ],
+     "title": "Introduction to Financial Mathematics"
+    },
+    {
+     "U": 3,
+     "code": "FIN F243",
+     "evidence": [
+      "ev_be4d8cc8dfe1"
+     ],
+     "title": "Functions & Working of Stock Exchanges"
+    },
+    {
+     "U": 3,
+     "code": "FIN F311",
+     "evidence": [
+      "ev_8e3dfce08fd5"
+     ],
+     "title": "Derivatives & Risk Management"
+    },
+    {
+     "U": 3,
+     "code": "FIN F312",
+     "evidence": [
+      "ev_6c2fdfb59831"
+     ],
+     "title": "Fundamentals of Taxation and Audit"
+    },
+    {
+     "U": 3,
+     "code": "FIN F313",
+     "evidence": [
+      "ev_82a218535878"
+     ],
+     "title": "Security Analysis & Portfolio Management"
+    },
+    {
+     "U": 3,
+     "code": "FIN F314",
+     "evidence": [
+      "ev_e7af4e5d4243"
+     ],
+     "title": "Investment Banking & Financial Services"
+    },
+    {
+     "U": 3,
+     "code": "FIN F414",
+     "evidence": [
+      "ev_33635b46f6e5"
+     ],
+     "title": "Financial Risk Analytics and Management"
+    }
+   ],
+   "evidence": [
+    "ev_b6a9a6fa82ee"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Finance",
+   "notes": [],
+   "pages": [
+    343
+   ]
+  },
+  "Management": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BITS F428",
+     "evidence": [
+      "ev_0556266cbc87"
+     ],
+     "title": "Essentials of Strategic Management"
+    },
+    {
+     "U": 3,
+     "code": "MGTS F211",
+     "evidence": [
+      "ev_a437f392d871"
+     ],
+     "title": "Principles of Management"
+    },
+    {
+     "U": 3,
+     "code": "MGTS F314",
+     "evidence": [
+      "ev_0e68ae486fbc"
+     ],
+     "title": "Essentials of Financial Management"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F326",
+     "evidence": [
+      "ev_d5ed89d02c4e"
+     ],
+     "title": "Design Thinking for Innovation and Entrepreneurship"
+    },
+    {
+     "U": 3,
+     "code": "BITS F330",
+     "evidence": [
+      "ev_d85dabd2ca89"
+     ],
+     "title": "Negotiation Skills and Techniques"
+    },
+    {
+     "U": 3,
+     "code": "ECON F415",
+     "evidence": [
+      "ev_7020bfdcc92f"
+     ],
+     "title": "New Venture Creation"
+    },
+    {
+     "U": 3,
+     "code": "ECON F434",
+     "evidence": [
+      "ev_bb8b25165dee"
+     ],
+     "title": "International Business"
+    },
+    {
+     "U": 3,
+     "code": "ECON F435",
+     "evidence": [
+      "ev_46c810eda1e4"
+     ],
+     "title": "Marketing Research"
+    },
+    {
+     "U": 3,
+     "code": "HSS F328",
+     "evidence": [
+      "ev_b0ae563337fd"
+     ],
+     "title": "Human Resources Development"
+    },
+    {
+     "U": 3,
+     "code": "MF F219",
+     "evidence": [
+      "ev_36f3f98ede9d"
+     ],
+     "title": "Operations Management"
+    },
+    {
+     "U": 3,
+     "code": "MF F319",
+     "evidence": [
+      "ev_46d664824214"
+     ],
+     "title": "Supply Chain Management"
+    },
+    {
+     "U": 3,
+     "code": "ME F443",
+     "evidence": [
+      "ev_667a2380c832"
+     ],
+     "title": "Quality Control, Assurance and Reliability"
+    },
+    {
+     "U": 3,
+     "code": "MGTS F311",
+     "evidence": [
+      "ev_3c83728b372a"
+     ],
+     "title": "Marketing"
+    },
+    {
+     "U": 3,
+     "code": "MGTS F313",
+     "evidence": [
+      "ev_d94a587d4379"
+     ],
+     "title": "Product and Brand Management"
+    },
+    {
+     "U": 3,
+     "code": "MGTS F315",
+     "evidence": [
+      "ev_3bdba3ccb946"
+     ],
+     "title": "Foundations of Business Analytics"
+    },
+    {
+     "U": 3,
+     "code": "MGTS F316",
+     "evidence": [
+      "ev_a76f0273d2e7"
+     ],
+     "title": "Managerial and Leadership Skills"
+    },
+    {
+     "U": 3,
+     "code": "MGTS F351",
+     "evidence": [
+      "ev_7d13fd3f2550"
+     ],
+     "title": "Organizational Behaviour"
+    }
+   ],
+   "evidence": [
+    "ev_fdfc0ced16ce"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Management",
+   "notes": [],
+   "pages": [
+    344
+   ]
+  },
+  "Materials Science and Engineering": {
+   "core": [
+    {
+     "U": null,
+     "code": "CHE F243",
+     "evidence": [
+      "ev_06f2f6658612"
+     ],
+     "title": "/"
+    },
+    {
+     "U": 0,
+     "code": "ME F213",
+     "evidence": [
+      "ev_80ca448c88a5"
+     ],
+     "title": "Materials Science and Engineering"
+    },
+    {
+     "U": 4,
+     "code": "MST F331",
+     "evidence": [
+      "ev_9faf71b4b3e1"
+     ],
+     "title": "Materials Characterization"
+    },
+    {
+     "U": 3,
+     "code": "MST F332",
+     "evidence": [
+      "ev_f0cea1d2db54"
+     ],
+     "title": "Materials Processing"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F416",
+     "evidence": [
+      "ev_81d937a440f7"
+     ],
+     "title": "Introduction to Nanoscience"
+    },
+    {
+     "U": 3,
+     "code": "CHE F433",
+     "evidence": [
+      "ev_848686c26e07"
+     ],
+     "title": "Corrosion Engineering"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F223",
+     "evidence": [
+      "ev_d9205671228e"
+     ],
+     "title": "Colloid and Surface Chemistry"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F326",
+     "evidence": [
+      "ev_c7e74ad81743"
+     ],
+     "title": "Solid State Chemistry"
+    },
+    {
+     "U": 4,
+     "code": "CHEM F336",
+     "evidence": [
+      "ev_f2db3ffe2d4c"
+     ],
+     "title": "Nanochemistry"
+    },
+    {
+     "U": 3,
+     "code": "ME F452",
+     "evidence": [
+      "ev_6987e28d2362"
+     ],
+     "title": "Composite Materials and Design"
+    },
+    {
+     "U": 3,
+     "code": "MST F333",
+     "evidence": [
+      "ev_6c5be5ea092d"
+     ],
+     "title": "Introduction to Biomaterials"
+    },
+    {
+     "U": 3,
+     "code": "MST F334",
+     "evidence": [
+      "ev_5c80e8b3ab2d"
+     ],
+     "title": "Materials for Catalytic Applications"
+    },
+    {
+     "U": 3,
+     "code": "MST F335",
+     "evidence": [
+      "ev_8f505a65648f"
+     ],
+     "title": "Coating and thin film technology"
+    },
+    {
+     "U": 3,
+     "code": "MST F336",
+     "evidence": [
+      "ev_8e871f11a7d8"
+     ],
+     "title": "Glass Technology"
+    },
+    {
+     "U": 3,
+     "code": "MST F337",
+     "evidence": [
+      "ev_b1a67e55a6ec"
+     ],
+     "title": "Materials for Energy Applications"
+    },
+    {
+     "U": 3,
+     "code": "MST F338",
+     "evidence": [
+      "ev_73ffe61aaec2"
+     ],
+     "title": "Metals and Alloys"
+    },
+    {
+     "U": 3,
+     "code": "MST F339",
+     "evidence": [
+      "ev_fabd4bbd2fc1"
+     ],
+     "title": "Polymer Materials"
+    },
+    {
+     "U": 3,
+     "code": "PHY F379",
+     "evidence": [
+      "ev_ff9804663dcc"
+     ],
+     "title": "Thin Film Technology"
+    },
+    {
+     "U": 4,
+     "code": "PHY F414",
+     "evidence": [
+      "ev_7f2aa425b1f8"
+     ],
+     "title": "Physics of Advanced Materials"
+    },
+    {
+     "U": 4,
+     "code": "PHY F416",
+     "evidence": [
+      "ev_e85d40867fb3"
+     ],
+     "title": "Soft condensed Matter Physics"
+    }
+   ],
+   "evidence": [
+    "ev_4f49dc1bd829"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Materials Science and Engineering",
+   "notes": [],
+   "pages": [
+    344
+   ]
+  },
+  "Nanoscience and Nanobiotechnology": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BIOT F422",
+     "evidence": [
+      "ev_ecd40073a83a"
+     ],
+     "title": "Nanobiotechnology"
+    },
+    {
+     "U": 4,
+     "code": "BITS F416",
+     "evidence": [
+      "ev_92a46f04eaae"
+     ],
+     "title": "Introduction to Nanoscience"
+    },
+    {
+     "U": 0,
+     "code": "CHE F243",
+     "evidence": [
+      "ev_ecec51bd97d4"
+     ],
+     "title": "/ME F216 / MF F216 Material Science and Engineering"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BIO F417",
+     "evidence": [
+      "ev_ec11e0f64e31"
+     ],
+     "title": "Biomolecular Modelling"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F223",
+     "evidence": [
+      "ev_14be0488df70"
+     ],
+     "title": "Colloid and Surface Chemistry"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F327",
+     "evidence": [
+      "ev_fe649666c11b"
+     ],
+     "title": "Electrochemistry: Fundamentals and Applications"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F328",
+     "evidence": [
+      "ev_8a993f20729e"
+     ],
+     "title": "Supramolecular Chemistry"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F333",
+     "evidence": [
+      "ev_15c0a6ef3e86"
+     ],
+     "title": "Chemistry of Materials"
+    },
+    {
+     "U": 4,
+     "code": "CHEM F336",
+     "evidence": [
+      "ev_d0590b58c9f8"
+     ],
+     "title": "Nanochemistry"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F414",
+     "evidence": [
+      "ev_b89c4fad749c"
+     ],
+     "title": "Bio and Chemical Sensors"
+    },
+    {
+     "U": 3,
+     "code": "MST F333",
+     "evidence": [
+      "ev_c9ed879f37e0"
+     ],
+     "title": "Introduction to Biomaterials"
+    }
+   ],
+   "evidence": [
+    "ev_729e909bfa27"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Nanoscience and Nanobiotechnology",
+   "notes": [],
+   "pages": [
+    345
+   ]
+  },
+  "Philosophy, Economics, and Politics": {
+   "core": [
+    {
+     "U": 3,
+     "code": "ECON F211",
+     "evidence": [
+      "ev_e82ae5352ac8"
+     ],
+     "title": "Principles of Economics"
+    },
+    {
+     "U": 3,
+     "code": "GS F211",
+     "evidence": [
+      "ev_89ea5b48b98e"
+     ],
+     "title": "Modern Political Concepts"
+    },
+    {
+     "U": 3,
+     "code": "HSS F235",
+     "evidence": [
+      "ev_2c9b579b1f8f"
+     ],
+     "title": "Introductory Philosophy"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F385",
+     "evidence": [
+      "ev_2aa8679cc207"
+     ],
+     "title": "Introduction to Gender Studies"
+    },
+    {
+     "U": 3,
+     "code": "GS F231",
+     "evidence": [
+      "ev_7b2b6e40613b"
+     ],
+     "title": "Dynamics of Social Change"
+    },
+    {
+     "U": 3,
+     "code": "GS F234",
+     "evidence": [
+      "ev_bb145e6b0257"
+     ],
+     "title": "Development Economics"
+    },
+    {
+     "U": 3,
+     "code": "GS F243",
+     "evidence": [
+      "ev_bf7198392bba"
+     ],
+     "title": "Current Affairs"
+    },
+    {
+     "U": 3,
+     "code": "GS F312",
+     "evidence": [
+      "ev_8b071bad72db"
+     ],
+     "title": "Applied Philosophy"
+    },
+    {
+     "U": 3,
+     "code": "GS F313",
+     "evidence": [
+      "ev_41b960332314"
+     ],
+     "title": "Marxian Thoughts"
+    },
+    {
+     "U": 3,
+     "code": "GS F332",
+     "evidence": [
+      "ev_48c0897ad97b"
+     ],
+     "title": "Contemporary India"
+    },
+    {
+     "U": 3,
+     "code": "GS F333",
+     "evidence": [
+      "ev_85a473e92ccc"
+     ],
+     "title": "Public Administration"
+    },
+    {
+     "U": 3,
+     "code": "HSS F232",
+     "evidence": [
+      "ev_64c15b144744"
+     ],
+     "title": "Introduction to Development Studies"
+    },
+    {
+     "U": 3,
+     "code": "HSS F236",
+     "evidence": [
+      "ev_9d8fd07fcb00"
+     ],
+     "title": "Symbolic Logic"
+    },
+    {
+     "U": 3,
+     "code": "HSS F315",
+     "evidence": [
+      "ev_2d1a8dcaf920"
+     ],
+     "title": "Society, Business, and Politics"
+    },
+    {
+     "U": 3,
+     "code": "HSS F322",
+     "evidence": [
+      "ev_badd3f641b55"
+     ],
+     "title": "Social and Political Ecology"
+    },
+    {
+     "U": 3,
+     "code": "HSS F331",
+     "evidence": [
+      "ev_329854815276"
+     ],
+     "title": "Sankara’s Thoughts"
+    },
+    {
+     "U": 3,
+     "code": "HSS F333",
+     "evidence": [
+      "ev_eb04eefa90b8"
+     ],
+     "title": "Comparative Religion"
+    },
+    {
+     "U": 3,
+     "code": "HSS F343",
+     "evidence": [
+      "ev_7834f344dfb8"
+     ],
+     "title": "Professional Ethics"
+    },
+    {
+     "U": 3,
+     "code": "HSS F345",
+     "evidence": [
+      "ev_6da033742dee"
+     ],
+     "title": "Gandhian Thoughts"
+    },
+    {
+     "U": 3,
+     "code": "HSS F346",
+     "evidence": [
+      "ev_31417d22dd0a"
+     ],
+     "title": "International Relations"
+    },
+    {
+     "U": 3,
+     "code": "HSS F350",
+     "evidence": [
+      "ev_139df657036d"
+     ],
+     "title": "Human Rights: History, Theory and Practice"
+    }
+   ],
+   "evidence": [
+    "ev_6d6667acc38a"
+   ],
+   "exclusions": [],
+   "min_courses": 6,
+   "min_units": 18,
+   "name": "Philosophy, Economics, and Politics",
+   "notes": [],
+   "pages": [
+    345
+   ]
+  },
+  "Physics": {
+   "core": [
+    {
+     "U": null,
+     "code": "PHY F212",
+     "evidence": [
+      "ev_a279190b9f51"
+     ],
+     "title": "or"
+    },
+    {
+     "U": 3,
+     "code": "ECE F212",
+     "evidence": [
+      "ev_135d8ed18d3f"
+     ],
+     "title": "/ EEE F212/ INSTR F212 Electromagnetic Theory – 1 or Electromagnetic Theory"
+    },
+    {
+     "U": 0,
+     "code": "PHY F242",
+     "evidence": [
+      "ev_20f8ae18754b"
+     ],
+     "title": "Quantum Mechanics –"
+    },
+    {
+     "U": 3,
+     "code": "PHY F312",
+     "evidence": [
+      "ev_a1e8206a41a7"
+     ],
+     "title": "Statistical Mechanics"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F316",
+     "evidence": [
+      "ev_87fa6daa045c"
+     ],
+     "title": "Nonlinear Dynamics and Chaos"
+    },
+    {
+     "U": 3,
+     "code": "BITS F386",
+     "evidence": [
+      "ev_68bb909d851a"
+     ],
+     "title": "Quantum Information and Computing"
+    },
+    {
+     "U": 4,
+     "code": "PHY F211",
+     "evidence": [
+      "ev_536dda16aed0"
+     ],
+     "title": "Classical Mechanics"
+    },
+    {
+     "U": 3,
+     "code": "PHY F213",
+     "evidence": [
+      "ev_3f19a8899e69"
+     ],
+     "title": "Optics"
+    },
+    {
+     "U": 2,
+     "code": "PHY F214",
+     "evidence": [
+      "ev_7eb382b557c3"
+     ],
+     "title": "Electricity Magnetism and Optics Lab"
+    },
+    {
+     "U": 3,
+     "code": "PHY F215",
+     "evidence": [
+      "ev_24aa002293a1"
+     ],
+     "title": "Introduction to Astronomy and Astrophysics"
+    },
+    {
+     "U": 1,
+     "code": "PHY F241",
+     "evidence": [
+      "ev_28a6278d3d33"
+     ],
+     "title": "Electromagnetic Theory –"
+    },
+    {
+     "U": 3,
+     "code": "PHY F243",
+     "evidence": [
+      "ev_188de11728af"
+     ],
+     "title": "Mathematical Method of Physics"
+    },
+    {
+     "U": 2,
+     "code": "PHY F244",
+     "evidence": [
+      "ev_2432c9bdf0aa"
+     ],
+     "title": "Modern Physics Lab"
+    },
+    {
+     "U": 0,
+     "code": "PHY F311",
+     "evidence": [
+      "ev_c4e4186c43de"
+     ],
+     "title": "Quantum Mechanics –"
+    },
+    {
+     "U": 3,
+     "code": "PHY F313",
+     "evidence": [
+      "ev_4d3ae4f1e212"
+     ],
+     "title": "Computational Physics"
+    },
+    {
+     "U": 3,
+     "code": "PHY F315",
+     "evidence": [
+      "ev_a0a8a1887ac1"
+     ],
+     "title": "Theory of Relativity"
+    },
+    {
+     "U": 3,
+     "code": "PHY F318",
+     "evidence": [
+      "ev_6544a87f40b0"
+     ],
+     "title": "Atoms and Photons"
+    },
+    {
+     "U": 3,
+     "code": "PHY F341",
+     "evidence": [
+      "ev_0a75ee0da80a"
+     ],
+     "title": "Solid State Physics"
+    },
+    {
+     "U": 3,
+     "code": "PHY F342",
+     "evidence": [
+      "ev_c852f08f4e75"
+     ],
+     "title": "Atomic and Molecular Physics"
+    },
+    {
+     "U": 3,
+     "code": "PHY F343",
+     "evidence": [
+      "ev_aadbb1169e2b"
+     ],
+     "title": "Nuclear and Particle Physics"
+    },
+    {
+     "U": 3,
+     "code": "PHY F346",
+     "evidence": [
+      "ev_f71edb206815"
+     ],
+     "title": "Laser Science and Technology"
+    },
+    {
+     "U": 4,
+     "code": "PHY F418",
+     "evidence": [
+      "ev_42964d054070"
+     ],
+     "title": "Lasers and Applications"
+    },
+    {
+     "U": 4,
+     "code": "PHY F426",
+     "evidence": [
+      "ev_c096166a94d4"
+     ],
+     "title": "Physics of Semiconductors Devices"
+    },
+    {
+     "U": 3,
+     "code": "PHY F427",
+     "evidence": [
+      "ev_29355be4d2bd"
+     ],
+     "title": "Atmospheric Physics"
+    },
+    {
+     "U": 3,
+     "code": "PHY F428",
+     "evidence": [
+      "ev_11064da3e2b7"
+     ],
+     "title": "Quantum Information Theory"
+    },
+    {
+     "U": 3,
+     "code": "PHY F434",
+     "evidence": [
+      "ev_f8abbe61e52a"
+     ],
+     "title": "Foundations of Quantum Mechanics"
+    }
+   ],
+   "evidence": [
+    "ev_07fa87e2d547"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Physics",
+   "notes": [],
+   "pages": [
+    346
+   ]
+  },
+  "Public Policy": {
+   "core": [
+    {
+     "U": 3,
+     "code": "GS F233",
+     "evidence": [
+      "ev_dd656849ef8b"
+     ],
+     "title": "Public Policy"
+    },
+    {
+     "U": 3,
+     "code": "GS F333",
+     "evidence": [
+      "ev_d62af01147f3"
+     ],
+     "title": "Public Administration"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "HSS F232",
+     "evidence": [
+      "ev_5e52120586bd"
+     ],
+     "title": "Introduction to Development Studies"
+    },
+    {
+     "U": 3,
+     "code": "HSS F317",
+     "evidence": [
+      "ev_4e41132c6924"
+     ],
+     "title": "Introduction to Globalisation"
+    },
+    {
+     "U": 3,
+     "code": "HSS F322",
+     "evidence": [
+      "ev_92d1a49109de"
+     ],
+     "title": "Social and Political Ecology"
+    },
+    {
+     "U": 3,
+     "code": "HSS F361",
+     "evidence": [
+      "ev_624ee0eaca12"
+     ],
+     "title": "Urban Policy and Governance"
+    },
+    {
+     "U": 3,
+     "code": "HSS F362",
+     "evidence": [
+      "ev_8dce53d6f970"
+     ],
+     "title": "Local Governance and Participation"
+    },
+    {
+     "U": 3,
+     "code": "HSS F363",
+     "evidence": [
+      "ev_6e000e853a56"
+     ],
+     "title": "Disaster and Development"
+    }
+   ],
+   "evidence": [
+    "ev_7e6adcff1065"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Public Policy",
+   "notes": [],
+   "pages": [
+    346
+   ]
+  },
+  "Quantum Information and Technologies": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BITS F386",
+     "evidence": [
+      "ev_e48e78cb8f5f"
+     ],
+     "title": "Quantum Information and Computations"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F463",
+     "evidence": [
+      "ev_3d9c3e9fc692"
+     ],
+     "title": "Cryptography"
+    },
+    {
+     "U": 3,
+     "code": "BITS F464",
+     "evidence": [
+      "ev_5ff99d686d0e"
+     ],
+     "title": "Machine Learning"
+    },
+    {
+     "U": 3,
+     "code": "CS F316",
+     "evidence": [
+      "ev_20b4216334de"
+     ],
+     "title": "Quantum Architecture and Programming"
+    },
+    {
+     "U": null,
+     "code": "PHY F242",
+     "evidence": [
+      "ev_95dd8d4b4bb0"
+     ],
+     "title": "OR"
+    },
+    {
+     "U": null,
+     "code": "PHY F345",
+     "evidence": [
+      "ev_d58e65d96538"
+     ],
+     "title": "OR"
+    },
+    {
+     "U": 3,
+     "code": "CHEM F213",
+     "evidence": [
+      "ev_171552d74f4d"
+     ],
+     "title": "Quantum Mechanics I OR Quantum Mechanics for Engineers OR Physical Chemistry II"
+    },
+    {
+     "U": null,
+     "code": "PHY F420",
+     "evidence": [
+      "ev_ebf8e57e2433"
+     ],
+     "title": "OR"
+    },
+    {
+     "U": 1,
+     "code": "PHY F318",
+     "evidence": [
+      "ev_e6e8412a19d0"
+     ],
+     "title": "Quantum Optics OR Atoms and Photons"
+    },
+    {
+     "U": 3,
+     "code": "PHY F428",
+     "evidence": [
+      "ev_0196ebab1660"
+     ],
+     "title": "Quantum Information Theory"
+    },
+    {
+     "U": 3,
+     "code": "PHY F434",
+     "evidence": [
+      "ev_885b31da5cad"
+     ],
+     "title": "Foundations of Quantum Mechanics"
+    }
+   ],
+   "evidence": [
+    "ev_7a139dbb84e1"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Quantum Information and Technologies",
+   "notes": [],
+   "pages": [
+    347
+   ]
+  },
+  "Robotics and Automation": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BITS F441",
+     "evidence": [
+      "ev_91a6f62289ef"
+     ],
+     "title": "Robotics"
+    },
+    {
+     "U": 3,
+     "code": "BITS F327",
+     "evidence": [
+      "ev_6c60dfa63f41"
+     ],
+     "title": "Artificial Intelligence for Robotics"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BITS F312",
+     "evidence": [
+      "ev_4ace654683c7"
+     ],
+     "title": "Neural Network & Fuzzy Logic"
+    },
+    {
+     "U": 4,
+     "code": "BITS F415",
+     "evidence": [
+      "ev_58bd060fb1f9"
+     ],
+     "title": "Introduction To MEMS"
+    },
+    {
+     "U": 3,
+     "code": "BITS F442",
+     "evidence": [
+      "ev_729426b3a1ba"
+     ],
+     "title": "Remote Sensing and Image Processing"
+    },
+    {
+     "U": 3,
+     "code": "BITS F451",
+     "evidence": [
+      "ev_e6ce7cb27c8a"
+     ],
+     "title": "Autonomous Mobile Robotics"
+    },
+    {
+     "U": 3,
+     "code": "BITS F464",
+     "evidence": [
+      "ev_f1eef8b1dafb"
+     ],
+     "title": "Machine Learning"
+    },
+    {
+     "U": 4,
+     "code": "ECE F434",
+     "evidence": [
+      "ev_391ec80fb722"
+     ],
+     "title": "Digital Signal Processing"
+    },
+    {
+     "U": 4,
+     "code": "EEE F411",
+     "evidence": [
+      "ev_4aead5431c18"
+     ],
+     "title": "Internet of Things (IoT)"
+    },
+    {
+     "U": 3,
+     "code": "EEE F422",
+     "evidence": [
+      "ev_da3ab78e8c90"
+     ],
+     "title": "Modern Control Systems"
+    },
+    {
+     "U": 4,
+     "code": "EEE G512",
+     "evidence": [
+      "ev_dc2f2a486fb1"
+     ],
+     "title": "Embedded System Design"
+    },
+    {
+     "U": 3,
+     "code": "INSTR F343",
+     "evidence": [
+      "ev_0b8aa1049109"
+     ],
+     "title": "Industrial Instrumentation and Control"
+    },
+    {
+     "U": 5,
+     "code": "INSTR G611",
+     "evidence": [
+      "ev_6a673d7af5ff"
+     ],
+     "title": "Advanced Control Systems"
+    },
+    {
+     "U": null,
+     "code": "ME F221",
+     "evidence": [
+      "ev_e5d020482c7d"
+     ],
+     "title": "or"
+    },
+    {
+     "U": 3,
+     "code": "MF F221",
+     "evidence": [
+      "ev_fd5ecc391d75"
+     ],
+     "title": "Mechanisms and Machines"
+    },
+    {
+     "U": 3,
+     "code": "ME F426",
+     "evidence": [
+      "ev_057e5b7781fd"
+     ],
+     "title": "Industry 4.0 in Manufacturing"
+    },
+    {
+     "U": 3,
+     "code": "ME F432",
+     "evidence": [
+      "ev_7aa4f261f547"
+     ],
+     "title": "Computer Aided Manufacturing"
+    },
+    {
+     "U": 3,
+     "code": "MF F311",
+     "evidence": [
+      "ev_9cae80922f6a"
+     ],
+     "title": "Mechatronics & Automation"
+    },
+    {
+     "U": 5,
+     "code": "MSE G511",
+     "evidence": [
+      "ev_ba5029dfe538"
+     ],
+     "title": "Mechatronics"
+    }
+   ],
+   "evidence": [
+    "ev_5d5590944c49"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Robotics and Automation",
+   "notes": [],
+   "pages": [
+    347
+   ]
+  },
+  "Semiconductor Devices and Technology": {
+   "core": [
+    {
+     "U": 4,
+     "code": "EEE F437",
+     "evidence": [
+      "ev_df5e6bf283b1"
+     ],
+     "title": "Semiconductor Fabrication Technology"
+    }
+   ],
+   "electives": [
+    {
+     "U": 4,
+     "code": "BITS F415",
+     "evidence": [
+      "ev_e79fe21e75c2"
+     ],
+     "title": "Introduction to MEMS"
+    },
+    {
+     "U": 3,
+     "code": "EEE F477",
+     "evidence": [
+      "ev_23e49fffc0aa"
+     ],
+     "title": "Modelling of Field-Effect Nano Devices"
+    },
+    {
+     "U": 5,
+     "code": "EEE G595",
+     "evidence": [
+      "ev_d07000cc51dc"
+     ],
+     "title": "Nanoelectronics and Nanophotonics"
+    },
+    {
+     "U": 5,
+     "code": "MEL G514",
+     "evidence": [
+      "ev_069732394554"
+     ],
+     "title": "Nanoelectronic Memories and Technology"
+    },
+    {
+     "U": 4,
+     "code": "MST F331",
+     "evidence": [
+      "ev_5c28f5a42454"
+     ],
+     "title": "Material Characterization"
+    },
+    {
+     "U": 3,
+     "code": "PHY F341",
+     "evidence": [
+      "ev_8fb3a79d8d65"
+     ],
+     "title": "Solid State Physics"
+    },
+    {
+     "U": 3,
+     "code": "PHY F379",
+     "evidence": [
+      "ev_54b97edb6f9d"
+     ],
+     "title": "Thin Film Technology"
+    }
+   ],
+   "evidence": [
+    "ev_ccf054d3aa6f"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Semiconductor Devices and Technology",
+   "notes": [],
+   "pages": [
+    348
+   ]
+  },
+  "Supply Chain Analytics": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BITS F455",
+     "evidence": [
+      "ev_af8aef5f47d2"
+     ],
+     "title": "Analytics for Supply Chain"
+    },
+    {
+     "U": 3,
+     "code": "MF F319",
+     "evidence": [
+      "ev_0b613347b37f"
+     ],
+     "title": "Supply Chain Management"
+    },
+    {
+     "U": 4,
+     "code": "MF F422",
+     "evidence": [
+      "ev_1695ff551628"
+     ],
+     "title": "Supply Chain Modelling and Empirical Analysis"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "ME F443",
+     "evidence": [
+      "ev_fe9c68d51ab5"
+     ],
+     "title": "Quality Control Assurance and Reliability"
+    },
+    {
+     "U": 3,
+     "code": "MF F321",
+     "evidence": [
+      "ev_3f2d29254712"
+     ],
+     "title": "Procurement Management"
+    },
+    {
+     "U": 3,
+     "code": "MF F418",
+     "evidence": [
+      "ev_87cc245623e8"
+     ],
+     "title": "Lean Manufacturing"
+    },
+    {
+     "U": 3,
+     "code": "MF F485",
+     "evidence": [
+      "ev_928dca043a4c"
+     ],
+     "title": "Sustainable Manufacturing"
+    },
+    {
+     "U": null,
+     "code": "MATH F212",
+     "evidence": [
+      "ev_d8e52e0eb582"
+     ],
+     "title": "OR"
+    },
+    {
+     "U": null,
+     "code": "ME F320",
+     "evidence": [
+      "ev_161ae26080ee"
+     ],
+     "title": "OR"
+    },
+    {
+     "U": 3,
+     "code": "MF F320",
+     "evidence": [
+      "ev_0a36443d7db1"
+     ],
+     "title": "Optimization OR Engineering Optimization OR Engineering Optimization"
+    },
+    {
+     "U": 3,
+     "code": "MATH F242",
+     "evidence": [
+      "ev_bfb5c9fe30f6"
+     ],
+     "title": "Operations Research"
+    },
+    {
+     "U": 3,
+     "code": "MATH F353",
+     "evidence": [
+      "ev_bf359c66cfed"
+     ],
+     "title": "Statistical Inference and Applications"
+    }
+   ],
+   "evidence": [
+    "ev_925d73120765"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Supply Chain Analytics",
+   "notes": [],
+   "pages": [
+    348
+   ]
+  },
+  "Tissue Engineering": {
+   "core": [
+    {
+     "U": 4,
+     "code": "BIO F352",
+     "evidence": [
+      "ev_24f18ea1169d"
+     ],
+     "title": "Cell and Tissue Culture Technology"
+    },
+    {
+     "U": 3,
+     "code": "BIO F422",
+     "evidence": [
+      "ev_b96472d04a16"
+     ],
+     "title": "Fundamentals of Tissue Engineering"
+    },
+    {
+     "U": 3,
+     "code": "MST F333",
+     "evidence": [
+      "ev_72d3cbda761f"
+     ],
+     "title": "Introduction to Biomaterials"
+    }
+   ],
+   "electives": [
+    {
+     "U": null,
+     "code": "BITS F417",
+     "evidence": [
+      "ev_ebd29f1d722b"
+     ],
+     "title": "or"
+    },
+    {
+     "U": 3,
+     "code": "ME F423",
+     "evidence": [
+      "ev_7292600b4592"
+     ],
+     "title": "Microfluidics and Its Application or Microfluidics and Its Application"
+    },
+    {
+     "U": 4,
+     "code": "BITS F418",
+     "evidence": [
+      "ev_55065d63df29"
+     ],
+     "title": "Introduction to Biomedical Engineering"
+    },
+    {
+     "U": 3,
+     "code": "BIOT F422",
+     "evidence": [
+      "ev_22026126f8d2"
+     ],
+     "title": "Nanobiotechnology"
+    },
+    {
+     "U": 3,
+     "code": "BIO F311",
+     "evidence": [
+      "ev_f03ca17aac96"
+     ],
+     "title": "Recombinant DNA Technology"
+    },
+    {
+     "U": 3,
+     "code": "CHE F414",
+     "evidence": [
+      "ev_f247e7fd660d"
+     ],
+     "title": "Transport Phenomena"
+    },
+    {
+     "U": 3,
+     "code": "CHE F421",
+     "evidence": [
+      "ev_95b0a1d731ff"
+     ],
+     "title": "Biochemical Engineering"
+    },
+    {
+     "U": 5,
+     "code": "DE G513",
+     "evidence": [
+      "ev_3d83aeeb9e88"
+     ],
+     "title": "Tribiology"
+    },
+    {
+     "U": 3,
+     "code": "ME F211",
+     "evidence": [
+      "ev_4c7276342d4f"
+     ],
+     "title": "Mechanics of Solids"
+    },
+    {
+     "U": 3,
+     "code": "ME F216",
+     "evidence": [
+      "ev_677fe1185119"
+     ],
+     "title": "Materials Science & Engineering"
+    },
+    {
+     "U": 3,
+     "code": "ME F452",
+     "evidence": [
+      "ev_39eb7882e786"
+     ],
+     "title": "Composite Materials and Design"
+    }
+   ],
+   "evidence": [
+    "ev_a761d78ab268"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Tissue Engineering",
+   "notes": [],
+   "pages": [
+    349
+   ]
+  },
+  "Water and Sanitation": {
+   "core": [
+    {
+     "U": 3,
+     "code": "BIO F216",
+     "evidence": [
+      "ev_90ef626c9f69"
+     ],
+     "title": "Water Sanitation and Solid Waste Management"
+    },
+    {
+     "U": 3,
+     "code": "BIO F217",
+     "evidence": [
+      "ev_201718648bda"
+     ],
+     "title": "Laboratory for Water Sanitation and Solid Waste management"
+    }
+   ],
+   "electives": [
+    {
+     "U": 3,
+     "code": "BIO F266",
+     "evidence": [
+      "ev_aaa746d6f312"
+     ],
+     "title": "Study Project"
+    },
+    {
+     "U": 5,
+     "code": "SAN G511",
+     "evidence": [
+      "ev_61a8f8e06bff"
+     ],
+     "title": "Sanitation Technology"
+    },
+    {
+     "U": 5,
+     "code": "SAN G512",
+     "evidence": [
+      "ev_7a4d62dc66f6"
+     ],
+     "title": "Sanitation and Public Health"
+    },
+    {
+     "U": 5,
+     "code": "SAN G513",
+     "evidence": [
+      "ev_d6e4c0cb5189"
+     ],
+     "title": "Sanitation Governance Behaviour change and Advocacy"
+    },
+    {
+     "U": 5,
+     "code": "SAN G514",
+     "evidence": [
+      "ev_63db9392411c"
+     ],
+     "title": "Sanitation Finance and Project Management"
+    },
+    {
+     "U": 5,
+     "code": "SAN G515",
+     "evidence": [
+      "ev_97f942d5320f"
+     ],
+     "title": "Emergency Sanitation & Leadership"
+    }
+   ],
+   "evidence": [
+    "ev_2c30bb669f07"
+   ],
+   "exclusions": [],
+   "min_courses": 5,
+   "min_units": 15,
+   "name": "Water and Sanitation",
+   "notes": [],
+   "pages": [
+    349
+   ]
+  }
+ }
+}

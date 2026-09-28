@@ -1,0 +1,295 @@
+{
+ "algorithms_theory": {
+  "aliases": [
+   "algorithms",
+   "theory",
+   "theoretical cs"
+  ],
+  "label": "Algorithms & theory"
+ },
+ "artificial_intelligence": {
+  "aliases": [
+   "ai",
+   "a.i.",
+   "artificial intelligence"
+  ],
+  "label": "Artificial intelligence"
+ },
+ "biology": {
+  "aliases": [
+   "biology",
+   "biotech",
+   "bio",
+   "genetics"
+  ],
+  "label": "Biology & biotechnology"
+ },
+ "chemistry": {
+  "aliases": [
+   "chemistry"
+  ],
+  "label": "Chemistry"
+ },
+ "communication": {
+  "aliases": [
+   "communication",
+   "telecom",
+   "5g"
+  ],
+  "label": "Communication engineering"
+ },
+ "data_science": {
+  "aliases": [
+   "data science",
+   "analytics",
+   "big data",
+   "data"
+  ],
+  "label": "Data science & analytics"
+ },
+ "economics": {
+  "aliases": [
+   "economics",
+   "econ"
+  ],
+  "label": "Economics"
+ },
+ "electronics_vlsi": {
+  "aliases": [
+   "vlsi",
+   "electronics",
+   "chip design",
+   "semiconductor"
+  ],
+  "label": "Electronics & VLSI"
+ },
+ "entrepreneurship": {
+  "aliases": [
+   "startup",
+   "entrepreneurship",
+   "venture"
+  ],
+  "label": "Entrepreneurship"
+ },
+ "environment": {
+  "aliases": [
+   "environment",
+   "sustainability",
+   "climate"
+  ],
+  "label": "Environment & sustainability"
+ },
+ "finance": {
+  "aliases": [
+   "finance",
+   "fintech",
+   "investment",
+   "banking"
+  ],
+  "label": "Finance"
+ },
+ "hci_design": {
+  "aliases": [
+   "hci",
+   "ux",
+   "design thinking",
+   "user experience"
+  ],
+  "label": "Design & HCI"
+ },
+ "healthcare": {
+  "aliases": [
+   "healthcare",
+   "medical",
+   "biomedical",
+   "health"
+  ],
+  "label": "Healthcare & biomedical"
+ },
+ "history_society": {
+  "aliases": [
+   "history",
+   "politics",
+   "sociology",
+   "society"
+  ],
+  "label": "History, politics & society"
+ },
+ "literature_languages": {
+  "aliases": [
+   "literature",
+   "english",
+   "languages",
+   "writing"
+  ],
+  "label": "Literature & languages"
+ },
+ "machine_learning": {
+  "aliases": [
+   "ml",
+   "machine learning"
+  ],
+  "label": "Machine learning"
+ },
+ "management": {
+  "aliases": [
+   "management",
+   "business",
+   "marketing",
+   "mba"
+  ],
+  "label": "Management & business"
+ },
+ "manufacturing": {
+  "aliases": [
+   "manufacturing",
+   "production"
+  ],
+  "label": "Manufacturing & production"
+ },
+ "materials_nano": {
+  "aliases": [
+   "materials",
+   "nano",
+   "nanotechnology"
+  ],
+  "label": "Materials & nanoscience"
+ },
+ "mathematics": {
+  "aliases": [
+   "math",
+   "maths",
+   "mathematics"
+  ],
+  "label": "Mathematics"
+ },
+ "mechanics_structures": {
+  "aliases": [
+   "structures",
+   "mechanics",
+   "civil"
+  ],
+  "label": "Mechanics & structures"
+ },
+ "media_arts": {
+  "aliases": [
+   "film",
+   "media",
+   "arts",
+   "music",
+   "design",
+   "photography"
+  ],
+  "label": "Media, film & arts"
+ },
+ "networks": {
+  "aliases": [
+   "networking",
+   "networks",
+   "network"
+  ],
+  "label": "Computer networks"
+ },
+ "philosophy_ethics": {
+  "aliases": [
+   "philosophy",
+   "ethics"
+  ],
+  "label": "Philosophy & ethics"
+ },
+ "physics": {
+  "aliases": [
+   "physics"
+  ],
+  "label": "Physics"
+ },
+ "power_energy": {
+  "aliases": [
+   "energy",
+   "power systems",
+   "renewable",
+   "ev"
+  ],
+  "label": "Power & energy"
+ },
+ "psychology": {
+  "aliases": [
+   "psychology"
+  ],
+  "label": "Psychology"
+ },
+ "quantum": {
+  "aliases": [
+   "quantum"
+  ],
+  "label": "Quantum technologies"
+ },
+ "robotics": {
+  "aliases": [
+   "robotics",
+   "robots",
+   "automation"
+  ],
+  "label": "Robotics & automation"
+ },
+ "security": {
+  "aliases": [
+   "security",
+   "cybersecurity",
+   "cyber security",
+   "crypto"
+  ],
+  "label": "Security & cryptography"
+ },
+ "signal_processing": {
+  "aliases": [
+   "signal processing",
+   "dsp",
+   "image processing"
+  ],
+  "label": "Signal & image processing"
+ },
+ "software_engineering": {
+  "aliases": [
+   "software",
+   "software engineering",
+   "programming"
+  ],
+  "label": "Software engineering"
+ },
+ "space_aero": {
+  "aliases": [
+   "aerospace",
+   "space",
+   "aeronautics",
+   "flight"
+  ],
+  "label": "Aerospace & space"
+ },
+ "statistics": {
+  "aliases": [
+   "statistics",
+   "probability",
+   "stats"
+  ],
+  "label": "Statistics & probability"
+ },
+ "systems": {
+  "aliases": [
+   "systems",
+   "operating systems",
+   "os",
+   "distributed systems"
+  ],
+  "label": "Computer systems"
+ },
+ "thermal_fluids": {
+  "aliases": [
+   "thermodynamics",
+   "fluids",
+   "heat transfer",
+   "cfd"
+  ],
+  "label": "Thermal & fluids"
+ }
+}

@@ -1,0 +1,650 @@
+{
+ "reviewed_by": "maintainer (initial review, 2026-09-28)",
+ "rules": [
+  {
+   "applies_to": "first_degree",
+   "description": "A first degree student can register for at most 25 units in a semester.",
+   "evidence": [
+    "ev_af5e70591ec1"
+   ],
+   "id": "max_units_per_semester",
+   "params": {
+    "credit_system": "units",
+    "excludes": "deficiency/audit courses",
+    "max_units": 25
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "The maximum number of units, a first degree student can register is twenty-five",
+    "family": "regulations"
+   },
+   "type": "plan_limit"
+  },
+  {
+   "applies_to": "all",
+   "description": "A course is cleared when the student obtains a grade; reports (NC, W, RC, I, GA ...) do not clear it.",
+   "evidence": [
+    "ev_6d2f735ee0e1"
+   ],
+   "id": "course_cleared_by_grade",
+   "params": {
+    "clearing_grades": [
+     "A",
+     "A-",
+     "B",
+     "B-",
+     "C",
+     "C-",
+     "D",
+     "E",
+     "GOOD",
+     "CLR",
+     "SATISFACTORY",
+     "EXCELLENT",
+     "FAIR"
+    ],
+    "non_clearing_reports": [
+     "I",
+     "GA",
+     "W",
+     "RC",
+     "RRA",
+     "DP",
+     "NC",
+     "POOR",
+     "UNSATISFACTORY"
+    ]
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "A course is deemed to have been cleared if the student obtains a grade in the course.",
+    "family": "regulations"
+   },
+   "type": "attempt_semantics"
+  },
+  {
+   "applies_to": "all",
+   "description": "For a course taken more than once, the latest performance determines whether it is cleared.",
+   "evidence": [
+    "ev_f9aeee6f882a"
+   ],
+   "id": "latest_performance_governs",
+   "params": {
+    "policy": "latest_attempt"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "the status of clearing of the course would be determined by the latest performance",
+    "family": "regulations"
+   },
+   "type": "attempt_semantics"
+  },
+  {
+   "applies_to": "all",
+   "description": "Letter grades and grade points (E = Exposed, 2 points, is a grade).",
+   "evidence": [
+    "ev_3e9d7b9bdf2e"
+   ],
+   "id": "letter_grade_points",
+   "params": {
+    "points": {
+     "A": 10,
+     "A-": 9,
+     "B": 8,
+     "B-": 7,
+     "C": 6,
+     "C-": 5,
+     "D": 4,
+     "E": 2
+    }
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "E Exposed 2",
+    "family": "regulations"
+   },
+   "type": "attempt_semantics"
+  },
+  {
+   "applies_to": "all",
+   "description": "The prerequisite conditions of a course must be fulfilled before registering (or waived by the Dean).",
+   "evidence": [
+    "ev_07e754e67827"
+   ],
+   "id": "prerequisite_required",
+   "params": {
+    "waivable_by": "Dean, AUGSD/AGSRD"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Before a student can register in a course, he/she should have fulfilled the prerequisite conditions attached to that this course.",
+    "family": "regulations"
+   },
+   "type": "eligibility"
+  },
+  {
+   "applies_to": "all",
+   "description": "A prerequisite may be waived only with the consent of the Dean.",
+   "evidence": [
+    "ev_ced0e1d25e72"
+   ],
+   "id": "prerequisite_waiver",
+   "params": {
+    "approval": "Dean, AUGSD/AGSRD"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Sometimes a particular course has a prerequisite condition which has to be fulfilled before one can register in that course, or has to be waived with the consent of the Dean",
+    "family": "bulletin"
+   },
+   "type": "eligibility"
+  },
+  {
+   "applies_to": "all",
+   "description": "The timetable defers the authoritative prerequisite/restriction list to an external portal that was not supplied.",
+   "evidence": [
+    "ev_3dd96e622ab8"
+   ],
+   "id": "prerequisite_coverage_external",
+   "params": {
+    "authoritative_source": "https://academic.bits-pilani.ac.in/ (not supplied)"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "PREREQUISITES/RESTRICTIONS FOR FIRST DEGREE AND HIGHER DEGREE COURSES Please see the details available at",
+    "family": "timetable"
+   },
+   "type": "coverage_limitation"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "To register in a prescribed semester's named courses the student must have cleared all named courses of the preceding semesters; the DCA may examine cases with at most two uncleared courses.",
+   "evidence": [
+    "ev_650651352d3e"
+   ],
+   "id": "prior_preparation_named_courses",
+   "params": {
+    "dca_may_examine_max_missing": 2
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "All named courses in semesters and terms preceding this set of courses in his/her programme.",
+    "family": "regulations"
+   },
+   "type": "eligibility"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "The DCA may examine a student who has not cleared at most two prior-preparation courses.",
+   "evidence": [
+    "ev_3478a62f908d"
+   ],
+   "id": "prior_preparation_dca_exception",
+   "params": {
+    "approval": "DCA recommendation, Dean AUGS finalisation",
+    "max_missing": 2
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "the DCA may examine the case of a student who has not cleared at most two courses out of the prior-preparation package",
+    "family": "regulations"
+   },
+   "type": "approval"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "A discipline (core or elective) course of a degree other than the student's own requires completion of the prior preparation of the third-year first semester of the student's own programme.",
+   "evidence": [
+    "ev_fd9535426b99"
+   ],
+   "id": "other_discipline_course_prior_prep",
+   "params": {
+    "own_programme_prior_prep_through": {
+     "sem": 1,
+     "year": "III"
+    }
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Must have completed the prior- preparation of the third year first semester of his/her own programme.",
+    "family": "regulations"
+   },
+   "type": "eligibility"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "A higher-degree course of the student's own discipline requires clearing the first set of own discipline core courses.",
+   "evidence": [
+    "ev_abc98ef61740"
+   ],
+   "id": "higher_degree_course_prior_prep",
+   "params": {
+    "requires": "first set of own discipline core courses (second-year DC in the chart) cleared"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "After clearing first set of his/her own Discipline core courses in the case of single degree.",
+    "family": "regulations"
+   },
+   "type": "eligibility"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "A first degree student above an AGC-prescribed CGPA may register in at most one higher degree course per semester.",
+   "evidence": [
+    "ev_7bef6da4ff21"
+   ],
+   "id": "higher_degree_course_limit",
+   "params": {
+    "cgpa_threshold": null,
+    "cgpa_threshold_source": "prescribed by AGC (value not supplied)",
+    "max_hd_courses_per_semester": 1
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Normally, a first degree student above a particular CGPA as prescribed by AGC will be allowed to register in maximum of one higher degree course per semester.",
+    "family": "regulations"
+   },
+   "type": "plan_limit"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "A higher degree course counts as an open elective unless it is listed in the student's discipline-elective pool.",
+   "evidence": [
+    "ev_75434978f799"
+   ],
+   "id": "higher_degree_course_counts_as_open",
+   "params": {
+    "counts_as": "OPEL",
+    "unless_in": "DEL_pool"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "This will be counted as an open elective unless the course is listed in the pool of discipline electives for his/her programme.",
+    "family": "regulations"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "A higher degree course taken as an elective requires having cleared or registered in the CDC of that discipline.",
+   "evidence": [
+    "ev_0717e5fdf9e3"
+   ],
+   "id": "hd_course_needs_cdc",
+   "params": {
+    "requires": "cleared or registered in the CDC of the respective discipline of the higher degree course"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Students must have cleared or registered in the CDC of respective discipline of the higher degree course. Only one higher degree course can be taken as elective in a semester.",
+    "family": "timetable"
+   },
+   "type": "eligibility"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "Over and above the prescribed electives, at most four additional electives may be taken.",
+   "evidence": [
+    "ev_7f093e85dde5"
+   ],
+   "id": "extra_electives_limit",
+   "params": {
+    "max_extra_electives": 4
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Over and above the prescribed number of electives, a student of an integrated first degree programme will be allowed to take, on his/her own option, upto a maximum number of four electives.",
+    "family": "regulations"
+   },
+   "type": "plan_limit"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "Any elective counts as an open elective once discipline and humanities elective requirements are met.",
+   "evidence": [
+    "ev_004e7f7a9ebe"
+   ],
+   "id": "elective_overflow_to_open",
+   "params": {
+    "order": [
+     "DEL",
+     "HUEL",
+     "OPEL"
+    ]
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Normally any elective course will be treated as an Open Elective once the student's requirements under Discipline Electives and Humanities Electives have been accounted for.",
+    "family": "regulations"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "The minimum number of courses and units in each category, and 42 courses / 144 units overall, must be met.",
+   "evidence": [
+    "ev_227dee719e65"
+   ],
+   "id": "category_minimums",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "A student should complete the minimum number of courses and units required in each category as well as meet the minimum requirements of courses (42) and units (144) in total.",
+    "family": "bulletin"
+   },
+   "type": "requirement"
+  },
+  {
+   "applies_to": "dual_degree",
+   "description": "A course meeting the discipline requirements of both degrees of a dual degree need not be repeated.",
+   "evidence": [
+    "ev_ce0c11464ab7"
+   ],
+   "id": "dual_degree_dc_shared",
+   "params": {
+    "shared_dc_counts_once": true
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "any course that meets the discipline requirements of both the degree programs need not be repeated",
+    "family": "bulletin"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "dual_degree",
+   "description": "Discipline electives of either degree may fulfil the open elective requirement of the other.",
+   "evidence": [
+    "ev_ea80ec65d81b"
+   ],
+   "id": "dual_degree_de_as_open",
+   "params": {
+    "de_of_one_degree_counts_as_opel_of_other": true
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "the Discipline Elective courses of either of the two degrees in a dual degree program may be used to fulfill the open elective requirement of the other degree",
+    "family": "bulletin"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "dual_degree",
+   "description": "The open elective requirement of dual degree students is met by counting discipline electives of one degree as open electives of the other.",
+   "evidence": [
+    "ev_6a4555efe295"
+   ],
+   "id": "dual_degree_open_met_by_de",
+   "params": {
+    "open_elective_requirement": "met_by_de_of_other_degree"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Open elective requirement of Dual degree students is met by counting the Discipline electives of one degree as Open Electives of the other degree.",
+    "family": "regulations"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "A course (or its equivalent) of the student's own discipline cannot count as a humanities elective.",
+   "evidence": [
+    "ev_62b9c70319a8"
+   ],
+   "id": "humanities_own_discipline_excluded",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "a student cannot count a course (or its equivalent) of his/her own discipline (s) as a humanities elective even if it is listed in this pool of humanities electives",
+    "family": "bulletin"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "At most 3 project courses may count as discipline electives (study <=1, lab <=2, design <=2, special <=1), 3 as open electives, 5 in total.",
+   "evidence": [
+    "ev_f1effc6f84ab"
+   ],
+   "id": "project_course_limits",
+   "params": {
+    "de_max": 3,
+    "design_max": 2,
+    "laboratory_max": 2,
+    "opel_max": 3,
+    "special_max": 1,
+    "study_max": 1,
+    "total_max": 5
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "A student may avail a maximum of 3 Project courses to meet the Discipline Electives Requirement",
+    "family": "bulletin"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "minor",
+   "description": "At most 2 courses (6 units) of a minor may be met by mandatory courses of the major(s) (GIR excluding humanities, or DC).",
+   "evidence": [
+    "ev_da48abebff38"
+   ],
+   "id": "minor_overlap_limit",
+   "params": {
+    "mandatory_categories": [
+     "GIR_NAMED",
+     "DC"
+    ],
+    "max_courses": 2,
+    "max_units": 6
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "At most 2 courses (and at most 6 units) out of the above requirement (of 5 courses and 15 units) may be met by mandatory courses of the student's degree",
+    "family": "regulations"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "minor",
+   "description": "No course may count for two minors, nor for two majors and a minor.",
+   "evidence": [
+    "ev_75494e1a7944"
+   ],
+   "id": "minor_no_double_use",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "No course may be used to meet the requirements of two different minors nor may a course be used to the meet the requirements of two majors and a minor.",
+    "family": "regulations"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "minor",
+   "description": "At most one project/seminar type course may count toward a minor's electives.",
+   "evidence": [
+    "ev_55d1c5a9ed50"
+   ],
+   "id": "minor_one_project",
+   "params": {
+    "max_project_courses": 1
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "A student may use at most one project / seminar type course to meet the elective requirements of a minor.",
+    "family": "regulations"
+   },
+   "type": "allocation"
+  },
+  {
+   "applies_to": "all",
+   "description": "The final semester programme must be free of timetable conflicts.",
+   "evidence": [
+    "ev_004b04d4e598"
+   ],
+   "id": "timetable_conflict_free",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "The semester programme drawn up finally should be free from any Timetable conflict.",
+    "family": "regulations"
+   },
+   "type": "plan_limit"
+  },
+  {
+   "applies_to": "all",
+   "description": "Students must ensure comprehensive examination dates do not clash.",
+   "evidence": [
+    "ev_9fe1a3f449fa"
+   ],
+   "id": "compre_no_clash",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Comprehensive Examination Dates are not clashing.",
+    "family": "timetable"
+   },
+   "type": "plan_limit"
+  },
+  {
+   "applies_to": "first_degree",
+   "description": "No other course may be taken along with a Practice School component course.",
+   "evidence": [
+    "ev_7c852c917733"
+   ],
+   "id": "practice_school_exclusive",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "There is no provision for taking other courses along with a Practice School component course.",
+    "family": "regulations"
+   },
+   "type": "plan_limit"
+  },
+  {
+   "applies_to": "all",
+   "description": "A cleared course may be repeated to improve the grade if it is part of the current prescribed programme.",
+   "evidence": [
+    "ev_0be01e477f55"
+   ],
+   "id": "repeat_to_improve",
+   "params": {
+    "requires_part_of_current_prescribed_programme": true
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "repeat, with a view to improving his/her grade, a course which He/she has already cleared, provided the course forms part of the current prescribed programme for the student.",
+    "family": "regulations"
+   },
+   "type": "attempt_semantics"
+  },
+  {
+   "applies_to": "all",
+   "description": "Offerings with computer code >= 5000 are only for 2026 admissions.",
+   "evidence": [
+    "ev_d43928df6dbc"
+   ],
+   "id": "credit_hour_cohort",
+   "params": {
+    "admission_years": [
+     2026
+    ],
+    "comcod_min": 5000
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Courses with com cod >=5000 are meant only for 2026 admissions into FD, HD and PHD and not for others",
+    "family": "timetable"
+   },
+   "type": "eligibility"
+  },
+  {
+   "applies_to": "all",
+   "description": "The regulations do not stipulate a minimum attendance percentage for appearing in tests/examinations.",
+   "evidence": [
+    "ev_da75d4072323"
+   ],
+   "id": "no_institute_attendance_minimum",
+   "params": {
+    "institute_minimum_attendance": null
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "These regulations do not stipulate a minimum percentage of attendance before a student is permitted to appear in any test/examination.",
+    "family": "regulations"
+   },
+   "type": "policy_default"
+  },
+  {
+   "applies_to": "all",
+   "description": "Handout Part I (all courses) states that attendance will be recorded.",
+   "evidence": [
+    "ev_506a1b4f3b54"
+   ],
+   "id": "attendance_recorded",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Attendance will be recorded.",
+    "family": "timetable"
+   },
+   "type": "policy_default"
+  },
+  {
+   "applies_to": "all",
+   "description": "Handout Part I says a 90-minute mid-semester test (25-35%) is conducted for all courses; Part II gives course specifics.",
+   "evidence": [
+    "ev_90ff4ab777d8"
+   ],
+   "id": "midsem_default",
+   "params": {
+    "duration_min": 90,
+    "weight_range": [
+     25,
+     35
+    ]
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "A mid-semester test of 90 minutes",
+    "family": "timetable"
+   },
+   "type": "policy_default"
+  },
+  {
+   "applies_to": "all",
+   "description": "Handout Part I - make-up for any component only in genuine cases of absence, with prior permission if anticipated.",
+   "evidence": [
+    "ev_84025c678ae7"
+   ],
+   "id": "makeup_default",
+   "params": {},
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "Make-up for any component of evaluation will be given only in genuine cases of absence.",
+    "family": "timetable"
+   },
+   "type": "policy_default"
+  },
+  {
+   "applies_to": "minor",
+   "description": "A student pursuing a minor must declare it at the end of the 2nd year.",
+   "evidence": [
+    "ev_1420e418a0a8"
+   ],
+   "id": "minor_declaration",
+   "params": {
+    "declare_by": "end of 2nd year"
+   },
+   "review_status": "reviewed",
+   "source": {
+    "excerpt": "should declare at the end of the 2nd year that he/she will pursue a specific minor",
+    "family": "regulations"
+   },
+   "type": "approval"
+  }
+ ],
+ "version": "rules-2026.09.1"
+}

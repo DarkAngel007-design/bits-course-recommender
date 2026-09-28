@@ -1,0 +1,1095 @@
+{
+ "courses": [
+  {
+   "U": 3,
+   "code": "BITS F214",
+   "evidence": [
+    "ev_7e4e73e20f58"
+   ],
+   "title": "Science, Technology and Modernity"
+  },
+  {
+   "U": 3,
+   "code": "BITS F226",
+   "evidence": [
+    "ev_2aa04f122a08"
+   ],
+   "title": "Soft Skills for Professionals"
+  },
+  {
+   "U": 2,
+   "code": "BITS F239",
+   "evidence": [
+    "ev_3c368758dc8f"
+   ],
+   "title": "Evolution of Architecture"
+  },
+  {
+   "U": 4,
+   "code": "BITS F328",
+   "evidence": [
+    "ev_66bc0b5c51c9"
+   ],
+   "title": "Innovation Ecosystem and the Future of Work"
+  },
+  {
+   "U": 3,
+   "code": "BITS F385",
+   "evidence": [
+    "ev_98e6f599bd2e"
+   ],
+   "title": "Introduction to Gender Studies"
+  },
+  {
+   "U": 3,
+   "code": "BITS F399",
+   "evidence": [
+    "ev_b0c8401d8a45"
+   ],
+   "title": "Humanistic Theories of Science and Technology"
+  },
+  {
+   "U": 3,
+   "code": "BITS F419",
+   "evidence": [
+    "ev_df406dc3d2c5"
+   ],
+   "title": "Management of Cross Cultural Engineering Teams"
+  },
+  {
+   "U": 3,
+   "code": "BITS F458",
+   "evidence": [
+    "ev_9d229ba880ae"
+   ],
+   "title": "Professional Practice and Ethics"
+  },
+  {
+   "U": 3,
+   "code": "GS F211",
+   "evidence": [
+    "ev_5c241bab767c"
+   ],
+   "title": "Modern Political Concepts"
+  },
+  {
+   "U": 3,
+   "code": "GS F212",
+   "evidence": [
+    "ev_a8ff5cef15da"
+   ],
+   "title": "Environment, Development & Climate Change"
+  },
+  {
+   "U": 3,
+   "code": "GS F213",
+   "evidence": [
+    "ev_4d44509fb8a3"
+   ],
+   "title": "Development Theories"
+  },
+  {
+   "U": 3,
+   "code": "GS F221",
+   "evidence": [
+    "ev_283ac16db98a"
+   ],
+   "title": "Business Communication"
+  },
+  {
+   "U": 3,
+   "code": "GS F222",
+   "evidence": [
+    "ev_f2b535c313e7"
+   ],
+   "title": "Language Lab Practice"
+  },
+  {
+   "U": 3,
+   "code": "GS F223",
+   "evidence": [
+    "ev_94b6048af0e4"
+   ],
+   "title": "Introduction to Mass Communication"
+  },
+  {
+   "U": 3,
+   "code": "GS F224",
+   "evidence": [
+    "ev_b747c144a0e9"
+   ],
+   "title": "Print and Audio-Visual Advertisement"
+  },
+  {
+   "U": 3,
+   "code": "GS F231",
+   "evidence": [
+    "ev_18073576e578"
+   ],
+   "title": "Dynamics of Social Change"
+  },
+  {
+   "U": 3,
+   "code": "GS F232",
+   "evidence": [
+    "ev_16d6a7649f98"
+   ],
+   "title": "Introductory Psychology"
+  },
+  {
+   "U": 3,
+   "code": "GS F233",
+   "evidence": [
+    "ev_c6c3a06facc6"
+   ],
+   "title": "Public Policy"
+  },
+  {
+   "U": 3,
+   "code": "GS F234",
+   "evidence": [
+    "ev_68710f10bbc8"
+   ],
+   "title": "Development Economics"
+  },
+  {
+   "U": 3,
+   "code": "GS F241",
+   "evidence": [
+    "ev_3e5b944015a4"
+   ],
+   "title": "Creative Writing"
+  },
+  {
+   "U": 3,
+   "code": "GS F242",
+   "evidence": [
+    "ev_493a063b744a"
+   ],
+   "title": "Cultural Studies"
+  },
+  {
+   "U": 3,
+   "code": "GS F243",
+   "evidence": [
+    "ev_b1c5bd67fe5a"
+   ],
+   "title": "Current Affairs"
+  },
+  {
+   "U": 3,
+   "code": "GS F244",
+   "evidence": [
+    "ev_163b90b7a826"
+   ],
+   "title": "Reporting and Writing for Media"
+  },
+  {
+   "U": 3,
+   "code": "GS F245",
+   "evidence": [
+    "ev_2d37287fe57b"
+   ],
+   "title": "Effective Public Speaking"
+  },
+  {
+   "U": 3,
+   "code": "GS F311",
+   "evidence": [
+    "ev_1a09b8f2fe1c"
+   ],
+   "title": "Introduction to Conflict Management"
+  },
+  {
+   "U": 3,
+   "code": "GS F312",
+   "evidence": [
+    "ev_ce13ef11da03"
+   ],
+   "title": "Applied Philosophy"
+  },
+  {
+   "U": 3,
+   "code": "GS F313",
+   "evidence": [
+    "ev_cd0b6ecc8403"
+   ],
+   "title": "Marxian Thoughts"
+  },
+  {
+   "U": 3,
+   "code": "GS F321",
+   "evidence": [
+    "ev_a9732cf61a69"
+   ],
+   "title": "Mass Media Content and Design"
+  },
+  {
+   "U": 3,
+   "code": "GS F322",
+   "evidence": [
+    "ev_df525d051f54"
+   ],
+   "title": "Critical Analysis of Literature and Cinema"
+  },
+  {
+   "U": 3,
+   "code": "GS F325",
+   "evidence": [
+    "ev_ec7c642aa811"
+   ],
+   "title": "Journalism"
+  },
+  {
+   "U": 3,
+   "code": "GS F326",
+   "evidence": [
+    "ev_6efc229b0ef6"
+   ],
+   "title": "Creative Thinking"
+  },
+  {
+   "U": 3,
+   "code": "GS F327",
+   "evidence": [
+    "ev_a5dabaee36e1"
+   ],
+   "title": "Selected Reading"
+  },
+  {
+   "U": 3,
+   "code": "GS F331",
+   "evidence": [
+    "ev_c69265ad88e4"
+   ],
+   "title": "Techniques in Social Research"
+  },
+  {
+   "U": 3,
+   "code": "GS F332",
+   "evidence": [
+    "ev_282376e5383c"
+   ],
+   "title": "Contemporary India"
+  },
+  {
+   "U": 3,
+   "code": "GS F333",
+   "evidence": [
+    "ev_b420b9ee4ae0"
+   ],
+   "title": "Public Administration"
+  },
+  {
+   "U": 3,
+   "code": "GS F334",
+   "evidence": [
+    "ev_dba82efa5e85"
+   ],
+   "title": "Global Business, Technology and Knowledge Sharing"
+  },
+  {
+   "U": 3,
+   "code": "GS F343",
+   "evidence": [
+    "ev_9d7086693d6a"
+   ],
+   "title": "Short Film and Video Production"
+  },
+  {
+   "U": 2,
+   "code": "GS F344",
+   "evidence": [
+    "ev_4185047d06bb"
+   ],
+   "title": "Copywriting"
+  },
+  {
+   "U": 3,
+   "code": "HSS F211",
+   "evidence": [
+    "ev_fb4c29596d23"
+   ],
+   "title": "Introduction to Arabic"
+  },
+  {
+   "U": 3,
+   "code": "HSS F221",
+   "evidence": [
+    "ev_140a117d2153"
+   ],
+   "title": "Readings from Drama"
+  },
+  {
+   "U": 3,
+   "code": "HSS F222",
+   "evidence": [
+    "ev_5a1a92a2945d"
+   ],
+   "title": "Linguistics"
+  },
+  {
+   "U": 3,
+   "code": "HSS F223",
+   "evidence": [
+    "ev_c5e94747abad"
+   ],
+   "title": "Appreciation of Indian Music"
+  },
+  {
+   "U": 3,
+   "code": "HSS F224",
+   "evidence": [
+    "ev_d7af1b9fc7de"
+   ],
+   "title": "English Skills for Academic"
+  },
+  {
+   "U": 3,
+   "code": "HSS F226",
+   "evidence": [
+    "ev_4ba37243e027"
+   ],
+   "title": "Postmodernism"
+  },
+  {
+   "U": 3,
+   "code": "HSS F227",
+   "evidence": [
+    "ev_070e791dfffd"
+   ],
+   "title": "Cross Cultural Skills"
+  },
+  {
+   "U": 3,
+   "code": "HSS F228",
+   "evidence": [
+    "ev_a94d4ef464d9"
+   ],
+   "title": "Phonetics & Spoken English"
+  },
+  {
+   "U": 3,
+   "code": "HSS F229",
+   "evidence": [
+    "ev_b3ed74f055fa"
+   ],
+   "title": "Introduction to Western Music"
+  },
+  {
+   "U": 3,
+   "code": "HSS F232",
+   "evidence": [
+    "ev_7dab71eae6ed"
+   ],
+   "title": "Introduction to Development Studies"
+  },
+  {
+   "U": 3,
+   "code": "HSS F233",
+   "evidence": [
+    "ev_727e49a28fd0"
+   ],
+   "title": "Main Trends in Indian History"
+  },
+  {
+   "U": 3,
+   "code": "HSS F234",
+   "evidence": [
+    "ev_446da307b66f"
+   ],
+   "title": "Main Currents of Modern History"
+  },
+  {
+   "U": 3,
+   "code": "HSS F235",
+   "evidence": [
+    "ev_64796c174147"
+   ],
+   "title": "Introductory Philosophy"
+  },
+  {
+   "U": 3,
+   "code": "HSS F236",
+   "evidence": [
+    "ev_4954048d9fde"
+   ],
+   "title": "Symbolic Logic"
+  },
+  {
+   "U": 3,
+   "code": "HSS F237",
+   "evidence": [
+    "ev_e9860e7b6789"
+   ],
+   "title": "Contemporary Indian English Fiction"
+  },
+  {
+   "U": 3,
+   "code": "HSS F238",
+   "evidence": [
+    "ev_0ddaaf2246a4"
+   ],
+   "title": "Sports and Society"
+  },
+  {
+   "U": 3,
+   "code": "HSS F244",
+   "evidence": [
+    "ev_1b1877e7af76"
+   ],
+   "title": "Crime and New Media"
+  },
+  {
+   "U": 3,
+   "code": "HSS F245",
+   "evidence": [
+    "ev_d507afd872b7"
+   ],
+   "title": "Gender, Science and Technology"
+  },
+  {
+   "U": 3,
+   "code": "HSS F246",
+   "evidence": [
+    "ev_7f9c77148d42"
+   ],
+   "title": "Philosophy of Nāgārjuna"
+  },
+  {
+   "U": 3,
+   "code": "HSS F247",
+   "evidence": [
+    "ev_174173494c06"
+   ],
+   "title": "Social Informatics"
+  },
+  {
+   "U": 3,
+   "code": "HSS F248",
+   "evidence": [
+    "ev_c748fc8babbd"
+   ],
+   "title": "Introduction to Disability Studies"
+  },
+  {
+   "U": 3,
+   "code": "HSS F249",
+   "evidence": [
+    "ev_3febebae7528"
+   ],
+   "title": "Politics in India"
+  },
+  {
+   "U": 3,
+   "code": "HSS F250",
+   "evidence": [
+    "ev_1c23d1fc21b1"
+   ],
+   "title": "Comics and Visual Culture"
+  },
+  {
+   "U": 3,
+   "code": "HSS F251",
+   "evidence": [
+    "ev_ea92a73c3b4c"
+   ],
+   "title": "Introduction to Discourse and Conversational Analysis"
+  },
+  {
+   "U": 3,
+   "code": "HSS F252",
+   "evidence": [
+    "ev_e12663e8c283"
+   ],
+   "title": "International Law"
+  },
+  {
+   "U": 3,
+   "code": "HSS F253",
+   "evidence": [
+    "ev_4f4309124418"
+   ],
+   "title": "Upcycling Theory"
+  },
+  {
+   "U": 3,
+   "code": "HSS F254",
+   "evidence": [
+    "ev_51565322224d"
+   ],
+   "title": "Food and Society"
+  },
+  {
+   "U": 3,
+   "code": "HSS F266",
+   "evidence": [
+    "ev_14c541f64a65"
+   ],
+   "title": "Study Project"
+  },
+  {
+   "U": 3,
+   "code": "HSS F311",
+   "evidence": [
+    "ev_16f112605ddb"
+   ],
+   "title": "Introduction to Videogame Studies"
+  },
+  {
+   "U": 3,
+   "code": "HSS F313",
+   "evidence": [
+    "ev_b5d69d218434"
+   ],
+   "title": "Introduction to Contemporary Arts"
+  },
+  {
+   "U": 3,
+   "code": "HSS F314",
+   "evidence": [
+    "ev_85f86bd85aca"
+   ],
+   "title": "Maritime Studies and Blue Economy"
+  },
+  {
+   "U": 3,
+   "code": "HSS F315",
+   "evidence": [
+    "ev_c04ae8e2f579"
+   ],
+   "title": "Society, Business, and Politics"
+  },
+  {
+   "U": 3,
+   "code": "HSS F316",
+   "evidence": [
+    "ev_be7196680d79"
+   ],
+   "title": "Popular Literature and Culture of South Asia"
+  },
+  {
+   "U": 3,
+   "code": "HSS F317",
+   "evidence": [
+    "ev_8a8df18bbbcb"
+   ],
+   "title": "Introduction to Globalization"
+  },
+  {
+   "U": 3,
+   "code": "HSS F318",
+   "evidence": [
+    "ev_cc5e18b00df7"
+   ],
+   "title": "Introduction to Anthropology"
+  },
+  {
+   "U": 2,
+   "code": "HSS F319",
+   "evidence": [
+    "ev_f64b5c835e38"
+   ],
+   "title": "Lighting for Theatre and Films"
+  },
+  {
+   "U": 3,
+   "code": "HSS F323",
+   "evidence": [
+    "ev_297ea46d745e"
+   ],
+   "title": "Organizational Psychology"
+  },
+  {
+   "U": 3,
+   "code": "HSS F325",
+   "evidence": [
+    "ev_e843476cd06a"
+   ],
+   "title": "Cinematic Adaptation"
+  },
+  {
+   "U": 3,
+   "code": "HSS F326",
+   "evidence": [
+    "ev_860cc5d75a06"
+   ],
+   "title": "Humanities and Design"
+  },
+  {
+   "U": 3,
+   "code": "HSS F327",
+   "evidence": [
+    "ev_54b7e0a3051d"
+   ],
+   "title": "Contemporary Drama"
+  },
+  {
+   "U": 3,
+   "code": "HSS F328",
+   "evidence": [
+    "ev_02563fddcb85"
+   ],
+   "title": "Human Resource Development"
+  },
+  {
+   "U": 3,
+   "code": "HSS F329",
+   "evidence": [
+    "ev_0b9ce174f3c1"
+   ],
+   "title": "Musicology – An – Introduction"
+  },
+  {
+   "U": 3,
+   "code": "HSS F330",
+   "evidence": [
+    "ev_e45b1e5c50fb"
+   ],
+   "title": "Appreciation of Art"
+  },
+  {
+   "U": 3,
+   "code": "HSS F331",
+   "evidence": [
+    "ev_a17b70010e78"
+   ],
+   "title": "Sankara’s Thoughts"
+  },
+  {
+   "U": 3,
+   "code": "HSS F332",
+   "evidence": [
+    "ev_ffc2cc8b03ba"
+   ],
+   "title": "Cinematic Art"
+  },
+  {
+   "U": 3,
+   "code": "HSS F333",
+   "evidence": [
+    "ev_189236ebca2d"
+   ],
+   "title": "Comparative Religion"
+  },
+  {
+   "U": 3,
+   "code": "HSS F334",
+   "evidence": [
+    "ev_78693ebdec83"
+   ],
+   "title": "Srimad Bhagavad Gita"
+  },
+  {
+   "U": 3,
+   "code": "HSS F335",
+   "evidence": [
+    "ev_32987b12311b"
+   ],
+   "title": "Literary Criticism"
+  },
+  {
+   "U": 3,
+   "code": "HSS F336",
+   "evidence": [
+    "ev_17f616626ea6"
+   ],
+   "title": "Modern Fiction"
+  },
+  {
+   "U": 3,
+   "code": "HSS F337",
+   "evidence": [
+    "ev_576956dcc29e"
+   ],
+   "title": "English Literary Forms and Movements"
+  },
+  {
+   "U": 3,
+   "code": "HSS F338",
+   "evidence": [
+    "ev_b2126a61a840"
+   ],
+   "title": "Comparative Indian Literature"
+  },
+  {
+   "U": 3,
+   "code": "HSS F339",
+   "evidence": [
+    "ev_f86f87b12602"
+   ],
+   "title": "Theatre Art Acting and Production"
+  },
+  {
+   "U": 3,
+   "code": "HSS F340",
+   "evidence": [
+    "ev_afc2dcc0d79a"
+   ],
+   "title": "Post Colonial Literatures"
+  },
+  {
+   "U": 3,
+   "code": "HSS F341",
+   "evidence": [
+    "ev_cb00354fde30"
+   ],
+   "title": "Performance Design"
+  },
+  {
+   "U": 3,
+   "code": "HSS F342",
+   "evidence": [
+    "ev_a6df9846ecaf"
+   ],
+   "title": "Advanced Communicative English"
+  },
+  {
+   "U": 3,
+   "code": "HSS F343",
+   "evidence": [
+    "ev_8f9a807e3901"
+   ],
+   "title": "Professional Ethics"
+  },
+  {
+   "U": 3,
+   "code": "HSS F344",
+   "evidence": [
+    "ev_a2eaca0fa1d7"
+   ],
+   "title": "Heritage of India"
+  },
+  {
+   "U": 3,
+   "code": "HSS F345",
+   "evidence": [
+    "ev_d11513e0dcb3"
+   ],
+   "title": "Gandhian Thoughts"
+  },
+  {
+   "U": 3,
+   "code": "HSS F346",
+   "evidence": [
+    "ev_e25520a6454c"
+   ],
+   "title": "International Relations"
+  },
+  {
+   "U": 3,
+   "code": "HSS F347",
+   "evidence": [
+    "ev_c940f1a7e586"
+   ],
+   "title": "Introduction to Carnatic Music"
+  },
+  {
+   "U": 3,
+   "code": "HSS F348",
+   "evidence": [
+    "ev_f86383b05140"
+   ],
+   "title": "Introduction to Hindustani Music"
+  },
+  {
+   "U": 3,
+   "code": "HSS F349",
+   "evidence": [
+    "ev_924f993d6fb1"
+   ],
+   "title": "Ecocriticism"
+  },
+  {
+   "U": 3,
+   "code": "HSS F350",
+   "evidence": [
+    "ev_949825d0af63"
+   ],
+   "title": "Human Rights: History, Theory & Practice"
+  },
+  {
+   "U": 3,
+   "code": "HSS F351",
+   "evidence": [
+    "ev_96ca75abe0c8"
+   ],
+   "title": "Social and Political Ecology"
+  },
+  {
+   "U": 3,
+   "code": "HSS F352",
+   "evidence": [
+    "ev_2691f5e6f770"
+   ],
+   "title": "Technology, Work and Society"
+  },
+  {
+   "U": 3,
+   "code": "HSS F353",
+   "evidence": [
+    "ev_9eb3226e1aa7"
+   ],
+   "title": "Philosophy of Aesthetics"
+  },
+  {
+   "U": 3,
+   "code": "HSS F354",
+   "evidence": [
+    "ev_8df837d126b0"
+   ],
+   "title": "Introduction to Islamic Economy"
+  },
+  {
+   "U": 3,
+   "code": "HSS F355",
+   "evidence": [
+    "ev_ee30cc9dfc28"
+   ],
+   "title": "Dictatorship, Democracy & Development"
+  },
+  {
+   "U": 3,
+   "code": "HSS F356",
+   "evidence": [
+    "ev_058117ebabb8"
+   ],
+   "title": "Social Movements and Protest Politics"
+  },
+  {
+   "U": 3,
+   "code": "HSS F364",
+   "evidence": [
+    "ev_471f69e8ec25"
+   ],
+   "title": "Political Economy of Gulf Cooperation Council States"
+  },
+  {
+   "U": 3,
+   "code": "HSS F365",
+   "evidence": [
+    "ev_8d347f0ec5ff"
+   ],
+   "title": "Science of Sustainable Happiness"
+  },
+  {
+   "U": 3,
+   "code": "HSS F368",
+   "evidence": [
+    "ev_405cc25df386"
+   ],
+   "title": "Asian Cinemas and Cultures"
+  },
+  {
+   "U": 3,
+   "code": "HSS F369",
+   "evidence": [
+    "ev_4084d038e9c2"
+   ],
+   "title": "Caste and Gender in India"
+  },
+  {
+   "U": 3,
+   "code": "HSS F371",
+   "evidence": [
+    "ev_60b614b45f7f"
+   ],
+   "title": "Cities-Life, Issues and Conflicts"
+  },
+  {
+   "U": 3,
+   "code": "HSS F372",
+   "evidence": [
+    "ev_062c537e5a5e"
+   ],
+   "title": "Introduction to Social Psychology"
+  },
+  {
+   "U": 3,
+   "code": "HSS F373",
+   "evidence": [
+    "ev_3cdd912c10a8"
+   ],
+   "title": "Shakespeare and Popular Culture"
+  },
+  {
+   "U": 3,
+   "code": "HSS F374",
+   "evidence": [
+    "ev_df3834eb121b"
+   ],
+   "title": "Urban Modernity and the Renewal of Paris"
+  },
+  {
+   "U": 3,
+   "code": "HSS F375",
+   "evidence": [
+    "ev_52dcdded7c03"
+   ],
+   "title": "Business and Politics in Colonial and Post Colonial India: a historical approach"
+  },
+  {
+   "U": 3,
+   "code": "HSS F378",
+   "evidence": [
+    "ev_71496d6adf7f"
+   ],
+   "title": "Cinemas of India: From Past to Present"
+  },
+  {
+   "U": 3,
+   "code": "HSS F380",
+   "evidence": [
+    "ev_ca728a46d211"
+   ],
+   "title": "Performance Studies"
+  },
+  {
+   "U": 3,
+   "code": "HSS F381",
+   "evidence": [
+    "ev_3b262456cd8d"
+   ],
+   "title": "Environmental Sustainability Ventures"
+  },
+  {
+   "U": 3,
+   "code": "HSS F382",
+   "evidence": [
+    "ev_282351d57516"
+   ],
+   "title": "Housing: programs, policies and practices"
+  },
+  {
+   "U": 3,
+   "code": "HSS F383",
+   "evidence": [
+    "ev_c52c58a35012"
+   ],
+   "title": "Introduction to Museum Studies"
+  },
+  {
+   "U": 3,
+   "code": "HSS F384",
+   "evidence": [
+    "ev_771ec2b58cc9"
+   ],
+   "title": "Indian National Movement"
+  },
+  {
+   "U": 3,
+   "code": "HSS F385",
+   "evidence": [
+    "ev_e4a963c1cb8c"
+   ],
+   "title": "Mental Health Literacy for Youth"
+  },
+  {
+   "U": 3,
+   "code": "HSS F386",
+   "evidence": [
+    "ev_0e7dde60aff2"
+   ],
+   "title": "Ocean Humanities"
+  },
+  {
+   "U": 3,
+   "code": "HSS F387",
+   "evidence": [
+    "ev_d1b3b74d858a"
+   ],
+   "title": "History of Transport and Mobility in Modern Asia"
+  },
+  {
+   "U": 3,
+   "code": "HSS F388",
+   "evidence": [
+    "ev_5da1d8b2d8f0"
+   ],
+   "title": "Gandhi in Literature"
+  },
+  {
+   "U": 3,
+   "code": "HSS F389",
+   "evidence": [
+    "ev_068edef88f7c"
+   ],
+   "title": "Introduction to Data and Society"
+  },
+  {
+   "U": 3,
+   "code": "HSS F390",
+   "evidence": [
+    "ev_e87567c983a7"
+   ],
+   "title": "Science and the Humanities: the Two Culture Debate"
+  },
+  {
+   "U": 3,
+   "code": "HSS F391",
+   "evidence": [
+    "ev_25edaddf2104"
+   ],
+   "title": "Acoustic Humanities"
+  },
+  {
+   "U": 3,
+   "code": "HSS F392",
+   "evidence": [
+    "ev_40f71033c246"
+   ],
+   "title": "Crisis Communication"
+  },
+  {
+   "U": 3,
+   "code": "HSS F393",
+   "evidence": [
+    "ev_cfae35c4211d"
+   ],
+   "title": "Introduction to Metacognition"
+  },
+  {
+   "U": 3,
+   "code": "HSS F394",
+   "evidence": [
+    "ev_67dcc701ede6"
+   ],
+   "title": "The Stud of Aging & Soc across cultures"
+  },
+  {
+   "U": 3,
+   "code": "HSS F395",
+   "evidence": [
+    "ev_bbe25799f8ba"
+   ],
+   "title": "Chinese Politics"
+  },
+  {
+   "U": 3,
+   "code": "HSS F396",
+   "evidence": [
+    "ev_d916be041023"
+   ],
+   "title": "Indian Psychology"
+  },
+  {
+   "U": 3,
+   "code": "HSS F399",
+   "evidence": [
+    "ev_4ac28430fa65"
+   ],
+   "title": "Introduction to American Literature"
+  },
+  {
+   "U": 3,
+   "code": "SANS F111",
+   "evidence": [
+    "ev_ab99a932a8e0"
+   ],
+   "title": "Sanskrit"
+  }
+ ],
+ "own_discipline_exclusion_evidence": [
+  "ev_cf5b8959f9e7"
+ ]
+}

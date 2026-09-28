@@ -1,0 +1,29 @@
+{
+ "coursework": {
+  "min_courses": 41,
+  "min_units": 129
+ },
+ "dual_degree_evidence": [
+  "ev_923400cdb8f0"
+ ],
+ "evidence": [
+  "ev_3b2cf5a91794"
+ ],
+ "humanities": {
+  "min_courses": 3,
+  "min_units": 8
+ },
+ "notes_evidence": [
+  "ev_42cf62dfe4be"
+ ],
+ "open_electives": {
+  "max_courses": 9,
+  "max_units": 27,
+  "min_courses": 5,
+  "min_units": 15
+ },
+ "total": {
+  "min_courses": 42,
+  "min_units": 144
+ }
+}

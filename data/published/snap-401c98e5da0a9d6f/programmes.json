@@ -1,0 +1,7174 @@
+{
+ "BE-ARCHITECTURE-AND-URBAN-ENGINEERING": {
+  "compulsory_electives": [],
+  "core": [
+   "AUE F211",
+   "AUE F212",
+   "AUE F213",
+   "AUE F241",
+   "AUE F242",
+   "AUE F243",
+   "AUE F311",
+   "AUE F312",
+   "AUE F313",
+   "AUE F314",
+   "AUE F341",
+   "AUE F342",
+   "AUE F343",
+   "AUE F344",
+   "AUE F345",
+   "CE F230"
+  ],
+  "course_evidence": {
+   "AUE F211": [
+    "ev_25613db2061e"
+   ],
+   "AUE F212": [
+    "ev_5ed708c8641c"
+   ],
+   "AUE F213": [
+    "ev_b7b460ad55bd"
+   ],
+   "AUE F241": [
+    "ev_8bf072ce0484"
+   ],
+   "AUE F242": [
+    "ev_950e5cd9f234"
+   ],
+   "AUE F243": [
+    "ev_0995e0e54be2"
+   ],
+   "AUE F311": [
+    "ev_86fd6818eb6c"
+   ],
+   "AUE F312": [
+    "ev_0b3f35bdbd32"
+   ],
+   "AUE F313": [
+    "ev_ee783a7d0c8d"
+   ],
+   "AUE F314": [
+    "ev_b45365398f69"
+   ],
+   "AUE F341": [
+    "ev_6791f1e34938"
+   ],
+   "AUE F342": [
+    "ev_7759b4358945"
+   ],
+   "AUE F343": [
+    "ev_bc96db982f55"
+   ],
+   "AUE F344": [
+    "ev_051ec1a5dfc2"
+   ],
+   "AUE F345": [
+    "ev_3445fcfb3cb5"
+   ],
+   "AUE F361": [
+    "ev_c8c8364e1dc4"
+   ],
+   "AUE F362": [
+    "ev_49c84739bc4d"
+   ],
+   "AUE F421": [
+    "ev_729f8c3a793e"
+   ],
+   "AUE F422": [
+    "ev_4d6344f88966"
+   ],
+   "AUE F423": [
+    "ev_d66e2b4553bb"
+   ],
+   "AUE F424": [
+    "ev_9b2d7bd670da"
+   ],
+   "AUE F425": [
+    "ev_f745bd2c9ce0"
+   ],
+   "BITS F469": [
+    "ev_0ed381dac516"
+   ],
+   "CE F230": [
+    "ev_4c84dd12ba33"
+   ],
+   "CE F321": [
+    "ev_a27c9cf4c916"
+   ],
+   "CE F323": [
+    "ev_0fda67e263d1"
+   ],
+   "CE F342": [
+    "ev_70e768744571"
+   ],
+   "CE F416": [
+    "ev_604513970af5"
+   ],
+   "CE F417": [
+    "ev_b57533e8d79b"
+   ],
+   "CE F420": [
+    "ev_89a038fb21b1"
+   ],
+   "CE F422": [
+    "ev_dabf1def6a9c"
+   ],
+   "CE F423": [
+    "ev_e891e774798c"
+   ],
+   "CE F425": [
+    "ev_570c1e7616cf"
+   ],
+   "CE F427": [
+    "ev_c4f0f1dc43b0"
+   ],
+   "CE F428": [
+    "ev_da9087f383e5"
+   ],
+   "CE F431": [
+    "ev_235518b14a7d"
+   ],
+   "CE F433": [
+    "ev_81c1f3398316"
+   ],
+   "CE F434": [
+    "ev_a46d1ce0818d"
+   ],
+   "ME F433": [
+    "ev_b818a3d53667"
+   ],
+   "ME G513": [
+    "ev_e2ffd786c112"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "AUE",
+  "elective_groups": {
+   "Track - 1: Environment and sustainable design": [
+    "AUE F361",
+    "AUE F362",
+    "AUE F421",
+    "CE F323",
+    "CE F423",
+    "CE F434",
+    "ME F433"
+   ],
+   "Track - 2: Urban studies": [
+    "AUE F422",
+    "CE F321",
+    "CE F342",
+    "CE F420",
+    "CE F422",
+    "CE F425",
+    "CE F428",
+    "ME G513"
+   ],
+   "Track - 3: Emerging Technologies": [
+    "AUE F423",
+    "AUE F425",
+    "CE F416",
+    "CE F417",
+    "CE F431",
+    "CE F433"
+   ],
+   "Track - 4: Construction & Finance": [
+    "AUE F424",
+    "BITS F469",
+    "CE F427"
+   ]
+  },
+  "electives": [
+   "AUE F361",
+   "AUE F362",
+   "AUE F421",
+   "CE F323",
+   "CE F423",
+   "CE F434",
+   "ME F433",
+   "AUE F422",
+   "CE F321",
+   "CE F342",
+   "CE F420",
+   "CE F422",
+   "CE F425",
+   "CE F428",
+   "ME G513",
+   "AUE F423",
+   "AUE F425",
+   "CE F416",
+   "CE F417",
+   "CE F431",
+   "CE F433",
+   "AUE F424",
+   "BITS F469",
+   "CE F427"
+  ],
+  "id": "BE-ARCHITECTURE-AND-URBAN-ENGINEERING",
+  "list_evidence": [
+   "ev_25613db2061e",
+   "ev_c8c8364e1dc4"
+  ],
+  "list_heading": "ARCHITECTURAL AND URBAN ENGINEERING",
+  "name": "B.E. Architecture and Urban Engineering",
+  "units": {
+   "AUE F211": 3,
+   "AUE F212": 3,
+   "AUE F213": 3,
+   "AUE F241": 3,
+   "AUE F242": 3,
+   "AUE F243": 3,
+   "AUE F311": 3,
+   "AUE F312": 3,
+   "AUE F313": 3,
+   "AUE F314": 4,
+   "AUE F341": 3,
+   "AUE F342": 2,
+   "AUE F343": 3,
+   "AUE F344": 1,
+   "AUE F345": 4,
+   "AUE F361": 3,
+   "AUE F362": 3,
+   "AUE F421": 3,
+   "AUE F422": 4,
+   "AUE F423": 3,
+   "AUE F424": 4,
+   "AUE F425": 3,
+   "BITS F469": 3,
+   "CE F230": 4,
+   "CE F321": 3,
+   "CE F323": 3,
+   "CE F342": 4,
+   "CE F416": 4,
+   "CE F417": 3,
+   "CE F420": 3,
+   "CE F422": 3,
+   "CE F423": 3,
+   "CE F425": 3,
+   "CE F427": 3,
+   "CE F428": 3,
+   "CE F431": 4,
+   "CE F433": 4,
+   "CE F434": 3,
+   "ME F433": 4,
+   "ME G513": 5
+  }
+ },
+ "BE-BIOTECHNOLOGY": {
+  "compulsory_electives": [],
+  "core": [
+   "BIOT F211",
+   "BIOT F212",
+   "BIOT F213",
+   "BIOT F215",
+   "BIOT F241",
+   "BIOT F243",
+   "BIOT F244",
+   "BIOT F245",
+   "BIOT F311",
+   "BIOT F314",
+   "BIOT F342",
+   "BIOT F343",
+   "BIOT F344"
+  ],
+  "course_evidence": {
+   "BIOT F211": [
+    "ev_6aa4a43dc01b"
+   ],
+   "BIOT F212": [
+    "ev_103f72098db0"
+   ],
+   "BIOT F213": [
+    "ev_bba5f5e4a603"
+   ],
+   "BIOT F215": [
+    "ev_01e2fc6a46a1"
+   ],
+   "BIOT F241": [
+    "ev_ab2b7c93a2ac"
+   ],
+   "BIOT F242": [
+    "ev_213ecb0d04e2"
+   ],
+   "BIOT F243": [
+    "ev_7f0ada00c76c"
+   ],
+   "BIOT F244": [
+    "ev_e6824897c427"
+   ],
+   "BIOT F245": [
+    "ev_aaa1d7fd30c1"
+   ],
+   "BIOT F311": [
+    "ev_351a11b24334"
+   ],
+   "BIOT F314": [
+    "ev_29a78f87abae"
+   ],
+   "BIOT F342": [
+    "ev_efd9c57e46a5"
+   ],
+   "BIOT F343": [
+    "ev_129f76364205"
+   ],
+   "BIOT F344": [
+    "ev_e6b455932f5f"
+   ],
+   "BIOT F345": [
+    "ev_530a4bf6de55"
+   ],
+   "BIOT F346": [
+    "ev_0cf280482cc9"
+   ],
+   "BIOT F347": [
+    "ev_db38df781c5b"
+   ],
+   "BIOT F352": [
+    "ev_0fdc53221042"
+   ],
+   "BIOT F413": [
+    "ev_d049e8fdf130"
+   ],
+   "BIOT F416": [
+    "ev_68238c1ae56f"
+   ],
+   "BIOT F417": [
+    "ev_6ef255b88b84"
+   ],
+   "BIOT F420": [
+    "ev_824de5fe4f09"
+   ],
+   "BIOT F422": [
+    "ev_7c0f8eb8878d"
+   ],
+   "BIOT F423": [
+    "ev_dffe468c702d"
+   ],
+   "BIOT F424": [
+    "ev_17e6669d1e38"
+   ],
+   "BITS F467": [
+    "ev_3fbd35ec0e6b"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "BIOT",
+  "elective_groups": {},
+  "electives": [
+   "BIOT F242",
+   "BIOT F345",
+   "BIOT F346",
+   "BIOT F347",
+   "BIOT F352",
+   "BIOT F413",
+   "BIOT F416",
+   "BIOT F417",
+   "BIOT F420",
+   "BIOT F422",
+   "BIOT F423",
+   "BIOT F424",
+   "BITS F467"
+  ],
+  "id": "BE-BIOTECHNOLOGY",
+  "list_evidence": [
+   "ev_6aa4a43dc01b",
+   "ev_213ecb0d04e2"
+  ],
+  "list_heading": "BIOTECHNOLOGY",
+  "name": "B.E. Biotechnology",
+  "units": {
+   "BIOT F211": 3,
+   "BIOT F212": 4,
+   "BIOT F213": 3,
+   "BIOT F215": 3,
+   "BIOT F241": 4,
+   "BIOT F242": 3,
+   "BIOT F243": 3,
+   "BIOT F244": 4,
+   "BIOT F245": 3,
+   "BIOT F311": 3,
+   "BIOT F314": 4,
+   "BIOT F342": 3,
+   "BIOT F343": 3,
+   "BIOT F344": 3,
+   "BIOT F345": 3,
+   "BIOT F346": 3,
+   "BIOT F347": 3,
+   "BIOT F352": 3,
+   "BIOT F413": 3,
+   "BIOT F416": 3,
+   "BIOT F417": 3,
+   "BIOT F420": 3,
+   "BIOT F422": 3,
+   "BIOT F423": 3,
+   "BIOT F424": 3,
+   "BITS F467": 3
+  }
+ },
+ "BE-BIOTECHNOLOGY-WITH-SPECIALIZATION-IN-APPLIED-MOLECULAR-BI": {
+  "compulsory_electives": [
+   "BIOT F413",
+   "BIOT F492"
+  ],
+  "core": [
+   "BIOT F211",
+   "BIOT F212",
+   "BIOT F213",
+   "BIOT F215",
+   "BIOT F241",
+   "BIOT F243",
+   "BIOT F244",
+   "BIOT F245",
+   "BIOT F311",
+   "BIOT F314",
+   "BIOT F342",
+   "BIOT F343",
+   "BIOT F344"
+  ],
+  "course_evidence": {
+   "BIOT F211": [
+    "ev_f8108dcf9e59"
+   ],
+   "BIOT F212": [
+    "ev_af97088b19c9"
+   ],
+   "BIOT F213": [
+    "ev_3b1b7103877a"
+   ],
+   "BIOT F215": [
+    "ev_67d69f2c2d34"
+   ],
+   "BIOT F241": [
+    "ev_c970c3fb5ba2"
+   ],
+   "BIOT F242": [
+    "ev_efa0a3751139"
+   ],
+   "BIOT F243": [
+    "ev_04b8ac96c8c3"
+   ],
+   "BIOT F244": [
+    "ev_e07ed53b779e"
+   ],
+   "BIOT F245": [
+    "ev_d6e41889d67e"
+   ],
+   "BIOT F311": [
+    "ev_8a0266a746de"
+   ],
+   "BIOT F314": [
+    "ev_3add6875ae25"
+   ],
+   "BIOT F342": [
+    "ev_5c2cc6d57f77"
+   ],
+   "BIOT F343": [
+    "ev_fcc543fb532f"
+   ],
+   "BIOT F344": [
+    "ev_f0a147341c6c"
+   ],
+   "BIOT F345": [
+    "ev_1bd4c4bd1858"
+   ],
+   "BIOT F346": [
+    "ev_6f9b75ed8882"
+   ],
+   "BIOT F347": [
+    "ev_756347964b55"
+   ],
+   "BIOT F413": [
+    "ev_9087caf7c239"
+   ],
+   "BIOT F416": [
+    "ev_f8d8a856afac"
+   ],
+   "BIOT F420": [
+    "ev_79ac0340930c"
+   ],
+   "BIOT F492": [
+    "ev_4a874e46627b"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "BIOT",
+  "elective_groups": {},
+  "electives": [
+   "BIOT F345",
+   "BIOT F346",
+   "BIOT F413",
+   "BIOT F492",
+   "BIOT F242",
+   "BIOT F347",
+   "BIOT F416",
+   "BIOT F420"
+  ],
+  "id": "BE-BIOTECHNOLOGY-WITH-SPECIALIZATION-IN-APPLIED-MOLECULAR-BI",
+  "list_evidence": [
+   "ev_f8108dcf9e59",
+   "ev_1bd4c4bd1858"
+  ],
+  "list_heading": "BIOTECHNOLOGY WITH SPECIALIZATION IN APPLIED MOLECULAR BIOLOGY",
+  "name": "B.E. Biotechnology with Specialization in Applied Molecular Biology",
+  "units": {
+   "BIOT F211": 3,
+   "BIOT F212": 4,
+   "BIOT F213": 3,
+   "BIOT F215": 3,
+   "BIOT F241": 4,
+   "BIOT F242": 3,
+   "BIOT F243": 3,
+   "BIOT F244": 4,
+   "BIOT F245": 3,
+   "BIOT F311": 3,
+   "BIOT F314": 4,
+   "BIOT F342": 3,
+   "BIOT F343": 3,
+   "BIOT F344": 3,
+   "BIOT F345": 3,
+   "BIOT F346": 3,
+   "BIOT F347": 3,
+   "BIOT F413": 3,
+   "BIOT F416": 3,
+   "BIOT F420": 3,
+   "BIOT F492": 3
+  }
+ },
+ "BE-CHEMICAL": {
+  "compulsory_electives": [],
+  "core": [
+   "CHE F211",
+   "CHE F212",
+   "CHE F213",
+   "CHE F214",
+   "CHE F241",
+   "CHE F242",
+   "CHE F243",
+   "CHE F244",
+   "CHE F311",
+   "CHE F312",
+   "CHE F313",
+   "CHE F314",
+   "CHE F341",
+   "CHE F342",
+   "CHE F343"
+  ],
+  "course_evidence": {
+   "BIO G671": [
+    "ev_039b38578b24"
+   ],
+   "BIOT F245": [
+    "ev_cd30e9e1c3a4"
+   ],
+   "BIOT F344": [
+    "ev_895d70bb83de"
+   ],
+   "BITS F415": [
+    "ev_10683da72e5d"
+   ],
+   "BITS F416": [
+    "ev_1f359e41b868"
+   ],
+   "BITS F417": [
+    "ev_460303a659bb"
+   ],
+   "BITS F418": [
+    "ev_ad1329ab7935"
+   ],
+   "BITS F429": [
+    "ev_7ee678969c0c"
+   ],
+   "CHE F211": [
+    "ev_f6ff8fa0febb"
+   ],
+   "CHE F212": [
+    "ev_cfb68145e660"
+   ],
+   "CHE F213": [
+    "ev_1fccd14c81ed"
+   ],
+   "CHE F214": [
+    "ev_bacd69c93f7f"
+   ],
+   "CHE F241": [
+    "ev_dd4b7c7b6c52"
+   ],
+   "CHE F242": [
+    "ev_b97aa299f401"
+   ],
+   "CHE F243": [
+    "ev_9fc181fea254"
+   ],
+   "CHE F244": [
+    "ev_2e863368cf66"
+   ],
+   "CHE F311": [
+    "ev_a412656a4a87"
+   ],
+   "CHE F312": [
+    "ev_5a5976b894aa"
+   ],
+   "CHE F313": [
+    "ev_024867cc9367"
+   ],
+   "CHE F314": [
+    "ev_76a76f56fdd1"
+   ],
+   "CHE F315": [
+    "ev_68ac26455af5"
+   ],
+   "CHE F316": [
+    "ev_d3410f5f4992"
+   ],
+   "CHE F317": [
+    "ev_5b8414fd4c5f"
+   ],
+   "CHE F341": [
+    "ev_fc6dd85ada01"
+   ],
+   "CHE F342": [
+    "ev_0cb28c10caea"
+   ],
+   "CHE F343": [
+    "ev_3080ebc539fe"
+   ],
+   "CHE F411": [
+    "ev_d331cf451e16"
+   ],
+   "CHE F412": [
+    "ev_e400da67c8b1"
+   ],
+   "CHE F413": [
+    "ev_b778363543c8"
+   ],
+   "CHE F414": [
+    "ev_d9fbbe7fed65"
+   ],
+   "CHE F415": [
+    "ev_7a69aa963ac2"
+   ],
+   "CHE F416": [
+    "ev_80e0966d15ce"
+   ],
+   "CHE F417": [
+    "ev_719c8b99f5e1"
+   ],
+   "CHE F418": [
+    "ev_7d3ced4cbc13"
+   ],
+   "CHE F419": [
+    "ev_9d78d123459e"
+   ],
+   "CHE F421": [
+    "ev_d5d442480a46"
+   ],
+   "CHE F422": [
+    "ev_0a2c94bfe152"
+   ],
+   "CHE F423": [
+    "ev_433795484a6d"
+   ],
+   "CHE F424": [
+    "ev_5f50eaeb32b9"
+   ],
+   "CHE F425": [
+    "ev_4dbe22c5bf27"
+   ],
+   "CHE F433": [
+    "ev_b1109deb5ec1"
+   ],
+   "CHE F471": [
+    "ev_c1898bc7d8de"
+   ],
+   "CHE F497": [
+    "ev_e8c553183291"
+   ],
+   "CHE F498": [
+    "ev_1688585f381e"
+   ],
+   "CHE G511": [
+    "ev_a322349cea5b"
+   ],
+   "CHE G512": [
+    "ev_ac602485386f"
+   ],
+   "CHE G513": [
+    "ev_14b16a3fd21e"
+   ],
+   "CHE G522": [
+    "ev_570bc6e90086"
+   ],
+   "CHE G523": [
+    "ev_89372e41e3ff"
+   ],
+   "CHE G524": [
+    "ev_ec69541b1a79"
+   ],
+   "CHE G526": [
+    "ev_0b3baa841a69"
+   ],
+   "CHE G527": [
+    "ev_001b2492b6c2"
+   ],
+   "CHE G528": [
+    "ev_5a0bb528fa4e"
+   ],
+   "CHE G529": [
+    "ev_de6ec445b052"
+   ],
+   "CHE G532": [
+    "ev_66e985edc0df"
+   ],
+   "CHE G533": [
+    "ev_43ca4c1d9151"
+   ],
+   "CHE G551": [
+    "ev_abf369b0e8da"
+   ],
+   "CHE G552": [
+    "ev_51bb736d7f0a"
+   ],
+   "CHE G554": [
+    "ev_8bf0c9d2a047"
+   ],
+   "CHE G556": [
+    "ev_443c02f0045d"
+   ],
+   "CHE G557": [
+    "ev_27dc23f692e1"
+   ],
+   "CHE G558": [
+    "ev_106f36072c0b"
+   ],
+   "CHE G568": [
+    "ev_34863b2ed0b9"
+   ],
+   "CHE G613": [
+    "ev_69a562b3c803"
+   ],
+   "CHE G614": [
+    "ev_f5fc18c391a4"
+   ],
+   "CHE G616": [
+    "ev_8ff62297aaaa"
+   ],
+   "CHE G617": [
+    "ev_0b5781b32e29"
+   ],
+   "CHE G618": [
+    "ev_4a7c2b4b1d3e"
+   ],
+   "CHE G619": [
+    "ev_a753c0c53ad5"
+   ],
+   "CHE G620": [
+    "ev_f2f3e48c85ad"
+   ],
+   "CHE G622": [
+    "ev_0df32d808b18"
+   ],
+   "CHE G641": [
+    "ev_f09cc02e57df"
+   ],
+   "CHEM F325": [
+    "ev_957c92440095"
+   ],
+   "ME F323": [
+    "ev_e170e182b779"
+   ],
+   "MST F332": [
+    "ev_490b69ac6eb1"
+   ],
+   "MST F334": [
+    "ev_ba7ec6621fda"
+   ],
+   "MST F339": [
+    "ev_c73c812dd7e7"
+   ],
+   "MST G521": [
+    "ev_0b66b5d5a77a"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "CHE",
+  "elective_groups": {},
+  "electives": [
+   "BIO G671",
+   "BIOT F245",
+   "BIOT F344",
+   "BITS F415",
+   "BITS F416",
+   "BITS F417",
+   "BITS F418",
+   "BITS F429",
+   "CHE F315",
+   "CHE F316",
+   "CHE F317",
+   "CHE F411",
+   "CHE F412",
+   "CHE F413",
+   "CHE F414",
+   "CHE F415",
+   "CHE F416",
+   "CHE F417",
+   "CHE F418",
+   "CHE F419",
+   "CHE F421",
+   "CHE F422",
+   "CHE F423",
+   "CHE F424",
+   "CHE F425",
+   "CHE F433",
+   "CHE F471",
+   "CHE F497",
+   "CHE F498",
+   "CHE G511",
+   "CHE G512",
+   "CHE G513",
+   "CHE G522",
+   "CHE G523",
+   "CHE G524",
+   "CHE G526",
+   "CHE G527",
+   "CHE G528",
+   "CHE G529",
+   "CHE G532",
+   "CHE G533",
+   "CHE G551",
+   "CHE G552",
+   "CHE G554",
+   "CHE G556",
+   "CHE G557",
+   "CHE G558",
+   "CHE G568",
+   "CHE G613",
+   "CHE G614",
+   "CHE G616",
+   "CHE G617",
+   "CHE G618",
+   "CHE G619",
+   "CHE G620",
+   "CHE G622",
+   "CHE G641",
+   "CHEM F325",
+   "ME F323",
+   "MST F332",
+   "MST F334",
+   "MST F339",
+   "MST G521"
+  ],
+  "id": "BE-CHEMICAL",
+  "list_evidence": [
+   "ev_f6ff8fa0febb",
+   "ev_039b38578b24"
+  ],
+  "list_heading": "CHEMICAL ENGINEERING",
+  "name": "B.E. Chemical",
+  "units": {
+   "BIO G671": 5,
+   "BIOT F245": 3,
+   "BIOT F344": 3,
+   "BITS F415": 4,
+   "BITS F416": 3,
+   "BITS F417": 4,
+   "BITS F418": 4,
+   "BITS F429": 4,
+   "CHE F211": 3,
+   "CHE F212": 3,
+   "CHE F213": 3,
+   "CHE F214": 3,
+   "CHE F241": 3,
+   "CHE F242": 3,
+   "CHE F243": 3,
+   "CHE F244": 3,
+   "CHE F311": 3,
+   "CHE F312": 3,
+   "CHE F313": 3,
+   "CHE F314": 3,
+   "CHE F315": 3,
+   "CHE F316": 3,
+   "CHE F317": 3,
+   "CHE F341": 3,
+   "CHE F342": 3,
+   "CHE F343": 3,
+   "CHE F411": 3,
+   "CHE F412": 3,
+   "CHE F413": 3,
+   "CHE F414": 3,
+   "CHE F415": 3,
+   "CHE F416": 3,
+   "CHE F417": 3,
+   "CHE F418": 3,
+   "CHE F419": 3,
+   "CHE F421": 3,
+   "CHE F422": 3,
+   "CHE F423": 3,
+   "CHE F424": 3,
+   "CHE F425": 3,
+   "CHE F433": 3,
+   "CHE F471": 3,
+   "CHE F497": 3,
+   "CHE F498": 3,
+   "CHE G511": 4,
+   "CHE G512": 4,
+   "CHE G513": 5,
+   "CHE G522": 4,
+   "CHE G523": 5,
+   "CHE G524": 4,
+   "CHE G526": 4,
+   "CHE G527": 4,
+   "CHE G528": 4,
+   "CHE G529": 4,
+   "CHE G532": 4,
+   "CHE G533": 5,
+   "CHE G551": 5,
+   "CHE G552": 5,
+   "CHE G554": 4,
+   "CHE G556": 4,
+   "CHE G557": 4,
+   "CHE G558": 4,
+   "CHE G568": 4,
+   "CHE G613": 5,
+   "CHE G614": 5,
+   "CHE G616": 5,
+   "CHE G617": 5,
+   "CHE G618": 5,
+   "CHE G619": 5,
+   "CHE G620": 4,
+   "CHE G622": 5,
+   "CHE G641": 5,
+   "CHEM F325": 3,
+   "ME F323": 3,
+   "MST F332": 3,
+   "MST F334": 3,
+   "MST F339": 3,
+   "MST G521": 5
+  }
+ },
+ "BE-CHEMICAL-WITH-SPECIALIZATION-IN-ENERGY-ENVIRONMENT-AND-SU": {
+  "compulsory_electives": [],
+  "core": [
+   "CHE F211",
+   "CHE F212",
+   "CHE F213",
+   "CHE F214",
+   "CHE F241",
+   "CHE F242",
+   "CHE F243",
+   "CHE F244",
+   "CHE F311",
+   "CHE F312",
+   "CHE F313",
+   "CHE F314",
+   "CHE F341",
+   "CHE F342",
+   "CHE F343"
+  ],
+  "course_evidence": {
+   "BITS F217": [
+    "ev_d3083a54a319"
+   ],
+   "CHE F211": [
+    "ev_d7d8628d66e0"
+   ],
+   "CHE F212": [
+    "ev_e0a6394be320"
+   ],
+   "CHE F213": [
+    "ev_550c4e4d549d"
+   ],
+   "CHE F214": [
+    "ev_d5c253ce1a5d"
+   ],
+   "CHE F241": [
+    "ev_fa74d24c5df3"
+   ],
+   "CHE F242": [
+    "ev_f216c1fca7c4"
+   ],
+   "CHE F243": [
+    "ev_faecf5424213"
+   ],
+   "CHE F244": [
+    "ev_6b2f89684c87"
+   ],
+   "CHE F311": [
+    "ev_0a68deb2c39f"
+   ],
+   "CHE F312": [
+    "ev_c02b0e5562a9"
+   ],
+   "CHE F313": [
+    "ev_f1883d5525a1"
+   ],
+   "CHE F314": [
+    "ev_e6ba1ada6a6e"
+   ],
+   "CHE F316": [
+    "ev_431ecdbd4b29"
+   ],
+   "CHE F317": [
+    "ev_8c4ce914c0b4"
+   ],
+   "CHE F341": [
+    "ev_a2f9ba613b8e"
+   ],
+   "CHE F342": [
+    "ev_8a4abb945dde"
+   ],
+   "CHE F343": [
+    "ev_7568278989cc"
+   ],
+   "CHE F366": [
+    "ev_f84704543471"
+   ],
+   "CHE F376": [
+    "ev_37d7dca4ba5f"
+   ],
+   "CHE F411": [
+    "ev_a971f8ad1fbb"
+   ],
+   "CHE F425": [
+    "ev_393af711e8e7"
+   ],
+   "CHE F491": [
+    "ev_3f03033390e8"
+   ],
+   "CHE G513": [
+    "ev_c6c5b7de2291"
+   ],
+   "CHE G557": [
+    "ev_fe564dd30f5c"
+   ],
+   "ECON F353": [
+    "ev_95c4cdb8731f"
+   ],
+   "HSS F381": [
+    "ev_cc45cd4202f7"
+   ],
+   "ME F323": [
+    "ev_7aeb09b5e149"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "CHE",
+  "elective_groups": {
+   "Pool-1 (Three Courses from pool-1)": [
+    "CHE F316",
+    "CHE F317",
+    "CHE G557",
+    "CHE F425",
+    "CHE G513"
+   ],
+   "Pool-2 (Any Two Courses from pool-2)": [
+    "BITS F217",
+    "CHE F411",
+    "ECON F353",
+    "ME F323",
+    "CHE F366",
+    "CHE F376",
+    "CHE F491",
+    "HSS F381"
+   ]
+  },
+  "electives": [
+   "CHE F316",
+   "CHE F317",
+   "CHE G557",
+   "CHE F425",
+   "CHE G513",
+   "BITS F217",
+   "CHE F411",
+   "ECON F353",
+   "ME F323",
+   "CHE F366",
+   "CHE F376",
+   "CHE F491",
+   "HSS F381"
+  ],
+  "id": "BE-CHEMICAL-WITH-SPECIALIZATION-IN-ENERGY-ENVIRONMENT-AND-SU",
+  "list_evidence": [
+   "ev_d7d8628d66e0",
+   "ev_431ecdbd4b29"
+  ],
+  "list_heading": "CHEMICAL ENGINEERING WITH SPECIALIZATION IN ENERGY, ENVIRONMENT, AND SUSTAINABILITY",
+  "name": "B.E. Chemical with Specialization in Energy, Environment, and Sustainability",
+  "units": {
+   "BITS F217": 3,
+   "CHE F211": 3,
+   "CHE F212": 3,
+   "CHE F213": 3,
+   "CHE F214": 3,
+   "CHE F241": 3,
+   "CHE F242": 3,
+   "CHE F243": 3,
+   "CHE F244": 3,
+   "CHE F311": 3,
+   "CHE F312": 3,
+   "CHE F313": 3,
+   "CHE F314": 3,
+   "CHE F316": 3,
+   "CHE F317": null,
+   "CHE F341": 3,
+   "CHE F342": 3,
+   "CHE F343": 3,
+   "CHE F366": null,
+   "CHE F376": null,
+   "CHE F411": 3,
+   "CHE F425": null,
+   "CHE F491": 3,
+   "CHE G513": 0,
+   "CHE G557": 0,
+   "ECON F353": 3,
+   "HSS F381": 3,
+   "ME F323": 3
+  }
+ },
+ "BE-CIVIL": {
+  "compulsory_electives": [],
+  "core": [
+   "CE F211",
+   "CE F213",
+   "CE F230",
+   "CE F231",
+   "CE F241",
+   "CE F242",
+   "CE F243",
+   "CE F244",
+   "CE F312",
+   "CE F313",
+   "CE F320",
+   "CE F321",
+   "CE F342",
+   "CE F343"
+  ],
+  "course_evidence": {
+   "BITS F313": [
+    "ev_d1f771a53ea3"
+   ],
+   "CE F211": [
+    "ev_38854f0ca8ec"
+   ],
+   "CE F213": [
+    "ev_462d5221d438"
+   ],
+   "CE F230": [
+    "ev_58b9935f9cb6"
+   ],
+   "CE F231": [
+    "ev_86679430a439"
+   ],
+   "CE F241": [
+    "ev_c8f12391e599"
+   ],
+   "CE F242": [
+    "ev_125439fe0a68"
+   ],
+   "CE F243": [
+    "ev_2f7e09aed54a"
+   ],
+   "CE F244": [
+    "ev_fa300fd4387b"
+   ],
+   "CE F312": [
+    "ev_02407ef875c4"
+   ],
+   "CE F313": [
+    "ev_641e4012fd90"
+   ],
+   "CE F320": [
+    "ev_50527973187f"
+   ],
+   "CE F321": [
+    "ev_68d1c919f5ff"
+   ],
+   "CE F323": [
+    "ev_118584586edb"
+   ],
+   "CE F324": [
+    "ev_85b6e2c707f2"
+   ],
+   "CE F325": [
+    "ev_9a3ceedad0ce"
+   ],
+   "CE F331": [
+    "ev_1f9aaa5a5a3e"
+   ],
+   "CE F342": [
+    "ev_0f52cf3e96de"
+   ],
+   "CE F343": [
+    "ev_ac58632805c5"
+   ],
+   "CE F345": [
+    "ev_faafefb75f47"
+   ],
+   "CE F411": [
+    "ev_6fc9f78193cc"
+   ],
+   "CE F412": [
+    "ev_b91fc2c61f2c"
+   ],
+   "CE F413": [
+    "ev_77f417876f27"
+   ],
+   "CE F415": [
+    "ev_461d31ddf2c8"
+   ],
+   "CE F416": [
+    "ev_6a816e41a1ab"
+   ],
+   "CE F417": [
+    "ev_383df48861cb"
+   ],
+   "CE F419": [
+    "ev_25f66de0fc0f"
+   ],
+   "CE F420": [
+    "ev_bb925063ded6"
+   ],
+   "CE F421": [
+    "ev_01f1cc1014c3"
+   ],
+   "CE F422": [
+    "ev_325b791a57ac"
+   ],
+   "CE F423": [
+    "ev_35c8d8268e8f"
+   ],
+   "CE F425": [
+    "ev_b34428cc87b8"
+   ],
+   "CE F426": [
+    "ev_da910da6eb64"
+   ],
+   "CE F427": [
+    "ev_715fad9a4b79"
+   ],
+   "CE F428": [
+    "ev_e9f96915cf0a"
+   ],
+   "CE F429": [
+    "ev_6bfae8b696aa"
+   ],
+   "CE F430": [
+    "ev_81e5af835db8"
+   ],
+   "CE F431": [
+    "ev_88b98a3dd0dd"
+   ],
+   "CE F432": [
+    "ev_426cf2696096"
+   ],
+   "CE F433": [
+    "ev_5c1e2d4bb2d2"
+   ],
+   "CE F434": [
+    "ev_9582d9a96909"
+   ],
+   "CE F435": [
+    "ev_d26940ad71cd"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "CE",
+  "elective_groups": {},
+  "electives": [
+   "BITS F313",
+   "CE F323",
+   "CE F324",
+   "CE F325",
+   "CE F331",
+   "CE F345",
+   "CE F411",
+   "CE F412",
+   "CE F413",
+   "CE F415",
+   "CE F416",
+   "CE F417",
+   "CE F419",
+   "CE F420",
+   "CE F421",
+   "CE F422",
+   "CE F423",
+   "CE F425",
+   "CE F426",
+   "CE F427",
+   "CE F428",
+   "CE F429",
+   "CE F430",
+   "CE F431",
+   "CE F432",
+   "CE F433",
+   "CE F434",
+   "CE F435"
+  ],
+  "id": "BE-CIVIL",
+  "list_evidence": [
+   "ev_38854f0ca8ec",
+   "ev_d1f771a53ea3"
+  ],
+  "list_heading": "CIVIL ENGINEERING",
+  "name": "B.E. Civil",
+  "units": {
+   "BITS F313": 3,
+   "CE F211": 3,
+   "CE F213": 4,
+   "CE F230": 4,
+   "CE F231": 3,
+   "CE F241": 3,
+   "CE F242": 3,
+   "CE F243": 4,
+   "CE F244": 4,
+   "CE F312": 4,
+   "CE F313": 3,
+   "CE F320": 3,
+   "CE F321": 3,
+   "CE F323": 3,
+   "CE F324": 3,
+   "CE F325": 3,
+   "CE F331": 3,
+   "CE F342": 4,
+   "CE F343": 3,
+   "CE F345": 3,
+   "CE F411": 3,
+   "CE F412": 3,
+   "CE F413": 3,
+   "CE F415": 3,
+   "CE F416": 4,
+   "CE F417": 3,
+   "CE F419": 3,
+   "CE F420": 3,
+   "CE F421": 3,
+   "CE F422": 3,
+   "CE F423": 3,
+   "CE F425": 3,
+   "CE F426": 3,
+   "CE F427": 3,
+   "CE F428": 3,
+   "CE F429": 3,
+   "CE F430": 3,
+   "CE F431": 4,
+   "CE F432": 3,
+   "CE F433": 4,
+   "CE F434": 3,
+   "CE F435": 3
+  }
+ },
+ "BE-COMPUTER-SCIENCE": {
+  "compulsory_electives": [],
+  "core": [
+   "CS F211",
+   "CS F212",
+   "CS F213",
+   "CS F214",
+   "CS F215",
+   "CS F222",
+   "CS F241",
+   "CS F301",
+   "CS F303",
+   "CS F342",
+   "CS F351",
+   "CS F363",
+   "CS F364",
+   "CS F372"
+  ],
+  "course_evidence": {
+   "BITS F311": [
+    "ev_3b4c24c013d3"
+   ],
+   "BITS F312": [
+    "ev_68f06977edb5"
+   ],
+   "BITS F343": [
+    "ev_be867c2e79fe"
+   ],
+   "BITS F364": [
+    "ev_5cff488659a1"
+   ],
+   "BITS F386": [
+    "ev_8b0cd7ba97a5"
+   ],
+   "BITS F452": [
+    "ev_613ee337a021"
+   ],
+   "BITS F453": [
+    "ev_24865d111252"
+   ],
+   "BITS F454": [
+    "ev_3747c9d9cde1"
+   ],
+   "BITS F459": [
+    "ev_a4b632aade38"
+   ],
+   "BITS F463": [
+    "ev_ed427e869500"
+   ],
+   "BITS F464": [
+    "ev_5ed67d347417"
+   ],
+   "BITS F465": [
+    "ev_b1720d83c86e"
+   ],
+   "BITS F466": [
+    "ev_60f1e019e08e"
+   ],
+   "BITS F471": [
+    "ev_369d203f28b3"
+   ],
+   "CS F211": [
+    "ev_fda6f24e380f"
+   ],
+   "CS F212": [
+    "ev_536f2bc5d1fc"
+   ],
+   "CS F213": [
+    "ev_b6cec317a2d6"
+   ],
+   "CS F214": [
+    "ev_1e4d9d12f005"
+   ],
+   "CS F215": [
+    "ev_9eab9b341802"
+   ],
+   "CS F222": [
+    "ev_0b3779e61deb"
+   ],
+   "CS F241": [
+    "ev_c64211612a10"
+   ],
+   "CS F301": [
+    "ev_12645b82ad30"
+   ],
+   "CS F303": [
+    "ev_c1672e3ee5f7"
+   ],
+   "CS F314": [
+    "ev_3427f23764fe"
+   ],
+   "CS F315": [
+    "ev_881790f025b5"
+   ],
+   "CS F316": [
+    "ev_2428eba4218a"
+   ],
+   "CS F317": [
+    "ev_c8399429ae95"
+   ],
+   "CS F320": [
+    "ev_4004b892ccff"
+   ],
+   "CS F321": [
+    "ev_0556cb27e258"
+   ],
+   "CS F322": [
+    "ev_6bd514866149"
+   ],
+   "CS F342": [
+    "ev_f9390d5a42d9"
+   ],
+   "CS F351": [
+    "ev_15ed453f9ccc"
+   ],
+   "CS F363": [
+    "ev_af1b3fdb659e"
+   ],
+   "CS F364": [
+    "ev_462362305642"
+   ],
+   "CS F372": [
+    "ev_0dd61e8d7ead"
+   ],
+   "CS F401": [
+    "ev_4e01830f27d4"
+   ],
+   "CS F402": [
+    "ev_73e4ed907e4e"
+   ],
+   "CS F407": [
+    "ev_059207bccf83"
+   ],
+   "CS F413": [
+    "ev_d09f32f85f04"
+   ],
+   "CS F415": [
+    "ev_c4948fea5dfb"
+   ],
+   "CS F422": [
+    "ev_0a1b6f3fde05"
+   ],
+   "CS F424": [
+    "ev_2e99516f8b33"
+   ],
+   "CS F425": [
+    "ev_fdd1de5b87b9"
+   ],
+   "CS F426": [
+    "ev_a1f72ec608a3"
+   ],
+   "CS F427": [
+    "ev_43717332e5e5"
+   ],
+   "CS F428": [
+    "ev_79f8327567dd"
+   ],
+   "CS F429": [
+    "ev_948b649c663c"
+   ],
+   "CS F430": [
+    "ev_d82976a8a158"
+   ],
+   "CS F431": [
+    "ev_b48e3e67ce89"
+   ],
+   "CS F432": [
+    "ev_da4580c71e62"
+   ],
+   "CS F433": [
+    "ev_92bccf823824"
+   ],
+   "CS F434": [
+    "ev_8cd7bd51a179"
+   ],
+   "CS F435": [
+    "ev_1313b70c6a1a"
+   ],
+   "CS F436": [
+    "ev_c63d0529dbc0"
+   ],
+   "CS F437": [
+    "ev_5c048354ee0c"
+   ],
+   "CS F441": [
+    "ev_92147b7d743b"
+   ],
+   "CS F444": [
+    "ev_148b03e0a3b3"
+   ],
+   "CS F446": [
+    "ev_6a3b3d2f985b"
+   ],
+   "CS F468": [
+    "ev_14d885d93c16"
+   ],
+   "CS F469": [
+    "ev_92aa53137092"
+   ],
+   "CS G513": [
+    "ev_b1cfbbf5b9eb"
+   ],
+   "CS G514": [
+    "ev_f2f1ced914d3"
+   ],
+   "CS G519": [
+    "ev_888a381de782"
+   ],
+   "CS G520": [
+    "ev_df3e5c808c59"
+   ],
+   "CS G527": [
+    "ev_86df639f6e7b"
+   ],
+   "CS G557": [
+    "ev_40306d1388bf"
+   ],
+   "IS F311": [
+    "ev_84d77de5214a"
+   ],
+   "IS F341": [
+    "ev_8dd434923c63"
+   ],
+   "IS F462": [
+    "ev_4b4339efdc12"
+   ],
+   "MATH F231": [
+    "ev_c33865759b0e"
+   ],
+   "MATH F421": [
+    "ev_3f801c56964c"
+   ],
+   "MATH F441": [
+    "ev_c0cebbfcc8cb"
+   ],
+   "SS G514": [
+    "ev_14c3ce18b5f5"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "CS",
+  "elective_groups": {},
+  "electives": [
+   "BITS F311",
+   "BITS F312",
+   "BITS F343",
+   "BITS F364",
+   "BITS F386",
+   "BITS F452",
+   "BITS F453",
+   "BITS F454",
+   "BITS F459",
+   "BITS F463",
+   "BITS F464",
+   "BITS F465",
+   "BITS F466",
+   "BITS F471",
+   "CS F314",
+   "CS F315",
+   "CS F316",
+   "CS F317",
+   "CS F320",
+   "CS F321",
+   "CS F322",
+   "CS F401",
+   "CS F402",
+   "CS F407",
+   "CS F413",
+   "CS F415",
+   "CS F422",
+   "CS F424",
+   "CS F425",
+   "CS F426",
+   "CS F427",
+   "CS F428",
+   "CS F429",
+   "CS F430",
+   "CS F431",
+   "CS F432",
+   "CS F433",
+   "CS F434",
+   "CS F435",
+   "CS F436",
+   "CS F437",
+   "CS F441",
+   "CS F444",
+   "CS F446",
+   "CS F468",
+   "CS F469",
+   "CS G513",
+   "CS G514",
+   "SS G514",
+   "CS G519",
+   "CS G520",
+   "CS G527",
+   "CS G557",
+   "IS F311",
+   "IS F341",
+   "IS F462",
+   "MATH F231",
+   "MATH F421",
+   "MATH F441"
+  ],
+  "id": "BE-COMPUTER-SCIENCE",
+  "list_evidence": [
+   "ev_fda6f24e380f",
+   "ev_3b4c24c013d3"
+  ],
+  "list_heading": "COMPUTER SCIENCE",
+  "name": "B.E. Computer Science",
+  "units": {
+   "BITS F311": 3,
+   "BITS F312": 3,
+   "BITS F343": 3,
+   "BITS F364": 3,
+   "BITS F386": 3,
+   "BITS F452": 3,
+   "BITS F453": 3,
+   "BITS F454": 3,
+   "BITS F459": 4,
+   "BITS F463": 3,
+   "BITS F464": 3,
+   "BITS F465": 4,
+   "BITS F466": 4,
+   "BITS F471": 3,
+   "CS F211": 4,
+   "CS F212": 4,
+   "CS F213": 4,
+   "CS F214": 3,
+   "CS F215": 4,
+   "CS F222": 3,
+   "CS F241": 4,
+   "CS F301": 2,
+   "CS F303": 4,
+   "CS F314": 3,
+   "CS F315": 3,
+   "CS F316": 3,
+   "CS F317": 3,
+   "CS F320": 3,
+   "CS F321": 3,
+   "CS F322": 3,
+   "CS F342": 4,
+   "CS F351": 3,
+   "CS F363": 3,
+   "CS F364": 3,
+   "CS F372": 3,
+   "CS F401": 3,
+   "CS F402": 3,
+   "CS F407": 3,
+   "CS F413": 3,
+   "CS F415": 3,
+   "CS F422": 3,
+   "CS F424": 4,
+   "CS F425": 3,
+   "CS F426": 4,
+   "CS F427": 3,
+   "CS F428": 1,
+   "CS F429": 3,
+   "CS F430": 3,
+   "CS F431": 3,
+   "CS F432": 3,
+   "CS F433": 3,
+   "CS F434": 3,
+   "CS F435": 4,
+   "CS F436": 4,
+   "CS F437": 3,
+   "CS F441": 3,
+   "CS F444": 3,
+   "CS F446": 3,
+   "CS F468": 3,
+   "CS F469": 3,
+   "CS G513": 4,
+   "CS G514": 4,
+   "CS G519": 4,
+   "CS G520": 4,
+   "CS G527": 5,
+   "CS G557": 5,
+   "IS F311": 3,
+   "IS F341": 4,
+   "IS F462": 3,
+   "MATH F231": 3,
+   "MATH F421": 3,
+   "MATH F441": 3,
+   "SS G514": 4
+  }
+ },
+ "BE-ELECTRICAL-ELECTRONICS": {
+  "compulsory_electives": [],
+  "core": [
+   "EEE F211",
+   "EEE F212",
+   "EEE F214",
+   "EEE F215",
+   "EEE F241",
+   "EEE F242",
+   "EEE F243",
+   "EEE F244",
+   "EEE F311",
+   "EEE F312",
+   "EEE F313",
+   "EEE F341",
+   "EEE F342",
+   "MATH F212",
+   "ME F344"
+  ],
+  "course_evidence": {
+   "BITS F312": [
+    "ev_cead69b63aec"
+   ],
+   "BITS F415": [
+    "ev_fc5112ec261c"
+   ],
+   "CS F213": [
+    "ev_d0cb40c26096"
+   ],
+   "CS F342": [
+    "ev_5674625aeab4"
+   ],
+   "CS F372": [
+    "ev_1f413c70c8ef"
+   ],
+   "CS F451": [
+    "ev_ffb5d24834e4"
+   ],
+   "CS G553": [
+    "ev_37cba9c9a9eb"
+   ],
+   "ECE F312": [
+    "ev_beecd98eccc8"
+   ],
+   "ECE F314": [
+    "ev_a59d7085ed97"
+   ],
+   "ECE F331": [
+    "ev_0e4ad90da27b"
+   ],
+   "ECE F343": [
+    "ev_22af0aacdc1f"
+   ],
+   "ECE F423": [
+    "ev_1dee8fc5d928"
+   ],
+   "EEE F211": [
+    "ev_f504939908ce"
+   ],
+   "EEE F212": [
+    "ev_5a85ba27c1b2"
+   ],
+   "EEE F214": [
+    "ev_e5c39d6a5275"
+   ],
+   "EEE F215": [
+    "ev_778a8ecd24af"
+   ],
+   "EEE F216": [
+    "ev_37724aa56982"
+   ],
+   "EEE F241": [
+    "ev_03703e4bcbcd"
+   ],
+   "EEE F242": [
+    "ev_2ed5dc392d07"
+   ],
+   "EEE F243": [
+    "ev_8cea46edda0c"
+   ],
+   "EEE F244": [
+    "ev_42d7f03ffd68"
+   ],
+   "EEE F245": [
+    "ev_dda0846a3e8c"
+   ],
+   "EEE F246": [
+    "ev_df090462d48b"
+   ],
+   "EEE F311": [
+    "ev_345d7e6e0884"
+   ],
+   "EEE F312": [
+    "ev_ca6e5bf2bc3e"
+   ],
+   "EEE F313": [
+    "ev_ce797626efa3"
+   ],
+   "EEE F318": [
+    "ev_3f4184b83eed"
+   ],
+   "EEE F341": [
+    "ev_1b249ede420d"
+   ],
+   "EEE F342": [
+    "ev_9e98b080f0a9"
+   ],
+   "EEE F345": [
+    "ev_967053ca03d2"
+   ],
+   "EEE F346": [
+    "ev_041f0bf3d63f"
+   ],
+   "EEE F411": [
+    "ev_2d5aa3a3e8c2"
+   ],
+   "EEE F414": [
+    "ev_6111251db8fa"
+   ],
+   "EEE F416": [
+    "ev_fe69b97007f5"
+   ],
+   "EEE F417": [
+    "ev_fed075f0f828"
+   ],
+   "EEE F418": [
+    "ev_9a43f3a9c9f7"
+   ],
+   "EEE F419": [
+    "ev_3df644f4a645"
+   ],
+   "EEE F420": [
+    "ev_9a096fe23621"
+   ],
+   "EEE F422": [
+    "ev_91f63ba5f46e"
+   ],
+   "EEE F423": [
+    "ev_0f35e6c9010c"
+   ],
+   "EEE F424": [
+    "ev_c8cf1fb673b8"
+   ],
+   "EEE F425": [
+    "ev_f9a7c3ce2dcb"
+   ],
+   "EEE F426": [
+    "ev_dc003c60f9d7"
+   ],
+   "EEE F427": [
+    "ev_b997c5ac44d2"
+   ],
+   "EEE F428": [
+    "ev_cf8461bbd4bb"
+   ],
+   "EEE F429": [
+    "ev_82d9ef8f6670"
+   ],
+   "EEE F430": [
+    "ev_65ec4fcd69f5"
+   ],
+   "EEE F431": [
+    "ev_a09bae323e51"
+   ],
+   "EEE F432": [
+    "ev_199f73178d7d"
+   ],
+   "EEE F433": [
+    "ev_f579aa533ba5"
+   ],
+   "EEE F434": [
+    "ev_7a755f2bc323"
+   ],
+   "EEE F435": [
+    "ev_2ae1a66293d3"
+   ],
+   "EEE F436": [
+    "ev_88b115c1b7f0"
+   ],
+   "EEE F437": [
+    "ev_cd9c6708c137"
+   ],
+   "EEE F438": [
+    "ev_1466ab7c5480"
+   ],
+   "EEE F462": [
+    "ev_1d3d8730184b"
+   ],
+   "EEE F472": [
+    "ev_778d2ce694c3"
+   ],
+   "EEE F473": [
+    "ev_c43e480059d2"
+   ],
+   "EEE F474": [
+    "ev_871d874f034a"
+   ],
+   "EEE F475": [
+    "ev_050e573ce920"
+   ],
+   "EEE F476": [
+    "ev_8b9dfe49ce39"
+   ],
+   "EEE F477": [
+    "ev_7a346a13e8d6"
+   ],
+   "EEE F478": [
+    "ev_8ef8d2413fb0"
+   ],
+   "EEE G512": [
+    "ev_3bdd2e2c2234"
+   ],
+   "EEE G513": [
+    "ev_927d5cc3deb8"
+   ],
+   "EEE G626": [
+    "ev_6e9b1eda7edb"
+   ],
+   "INSTR F423": [
+    "ev_32190ea99b22"
+   ],
+   "MATH F212": [
+    "ev_86ee561d7ec9"
+   ],
+   "ME F344": [
+    "ev_f0c656a94a2b"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "EEE",
+  "elective_groups": {},
+  "electives": [
+   "BITS F312",
+   "BITS F415",
+   "CS F213",
+   "CS F342",
+   "CS F372",
+   "CS F451",
+   "CS G553",
+   "ECE F312",
+   "ECE F314",
+   "ECE F331",
+   "ECE F343",
+   "EEE F216",
+   "EEE F245",
+   "EEE F246",
+   "EEE F345",
+   "EEE F346",
+   "EEE F318",
+   "EEE F411",
+   "EEE F414",
+   "EEE F416",
+   "EEE F417",
+   "EEE F418",
+   "EEE F419",
+   "EEE F420",
+   "EEE F422",
+   "EEE F423",
+   "ECE F423",
+   "INSTR F423",
+   "EEE F424",
+   "EEE F425",
+   "EEE F426",
+   "EEE F427",
+   "EEE F428",
+   "EEE F429",
+   "EEE F430",
+   "EEE F431",
+   "EEE F432",
+   "EEE F433",
+   "EEE F434",
+   "EEE F435",
+   "EEE F436",
+   "EEE F437",
+   "EEE F438",
+   "EEE F462",
+   "EEE F472",
+   "EEE F473",
+   "EEE F474",
+   "EEE F475",
+   "EEE F476",
+   "EEE F477",
+   "EEE F478",
+   "EEE G512",
+   "EEE G513",
+   "EEE G626"
+  ],
+  "id": "BE-ELECTRICAL-ELECTRONICS",
+  "list_evidence": [
+   "ev_f504939908ce",
+   "ev_cead69b63aec"
+  ],
+  "list_heading": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+  "name": "B.E. Electrical & Electronics",
+  "units": {
+   "BITS F312": 3,
+   "BITS F415": 4,
+   "CS F213": 4,
+   "CS F342": 4,
+   "CS F372": 3,
+   "CS F451": 3,
+   "CS G553": 5,
+   "ECE F312": 1,
+   "ECE F314": 3,
+   "ECE F331": 4,
+   "ECE F343": 3,
+   "ECE F423": 3,
+   "EEE F211": 4,
+   "EEE F212": 3,
+   "EEE F214": 3,
+   "EEE F215": 4,
+   "EEE F216": 2,
+   "EEE F241": 4,
+   "EEE F242": 3,
+   "EEE F243": 3,
+   "EEE F244": 3,
+   "EEE F245": 1,
+   "EEE F246": 2,
+   "EEE F311": 4,
+   "EEE F312": 3,
+   "EEE F313": 3,
+   "EEE F318": 3,
+   "EEE F341": 4,
+   "EEE F342": 4,
+   "EEE F345": 3,
+   "EEE F346": 2,
+   "EEE F411": 4,
+   "EEE F414": 3,
+   "EEE F416": 3,
+   "EEE F417": 3,
+   "EEE F418": 3,
+   "EEE F419": 4,
+   "EEE F420": 4,
+   "EEE F422": 3,
+   "EEE F423": 3,
+   "EEE F424": 3,
+   "EEE F425": 3,
+   "EEE F426": 3,
+   "EEE F427": 3,
+   "EEE F428": 3,
+   "EEE F429": 4,
+   "EEE F430": 3,
+   "EEE F431": 3,
+   "EEE F432": 3,
+   "EEE F433": 3,
+   "EEE F434": 4,
+   "EEE F435": 3,
+   "EEE F436": 4,
+   "EEE F437": 4,
+   "EEE F438": 3,
+   "EEE F462": 3,
+   "EEE F472": 3,
+   "EEE F473": 3,
+   "EEE F474": 4,
+   "EEE F475": 4,
+   "EEE F476": 4,
+   "EEE F477": 3,
+   "EEE F478": 2,
+   "EEE G512": 4,
+   "EEE G513": 4,
+   "EEE G626": 4,
+   "INSTR F423": 3,
+   "MATH F212": null,
+   "ME F344": 0
+  }
+ },
+ "BE-ELECTRONICS-AND-INSTRUMENTATION": {
+  "compulsory_electives": [],
+  "core": [
+   "INSTR F211",
+   "INSTR F212",
+   "INSTR F214",
+   "INSTR F215",
+   "INSTR F241",
+   "INSTR F242",
+   "INSTR F243",
+   "INSTR F244",
+   "INSTR F311",
+   "INSTR F312",
+   "INSTR F313",
+   "INSTR F341",
+   "INSTR F342",
+   "INSTR F343"
+  ],
+  "course_evidence": {
+   "BITS F312": [
+    "ev_3289f7722b64"
+   ],
+   "BITS F415": [
+    "ev_c332716ba016"
+   ],
+   "CS F213": [
+    "ev_ce84c8ba1430"
+   ],
+   "CS F342": [
+    "ev_caed51231c39"
+   ],
+   "CS F372": [
+    "ev_d838d41486a8"
+   ],
+   "CS F451": [
+    "ev_0e030a6b0633"
+   ],
+   "CS G553": [
+    "ev_79347682c930"
+   ],
+   "ECE F312": [
+    "ev_7b1cd0e99e7f"
+   ],
+   "ECE F314": [
+    "ev_0f25ec95990f"
+   ],
+   "ECE F331": [
+    "ev_06079d3ce649"
+   ],
+   "ECE F423": [
+    "ev_75050f88dbd8"
+   ],
+   "EEE F245": [
+    "ev_ce85a0ecf6da"
+   ],
+   "EEE F246": [
+    "ev_f9d0956fef5d"
+   ],
+   "EEE F311": [
+    "ev_4bbe580ce0da"
+   ],
+   "EEE F318": [
+    "ev_437f503656b8"
+   ],
+   "EEE F345": [
+    "ev_e2cc7f8931c6"
+   ],
+   "EEE F346": [
+    "ev_08f8a38a3cf9"
+   ],
+   "EEE F411": [
+    "ev_844e5e08a964"
+   ],
+   "EEE F417": [
+    "ev_babbce893d60"
+   ],
+   "EEE F419": [
+    "ev_830b09f52b5d"
+   ],
+   "EEE F420": [
+    "ev_ceda19988db7"
+   ],
+   "EEE F422": [
+    "ev_cef2b4b3896c"
+   ],
+   "EEE F423": [
+    "ev_b94f793c3fe0"
+   ],
+   "EEE F426": [
+    "ev_f831a0769e17"
+   ],
+   "EEE F427": [
+    "ev_de27c8913825"
+   ],
+   "EEE F429": [
+    "ev_435200ebc0f3"
+   ],
+   "EEE F430": [
+    "ev_426a05906379"
+   ],
+   "EEE F431": [
+    "ev_e738695114da"
+   ],
+   "EEE F433": [
+    "ev_679bed11ad9d"
+   ],
+   "EEE F434": [
+    "ev_ed545f1742d7"
+   ],
+   "EEE F435": [
+    "ev_31fcab05affa"
+   ],
+   "EEE F436": [
+    "ev_7759a4e48f4e"
+   ],
+   "EEE F437": [
+    "ev_b29b73fab764"
+   ],
+   "EEE F438": [
+    "ev_8cf1b95ad22d"
+   ],
+   "EEE F472": [
+    "ev_83ae7a274240"
+   ],
+   "EEE F474": [
+    "ev_f1d17fd2b429"
+   ],
+   "EEE F475": [
+    "ev_85afa6c379ca"
+   ],
+   "EEE F476": [
+    "ev_6fe259ca8370"
+   ],
+   "EEE F477": [
+    "ev_5e8760a221f3"
+   ],
+   "EEE F478": [
+    "ev_d62d37c8ccc9"
+   ],
+   "EEE G512": [
+    "ev_7cd9e7d6abac"
+   ],
+   "EEE G513": [
+    "ev_5be90270e6f3"
+   ],
+   "EEE G626": [
+    "ev_157c3eaf2231"
+   ],
+   "INSTR F211": [
+    "ev_7d40cb6718df"
+   ],
+   "INSTR F212": [
+    "ev_64f31ab418d7"
+   ],
+   "INSTR F214": [
+    "ev_66e58b6e96e8"
+   ],
+   "INSTR F215": [
+    "ev_130cc2b9cd29"
+   ],
+   "INSTR F216": [
+    "ev_a2206c9d6681"
+   ],
+   "INSTR F241": [
+    "ev_20c1145e53f7"
+   ],
+   "INSTR F242": [
+    "ev_034bcb7e9ed3"
+   ],
+   "INSTR F243": [
+    "ev_07a131c0842b"
+   ],
+   "INSTR F244": [
+    "ev_a97dfa7d2862"
+   ],
+   "INSTR F311": [
+    "ev_458d3c792f99"
+   ],
+   "INSTR F312": [
+    "ev_f0196cbab0dd"
+   ],
+   "INSTR F313": [
+    "ev_6f1f4ac86ff9"
+   ],
+   "INSTR F341": [
+    "ev_0bd08f4e0614"
+   ],
+   "INSTR F342": [
+    "ev_d908a090de10"
+   ],
+   "INSTR F343": [
+    "ev_73397faa39cf"
+   ],
+   "INSTR F413": [
+    "ev_1befab336f4e"
+   ],
+   "INSTR F414": [
+    "ev_ecf52944ffa1"
+   ],
+   "INSTR F415": [
+    "ev_00745fb2c0b4"
+   ],
+   "INSTR F419": [
+    "ev_eb04d41e2dc2"
+   ],
+   "INSTR F420": [
+    "ev_f13d5755e831"
+   ],
+   "INSTR F422": [
+    "ev_7f4e56b68a49"
+   ],
+   "INSTR F423": [
+    "ev_0c9d75f31ad9"
+   ],
+   "INSTR F424": [
+    "ev_1bd65f680a09"
+   ],
+   "INSTR F428": [
+    "ev_66f9872ba8b6"
+   ],
+   "INSTR F429": [
+    "ev_f697a7fb8202"
+   ],
+   "INSTR F430": [
+    "ev_69acd39c8b8e"
+   ],
+   "INSTR F432": [
+    "ev_bb6fca375047"
+   ],
+   "INSTR F473": [
+    "ev_abbb718216b8"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "INSTR",
+  "elective_groups": {},
+  "electives": [
+   "BITS F312",
+   "BITS F415",
+   "CS F213",
+   "CS F342",
+   "CS F372",
+   "CS F451",
+   "CS G553",
+   "ECE F312",
+   "ECE F314",
+   "ECE F331",
+   "EEE F245",
+   "EEE F246",
+   "EEE F311",
+   "EEE F345",
+   "EEE F346",
+   "EEE F318",
+   "EEE F411",
+   "EEE F417",
+   "EEE F419",
+   "EEE F420",
+   "EEE F422",
+   "EEE F423",
+   "ECE F423",
+   "INSTR F423",
+   "EEE F426",
+   "EEE F427",
+   "EEE F429",
+   "EEE F430",
+   "EEE F431",
+   "EEE F433",
+   "EEE F434",
+   "EEE F435",
+   "EEE F436",
+   "EEE F437",
+   "EEE F438",
+   "EEE F472",
+   "EEE F474",
+   "EEE F475",
+   "EEE F476",
+   "EEE F477",
+   "EEE F478",
+   "EEE G512",
+   "EEE G513",
+   "EEE G626",
+   "INSTR F216",
+   "INSTR F413",
+   "INSTR F414",
+   "INSTR F415",
+   "INSTR F419",
+   "INSTR F420",
+   "INSTR F422",
+   "INSTR F424",
+   "INSTR F428",
+   "INSTR F429",
+   "INSTR F430",
+   "INSTR F432",
+   "INSTR F473"
+  ],
+  "id": "BE-ELECTRONICS-AND-INSTRUMENTATION",
+  "list_evidence": [
+   "ev_7d40cb6718df",
+   "ev_3289f7722b64"
+  ],
+  "list_heading": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+  "name": "B.E. Electronics and Instrumentation",
+  "units": {
+   "BITS F312": 3,
+   "BITS F415": 4,
+   "CS F213": 4,
+   "CS F342": 4,
+   "CS F372": 3,
+   "CS F451": 3,
+   "CS G553": 5,
+   "ECE F312": 1,
+   "ECE F314": 3,
+   "ECE F331": 4,
+   "ECE F423": 3,
+   "EEE F245": 1,
+   "EEE F246": 2,
+   "EEE F311": 4,
+   "EEE F318": 3,
+   "EEE F345": 3,
+   "EEE F346": 2,
+   "EEE F411": 4,
+   "EEE F417": 3,
+   "EEE F419": 4,
+   "EEE F420": 4,
+   "EEE F422": 3,
+   "EEE F423": 3,
+   "EEE F426": 3,
+   "EEE F427": 3,
+   "EEE F429": 4,
+   "EEE F430": 3,
+   "EEE F431": 3,
+   "EEE F433": 3,
+   "EEE F434": 4,
+   "EEE F435": 3,
+   "EEE F436": 4,
+   "EEE F437": 4,
+   "EEE F438": 3,
+   "EEE F472": 3,
+   "EEE F474": 4,
+   "EEE F475": 4,
+   "EEE F476": 4,
+   "EEE F477": 3,
+   "EEE F478": 2,
+   "EEE G512": 4,
+   "EEE G513": 4,
+   "EEE G626": 4,
+   "INSTR F211": 4,
+   "INSTR F212": 3,
+   "INSTR F214": 3,
+   "INSTR F215": 4,
+   "INSTR F216": 2,
+   "INSTR F241": 4,
+   "INSTR F242": 3,
+   "INSTR F243": 3,
+   "INSTR F244": 3,
+   "INSTR F311": 4,
+   "INSTR F312": 3,
+   "INSTR F313": 3,
+   "INSTR F341": 4,
+   "INSTR F342": 4,
+   "INSTR F343": 3,
+   "INSTR F413": 3,
+   "INSTR F414": 3,
+   "INSTR F415": 3,
+   "INSTR F419": 4,
+   "INSTR F420": 3,
+   "INSTR F422": 3,
+   "INSTR F423": 3,
+   "INSTR F424": 3,
+   "INSTR F428": 3,
+   "INSTR F429": 4,
+   "INSTR F430": 3,
+   "INSTR F432": 3,
+   "INSTR F473": 3
+  }
+ },
+ "BE-ELECTRONICS-COMMUNICATION": {
+  "compulsory_electives": [],
+  "core": [
+   "ECE F211",
+   "ECE F212",
+   "ECE F214",
+   "ECE F215",
+   "ECE F241",
+   "ECE F242",
+   "ECE F243",
+   "ECE F244",
+   "ECE F311",
+   "ECE F331",
+   "ECE F341",
+   "ECE F343",
+   "ECE F344",
+   "ECE F434"
+  ],
+  "course_evidence": {
+   "BITS F415": [
+    "ev_ebf7ec691ca2"
+   ],
+   "BITS F463": [
+    "ev_c54fd206dcfe"
+   ],
+   "CS F213": [
+    "ev_883b4f164cd2"
+   ],
+   "CS F342": [
+    "ev_cc84f5273d17"
+   ],
+   "CS F372": [
+    "ev_4c4540efe631"
+   ],
+   "CS F451": [
+    "ev_46cb0bf20349"
+   ],
+   "CS G553": [
+    "ev_bc344a8d4fa5"
+   ],
+   "ECE F211": [
+    "ev_a86092c2ecb2"
+   ],
+   "ECE F212": [
+    "ev_2ffcfe787f19"
+   ],
+   "ECE F214": [
+    "ev_76d49032fe3d"
+   ],
+   "ECE F215": [
+    "ev_cc69f6bab83d"
+   ],
+   "ECE F216": [
+    "ev_d05c6905e363"
+   ],
+   "ECE F241": [
+    "ev_744eda757f7e"
+   ],
+   "ECE F242": [
+    "ev_d63e1c6dc98e"
+   ],
+   "ECE F243": [
+    "ev_eb8d27044f32"
+   ],
+   "ECE F244": [
+    "ev_396a7b1c4cc3"
+   ],
+   "ECE F311": [
+    "ev_a6315466c6d9"
+   ],
+   "ECE F312": [
+    "ev_ccf947fc0873"
+   ],
+   "ECE F331": [
+    "ev_201da0387eb6"
+   ],
+   "ECE F341": [
+    "ev_f5f3aff69cc8"
+   ],
+   "ECE F343": [
+    "ev_53aeeb99f33b"
+   ],
+   "ECE F344": [
+    "ev_3418930fcb7b"
+   ],
+   "ECE F414": [
+    "ev_d21252dd88ff"
+   ],
+   "ECE F416": [
+    "ev_68966a565050"
+   ],
+   "ECE F418": [
+    "ev_f8c36332f80d"
+   ],
+   "ECE F423": [
+    "ev_76204043ff4e"
+   ],
+   "ECE F424": [
+    "ev_376f56b5826b"
+   ],
+   "ECE F428": [
+    "ev_d8c376dc5e96"
+   ],
+   "ECE F431": [
+    "ev_b4b2649b4961"
+   ],
+   "ECE F434": [
+    "ev_b61c356fca56"
+   ],
+   "ECE F472": [
+    "ev_f78ce7fbb18d"
+   ],
+   "EEE F245": [
+    "ev_40d13b4244bd"
+   ],
+   "EEE F246": [
+    "ev_eabc5e98b03f"
+   ],
+   "EEE F313": [
+    "ev_5d982b0bf4b3"
+   ],
+   "EEE F318": [
+    "ev_0fd72cf431d5"
+   ],
+   "EEE F345": [
+    "ev_f717ebb35977"
+   ],
+   "EEE F346": [
+    "ev_8e1e80ecbd7f"
+   ],
+   "EEE F411": [
+    "ev_13fb3d77714c"
+   ],
+   "EEE F417": [
+    "ev_4d2edc5cfee9"
+   ],
+   "EEE F419": [
+    "ev_aa0594564df1"
+   ],
+   "EEE F420": [
+    "ev_577c7b895307"
+   ],
+   "EEE F422": [
+    "ev_1ff615a4b52d"
+   ],
+   "EEE F423": [
+    "ev_e2a231cf710f"
+   ],
+   "EEE F426": [
+    "ev_7373aca96317"
+   ],
+   "EEE F429": [
+    "ev_e15e8281e62e"
+   ],
+   "EEE F430": [
+    "ev_25eab1764a13"
+   ],
+   "EEE F432": [
+    "ev_88b1066f2df5"
+   ],
+   "EEE F435": [
+    "ev_4306199d153e"
+   ],
+   "EEE F436": [
+    "ev_9c6c331a1f66"
+   ],
+   "EEE F437": [
+    "ev_0ee575c03f5e"
+   ],
+   "EEE F438": [
+    "ev_6e55340fc083"
+   ],
+   "EEE F474": [
+    "ev_f4b98f521620"
+   ],
+   "EEE F475": [
+    "ev_287fc6159f7b"
+   ],
+   "EEE F476": [
+    "ev_80d27f5b6875"
+   ],
+   "EEE F477": [
+    "ev_dfc0a38bb483"
+   ],
+   "EEE F478": [
+    "ev_bc6fa671c6cb"
+   ],
+   "EEE G512": [
+    "ev_b7a45d89a44e"
+   ],
+   "EEE G513": [
+    "ev_7d25b19f422b"
+   ],
+   "EEE G626": [
+    "ev_3b92f1779e25"
+   ],
+   "INSTR F412": [
+    "ev_f0b5df149b45"
+   ],
+   "INSTR F423": [
+    "ev_5562915d9475"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "ECE",
+  "elective_groups": {},
+  "electives": [
+   "BITS F415",
+   "BITS F463",
+   "CS F213",
+   "CS F342",
+   "CS F372",
+   "CS F451",
+   "CS G553",
+   "ECE F216",
+   "ECE F312",
+   "ECE F414",
+   "ECE F416",
+   "ECE F418",
+   "ECE F424",
+   "ECE F428",
+   "ECE F431",
+   "ECE F472",
+   "EEE F245",
+   "EEE F246",
+   "EEE F313",
+   "EEE F345",
+   "EEE F346",
+   "EEE F318",
+   "EEE F411",
+   "EEE F417",
+   "EEE F419",
+   "EEE F420",
+   "EEE F422",
+   "EEE F423",
+   "ECE F423",
+   "INSTR F423",
+   "EEE F426",
+   "EEE F429",
+   "EEE F430",
+   "EEE F432",
+   "EEE F435",
+   "EEE F436",
+   "EEE F437",
+   "EEE F438",
+   "EEE F474",
+   "EEE F475",
+   "EEE F476",
+   "EEE F477",
+   "EEE F478",
+   "EEE G512",
+   "EEE G513",
+   "EEE G626",
+   "INSTR F412"
+  ],
+  "id": "BE-ELECTRONICS-COMMUNICATION",
+  "list_evidence": [
+   "ev_a86092c2ecb2",
+   "ev_ebf7ec691ca2"
+  ],
+  "list_heading": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+  "name": "B.E. Electronics & Communication",
+  "units": {
+   "BITS F415": 4,
+   "BITS F463": 3,
+   "CS F213": 4,
+   "CS F342": 4,
+   "CS F372": 3,
+   "CS F451": 3,
+   "CS G553": 5,
+   "ECE F211": 4,
+   "ECE F212": 3,
+   "ECE F214": 3,
+   "ECE F215": 4,
+   "ECE F216": 2,
+   "ECE F241": 4,
+   "ECE F242": 3,
+   "ECE F243": 3,
+   "ECE F244": 3,
+   "ECE F311": 4,
+   "ECE F312": 1,
+   "ECE F331": 4,
+   "ECE F341": 4,
+   "ECE F343": 3,
+   "ECE F344": 3,
+   "ECE F414": 3,
+   "ECE F416": 3,
+   "ECE F418": 3,
+   "ECE F423": 3,
+   "ECE F424": 3,
+   "ECE F428": 3,
+   "ECE F431": 3,
+   "ECE F434": 4,
+   "ECE F472": 3,
+   "EEE F245": 1,
+   "EEE F246": 2,
+   "EEE F313": 3,
+   "EEE F318": 3,
+   "EEE F345": 3,
+   "EEE F346": 2,
+   "EEE F411": 4,
+   "EEE F417": 3,
+   "EEE F419": 4,
+   "EEE F420": 4,
+   "EEE F422": 3,
+   "EEE F423": 3,
+   "EEE F426": 3,
+   "EEE F429": 4,
+   "EEE F430": 3,
+   "EEE F432": 3,
+   "EEE F435": 3,
+   "EEE F436": 4,
+   "EEE F437": 4,
+   "EEE F438": 3,
+   "EEE F474": 4,
+   "EEE F475": 4,
+   "EEE F476": 4,
+   "EEE F477": 3,
+   "EEE F478": 2,
+   "EEE G512": 4,
+   "EEE G513": 4,
+   "EEE G626": 4,
+   "INSTR F412": 3,
+   "INSTR F423": 3
+  }
+ },
+ "BE-ELECTRONICS-COMPUTER-ENGINEERING": {
+  "compulsory_electives": [],
+  "core": [
+   "ECOM F211",
+   "ECOM F213",
+   "ECOM F214",
+   "ECOM F215",
+   "ECOM F222",
+   "ECOM F241",
+   "ECOM F242",
+   "ECOM F243",
+   "ECOM F244",
+   "ECOM F313",
+   "ECOM F321",
+   "ECOM F342",
+   "ECOM F343",
+   "ECOM F462"
+  ],
+  "course_evidence": {
+   "BITS F312": [
+    "ev_e1891240ea90"
+   ],
+   "BITS F327": [
+    "ev_f7634ef8c63a"
+   ],
+   "BITS F343": [
+    "ev_a19d56570abc"
+   ],
+   "BITS F364": [
+    "ev_e8a281b61e6b"
+   ],
+   "BITS F441": [
+    "ev_7d1b42d25375"
+   ],
+   "BITS F452": [
+    "ev_f7a012cdf054"
+   ],
+   "BITS F459": [
+    "ev_d56979983749"
+   ],
+   "BITS F471": [
+    "ev_00cabcb25109"
+   ],
+   "CS F212": [
+    "ev_7d553e0d862e"
+   ],
+   "CS F315": [
+    "ev_04ab95ff1f7f"
+   ],
+   "CS F316": [
+    "ev_30343db37559"
+   ],
+   "CS F321": [
+    "ev_a443e9114015"
+   ],
+   "CS F322": [
+    "ev_51fa51c446ef"
+   ],
+   "CS F407": [
+    "ev_ee5583f518cb"
+   ],
+   "CS F413": [
+    "ev_eded908f2946"
+   ],
+   "CS F422": [
+    "ev_e0318411622c"
+   ],
+   "CS F424": [
+    "ev_4acbbcf88601"
+   ],
+   "CS F427": [
+    "ev_dd4b63003340"
+   ],
+   "CS F434": [
+    "ev_fe07217959d4"
+   ],
+   "CS F435": [
+    "ev_1ba56d326a25"
+   ],
+   "CS F437": [
+    "ev_4a5ca355194e"
+   ],
+   "CS F446": [
+    "ev_063938e9338e"
+   ],
+   "CS G513": [
+    "ev_889bcbe2a396"
+   ],
+   "CS G514": [
+    "ev_84443f0190a3"
+   ],
+   "CS G527": [
+    "ev_65e2e3df822f"
+   ],
+   "CS G553": [
+    "ev_a58ffb4f7870"
+   ],
+   "CS G557": [
+    "ev_4137097399f8"
+   ],
+   "ECOM F211": [
+    "ev_78a963acc3de"
+   ],
+   "ECOM F213": [
+    "ev_3ee471694465"
+   ],
+   "ECOM F214": [
+    "ev_eaf4b99dda1d"
+   ],
+   "ECOM F215": [
+    "ev_9e5808878143"
+   ],
+   "ECOM F222": [
+    "ev_c73da9159065"
+   ],
+   "ECOM F241": [
+    "ev_259bcc7fc3cb"
+   ],
+   "ECOM F242": [
+    "ev_d778433a7b33"
+   ],
+   "ECOM F243": [
+    "ev_c626234a281b"
+   ],
+   "ECOM F244": [
+    "ev_d08720db706b"
+   ],
+   "ECOM F313": [
+    "ev_212e37591881"
+   ],
+   "ECOM F321": [
+    "ev_2bd8574e7d3a"
+   ],
+   "ECOM F342": [
+    "ev_cc4ad065919b"
+   ],
+   "ECOM F343": [
+    "ev_c6b2a329f3d8"
+   ],
+   "ECOM F462": [
+    "ev_618c7d11f960"
+   ],
+   "EEE F245": [
+    "ev_6a74e9f0f13b"
+   ],
+   "EEE F311": [
+    "ev_d8b6ee89c14e"
+   ],
+   "EEE F318": [
+    "ev_7864dbf9c058"
+   ],
+   "EEE F341": [
+    "ev_5411059eb73a"
+   ],
+   "EEE F411": [
+    "ev_c3f43269da02"
+   ],
+   "EEE F417": [
+    "ev_d2bbd617b656"
+   ],
+   "EEE F422": [
+    "ev_150a811b208f"
+   ],
+   "EEE F432": [
+    "ev_99b945be0535"
+   ],
+   "EEE F434": [
+    "ev_9045fca72e31"
+   ],
+   "EEE F435": [
+    "ev_011969b29ee0"
+   ],
+   "EEE G512": [
+    "ev_11b9a8b3c2b6"
+   ],
+   "EEE G513": [
+    "ev_f5c5e41ffc99"
+   ],
+   "IS F311": [
+    "ev_11b74fdde27c"
+   ],
+   "IS F341": [
+    "ev_610bd435f6f7"
+   ],
+   "MEL G621": [
+    "ev_7b2114ba7774"
+   ],
+   "SS G514": [
+    "ev_dbee561e7fb5"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "ECOM",
+  "elective_groups": {},
+  "electives": [
+   "BITS F312",
+   "BITS F327",
+   "BITS F343",
+   "BITS F364",
+   "BITS F441",
+   "BITS F452",
+   "BITS F459",
+   "BITS F471",
+   "CS F212",
+   "CS F315",
+   "CS F316",
+   "CS F321",
+   "CS F322",
+   "CS F407",
+   "CS F413",
+   "CS F422",
+   "CS F424",
+   "CS F427",
+   "CS F434",
+   "CS F435",
+   "CS F437",
+   "CS F446",
+   "CS G513",
+   "CS G514",
+   "SS G514",
+   "CS G527",
+   "CS G553",
+   "CS G557",
+   "EEE F245",
+   "EEE F311",
+   "EEE F341",
+   "EEE F318",
+   "EEE F411",
+   "EEE F417",
+   "EEE F422",
+   "EEE F432",
+   "EEE F434",
+   "EEE F435",
+   "EEE G512",
+   "EEE G513",
+   "IS F311",
+   "IS F341",
+   "MEL G621"
+  ],
+  "id": "BE-ELECTRONICS-COMPUTER-ENGINEERING",
+  "list_evidence": [
+   "ev_78a963acc3de",
+   "ev_e1891240ea90"
+  ],
+  "list_heading": "ELECTRONICS AND COMPUTER ENGINEERING",
+  "name": "B.E. Electronics & Computer Engineering",
+  "units": {
+   "BITS F312": 3,
+   "BITS F327": 3,
+   "BITS F343": 3,
+   "BITS F364": 3,
+   "BITS F441": 3,
+   "BITS F452": 3,
+   "BITS F459": 4,
+   "BITS F471": 3,
+   "CS F212": 4,
+   "CS F315": 3,
+   "CS F316": 3,
+   "CS F321": 3,
+   "CS F322": 3,
+   "CS F407": 3,
+   "CS F413": 3,
+   "CS F422": 3,
+   "CS F424": 4,
+   "CS F427": 3,
+   "CS F434": 3,
+   "CS F435": 4,
+   "CS F437": 3,
+   "CS F446": 3,
+   "CS G513": 4,
+   "CS G514": 4,
+   "CS G527": 5,
+   "CS G553": 5,
+   "CS G557": 5,
+   "ECOM F211": 4,
+   "ECOM F213": 4,
+   "ECOM F214": 3,
+   "ECOM F215": 4,
+   "ECOM F222": 3,
+   "ECOM F241": 4,
+   "ECOM F242": 3,
+   "ECOM F243": 3,
+   "ECOM F244": 3,
+   "ECOM F313": 3,
+   "ECOM F321": 4,
+   "ECOM F342": 4,
+   "ECOM F343": 3,
+   "ECOM F462": 3,
+   "EEE F245": 1,
+   "EEE F311": 4,
+   "EEE F318": 3,
+   "EEE F341": 4,
+   "EEE F411": 4,
+   "EEE F417": 3,
+   "EEE F422": 3,
+   "EEE F432": 3,
+   "EEE F434": 4,
+   "EEE F435": 3,
+   "EEE G512": 4,
+   "EEE G513": 4,
+   "IS F311": 3,
+   "IS F341": 4,
+   "MEL G621": 5,
+   "SS G514": 4
+  }
+ },
+ "BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING": {
+  "compulsory_electives": [],
+  "core": [
+   "ENVS F211",
+   "ENVS F212",
+   "ENVS F221",
+   "ENVS F222",
+   "ENVS F223",
+   "ENVS F224",
+   "ENVS F311",
+   "ENVS F312",
+   "ENVS F313",
+   "ENVS F314",
+   "ENVS F321",
+   "ENVS F322",
+   "ENVS F232"
+  ],
+  "course_evidence": {
+   "BIO F241": [
+    "ev_bf6d7351e6c0"
+   ],
+   "BITS F429": [
+    "ev_d885000f91fa"
+   ],
+   "CE F412": [
+    "ev_86c7d4578858"
+   ],
+   "CE F423": [
+    "ev_60f1387cd919"
+   ],
+   "CHE F423": [
+    "ev_a1578c395247"
+   ],
+   "CHEM F333": [
+    "ev_9b6e2cdf8154"
+   ],
+   "CHEM F431": [
+    "ev_01d71635a587"
+   ],
+   "ENVS F211": [
+    "ev_1c5dc9ed3129"
+   ],
+   "ENVS F212": [
+    "ev_211050acc9fe"
+   ],
+   "ENVS F221": [
+    "ev_37da9bd387d4"
+   ],
+   "ENVS F222": [
+    "ev_9b1f46388fad"
+   ],
+   "ENVS F223": [
+    "ev_c1a375ede500"
+   ],
+   "ENVS F224": [
+    "ev_297e591f8d3c"
+   ],
+   "ENVS F232": [
+    "ev_bcbcace473fd"
+   ],
+   "ENVS F311": [
+    "ev_1d0fec0884d6"
+   ],
+   "ENVS F312": [
+    "ev_edf04a93c4df"
+   ],
+   "ENVS F313": [
+    "ev_d86e21ac8ddc"
+   ],
+   "ENVS F314": [
+    "ev_769d52ffd1a4"
+   ],
+   "ENVS F321": [
+    "ev_94ac96924d3b"
+   ],
+   "ENVS F322": [
+    "ev_4371dd6c0f02"
+   ],
+   "ENVS F331": [
+    "ev_189a4ddb46c0"
+   ],
+   "ENVS F332": [
+    "ev_223ddd4ad020"
+   ],
+   "ENVS F333": [
+    "ev_ef669c682310"
+   ],
+   "MF F442": [
+    "ev_9a814668b815"
+   ],
+   "MF F485": [
+    "ev_ecf99cc0e54d"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "ENVS",
+  "elective_groups": {},
+  "electives": [
+   "BIO F241",
+   "BITS F429",
+   "CE F412",
+   "CE F423",
+   "CHE F423",
+   "CHEM F333",
+   "CHEM F431",
+   "ENVS F331",
+   "ENVS F332",
+   "ENVS F333",
+   "MF F442",
+   "MF F485"
+  ],
+  "id": "BE-ENVIRONMENTAL-AND-SUSTAINABILITY-ENGINEERING",
+  "list_evidence": [
+   "ev_1c5dc9ed3129",
+   "ev_bf6d7351e6c0"
+  ],
+  "list_heading": "ENVIRONMENTAL AND SUSTAINABILITY ENGINEERING",
+  "name": "B.E. Environmental and Sustainability Engineering",
+  "units": {
+   "BIO F241": 3,
+   "BITS F429": 4,
+   "CE F412": 3,
+   "CE F423": 3,
+   "CHE F423": 3,
+   "CHEM F333": 3,
+   "CHEM F431": 3,
+   "ENVS F211": 3,
+   "ENVS F212": 3,
+   "ENVS F221": 3,
+   "ENVS F222": 3,
+   "ENVS F223": 3,
+   "ENVS F224": 3,
+   "ENVS F232": 3,
+   "ENVS F311": 3,
+   "ENVS F312": 3,
+   "ENVS F313": 3,
+   "ENVS F314": 3,
+   "ENVS F321": 3,
+   "ENVS F322": 3,
+   "ENVS F331": 3,
+   "ENVS F332": 3,
+   "ENVS F333": 3,
+   "MF F442": 3,
+   "MF F485": 3
+  }
+ },
+ "BE-MANUFACTURING": {
+  "compulsory_electives": [],
+  "core": [
+   "MF F211",
+   "MF F216",
+   "MF F217",
+   "MF F218",
+   "MF F219",
+   "MF F220",
+   "MF F221",
+   "MF F222",
+   "MF F314",
+   "MF F315",
+   "MF F316",
+   "MF F317",
+   "MF F318",
+   "MF F319",
+   "MF F320"
+  ],
+  "course_evidence": {
+   "BITS F415": [
+    "ev_9d6efd24f9ff"
+   ],
+   "ECON F411": [
+    "ev_76a848dc70a8"
+   ],
+   "ME F321": [
+    "ev_f03fc923b16e"
+   ],
+   "ME F323": [
+    "ev_0f843567a933"
+   ],
+   "ME F340": [
+    "ev_9589ed4c51ae"
+   ],
+   "ME F416": [
+    "ev_bdadeed5d281"
+   ],
+   "ME F417": [
+    "ev_5502a4ebf631"
+   ],
+   "ME F419": [
+    "ev_50448dd93032"
+   ],
+   "ME F424": [
+    "ev_da57e1d64ccb"
+   ],
+   "ME F425": [
+    "ev_f84326bced70"
+   ],
+   "ME F426": [
+    "ev_d55093e8709f"
+   ],
+   "ME F432": [
+    "ev_d7db9af67f14"
+   ],
+   "ME F436": [
+    "ev_5df905447746"
+   ],
+   "ME F443": [
+    "ev_68829ccdc562"
+   ],
+   "ME F484": [
+    "ev_eca69def2554"
+   ],
+   "MF F211": [
+    "ev_1bb521de4af0"
+   ],
+   "MF F216": [
+    "ev_a6fdcf0a5ef8"
+   ],
+   "MF F217": [
+    "ev_169ff1534220"
+   ],
+   "MF F218": [
+    "ev_8dd72e4c6b6e"
+   ],
+   "MF F219": [
+    "ev_77a028dd670f"
+   ],
+   "MF F220": [
+    "ev_c5cf99c4fd38"
+   ],
+   "MF F221": [
+    "ev_5a866520ccff"
+   ],
+   "MF F222": [
+    "ev_6c6daf19f7ed"
+   ],
+   "MF F314": [
+    "ev_b83b29ed945e"
+   ],
+   "MF F315": [
+    "ev_b7fcd306c95f"
+   ],
+   "MF F316": [
+    "ev_39a0e1dd5c63"
+   ],
+   "MF F317": [
+    "ev_3f5a492d9c18"
+   ],
+   "MF F318": [
+    "ev_cd290fd74352"
+   ],
+   "MF F319": [
+    "ev_78ff29192875"
+   ],
+   "MF F320": [
+    "ev_91da0f317804"
+   ],
+   "MF F321": [
+    "ev_0fdbb48fdc1f"
+   ],
+   "MF F411": [
+    "ev_5d0569b5bf29"
+   ],
+   "MF F412": [
+    "ev_21640cbf60ab"
+   ],
+   "MF F413": [
+    "ev_8cc8e0d27b05"
+   ],
+   "MF F414": [
+    "ev_7b65a273bfc0"
+   ],
+   "MF F418": [
+    "ev_d3058becd374"
+   ],
+   "MF F422": [
+    "ev_57e3cd888ff8"
+   ],
+   "MF F442": [
+    "ev_9e3dddabc8fb"
+   ],
+   "MF F453": [
+    "ev_dbbdd91e462a"
+   ],
+   "MF F463": [
+    "ev_35e38f200378"
+   ],
+   "MF F471": [
+    "ev_c7d86f0919aa"
+   ],
+   "MF F472": [
+    "ev_5915be71466a"
+   ],
+   "MF F473": [
+    "ev_b0b110a3ffe0"
+   ],
+   "MF F474": [
+    "ev_1d85b4efea76"
+   ],
+   "MF F485": [
+    "ev_e6533e3783ec"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "MF",
+  "elective_groups": {},
+  "electives": [
+   "BITS F415",
+   "ECON F411",
+   "ME F321",
+   "ME F323",
+   "ME F340",
+   "ME F416",
+   "ME F417",
+   "ME F419",
+   "ME F424",
+   "ME F425",
+   "ME F426",
+   "ME F432",
+   "ME F436",
+   "ME F443",
+   "ME F484",
+   "MF F321",
+   "MF F411",
+   "MF F412",
+   "MF F413",
+   "MF F414",
+   "MF F418",
+   "MF F422",
+   "MF F442",
+   "MF F453",
+   "MF F463",
+   "MF F471",
+   "MF F472",
+   "MF F473",
+   "MF F474",
+   "MF F485"
+  ],
+  "id": "BE-MANUFACTURING",
+  "list_evidence": [
+   "ev_1bb521de4af0",
+   "ev_9d6efd24f9ff"
+  ],
+  "list_heading": "MANUFACTURING ENGINEERING",
+  "name": "B.E. Manufacturing",
+  "units": {
+   "BITS F415": 4,
+   "ECON F411": 3,
+   "ME F321": 3,
+   "ME F323": 3,
+   "ME F340": 3,
+   "ME F416": 3,
+   "ME F417": 3,
+   "ME F419": 3,
+   "ME F424": 3,
+   "ME F425": 3,
+   "ME F426": 3,
+   "ME F432": 3,
+   "ME F436": 3,
+   "ME F443": 3,
+   "ME F484": 3,
+   "MF F211": 3,
+   "MF F216": 3,
+   "MF F217": 2,
+   "MF F218": 4,
+   "MF F219": 3,
+   "MF F220": 3,
+   "MF F221": 3,
+   "MF F222": 4,
+   "MF F314": 3,
+   "MF F315": 4,
+   "MF F316": 4,
+   "MF F317": 3,
+   "MF F318": 3,
+   "MF F319": 3,
+   "MF F320": 3,
+   "MF F321": 3,
+   "MF F411": 4,
+   "MF F412": 3,
+   "MF F413": 3,
+   "MF F414": 3,
+   "MF F418": 3,
+   "MF F422": 4,
+   "MF F442": 3,
+   "MF F453": 3,
+   "MF F463": 3,
+   "MF F471": 3,
+   "MF F472": 3,
+   "MF F473": 3,
+   "MF F474": 3,
+   "MF F485": 3
+  }
+ },
+ "BE-MATHEMATICS-AND-COMPUTING": {
+  "compulsory_electives": [],
+  "core": [
+   "MAC F211",
+   "MAC F212",
+   "MAC F213",
+   "MAC F214",
+   "MAC F241",
+   "MAC F242",
+   "MAC F243",
+   "MAC F244",
+   "MAC F245",
+   "MAC F311",
+   "MAC F312",
+   "MAC F313",
+   "MAC F314",
+   "MAC F341",
+   "MAC F342"
+  ],
+  "course_evidence": {
+   "BITS F311": [
+    "ev_bea96265cca0"
+   ],
+   "BITS F316": [
+    "ev_fa11718ee1e1"
+   ],
+   "BITS F386": [
+    "ev_b451f1c3c68d"
+   ],
+   "BITS F463": [
+    "ev_a86e2cee59ca"
+   ],
+   "BITS F464": [
+    "ev_1316b3abbbd8"
+   ],
+   "CS F212": [
+    "ev_d934121d6e14"
+   ],
+   "CS F402": [
+    "ev_08086614da92"
+   ],
+   "CS F407": [
+    "ev_d0141cd8288b"
+   ],
+   "CS F415": [
+    "ev_607b7e440456"
+   ],
+   "CS F422": [
+    "ev_b240503bc840"
+   ],
+   "CS F425": [
+    "ev_5293a9b47e97"
+   ],
+   "CS F426": [
+    "ev_263c4b6f8365"
+   ],
+   "CS G513": [
+    "ev_5d3243125f5d"
+   ],
+   "ECON F354": [
+    "ev_bbc74295dd6d"
+   ],
+   "IS F311": [
+    "ev_710955d156a5"
+   ],
+   "MAC F211": [
+    "ev_e1d5a88de04d"
+   ],
+   "MAC F212": [
+    "ev_e47ffef4fe41"
+   ],
+   "MAC F213": [
+    "ev_4065d585fca0"
+   ],
+   "MAC F214": [
+    "ev_ae45038936b9"
+   ],
+   "MAC F241": [
+    "ev_9311fca657e6"
+   ],
+   "MAC F242": [
+    "ev_3c4f49512e5b"
+   ],
+   "MAC F243": [
+    "ev_66a3e74ef4a8"
+   ],
+   "MAC F244": [
+    "ev_5ec252841492"
+   ],
+   "MAC F245": [
+    "ev_e4ee3ebd145d"
+   ],
+   "MAC F311": [
+    "ev_f40200f46c83"
+   ],
+   "MAC F312": [
+    "ev_c8fc8a52842e"
+   ],
+   "MAC F313": [
+    "ev_3b6747f9e555"
+   ],
+   "MAC F314": [
+    "ev_f95265f1ba7f"
+   ],
+   "MAC F341": [
+    "ev_ba6bae2f9320"
+   ],
+   "MAC F342": [
+    "ev_6b2e22735a44"
+   ],
+   "MAC F411": [
+    "ev_3545b020f623"
+   ],
+   "MATH F243": [
+    "ev_6352cb22cf98"
+   ],
+   "MATH F315": [
+    "ev_4ada2c891a1a"
+   ],
+   "MATH F424": [
+    "ev_12f60952f54b"
+   ],
+   "MATH F425": [
+    "ev_5e9ffaa2248f"
+   ],
+   "MATH F426": [
+    "ev_bef61fad6663"
+   ],
+   "MATH F428": [
+    "ev_3003164b92f8"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "MAC",
+  "elective_groups": {},
+  "electives": [
+   "BITS F311",
+   "BITS F316",
+   "BITS F386",
+   "BITS F463",
+   "BITS F464",
+   "CS F212",
+   "CS F402",
+   "CS F407",
+   "CS F415",
+   "CS F422",
+   "CS F425",
+   "CS F426",
+   "CS G513",
+   "ECON F354",
+   "IS F311",
+   "MAC F411",
+   "MATH F243",
+   "MATH F315",
+   "MATH F424",
+   "MATH F425",
+   "MATH F426",
+   "MATH F428"
+  ],
+  "id": "BE-MATHEMATICS-AND-COMPUTING",
+  "list_evidence": [
+   "ev_e1d5a88de04d",
+   "ev_bea96265cca0"
+  ],
+  "list_heading": "MATHEMATICS AND COMPUTING",
+  "name": "B.E. Mathematics and Computing",
+  "units": {
+   "BITS F311": 3,
+   "BITS F316": 3,
+   "BITS F386": 3,
+   "BITS F463": 3,
+   "BITS F464": 3,
+   "CS F212": 4,
+   "CS F402": 3,
+   "CS F407": 3,
+   "CS F415": 3,
+   "CS F422": 3,
+   "CS F425": 3,
+   "CS F426": 4,
+   "CS G513": 4,
+   "ECON F354": 3,
+   "IS F311": 3,
+   "MAC F211": 3,
+   "MAC F212": 4,
+   "MAC F213": 3,
+   "MAC F214": 3,
+   "MAC F241": 3,
+   "MAC F242": 4,
+   "MAC F243": 3,
+   "MAC F244": 3,
+   "MAC F245": 1,
+   "MAC F311": 3,
+   "MAC F312": 3,
+   "MAC F313": 4,
+   "MAC F314": 4,
+   "MAC F341": 3,
+   "MAC F342": 4,
+   "MAC F411": 4,
+   "MATH F243": 3,
+   "MATH F315": 3,
+   "MATH F424": 4,
+   "MATH F425": 4,
+   "MATH F426": 4,
+   "MATH F428": 4
+  }
+ },
+ "BE-MECHANICAL": {
+  "compulsory_electives": [],
+  "core": [
+   "ME F211",
+   "ME F212",
+   "ME F216",
+   "ME F217",
+   "ME F218",
+   "ME F219",
+   "ME F220",
+   "ME F221",
+   "ME F314",
+   "ME F315",
+   "ME F316",
+   "ME F317",
+   "ME F318",
+   "ME F319",
+   "ME F320",
+   "ME F341"
+  ],
+  "course_evidence": {
+   "AN F311": [
+    "ev_c26679a324fb"
+   ],
+   "AN F312": [
+    "ev_253979743df4"
+   ],
+   "AN F313": [
+    "ev_4781ee76c9d4"
+   ],
+   "AN F314": [
+    "ev_5e32314b1b7e"
+   ],
+   "AN F315": [
+    "ev_2d8778385811"
+   ],
+   "AN F316": [
+    "ev_cfd281a9ff5a"
+   ],
+   "BITS F327": [
+    "ev_28f3e3a4601a"
+   ],
+   "BITS F415": [
+    "ev_8e7a39bf80bb"
+   ],
+   "BITS F441": [
+    "ev_be1cf4f085b0"
+   ],
+   "BITS F451": [
+    "ev_3daa1b98e480"
+   ],
+   "BITS F462": [
+    "ev_f058d801979c"
+   ],
+   "DE G513": [
+    "ev_deb92cbd24dd"
+   ],
+   "DE G514": [
+    "ev_b25aeb6a5a03"
+   ],
+   "DE G531": [
+    "ev_62f8616e4932"
+   ],
+   "ECE F242": [
+    "ev_9de3045be3d0"
+   ],
+   "ECON F411": [
+    "ev_edfac3c82593"
+   ],
+   "EEE F242": [
+    "ev_bedd738d9081"
+   ],
+   "INSTR F242": [
+    "ev_adaba5442335"
+   ],
+   "MATH F313": [
+    "ev_b6d689fa9094"
+   ],
+   "ME F211": [
+    "ev_ff38cbe538d0"
+   ],
+   "ME F212": [
+    "ev_c35b7a941fcd"
+   ],
+   "ME F216": [
+    "ev_88ba3d17a470"
+   ],
+   "ME F217": [
+    "ev_6e6a7ee6630e"
+   ],
+   "ME F218": [
+    "ev_f777452bc0cb"
+   ],
+   "ME F219": [
+    "ev_6948a1efc57d"
+   ],
+   "ME F220": [
+    "ev_656548673857"
+   ],
+   "ME F221": [
+    "ev_7033a88eb4f0"
+   ],
+   "ME F314": [
+    "ev_83e17de9573f"
+   ],
+   "ME F315": [
+    "ev_da7d6d943528"
+   ],
+   "ME F316": [
+    "ev_9a37d7448184"
+   ],
+   "ME F317": [
+    "ev_85f9544c9772"
+   ],
+   "ME F318": [
+    "ev_646bf474560c"
+   ],
+   "ME F319": [
+    "ev_03c3fc566d33"
+   ],
+   "ME F320": [
+    "ev_fb8337b3a58d"
+   ],
+   "ME F321": [
+    "ev_9a8217acfcf8"
+   ],
+   "ME F323": [
+    "ev_e50b760b5900"
+   ],
+   "ME F324": [
+    "ev_db53774a6e0e"
+   ],
+   "ME F325": [
+    "ev_28687ddda8ab"
+   ],
+   "ME F340": [
+    "ev_31213660e6a2"
+   ],
+   "ME F341": [
+    "ev_dee67a14e781"
+   ],
+   "ME F411": [
+    "ev_97bc420693a5"
+   ],
+   "ME F413": [
+    "ev_29dab2e06e3a"
+   ],
+   "ME F414": [
+    "ev_0331ed8b2e7b"
+   ],
+   "ME F415": [
+    "ev_4e5ddefc6120"
+   ],
+   "ME F416": [
+    "ev_3fe8aeeab691"
+   ],
+   "ME F417": [
+    "ev_4ec940ecc516"
+   ],
+   "ME F418": [
+    "ev_97a6f23efeeb"
+   ],
+   "ME F419": [
+    "ev_1847e1d8814d"
+   ],
+   "ME F420": [
+    "ev_b49cd6a2c0e0"
+   ],
+   "ME F423": [
+    "ev_2c22deaa71fb"
+   ],
+   "ME F424": [
+    "ev_06f7b1109523"
+   ],
+   "ME F425": [
+    "ev_aa1628b0ecb4"
+   ],
+   "ME F426": [
+    "ev_bb817d0ed327"
+   ],
+   "ME F427": [
+    "ev_2fbad63f798f"
+   ],
+   "ME F428": [
+    "ev_ef0d96327ee5"
+   ],
+   "ME F429": [
+    "ev_cf5f054583d9"
+   ],
+   "ME F430": [
+    "ev_af5689ad35a1"
+   ],
+   "ME F432": [
+    "ev_835dfed29164"
+   ],
+   "ME F433": [
+    "ev_9c33745d543b"
+   ],
+   "ME F434": [
+    "ev_483bfebfe8a3"
+   ],
+   "ME F435": [
+    "ev_99a1ca87caf7"
+   ],
+   "ME F436": [
+    "ev_d38419d68913"
+   ],
+   "ME F437": [
+    "ev_e0a67a9d149c"
+   ],
+   "ME F438": [
+    "ev_08c45865fa2e"
+   ],
+   "ME F441": [
+    "ev_6ff076bf5790"
+   ],
+   "ME F443": [
+    "ev_0b0b9881740b"
+   ],
+   "ME F451": [
+    "ev_370b2def2763"
+   ],
+   "ME F452": [
+    "ev_80e910840fe6"
+   ],
+   "ME F461": [
+    "ev_3320c3323b1f"
+   ],
+   "ME F472": [
+    "ev_27c29e541ab3"
+   ],
+   "ME F482": [
+    "ev_f24b4accb0a9"
+   ],
+   "ME F483": [
+    "ev_9196dbcc3bc9"
+   ],
+   "ME F484": [
+    "ev_77f5b2002861"
+   ],
+   "ME F485": [
+    "ev_d26729dc353a"
+   ],
+   "ME G511": [
+    "ev_3495ed8adcea"
+   ],
+   "ME G512": [
+    "ev_91eb5ac968a2"
+   ],
+   "ME G514": [
+    "ev_6ec120b57565"
+   ],
+   "ME G515": [
+    "ev_6d3403c1c42e"
+   ],
+   "ME G533": [
+    "ev_4628a17cc570"
+   ],
+   "ME G534": [
+    "ev_e5167b82234e"
+   ],
+   "ME G544": [
+    "ev_1e1cdab9f803"
+   ],
+   "ME G614": [
+    "ev_73e2aab1669e"
+   ],
+   "MF F311": [
+    "ev_6e261497c641"
+   ],
+   "MF F321": [
+    "ev_e1f446918956"
+   ],
+   "MF F418": [
+    "ev_748d499da93c"
+   ],
+   "MF F421": [
+    "ev_b4fccdb41272"
+   ],
+   "MF F422": [
+    "ev_91df60d9da11"
+   ],
+   "MF F485": [
+    "ev_84a9e35f9478"
+   ],
+   "MST G522": [
+    "ev_31b749f7542b"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "ME",
+  "elective_groups": {},
+  "electives": [
+   "AN F311",
+   "AN F312",
+   "AN F313",
+   "AN F314",
+   "AN F315",
+   "AN F316",
+   "BITS F327",
+   "BITS F415",
+   "BITS F441",
+   "BITS F451",
+   "BITS F462",
+   "DE G513",
+   "DE G514",
+   "DE G531",
+   "ECE F242",
+   "ECON F411",
+   "EEE F242",
+   "INSTR F242",
+   "MATH F313",
+   "ME F321",
+   "ME F323",
+   "ME F324",
+   "ME F325",
+   "ME F340",
+   "ME F411",
+   "ME F413",
+   "ME F414",
+   "ME F415",
+   "ME F416",
+   "ME F417",
+   "ME F418",
+   "ME F419",
+   "ME F420",
+   "ME F423",
+   "ME F424",
+   "ME F425",
+   "ME F426",
+   "ME F427",
+   "ME F428",
+   "ME F429",
+   "ME F430",
+   "ME F432",
+   "ME F433",
+   "ME F434",
+   "ME F435",
+   "ME F436",
+   "ME F437",
+   "ME F438",
+   "ME F441",
+   "ME F443",
+   "ME F451",
+   "ME F452",
+   "ME F461",
+   "ME F472",
+   "ME F482",
+   "ME F483",
+   "ME F484",
+   "ME F485",
+   "ME G511",
+   "ME G512",
+   "ME G514",
+   "ME G515",
+   "ME G533",
+   "ME G534",
+   "ME G544",
+   "ME G614",
+   "MF F311",
+   "MF F321",
+   "MF F418",
+   "MF F421",
+   "MF F422",
+   "MF F485",
+   "MST G522"
+  ],
+  "id": "BE-MECHANICAL",
+  "list_evidence": [
+   "ev_ff38cbe538d0",
+   "ev_c26679a324fb"
+  ],
+  "list_heading": "MECHANICAL ENGINEERING",
+  "name": "B.E. Mechanical",
+  "units": {
+   "AN F311": 3,
+   "AN F312": 3,
+   "AN F313": 3,
+   "AN F314": 3,
+   "AN F315": 3,
+   "AN F316": 3,
+   "BITS F327": 3,
+   "BITS F415": 4,
+   "BITS F441": 3,
+   "BITS F451": 3,
+   "BITS F462": 3,
+   "DE G513": 5,
+   "DE G514": 5,
+   "DE G531": 5,
+   "ECE F242": 3,
+   "ECON F411": 3,
+   "EEE F242": 3,
+   "INSTR F242": 3,
+   "MATH F313": 3,
+   "ME F211": 3,
+   "ME F212": 3,
+   "ME F216": 3,
+   "ME F217": 4,
+   "ME F218": 2,
+   "ME F219": 4,
+   "ME F220": 4,
+   "ME F221": 3,
+   "ME F314": 3,
+   "ME F315": 3,
+   "ME F316": 2,
+   "ME F317": 2,
+   "ME F318": 3,
+   "ME F319": 3,
+   "ME F320": 3,
+   "ME F321": 3,
+   "ME F323": 3,
+   "ME F324": 3,
+   "ME F325": 4,
+   "ME F340": 3,
+   "ME F341": 3,
+   "ME F411": 4,
+   "ME F413": 3,
+   "ME F414": 3,
+   "ME F415": 3,
+   "ME F416": 3,
+   "ME F417": 3,
+   "ME F418": 3,
+   "ME F419": 3,
+   "ME F420": 3,
+   "ME F423": 4,
+   "ME F424": 3,
+   "ME F425": 3,
+   "ME F426": 3,
+   "ME F427": 4,
+   "ME F428": 4,
+   "ME F429": 4,
+   "ME F430": 3,
+   "ME F432": 3,
+   "ME F433": 4,
+   "ME F434": 4,
+   "ME F435": 3,
+   "ME F436": 3,
+   "ME F437": 3,
+   "ME F438": 4,
+   "ME F441": 3,
+   "ME F443": 3,
+   "ME F451": 3,
+   "ME F452": 3,
+   "ME F461": 3,
+   "ME F472": 3,
+   "ME F482": 3,
+   "ME F483": 3,
+   "ME F484": 3,
+   "ME F485": 3,
+   "ME G511": 5,
+   "ME G512": 5,
+   "ME G514": 5,
+   "ME G515": 5,
+   "ME G533": 5,
+   "ME G534": 5,
+   "ME G544": 5,
+   "ME G614": 5,
+   "MF F311": 3,
+   "MF F321": 3,
+   "MF F418": 3,
+   "MF F421": 4,
+   "MF F422": 4,
+   "MF F485": 3,
+   "MST G522": 5
+  }
+ },
+ "BE-MECHANICAL-WITH-SPECIALIZATION-IN-AEROSPACE": {
+  "compulsory_electives": [],
+  "core": [
+   "AN F211",
+   "AN F221",
+   "AN F311",
+   "AN F312",
+   "AN F315",
+   "AN F321",
+   "ME F211",
+   "ME F216",
+   "ME F217",
+   "ME F220",
+   "ME F221",
+   "ME F314",
+   "ME F316",
+   "ME F317",
+   "ME F318",
+   "ME F319"
+  ],
+  "course_evidence": {
+   "AN F211": [
+    "ev_dc6237707eb9"
+   ],
+   "AN F221": [
+    "ev_12724412872f"
+   ],
+   "AN F311": [
+    "ev_e963c26827e6"
+   ],
+   "AN F312": [
+    "ev_76b5ec25cabf"
+   ],
+   "AN F313": [
+    "ev_b2d60fb0ff34"
+   ],
+   "AN F314": [
+    "ev_dd8abb32f5ea"
+   ],
+   "AN F315": [
+    "ev_f98625e8d8e3"
+   ],
+   "AN F316": [
+    "ev_5f48eb0d0f8e"
+   ],
+   "AN F321": [
+    "ev_4c501321699f"
+   ],
+   "ME F211": [
+    "ev_b28ddf992145"
+   ],
+   "ME F212": [
+    "ev_28a3ce2a936a"
+   ],
+   "ME F216": [
+    "ev_82707990c3a6"
+   ],
+   "ME F217": [
+    "ev_b6b9b974824b"
+   ],
+   "ME F218": [
+    "ev_83e0902616bb"
+   ],
+   "ME F219": [
+    "ev_1358c8d596c5"
+   ],
+   "ME F220": [
+    "ev_498fb8dc6041"
+   ],
+   "ME F221": [
+    "ev_b268caf4c904"
+   ],
+   "ME F314": [
+    "ev_c7112924b524"
+   ],
+   "ME F315": [
+    "ev_bb6fa6b55fa7"
+   ],
+   "ME F316": [
+    "ev_9db75623c749"
+   ],
+   "ME F317": [
+    "ev_61490fd918ac"
+   ],
+   "ME F318": [
+    "ev_c92204c74d5e"
+   ],
+   "ME F319": [
+    "ev_d6b697346b2c"
+   ],
+   "ME F320": [
+    "ev_bcadbed04d98"
+   ],
+   "ME F341": [
+    "ev_b8155f402186"
+   ],
+   "ME F415": [
+    "ev_e3247541d810"
+   ],
+   "ME F418": [
+    "ev_93946e4b7e8d"
+   ],
+   "ME F452": [
+    "ev_902fb3797af6"
+   ],
+   "PHY F319": [
+    "ev_250f34b360e3"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "ME",
+  "elective_groups": {},
+  "electives": [
+   "AN F313",
+   "AN F314",
+   "AN F316",
+   "ME F212",
+   "ME F218",
+   "ME F219",
+   "ME F315",
+   "ME F320",
+   "ME F341",
+   "ME F415",
+   "ME F418",
+   "ME F452",
+   "PHY F319"
+  ],
+  "id": "BE-MECHANICAL-WITH-SPECIALIZATION-IN-AEROSPACE",
+  "list_evidence": [
+   "ev_dc6237707eb9",
+   "ev_b2d60fb0ff34"
+  ],
+  "list_heading": "MECHANICAL ENGINEERING WITH SPECIALIZATION IN AEROSPACE",
+  "name": "B.E. Mechanical with Specialization in Aerospace",
+  "units": {
+   "AN F211": 4,
+   "AN F221": 3,
+   "AN F311": 3,
+   "AN F312": 3,
+   "AN F313": 3,
+   "AN F314": 3,
+   "AN F315": 3,
+   "AN F316": 3,
+   "AN F321": 2,
+   "ME F211": 3,
+   "ME F212": 3,
+   "ME F216": 3,
+   "ME F217": 4,
+   "ME F218": 2,
+   "ME F219": 4,
+   "ME F220": 4,
+   "ME F221": 3,
+   "ME F314": 3,
+   "ME F315": 3,
+   "ME F316": 2,
+   "ME F317": 2,
+   "ME F318": 3,
+   "ME F319": 3,
+   "ME F320": 3,
+   "ME F341": 3,
+   "ME F415": null,
+   "ME F418": 3,
+   "ME F452": 3,
+   "PHY F319": 3
+  }
+ },
+ "BE-ROBOTICS-INDUSTRIAL-AUTOMATION": {
+  "compulsory_electives": [],
+  "core": [
+   "RIA F211",
+   "RIA F212",
+   "RIA F213",
+   "RIA F214",
+   "RIA F241",
+   "RIA F242",
+   "RIA F243",
+   "RIA F244",
+   "RIA F311",
+   "RIA F312",
+   "RIA F313",
+   "RIA F341",
+   "RIA F342",
+   "RIA F343",
+   "RIA F344"
+  ],
+  "course_evidence": {
+   "BITS F311": [
+    "ev_7ba3197dd9b9"
+   ],
+   "BITS F312": [
+    "ev_37db615458c3"
+   ],
+   "BITS F364": [
+    "ev_77851cd4cac7"
+   ],
+   "BITS F372": [
+    "ev_d24d809f4661"
+   ],
+   "BITS F415": [
+    "ev_335207b5a8f4"
+   ],
+   "BITS F434": [
+    "ev_28f1c30a2ee1"
+   ],
+   "BITS F442": [
+    "ev_8d430764d4f5"
+   ],
+   "BITS F454": [
+    "ev_4b47ad29c7ac"
+   ],
+   "BITS F464": [
+    "ev_d55a29199e27"
+   ],
+   "BITS G541": [
+    "ev_15dbd31d2384"
+   ],
+   "CS F213": [
+    "ev_4937277258c7"
+   ],
+   "CS F314": [
+    "ev_694de01fc962"
+   ],
+   "CS F320": [
+    "ev_ad360255a2dc"
+   ],
+   "CS F407": [
+    "ev_529ac22e913f"
+   ],
+   "CS F415": [
+    "ev_16ab7299ac0d"
+   ],
+   "CS F424": [
+    "ev_2cdb84429ceb"
+   ],
+   "CS F425": [
+    "ev_0ee86914ae60"
+   ],
+   "CS F436": [
+    "ev_cf798fac0f71"
+   ],
+   "CS F444": [
+    "ev_b4ee79be56c1"
+   ],
+   "ECE F241": [
+    "ev_db6cf96d762c"
+   ],
+   "ECE F313": [
+    "ev_154ea56b5063"
+   ],
+   "ECE F343": [
+    "ev_37f622cdafeb"
+   ],
+   "ECE F418": [
+    "ev_9a78e9ed0ae0"
+   ],
+   "ECE F428": [
+    "ev_e5cd511aa01f"
+   ],
+   "ECE F434": [
+    "ev_bc02d6b63bba"
+   ],
+   "ECOM F241": [
+    "ev_eafea2c06ba9"
+   ],
+   "ECOM F313": [
+    "ev_f6e2e6debc6d"
+   ],
+   "ECOM F321": [
+    "ev_49c6dcc97a44"
+   ],
+   "EEE F241": [
+    "ev_e315cdaafd2d"
+   ],
+   "EEE F313": [
+    "ev_16e8d2d7f80d"
+   ],
+   "EEE F411": [
+    "ev_012bed6f30e2"
+   ],
+   "EEE F417": [
+    "ev_e05b619f7c3d"
+   ],
+   "EEE F418": [
+    "ev_fc7617b86e3d"
+   ],
+   "EEE F422": [
+    "ev_3902f5ec46b4"
+   ],
+   "EEE F428": [
+    "ev_f9159bcba472"
+   ],
+   "EEE F432": [
+    "ev_37f91e3a7eb2"
+   ],
+   "INSTR F241": [
+    "ev_a55b9fcd3ad0"
+   ],
+   "INSTR F313": [
+    "ev_7e41ce516560"
+   ],
+   "INSTR F413": [
+    "ev_bb9ce150dc47"
+   ],
+   "INSTR F419": [
+    "ev_78f52da33022"
+   ],
+   "INSTR F428": [
+    "ev_86305d950918"
+   ],
+   "IS F213": [
+    "ev_63e426af09f6"
+   ],
+   "MAC F312": [
+    "ev_1693ac1c61ac"
+   ],
+   "ME F314": [
+    "ev_462bc3391c40"
+   ],
+   "ME F320": [
+    "ev_a72f2f0cdeaf"
+   ],
+   "ME F321": [
+    "ev_9a101777c2d2"
+   ],
+   "ME F418": [
+    "ev_49a0239001d6"
+   ],
+   "ME F424": [
+    "ev_77a9192afc38"
+   ],
+   "ME F425": [
+    "ev_79b41660b89f"
+   ],
+   "ME F426": [
+    "ev_6877f42509c5"
+   ],
+   "ME F432": [
+    "ev_0b2e993956e4"
+   ],
+   "ME F434": [
+    "ev_136667ac2f04"
+   ],
+   "ME F439": [
+    "ev_daf17cd7a408"
+   ],
+   "ME G511": [
+    "ev_cf0ec65af1ad"
+   ],
+   "ME G512": [
+    "ev_0662db852a04"
+   ],
+   "RIA F211": [
+    "ev_dc60adc37d63"
+   ],
+   "RIA F212": [
+    "ev_6327757ea883"
+   ],
+   "RIA F213": [
+    "ev_44cf835bf0a3"
+   ],
+   "RIA F214": [
+    "ev_45926f1381fd"
+   ],
+   "RIA F241": [
+    "ev_17b3fc7e6b94"
+   ],
+   "RIA F242": [
+    "ev_72b607e48c75"
+   ],
+   "RIA F243": [
+    "ev_79f938075df4"
+   ],
+   "RIA F244": [
+    "ev_e973a95b4c81"
+   ],
+   "RIA F311": [
+    "ev_a706d69474ba"
+   ],
+   "RIA F312": [
+    "ev_fcb999c7176e"
+   ],
+   "RIA F313": [
+    "ev_5304eb4246f3"
+   ],
+   "RIA F321": [
+    "ev_ec9e76992065"
+   ],
+   "RIA F322": [
+    "ev_5bcdee4e184a"
+   ],
+   "RIA F323": [
+    "ev_2b3e5cce61bb"
+   ],
+   "RIA F341": [
+    "ev_ff0572175254"
+   ],
+   "RIA F342": [
+    "ev_ed59677fd39f"
+   ],
+   "RIA F343": [
+    "ev_79b588df10b6"
+   ],
+   "RIA F344": [
+    "ev_66eaa53d89ef"
+   ],
+   "RIA F371": [
+    "ev_97c71372793e"
+   ],
+   "RIA F372": [
+    "ev_8b20244fa2d6"
+   ]
+  },
+  "degree": "B.E.",
+  "discipline_prefix": "RIA",
+  "elective_groups": {},
+  "electives": [
+   "BITS F311",
+   "BITS F312",
+   "BITS F434",
+   "BITS F364",
+   "BITS F372",
+   "BITS F415",
+   "BITS F442",
+   "BITS F454",
+   "BITS F464",
+   "BITS G541",
+   "CS F213",
+   "IS F213",
+   "MAC F312",
+   "CS F314",
+   "CS F320",
+   "MAC F312",
+   "CS F407",
+   "CS F415",
+   "CS F424",
+   "CS F425",
+   "CS F436",
+   "CS F444",
+   "ECE F343",
+   "ECE F434",
+   "ECOM F321",
+   "EEE F241",
+   "ECE F241",
+   "ECOM F241",
+   "INSTR F241",
+   "EEE F313",
+   "ECE F313",
+   "ECOM F313",
+   "INSTR F313",
+   "EEE F411",
+   "EEE F417",
+   "EEE F418",
+   "ECE F418",
+   "EEE F422",
+   "EEE F428",
+   "ECE F428",
+   "INSTR F428",
+   "EEE F432",
+   "INSTR F413",
+   "INSTR F419",
+   "ME F314",
+   "ME F320",
+   "ME F321",
+   "ME F424",
+   "ME F425",
+   "ME F426",
+   "ME F432",
+   "ME F434",
+   "ME F439",
+   "ME G511",
+   "ME G512",
+   "ME F418",
+   "RIA F321",
+   "RIA F322",
+   "RIA F323",
+   "RIA F371",
+   "RIA F372"
+  ],
+  "id": "BE-ROBOTICS-INDUSTRIAL-AUTOMATION",
+  "list_evidence": [
+   "ev_dc60adc37d63",
+   "ev_7ba3197dd9b9"
+  ],
+  "list_heading": "ROBOTICS AND INDUSTRIAL AUTOMATION",
+  "name": "B.E. Robotics & Industrial Automation",
+  "units": {
+   "BITS F311": 3,
+   "BITS F312": 3,
+   "BITS F364": 3,
+   "BITS F372": 3,
+   "BITS F415": 4,
+   "BITS F434": 3,
+   "BITS F442": 3,
+   "BITS F454": 3,
+   "BITS F464": 3,
+   "BITS G541": 4,
+   "CS F213": 4,
+   "CS F314": 3,
+   "CS F320": 3,
+   "CS F407": 3,
+   "CS F415": 3,
+   "CS F424": 4,
+   "CS F425": 3,
+   "CS F436": 4,
+   "CS F444": 3,
+   "ECE F241": 4,
+   "ECE F313": 3,
+   "ECE F343": 3,
+   "ECE F418": 3,
+   "ECE F428": 3,
+   "ECE F434": 4,
+   "ECOM F241": 4,
+   "ECOM F313": 3,
+   "ECOM F321": 4,
+   "EEE F241": 4,
+   "EEE F313": 3,
+   "EEE F411": 4,
+   "EEE F417": 3,
+   "EEE F418": 3,
+   "EEE F422": 3,
+   "EEE F428": 3,
+   "EEE F432": 3,
+   "INSTR F241": 4,
+   "INSTR F313": 3,
+   "INSTR F413": 3,
+   "INSTR F419": 4,
+   "INSTR F428": 3,
+   "IS F213": 4,
+   "MAC F312": 3,
+   "ME F314": 3,
+   "ME F320": 3,
+   "ME F321": 3,
+   "ME F418": 3,
+   "ME F424": 3,
+   "ME F425": 3,
+   "ME F426": 3,
+   "ME F432": 3,
+   "ME F434": 4,
+   "ME F439": 3,
+   "ME G511": 5,
+   "ME G512": 5,
+   "RIA F211": 3,
+   "RIA F212": 3,
+   "RIA F213": 4,
+   "RIA F214": 3,
+   "RIA F241": 3,
+   "RIA F242": 3,
+   "RIA F243": 3,
+   "RIA F244": 3,
+   "RIA F311": 4,
+   "RIA F312": 3,
+   "RIA F313": 4,
+   "RIA F321": 3,
+   "RIA F322": 3,
+   "RIA F323": 3,
+   "RIA F341": 3,
+   "RIA F342": 3,
+   "RIA F343": 3,
+   "RIA F344": 3,
+   "RIA F371": 3,
+   "RIA F372": 3
+  }
+ },
+ "BPHARM": {
+  "compulsory_electives": [],
+  "core": [
+   "BITS F219",
+   "PHA F211",
+   "PHA F214",
+   "PHA F215",
+   "PHA F216",
+   "PHA F217",
+   "PHA F241",
+   "PHA F242",
+   "PHA F243",
+   "PHA F244",
+   "PHA F311",
+   "PHA F312",
+   "PHA F313",
+   "PHA F315",
+   "PHA F341",
+   "PHA F342",
+   "PHA F343",
+   "PHA F344"
+  ],
+  "course_evidence": {
+   "BITS F219": [
+    "ev_3698df8fea56"
+   ],
+   "BITS F467": [
+    "ev_17decea61bd4"
+   ],
+   "MATH F212": [
+    "ev_6f27e2bd24d4"
+   ],
+   "PHA F211": [
+    "ev_889bfa350e08"
+   ],
+   "PHA F214": [
+    "ev_3dab8d258a3e"
+   ],
+   "PHA F215": [
+    "ev_8264fee563ad"
+   ],
+   "PHA F216": [
+    "ev_c79e898a1321"
+   ],
+   "PHA F217": [
+    "ev_0fd99e307ab8"
+   ],
+   "PHA F241": [
+    "ev_f184009056b7"
+   ],
+   "PHA F242": [
+    "ev_031ba06204ee"
+   ],
+   "PHA F243": [
+    "ev_7b3a5129b1f5"
+   ],
+   "PHA F244": [
+    "ev_1de38ce8f999"
+   ],
+   "PHA F311": [
+    "ev_24d06becee84"
+   ],
+   "PHA F312": [
+    "ev_e704e31e8896"
+   ],
+   "PHA F313": [
+    "ev_eab233174bf6"
+   ],
+   "PHA F315": [
+    "ev_900261407d23"
+   ],
+   "PHA F316": [
+    "ev_0d2c5efc8408"
+   ],
+   "PHA F317": [
+    "ev_60a5e0119e98"
+   ],
+   "PHA F341": [
+    "ev_cd903cc1afeb"
+   ],
+   "PHA F342": [
+    "ev_d9ae12f3deb8"
+   ],
+   "PHA F343": [
+    "ev_936c5f4ddc52"
+   ],
+   "PHA F344": [
+    "ev_fcb566a20062"
+   ],
+   "PHA F413": [
+    "ev_76c30fe2765c"
+   ],
+   "PHA F414": [
+    "ev_d59d48b46e74"
+   ],
+   "PHA F415": [
+    "ev_45d373a36eaf"
+   ],
+   "PHA F416": [
+    "ev_9f62b54bfeab"
+   ],
+   "PHA F417": [
+    "ev_cdd810666a9d"
+   ],
+   "PHA F418": [
+    "ev_1f34817e270f"
+   ],
+   "PHA F419": [
+    "ev_ec0828a56ad1"
+   ],
+   "PHA F422": [
+    "ev_8ef862ab53b7"
+   ],
+   "PHA F432": [
+    "ev_bf7cd08ec912"
+   ],
+   "PHA F441": [
+    "ev_1bc969fd2868"
+   ],
+   "PHA F442": [
+    "ev_790f61717323"
+   ],
+   "PHA F461": [
+    "ev_59bf7decb5bc"
+   ],
+   "PHA G546": [
+    "ev_2ad1baa7c4c6"
+   ]
+  },
+  "degree": "B.Pharm.",
+  "discipline_prefix": "PHA",
+  "elective_groups": {},
+  "electives": [
+   "BITS F467",
+   "MATH F212",
+   "PHA F316",
+   "PHA F317",
+   "PHA F413",
+   "PHA F414",
+   "PHA F415",
+   "PHA F416",
+   "PHA F417",
+   "PHA F418",
+   "PHA F419",
+   "PHA F422",
+   "PHA F432",
+   "PHA F441",
+   "PHA F442",
+   "PHA F461",
+   "PHA G546"
+  ],
+  "id": "BPHARM",
+  "list_evidence": [
+   "ev_3698df8fea56",
+   "ev_17decea61bd4"
+  ],
+  "list_heading": "PHARMACY",
+  "name": "B.Pharm",
+  "units": {
+   "BITS F219": 3,
+   "BITS F467": 3,
+   "MATH F212": 3,
+   "PHA F211": 3,
+   "PHA F214": 3,
+   "PHA F215": 3,
+   "PHA F216": 3,
+   "PHA F217": 3,
+   "PHA F241": 3,
+   "PHA F242": 3,
+   "PHA F243": 3,
+   "PHA F244": 3,
+   "PHA F311": 3,
+   "PHA F312": 3,
+   "PHA F313": 4,
+   "PHA F315": 3,
+   "PHA F316": 3,
+   "PHA F317": 3,
+   "PHA F341": 3,
+   "PHA F342": 3,
+   "PHA F343": 2,
+   "PHA F344": 3,
+   "PHA F413": 3,
+   "PHA F414": 3,
+   "PHA F415": 3,
+   "PHA F416": 3,
+   "PHA F417": 3,
+   "PHA F418": 3,
+   "PHA F419": 3,
+   "PHA F422": 3,
+   "PHA F432": 3,
+   "PHA F441": 3,
+   "PHA F442": 3,
+   "PHA F461": 3,
+   "PHA G546": 3
+  }
+ },
+ "MSC-BIOLOGICAL-SCIENCES": {
+  "compulsory_electives": [],
+  "core": [
+   "BIO F211",
+   "BIO F212",
+   "BIO F213",
+   "BIO F214",
+   "BIO F215",
+   "BIO F241",
+   "BIO F242",
+   "BIO F243",
+   "BIO F244",
+   "BIO F311",
+   "BIO F312",
+   "BIO F313",
+   "BIO F341",
+   "BIO F342"
+  ],
+  "course_evidence": {
+   "BIO F211": [
+    "ev_1a11d37e2464"
+   ],
+   "BIO F212": [
+    "ev_47c2a5b052a9"
+   ],
+   "BIO F213": [
+    "ev_12e435a3fff8"
+   ],
+   "BIO F214": [
+    "ev_ffb1ef83d9bc"
+   ],
+   "BIO F215": [
+    "ev_01d30a999bad"
+   ],
+   "BIO F216": [
+    "ev_19937222fade"
+   ],
+   "BIO F217": [
+    "ev_93a9cdcd545d"
+   ],
+   "BIO F231": [
+    "ev_d1e72c4d9528"
+   ],
+   "BIO F241": [
+    "ev_ce7146fd5110"
+   ],
+   "BIO F242": [
+    "ev_a6680fafa564"
+   ],
+   "BIO F243": [
+    "ev_35d46cb89e98"
+   ],
+   "BIO F244": [
+    "ev_abbd65d10a5c"
+   ],
+   "BIO F311": [
+    "ev_9ee35b69c019"
+   ],
+   "BIO F312": [
+    "ev_40f7ced9387d"
+   ],
+   "BIO F313": [
+    "ev_35eeebad7989"
+   ],
+   "BIO F314": [
+    "ev_96daa9322f20"
+   ],
+   "BIO F315": [
+    "ev_26839038376a"
+   ],
+   "BIO F341": [
+    "ev_a0f27540fce5"
+   ],
+   "BIO F342": [
+    "ev_f0b33ed796dc"
+   ],
+   "BIO F352": [
+    "ev_241173b8f3cd"
+   ],
+   "BIO F411": [
+    "ev_c7e6bf5c9d6b"
+   ],
+   "BIO F413": [
+    "ev_9b09ccdcfa26"
+   ],
+   "BIO F417": [
+    "ev_8d179b1bbbab"
+   ],
+   "BIO F418": [
+    "ev_ef945a0155d5"
+   ],
+   "BIO F419": [
+    "ev_85b3626e6480"
+   ],
+   "BIO F421": [
+    "ev_bb703555fa54"
+   ],
+   "BIO F431": [
+    "ev_fbdefa3aff56"
+   ],
+   "BIO F441": [
+    "ev_420384c49164"
+   ],
+   "BIO F451": [
+    "ev_ac1adeb60b7c"
+   ],
+   "BIO G512": [
+    "ev_7b660ea97242"
+   ],
+   "BIO G513": [
+    "ev_414c44d907ee"
+   ],
+   "BIO G515": [
+    "ev_4bc786c3d94b"
+   ],
+   "BIO G522": [
+    "ev_0becad8792ec"
+   ],
+   "BIO G523": [
+    "ev_4dc5e2843c27"
+   ],
+   "BIO G524": [
+    "ev_e87350a83a96"
+   ],
+   "BIO G525": [
+    "ev_0dd14baae561"
+   ],
+   "BIO G526": [
+    "ev_8ac498bedee4"
+   ],
+   "BIO G528": [
+    "ev_483723c6d863"
+   ],
+   "BIO G544": [
+    "ev_eb0cfc5455fc"
+   ],
+   "BIO G545": [
+    "ev_4c9fe04fba20"
+   ],
+   "BIO G561": [
+    "ev_107d4734f83a"
+   ],
+   "BIO G570": [
+    "ev_09de2c5ad380"
+   ],
+   "BIO G612": [
+    "ev_f024e53b2e6f"
+   ],
+   "BIO G631": [
+    "ev_75df5ced159f"
+   ],
+   "BIO G632": [
+    "ev_c5c5b4cc73cf"
+   ],
+   "BIO G642": [
+    "ev_7448ece6ee57"
+   ],
+   "BIO G643": [
+    "ev_eb968cd565fd"
+   ],
+   "BIO G651": [
+    "ev_a687d7041275"
+   ],
+   "BIO G661": [
+    "ev_9366c1721e89"
+   ],
+   "BIO G671": [
+    "ev_59b1b4a3a96c"
+   ],
+   "BIOT F345": [
+    "ev_6d3eefb7af6a"
+   ],
+   "BIOT F346": [
+    "ev_c273d0f34f7d"
+   ],
+   "BIOT F347": [
+    "ev_5c3fc1996447"
+   ],
+   "BIOT F416": [
+    "ev_bef62894c583"
+   ],
+   "BIOT F422": [
+    "ev_fdf90f434991"
+   ],
+   "BIOT F424": [
+    "ev_d399fe18f23c"
+   ],
+   "BITS F418": [
+    "ev_3dc5ea9cefbd"
+   ],
+   "BITS F467": [
+    "ev_723b9dc0518a"
+   ],
+   "CHEM F212": [
+    "ev_3f4dc25b6011"
+   ],
+   "CHEM F213": [
+    "ev_fc8ed430b442"
+   ],
+   "MATH F212": [
+    "ev_f1a6b8331323"
+   ],
+   "PHA G529": [
+    "ev_242753dc8c7f"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "BIO",
+  "elective_groups": {},
+  "electives": [
+   "BIO F216",
+   "BIO F217",
+   "BIO F231",
+   "BIO F314",
+   "BIO F315",
+   "BIO F352",
+   "BIO F411",
+   "BIO F413",
+   "BIO F417",
+   "BIO F418",
+   "BIO F419",
+   "BIO F421",
+   "BIO F431",
+   "BIO F441",
+   "BIO F451",
+   "BIO G512",
+   "BIO G513",
+   "BIO G515",
+   "BIO G522",
+   "BIO G523",
+   "BIO G524",
+   "BIO G525",
+   "BIO G526",
+   "BIO G528",
+   "BIO G544",
+   "BIO G545",
+   "BIO G561",
+   "BIO G570",
+   "BIO G612",
+   "BIO G631",
+   "BIO G632",
+   "BIO G642",
+   "BIO G643",
+   "BIO G651",
+   "BIO G661",
+   "BIO G671",
+   "BIOT F345",
+   "BIOT F346",
+   "BIOT F347",
+   "BIOT F416",
+   "BIOT F422",
+   "BIOT F424",
+   "BITS F418",
+   "BITS F467",
+   "CHEM F212",
+   "CHEM F213",
+   "MATH F212",
+   "PHA G529"
+  ],
+  "id": "MSC-BIOLOGICAL-SCIENCES",
+  "list_evidence": [
+   "ev_1a11d37e2464",
+   "ev_19937222fade"
+  ],
+  "list_heading": "BIOLOGICAL SCIENCES",
+  "name": "M.Sc. Biological Sciences",
+  "units": {
+   "BIO F211": 3,
+   "BIO F212": 4,
+   "BIO F213": 3,
+   "BIO F214": 3,
+   "BIO F215": 3,
+   "BIO F216": 3,
+   "BIO F217": 3,
+   "BIO F231": 3,
+   "BIO F241": 3,
+   "BIO F242": 3,
+   "BIO F243": 3,
+   "BIO F244": 4,
+   "BIO F311": 3,
+   "BIO F312": 3,
+   "BIO F313": 3,
+   "BIO F314": 3,
+   "BIO F315": 2,
+   "BIO F341": 3,
+   "BIO F342": 3,
+   "BIO F352": 4,
+   "BIO F411": 3,
+   "BIO F413": 3,
+   "BIO F417": 3,
+   "BIO F418": 4,
+   "BIO F419": 3,
+   "BIO F421": 3,
+   "BIO F431": 3,
+   "BIO F441": 3,
+   "BIO F451": 3,
+   "BIO G512": 5,
+   "BIO G513": 5,
+   "BIO G515": 4,
+   "BIO G522": 4,
+   "BIO G523": 5,
+   "BIO G524": 5,
+   "BIO G525": 5,
+   "BIO G526": 5,
+   "BIO G528": 5,
+   "BIO G544": 5,
+   "BIO G545": 5,
+   "BIO G561": 5,
+   "BIO G570": 1,
+   "BIO G612": 5,
+   "BIO G631": 4,
+   "BIO G632": 5,
+   "BIO G642": 4,
+   "BIO G643": 5,
+   "BIO G651": 5,
+   "BIO G661": 4,
+   "BIO G671": 5,
+   "BIOT F345": 3,
+   "BIOT F346": 3,
+   "BIOT F347": 3,
+   "BIOT F416": 3,
+   "BIOT F422": 3,
+   "BIOT F424": 3,
+   "BITS F418": 4,
+   "BITS F467": 3,
+   "CHEM F212": 3,
+   "CHEM F213": 3,
+   "MATH F212": 3,
+   "PHA G529": 5
+  }
+ },
+ "MSC-CHEMISTRY": {
+  "compulsory_electives": [],
+  "core": [
+   "CHEM F211",
+   "CHEM F212",
+   "CHEM F213",
+   "CHEM F214",
+   "CHEM F241",
+   "CHEM F242",
+   "CHEM F243",
+   "CHEM F244",
+   "CHEM F311",
+   "CHEM F312",
+   "CHEM F313",
+   "CHEM F341",
+   "CHEM F342",
+   "CHEM F343",
+   "PHY F212"
+  ],
+  "course_evidence": {
+   "CHEM F211": [
+    "ev_f13e67842f41"
+   ],
+   "CHEM F212": [
+    "ev_9430ec2d427a"
+   ],
+   "CHEM F213": [
+    "ev_59085515a732"
+   ],
+   "CHEM F214": [
+    "ev_11a7e368c752"
+   ],
+   "CHEM F223": [
+    "ev_53c428cb8c07"
+   ],
+   "CHEM F241": [
+    "ev_7459b57058aa"
+   ],
+   "CHEM F242": [
+    "ev_bf722c4e2871"
+   ],
+   "CHEM F243": [
+    "ev_d76308c151ed"
+   ],
+   "CHEM F244": [
+    "ev_c5fb25169162"
+   ],
+   "CHEM F311": [
+    "ev_5eda4f37eb23"
+   ],
+   "CHEM F312": [
+    "ev_bb2e3be965ec"
+   ],
+   "CHEM F313": [
+    "ev_471efe246177"
+   ],
+   "CHEM F320": [
+    "ev_99429d4b40d7"
+   ],
+   "CHEM F323": [
+    "ev_a3407f43f505"
+   ],
+   "CHEM F324": [
+    "ev_91cf445c4038"
+   ],
+   "CHEM F325": [
+    "ev_736ce5455e40"
+   ],
+   "CHEM F326": [
+    "ev_24da276aaaf7"
+   ],
+   "CHEM F327": [
+    "ev_6a18bc1e0fc7"
+   ],
+   "CHEM F328": [
+    "ev_93aa730fdaa8"
+   ],
+   "CHEM F329": [
+    "ev_2af8088de105"
+   ],
+   "CHEM F330": [
+    "ev_7dba80bd808f"
+   ],
+   "CHEM F333": [
+    "ev_2ee6c2f78d28"
+   ],
+   "CHEM F334": [
+    "ev_6f2ad84191a6"
+   ],
+   "CHEM F335": [
+    "ev_6adf5d7c1ee3"
+   ],
+   "CHEM F336": [
+    "ev_2c82beb78383"
+   ],
+   "CHEM F337": [
+    "ev_b65beda87555"
+   ],
+   "CHEM F341": [
+    "ev_cb3165df6093"
+   ],
+   "CHEM F342": [
+    "ev_9819517026ff"
+   ],
+   "CHEM F343": [
+    "ev_ad66fe576d93"
+   ],
+   "CHEM F412": [
+    "ev_5fe8f59de0df"
+   ],
+   "CHEM F413": [
+    "ev_556b21887962"
+   ],
+   "CHEM F414": [
+    "ev_c22722aa3f12"
+   ],
+   "CHEM F415": [
+    "ev_064ed2337fc8"
+   ],
+   "CHEM F416": [
+    "ev_c0beca144ab8"
+   ],
+   "CHEM F422": [
+    "ev_b03c513030b7"
+   ],
+   "CHEM F423": [
+    "ev_be6925157436"
+   ],
+   "CHEM F430": [
+    "ev_29a9835154ea"
+   ],
+   "CHEM F431": [
+    "ev_a012714d5268"
+   ],
+   "CHEM G513": [
+    "ev_111671309e1c"
+   ],
+   "CHEM G521": [
+    "ev_4aa38ba15e18"
+   ],
+   "CHEM G541": [
+    "ev_959097eb01d8"
+   ],
+   "CHEM G555": [
+    "ev_b6a7d57800fa"
+   ],
+   "CHEM G556": [
+    "ev_3cae26302e1f"
+   ],
+   "CHEM G557": [
+    "ev_4a8de3121526"
+   ],
+   "CHEM G558": [
+    "ev_f696b1abd92f"
+   ],
+   "CHEM G559": [
+    "ev_d49faf0b038f"
+   ],
+   "CHEM G561": [
+    "ev_3d450cb97501"
+   ],
+   "CHEM G562": [
+    "ev_68ca01d43d8b"
+   ],
+   "CHEM G563": [
+    "ev_268339a1a73a"
+   ],
+   "PHY F212": [
+    "ev_0752602606d8"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "CHEM",
+  "elective_groups": {},
+  "electives": [
+   "CHEM F223",
+   "CHEM F320",
+   "CHEM F323",
+   "CHEM F324",
+   "CHEM F325",
+   "CHEM F326",
+   "CHEM F327",
+   "CHEM F328",
+   "CHEM F329",
+   "CHEM F330",
+   "CHEM F333",
+   "CHEM F334",
+   "CHEM F335",
+   "CHEM F336",
+   "CHEM F337",
+   "CHEM F412",
+   "CHEM F413",
+   "CHEM F414",
+   "CHEM F415",
+   "CHEM F416",
+   "CHEM F422",
+   "CHEM F423",
+   "CHEM F430",
+   "CHEM F431",
+   "CHEM G513",
+   "CHEM G521",
+   "CHEM G541",
+   "CHEM G555",
+   "CHEM G556",
+   "CHEM G557",
+   "CHEM G558",
+   "CHEM G559",
+   "CHEM G561",
+   "CHEM G562",
+   "CHEM G563"
+  ],
+  "id": "MSC-CHEMISTRY",
+  "list_evidence": [
+   "ev_f13e67842f41",
+   "ev_53c428cb8c07"
+  ],
+  "list_heading": "CHEMISTRY",
+  "name": "M.Sc. Chemistry",
+  "units": {
+   "CHEM F211": 3,
+   "CHEM F212": 3,
+   "CHEM F213": 3,
+   "CHEM F214": 3,
+   "CHEM F223": 3,
+   "CHEM F241": 3,
+   "CHEM F242": 3,
+   "CHEM F243": 3,
+   "CHEM F244": 3,
+   "CHEM F311": 3,
+   "CHEM F312": 3,
+   "CHEM F313": 4,
+   "CHEM F320": 2,
+   "CHEM F323": 3,
+   "CHEM F324": 4,
+   "CHEM F325": 3,
+   "CHEM F326": 3,
+   "CHEM F327": 3,
+   "CHEM F328": 3,
+   "CHEM F329": 4,
+   "CHEM F330": 4,
+   "CHEM F333": 3,
+   "CHEM F334": 3,
+   "CHEM F335": 3,
+   "CHEM F336": 4,
+   "CHEM F337": 3,
+   "CHEM F341": 4,
+   "CHEM F342": 3,
+   "CHEM F343": 3,
+   "CHEM F412": 3,
+   "CHEM F413": 4,
+   "CHEM F414": 3,
+   "CHEM F415": 3,
+   "CHEM F416": 3,
+   "CHEM F422": 3,
+   "CHEM F423": 3,
+   "CHEM F430": 3,
+   "CHEM F431": 3,
+   "CHEM G513": 5,
+   "CHEM G521": 5,
+   "CHEM G541": 5,
+   "CHEM G555": 4,
+   "CHEM G556": 4,
+   "CHEM G557": 4,
+   "CHEM G558": 5,
+   "CHEM G559": 4,
+   "CHEM G561": 5,
+   "CHEM G562": 4,
+   "CHEM G563": 5,
+   "PHY F212": 3
+  }
+ },
+ "MSC-ECONOMICS": {
+  "compulsory_electives": [],
+  "core": [
+   "ECON F211",
+   "ECON F212",
+   "ECON F213",
+   "ECON F214",
+   "ECON F241",
+   "ECON F242",
+   "ECON F243",
+   "ECON F244",
+   "ECON F311",
+   "ECON F312",
+   "ECON F313",
+   "ECON F341",
+   "ECON F342",
+   "ECON F343"
+  ],
+  "course_evidence": {
+   "BITS F314": [
+    "ev_acfcbf39d8c2"
+   ],
+   "ECON F211": [
+    "ev_8fab5c14cc64"
+   ],
+   "ECON F212": [
+    "ev_f0abc92f2183"
+   ],
+   "ECON F213": [
+    "ev_f446326e3274"
+   ],
+   "ECON F214": [
+    "ev_88f963db0061"
+   ],
+   "ECON F215": [
+    "ev_51ff5c8bf7af"
+   ],
+   "ECON F241": [
+    "ev_1bbb3c9fb516"
+   ],
+   "ECON F242": [
+    "ev_cdb6e4ee792f"
+   ],
+   "ECON F243": [
+    "ev_1d71afa2cddd"
+   ],
+   "ECON F244": [
+    "ev_967d1d4c930a"
+   ],
+   "ECON F311": [
+    "ev_86f2a3003f62"
+   ],
+   "ECON F312": [
+    "ev_e2a9e367b92e"
+   ],
+   "ECON F313": [
+    "ev_bc138f76900d"
+   ],
+   "ECON F314": [
+    "ev_4ba5935a49e9"
+   ],
+   "ECON F315": [
+    "ev_4aeb190b5250"
+   ],
+   "ECON F341": [
+    "ev_6e4273a63252"
+   ],
+   "ECON F342": [
+    "ev_68993aac552d"
+   ],
+   "ECON F343": [
+    "ev_eed0981ec5e7"
+   ],
+   "ECON F345": [
+    "ev_40764d976802"
+   ],
+   "ECON F351": [
+    "ev_bfaeca55900f"
+   ],
+   "ECON F352": [
+    "ev_719c50f5c693"
+   ],
+   "ECON F353": [
+    "ev_d4a4bef9ab77"
+   ],
+   "ECON F354": [
+    "ev_9f1caae03e6e"
+   ],
+   "ECON F355": [
+    "ev_e4a1cf677a95"
+   ],
+   "ECON F356": [
+    "ev_8bbb55e7dc7d"
+   ],
+   "ECON F357": [
+    "ev_c568bdc7bcd2"
+   ],
+   "ECON F411": [
+    "ev_85e2d7125b44"
+   ],
+   "ECON F412": [
+    "ev_e58897755eb4"
+   ],
+   "ECON F413": [
+    "ev_906d2e17b949"
+   ],
+   "ECON F414": [
+    "ev_d2aa5da40667"
+   ],
+   "ECON F415": [
+    "ev_7d265385a9d6"
+   ],
+   "ECON F417": [
+    "ev_83e9eed2fb5c"
+   ],
+   "ECON F418": [
+    "ev_23cdd590c243"
+   ],
+   "ECON F419": [
+    "ev_5bf6c8625465"
+   ],
+   "ECON F420": [
+    "ev_6047ccfa040b"
+   ],
+   "ECON F422": [
+    "ev_5d145f892658"
+   ],
+   "ECON F434": [
+    "ev_10f7bd7daee3"
+   ],
+   "ECON F435": [
+    "ev_8ba99e7c8c2e"
+   ],
+   "ECON F471": [
+    "ev_081974f18c58"
+   ],
+   "FIN F314": [
+    "ev_e9f295b437b7"
+   ],
+   "FIN F414": [
+    "ev_9eb15001c3bb"
+   ],
+   "MATH F212": [
+    "ev_6a54aef30c38"
+   ],
+   "MATH F242": [
+    "ev_6724bd22d673"
+   ],
+   "MATH F424": [
+    "ev_47583e835fff"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "ECON",
+  "elective_groups": {},
+  "electives": [
+   "ECON F215",
+   "BITS F314",
+   "ECON F315",
+   "ECON F314",
+   "ECON F345",
+   "ECON F351",
+   "ECON F352",
+   "ECON F353",
+   "ECON F354",
+   "ECON F355",
+   "ECON F356",
+   "ECON F357",
+   "ECON F411",
+   "ECON F412",
+   "ECON F413",
+   "ECON F414",
+   "ECON F415",
+   "ECON F417",
+   "ECON F418",
+   "ECON F419",
+   "ECON F420",
+   "ECON F422",
+   "ECON F434",
+   "ECON F435",
+   "ECON F471",
+   "FIN F314",
+   "FIN F414",
+   "MATH F212",
+   "MATH F242",
+   "MATH F424"
+  ],
+  "id": "MSC-ECONOMICS",
+  "list_evidence": [
+   "ev_8fab5c14cc64",
+   "ev_51ff5c8bf7af"
+  ],
+  "list_heading": "ECONOMICS",
+  "name": "M.Sc. Economics",
+  "units": {
+   "BITS F314": 3,
+   "ECON F211": 3,
+   "ECON F212": 3,
+   "ECON F213": 3,
+   "ECON F214": 3,
+   "ECON F215": 3,
+   "ECON F241": 3,
+   "ECON F242": 3,
+   "ECON F243": 3,
+   "ECON F244": 3,
+   "ECON F311": 3,
+   "ECON F312": 3,
+   "ECON F313": 3,
+   "ECON F314": 3,
+   "ECON F315": 3,
+   "ECON F341": 3,
+   "ECON F342": 3,
+   "ECON F343": 3,
+   "ECON F345": 3,
+   "ECON F351": 3,
+   "ECON F352": 3,
+   "ECON F353": 3,
+   "ECON F354": 3,
+   "ECON F355": 3,
+   "ECON F356": 3,
+   "ECON F357": 3,
+   "ECON F411": 3,
+   "ECON F412": 3,
+   "ECON F413": 3,
+   "ECON F414": 3,
+   "ECON F415": 3,
+   "ECON F417": 3,
+   "ECON F418": 3,
+   "ECON F419": 3,
+   "ECON F420": 3,
+   "ECON F422": 3,
+   "ECON F434": 3,
+   "ECON F435": 3,
+   "ECON F471": 3,
+   "FIN F314": 3,
+   "FIN F414": 3,
+   "MATH F212": 3,
+   "MATH F242": 3,
+   "MATH F424": 4
+  }
+ },
+ "MSC-GENERAL-STUDIES-COMMUNICATION-AND-MEDIA-STUDIES-STREAM": {
+  "compulsory_electives": [],
+  "core": [
+   "GS F221",
+   "GS F222",
+   "GS F223",
+   "GS F224",
+   "GS F241",
+   "GS F243",
+   "GS F244",
+   "GS F245",
+   "GS F321",
+   "GS F322",
+   "GS F342",
+   "GS F343"
+  ],
+  "course_evidence": {
+   "BITS F385": [
+    "ev_741879b72c50"
+   ],
+   "GS F211": [
+    "ev_db7a6a0b596a"
+   ],
+   "GS F212": [
+    "ev_4dcbf00e4b7a"
+   ],
+   "GS F221": [
+    "ev_099c031ff117"
+   ],
+   "GS F222": [
+    "ev_db8a9d1c3ac0"
+   ],
+   "GS F223": [
+    "ev_4a44dd86dea1"
+   ],
+   "GS F224": [
+    "ev_cacbb63ca147"
+   ],
+   "GS F231": [
+    "ev_0304dc4e0eb0"
+   ],
+   "GS F232": [
+    "ev_58242816ad35"
+   ],
+   "GS F234": [
+    "ev_f4bf1b581a4e"
+   ],
+   "GS F241": [
+    "ev_d808575dd774"
+   ],
+   "GS F242": [
+    "ev_832b2723914a"
+   ],
+   "GS F243": [
+    "ev_6241e13a0982"
+   ],
+   "GS F244": [
+    "ev_fc87497db8bf"
+   ],
+   "GS F245": [
+    "ev_22aa76ad6d77"
+   ],
+   "GS F311": [
+    "ev_b9a9820d63f6"
+   ],
+   "GS F312": [
+    "ev_cdb71da731a7"
+   ],
+   "GS F313": [
+    "ev_003c7631c9d2"
+   ],
+   "GS F321": [
+    "ev_482889881656"
+   ],
+   "GS F322": [
+    "ev_7031c17c397a"
+   ],
+   "GS F325": [
+    "ev_aa4ebc7edc33"
+   ],
+   "GS F326": [
+    "ev_3e076986618d"
+   ],
+   "GS F327": [
+    "ev_93603d64d75d"
+   ],
+   "GS F331": [
+    "ev_76f9d7f99a0b"
+   ],
+   "GS F333": [
+    "ev_84c1b4db98a1"
+   ],
+   "GS F334": [
+    "ev_4a0a7b5ea150"
+   ],
+   "GS F342": [
+    "ev_c3d690357f36"
+   ],
+   "GS F343": [
+    "ev_110c443e15fc"
+   ],
+   "GS F344": [
+    "ev_fb32b4eef409"
+   ],
+   "HSS F227": [
+    "ev_00848080ae0d"
+   ],
+   "HSS F232": [
+    "ev_48def569b6af"
+   ],
+   "HSS F247": [
+    "ev_96873395dd38"
+   ],
+   "HSS F315": [
+    "ev_6d8cff383e04"
+   ],
+   "HSS F317": [
+    "ev_066b4b5a4ce3"
+   ],
+   "HSS F319": [
+    "ev_521b55b06f21"
+   ],
+   "HSS F323": [
+    "ev_0eb197cf37e8"
+   ],
+   "HSS F328": [
+    "ev_07e46f8593af"
+   ],
+   "HSS F341": [
+    "ev_a68bfb4a613e"
+   ],
+   "HSS F343": [
+    "ev_1d06eac52923"
+   ],
+   "HSS F346": [
+    "ev_be1c38ac29e8"
+   ],
+   "HSS F384": [
+    "ev_7665f1f5d8c8"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "GS",
+  "elective_groups": {},
+  "electives": [
+   "BITS F385",
+   "GS F211",
+   "GS F212",
+   "GS F231",
+   "GS F232",
+   "GS F234",
+   "GS F242",
+   "GS F311",
+   "GS F312",
+   "GS F313",
+   "GS F325",
+   "GS F326",
+   "GS F327",
+   "GS F331",
+   "GS F333",
+   "GS F334",
+   "GS F344",
+   "HSS F227",
+   "HSS F232",
+   "HSS F247",
+   "HSS F315",
+   "HSS F317",
+   "HSS F319",
+   "HSS F323",
+   "HSS F328",
+   "HSS F341",
+   "HSS F343",
+   "HSS F346",
+   "HSS F384"
+  ],
+  "id": "MSC-GENERAL-STUDIES-COMMUNICATION-AND-MEDIA-STUDIES-STREAM",
+  "list_evidence": [
+   "ev_099c031ff117",
+   "ev_741879b72c50"
+  ],
+  "list_heading": "GENERAL STUDIES – COMMUNICATION AND MEDIA STUDIES STREAM",
+  "name": "M.Sc. General Studies – Communication and Media Studies Stream",
+  "units": {
+   "BITS F385": 3,
+   "GS F211": 3,
+   "GS F212": 3,
+   "GS F221": 3,
+   "GS F222": 3,
+   "GS F223": 3,
+   "GS F224": 3,
+   "GS F231": 3,
+   "GS F232": 3,
+   "GS F234": 3,
+   "GS F241": 3,
+   "GS F242": 3,
+   "GS F243": 3,
+   "GS F244": 3,
+   "GS F245": 3,
+   "GS F311": 3,
+   "GS F312": 3,
+   "GS F313": 3,
+   "GS F321": 3,
+   "GS F322": 3,
+   "GS F325": 3,
+   "GS F326": 3,
+   "GS F327": 3,
+   "GS F331": 3,
+   "GS F333": 3,
+   "GS F334": 3,
+   "GS F342": 3,
+   "GS F343": 3,
+   "GS F344": 2,
+   "HSS F227": 3,
+   "HSS F232": 3,
+   "HSS F247": 3,
+   "HSS F315": 3,
+   "HSS F317": 3,
+   "HSS F319": 2,
+   "HSS F323": 3,
+   "HSS F328": 3,
+   "HSS F341": 3,
+   "HSS F343": 3,
+   "HSS F346": 3,
+   "HSS F384": 3
+  }
+ },
+ "MSC-GENERAL-STUDIES-DEVELOPMENT-STUDIES-STREAM": {
+  "compulsory_electives": [],
+  "core": [
+   "ECON F211",
+   "GS F211",
+   "GS F212",
+   "GS F213",
+   "GS F231",
+   "GS F232",
+   "GS F233",
+   "GS F234",
+   "GS F311",
+   "GS F312",
+   "GS F331",
+   "GS F332",
+   "GS F333",
+   "GS F334"
+  ],
+  "course_evidence": {
+   "BITS F214": [
+    "ev_5b6f1b893b70"
+   ],
+   "BITS F385": [
+    "ev_554ad39fedbc"
+   ],
+   "BITS F399": [
+    "ev_8cb614206063"
+   ],
+   "ECON F211": [
+    "ev_0f28042309bd"
+   ],
+   "GS F211": [
+    "ev_c3a78fe8f992"
+   ],
+   "GS F212": [
+    "ev_59208d6a977a"
+   ],
+   "GS F213": [
+    "ev_4c4d72054cbb"
+   ],
+   "GS F231": [
+    "ev_ad479434640d"
+   ],
+   "GS F232": [
+    "ev_8df023563338"
+   ],
+   "GS F233": [
+    "ev_4e1e7ecdedbb"
+   ],
+   "GS F234": [
+    "ev_5bfaca3ab0ba"
+   ],
+   "GS F311": [
+    "ev_76f1a27ef2e5"
+   ],
+   "GS F312": [
+    "ev_76b3ed01f4d4"
+   ],
+   "GS F313": [
+    "ev_d1a58e6efb5e"
+   ],
+   "GS F331": [
+    "ev_0889e4a8da6b"
+   ],
+   "GS F332": [
+    "ev_6d844a5fbae1"
+   ],
+   "GS F333": [
+    "ev_b0ddc822e4ed"
+   ],
+   "GS F334": [
+    "ev_3396e6ade26e"
+   ],
+   "HSS F233": [
+    "ev_a320eba2f730"
+   ],
+   "HSS F234": [
+    "ev_fac3601f16d1"
+   ],
+   "HSS F235": [
+    "ev_b0f989d69b22"
+   ],
+   "HSS F236": [
+    "ev_e032a9364960"
+   ],
+   "HSS F247": [
+    "ev_b4f4f816ba8f"
+   ],
+   "HSS F312": [
+    "ev_c7745294ea59"
+   ],
+   "HSS F315": [
+    "ev_075aa8d1c100"
+   ],
+   "HSS F343": [
+    "ev_a5fed6b6cf03"
+   ],
+   "HSS F344": [
+    "ev_909846af3d45"
+   ],
+   "HSS F345": [
+    "ev_7a491b9a9646"
+   ],
+   "HSS F346": [
+    "ev_00899059cb73"
+   ],
+   "HSS F384": [
+    "ev_90921128c655"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "GS",
+  "elective_groups": {},
+  "electives": [
+   "BITS F214",
+   "BITS F385",
+   "BITS F399",
+   "GS F313",
+   "HSS F233",
+   "HSS F234",
+   "HSS F235",
+   "HSS F236",
+   "HSS F247",
+   "HSS F312",
+   "HSS F315",
+   "HSS F343",
+   "HSS F344",
+   "HSS F345",
+   "HSS F346",
+   "HSS F384"
+  ],
+  "id": "MSC-GENERAL-STUDIES-DEVELOPMENT-STUDIES-STREAM",
+  "list_evidence": [
+   "ev_0f28042309bd",
+   "ev_5b6f1b893b70"
+  ],
+  "list_heading": "GENERAL STUDIES – DEVELOPMENT STUDIES STREAM",
+  "name": "M.Sc. General Studies – Development Studies Stream",
+  "units": {
+   "BITS F214": 3,
+   "BITS F385": 3,
+   "BITS F399": 3,
+   "ECON F211": 3,
+   "GS F211": 3,
+   "GS F212": 3,
+   "GS F213": 3,
+   "GS F231": 3,
+   "GS F232": 3,
+   "GS F233": 3,
+   "GS F234": 3,
+   "GS F311": 3,
+   "GS F312": 3,
+   "GS F313": 3,
+   "GS F331": 3,
+   "GS F332": 3,
+   "GS F333": 3,
+   "GS F334": 3,
+   "HSS F233": 3,
+   "HSS F234": 3,
+   "HSS F235": 3,
+   "HSS F236": 3,
+   "HSS F247": 3,
+   "HSS F312": 3,
+   "HSS F315": 3,
+   "HSS F343": 3,
+   "HSS F344": 3,
+   "HSS F345": 3,
+   "HSS F346": 3,
+   "HSS F384": 3
+  }
+ },
+ "MSC-MATHEMATICS": {
+  "compulsory_electives": [],
+  "core": [
+   "MATH F212",
+   "MATH F213",
+   "MATH F214",
+   "MATH F215",
+   "MATH F241",
+   "MATH F242",
+   "MATH F243",
+   "MATH F244",
+   "MATH F311",
+   "MATH F312",
+   "MATH F313",
+   "MATH F341",
+   "MATH F342",
+   "MATH F343"
+  ],
+  "course_evidence": {
+   "BITS F232": [
+    "ev_77bc5de0208a"
+   ],
+   "BITS F314": [
+    "ev_40b953448daa"
+   ],
+   "BITS F316": [
+    "ev_e0e7da37fedd"
+   ],
+   "BITS F343": [
+    "ev_faac8104807e"
+   ],
+   "BITS F368": [
+    "ev_f8f891c780dc"
+   ],
+   "BITS F463": [
+    "ev_b4d68fd0498d"
+   ],
+   "CS F211": [
+    "ev_e89fbf3802c2"
+   ],
+   "CS F364": [
+    "ev_f716fe59acd2"
+   ],
+   "MAC F211": [
+    "ev_8a635713d71e"
+   ],
+   "MAC F244": [
+    "ev_55a41f9b05cc"
+   ],
+   "MAC F313": [
+    "ev_04406dda0075"
+   ],
+   "MAC F411": [
+    "ev_8b1c6dcc1ecf"
+   ],
+   "MATH F212": [
+    "ev_d5af84cf42bf"
+   ],
+   "MATH F213": [
+    "ev_fda115623703"
+   ],
+   "MATH F214": [
+    "ev_ab3070429ab1"
+   ],
+   "MATH F215": [
+    "ev_de0fbc40ce9b"
+   ],
+   "MATH F231": [
+    "ev_522933431812"
+   ],
+   "MATH F241": [
+    "ev_a82217c19f22"
+   ],
+   "MATH F242": [
+    "ev_6ab42156b29f"
+   ],
+   "MATH F243": [
+    "ev_0aad8066ab0d"
+   ],
+   "MATH F244": [
+    "ev_4460e461b014"
+   ],
+   "MATH F311": [
+    "ev_e64bb9379ff5"
+   ],
+   "MATH F312": [
+    "ev_0ebbfb725123"
+   ],
+   "MATH F313": [
+    "ev_933e8fece8a3"
+   ],
+   "MATH F314": [
+    "ev_471d371d8c8c"
+   ],
+   "MATH F315": [
+    "ev_6457776d4c06"
+   ],
+   "MATH F316": [
+    "ev_d46714ad1295"
+   ],
+   "MATH F317": [
+    "ev_cfc42429cb29"
+   ],
+   "MATH F341": [
+    "ev_4010c6fc45e7"
+   ],
+   "MATH F342": [
+    "ev_1dc38af55eb1"
+   ],
+   "MATH F343": [
+    "ev_f6eb34a11548"
+   ],
+   "MATH F353": [
+    "ev_9da70c7995cb"
+   ],
+   "MATH F354": [
+    "ev_59a0dceb2702"
+   ],
+   "MATH F378": [
+    "ev_8f297b067217"
+   ],
+   "MATH F420": [
+    "ev_f91cde5f3aef"
+   ],
+   "MATH F421": [
+    "ev_0e9d61004fac"
+   ],
+   "MATH F422": [
+    "ev_6b0cb9f2e53b"
+   ],
+   "MATH F423": [
+    "ev_947067b1378b"
+   ],
+   "MATH F424": [
+    "ev_bfdb16214d77"
+   ],
+   "MATH F425": [
+    "ev_0ff4af0d3a26"
+   ],
+   "MATH F426": [
+    "ev_0db94dbb5b7b"
+   ],
+   "MATH F427": [
+    "ev_060753d83d34"
+   ],
+   "MATH F428": [
+    "ev_4e0dc0a835e6"
+   ],
+   "MATH F429": [
+    "ev_e2305065e6d7"
+   ],
+   "MATH F431": [
+    "ev_12f26fedf8f0"
+   ],
+   "MATH F432": [
+    "ev_a1756bb99bfe"
+   ],
+   "MATH F441": [
+    "ev_942fa217d032"
+   ],
+   "MATH F444": [
+    "ev_775dc1cb7f4a"
+   ],
+   "MATH F445": [
+    "ev_136fe915c637"
+   ],
+   "MATH F456": [
+    "ev_ecd74909c053"
+   ],
+   "MATH F471": [
+    "ev_4ff2513bb863"
+   ],
+   "MATH F481": [
+    "ev_c263722686d2"
+   ],
+   "MATH F492": [
+    "ev_c61f78a36706"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "MATH",
+  "elective_groups": {},
+  "electives": [
+   "BITS F314",
+   "BITS F316",
+   "BITS F343",
+   "BITS F368",
+   "BITS F463",
+   "CS F211",
+   "BITS F232",
+   "CS F364",
+   "MAC F211",
+   "MAC F244",
+   "MAC F313",
+   "MAC F411",
+   "MATH F231",
+   "MATH F314",
+   "MATH F315",
+   "MATH F316",
+   "MATH F317",
+   "MATH F353",
+   "MATH F354",
+   "MATH F378",
+   "MATH F420",
+   "MATH F421",
+   "MATH F422",
+   "MATH F423",
+   "MATH F424",
+   "MATH F425",
+   "MATH F426",
+   "MATH F427",
+   "MATH F428",
+   "MATH F429",
+   "MATH F431",
+   "MATH F432",
+   "MATH F441",
+   "MATH F444",
+   "MATH F445",
+   "MATH F456",
+   "MATH F471",
+   "MATH F481",
+   "MATH F492"
+  ],
+  "id": "MSC-MATHEMATICS",
+  "list_evidence": [
+   "ev_d5af84cf42bf",
+   "ev_40b953448daa"
+  ],
+  "list_heading": "MATHEMATICS",
+  "name": "M.Sc. Mathematics",
+  "units": {
+   "BITS F232": 1,
+   "BITS F314": 3,
+   "BITS F316": 3,
+   "BITS F343": 3,
+   "BITS F368": 3,
+   "BITS F463": 3,
+   "CS F211": null,
+   "CS F364": 3,
+   "MAC F211": 3,
+   "MAC F244": 3,
+   "MAC F313": 4,
+   "MAC F411": 4,
+   "MATH F212": 3,
+   "MATH F213": 3,
+   "MATH F214": 3,
+   "MATH F215": 3,
+   "MATH F231": 3,
+   "MATH F241": 3,
+   "MATH F242": 3,
+   "MATH F243": 3,
+   "MATH F244": 3,
+   "MATH F311": 3,
+   "MATH F312": 3,
+   "MATH F313": 3,
+   "MATH F314": 3,
+   "MATH F315": 3,
+   "MATH F316": 4,
+   "MATH F317": 4,
+   "MATH F341": 3,
+   "MATH F342": 3,
+   "MATH F343": 3,
+   "MATH F353": 3,
+   "MATH F354": 3,
+   "MATH F378": 3,
+   "MATH F420": 4,
+   "MATH F421": 3,
+   "MATH F422": 4,
+   "MATH F423": 3,
+   "MATH F424": 4,
+   "MATH F425": 4,
+   "MATH F426": 4,
+   "MATH F427": 4,
+   "MATH F428": 4,
+   "MATH F429": 3,
+   "MATH F431": 3,
+   "MATH F432": 3,
+   "MATH F441": 3,
+   "MATH F444": 3,
+   "MATH F445": 3,
+   "MATH F456": 3,
+   "MATH F471": 3,
+   "MATH F481": 3,
+   "MATH F492": 4
+  }
+ },
+ "MSC-PHYSICS": {
+  "compulsory_electives": [],
+  "core": [
+   "PHY F211",
+   "PHY F212",
+   "PHY F213",
+   "PHY F214",
+   "PHY F241",
+   "PHY F242",
+   "PHY F243",
+   "PHY F244",
+   "PHY F311",
+   "PHY F312",
+   "PHY F313",
+   "PHY F341",
+   "PHY F342",
+   "PHY F343",
+   "PHY F344"
+  ],
+  "course_evidence": {
+   "BIO F215": [
+    "ev_83d9fd7e2fd4"
+   ],
+   "BITS F316": [
+    "ev_ccb830076a9b"
+   ],
+   "BITS F317": [
+    "ev_cf8c5ad9e164"
+   ],
+   "BITS F386": [
+    "ev_c5a4761bdb1a"
+   ],
+   "BITS F416": [
+    "ev_78dfe72e041a"
+   ],
+   "BITS F417": [
+    "ev_077afea63ff6"
+   ],
+   "BITS F446": [
+    "ev_94ff056cd1ed"
+   ],
+   "EEE F426": [
+    "ev_970aceffea5b"
+   ],
+   "MATH F424": [
+    "ev_bf1e6439c7ca"
+   ],
+   "MATH F456": [
+    "ev_1ebc5e4bd061"
+   ],
+   "PHY F211": [
+    "ev_6848d2f65d0e"
+   ],
+   "PHY F212": [
+    "ev_fdc6965c4f32"
+   ],
+   "PHY F213": [
+    "ev_4e3f87439bdc"
+   ],
+   "PHY F214": [
+    "ev_859722d20aa9"
+   ],
+   "PHY F215": [
+    "ev_d7a1bd2c6d70"
+   ],
+   "PHY F241": [
+    "ev_4e44f0474957"
+   ],
+   "PHY F242": [
+    "ev_65184d4affad"
+   ],
+   "PHY F243": [
+    "ev_6adbdde99bb0"
+   ],
+   "PHY F244": [
+    "ev_19640aad2ca8"
+   ],
+   "PHY F311": [
+    "ev_9ea46b8bc431"
+   ],
+   "PHY F312": [
+    "ev_47c9add523af"
+   ],
+   "PHY F313": [
+    "ev_ebcbdd8f9b40"
+   ],
+   "PHY F315": [
+    "ev_c1f231561620"
+   ],
+   "PHY F316": [
+    "ev_20c809138cbc"
+   ],
+   "PHY F317": [
+    "ev_b4fb8e18b548"
+   ],
+   "PHY F318": [
+    "ev_c76622406b83"
+   ],
+   "PHY F341": [
+    "ev_c70b231dd084"
+   ],
+   "PHY F342": [
+    "ev_34ccb6c84a41"
+   ],
+   "PHY F343": [
+    "ev_8c57ce4dcd35"
+   ],
+   "PHY F344": [
+    "ev_078faa5295c4"
+   ],
+   "PHY F346": [
+    "ev_cf25f658362b"
+   ],
+   "PHY F378": [
+    "ev_6bdbcb55d49e"
+   ],
+   "PHY F379": [
+    "ev_3fa1715c4c8c"
+   ],
+   "PHY F412": [
+    "ev_287123503c67"
+   ],
+   "PHY F413": [
+    "ev_aa7baafd9a6f"
+   ],
+   "PHY F414": [
+    "ev_748fe825a792"
+   ],
+   "PHY F415": [
+    "ev_9190c3c28a0e"
+   ],
+   "PHY F416": [
+    "ev_10e307201df7"
+   ],
+   "PHY F417": [
+    "ev_612cfe457472"
+   ],
+   "PHY F418": [
+    "ev_890111dcaffd"
+   ],
+   "PHY F419": [
+    "ev_59a4d0a05cac"
+   ],
+   "PHY F420": [
+    "ev_26941a86c020"
+   ],
+   "PHY F421": [
+    "ev_0ef31d40702d"
+   ],
+   "PHY F422": [
+    "ev_6d6ef24ff3bf"
+   ],
+   "PHY F423": [
+    "ev_d185144fd8ae"
+   ],
+   "PHY F424": [
+    "ev_b8337d512fe4"
+   ],
+   "PHY F425": [
+    "ev_9ff07e2edeca"
+   ],
+   "PHY F426": [
+    "ev_b2bbd95d1d8a"
+   ],
+   "PHY F427": [
+    "ev_4ec8e0efab67"
+   ],
+   "PHY F428": [
+    "ev_f93dbbe2c2bb"
+   ],
+   "PHY F431": [
+    "ev_b8993e24d12b"
+   ],
+   "PHY F432": [
+    "ev_76e067c2e86e"
+   ],
+   "PHY F433": [
+    "ev_c2eed0fe2602"
+   ],
+   "PHY F434": [
+    "ev_aa2140817608"
+   ],
+   "PHY F435": [
+    "ev_befbb943f8d9"
+   ],
+   "PHY F438": [
+    "ev_33bac3d0b9ce"
+   ],
+   "PHY G512": [
+    "ev_adb5ce3dac9b"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "PHY",
+  "elective_groups": {},
+  "electives": [
+   "BIO F215",
+   "BITS F316",
+   "BITS F317",
+   "BITS F386",
+   "BITS F416",
+   "BITS F417",
+   "BITS F446",
+   "EEE F426",
+   "MATH F424",
+   "MATH F456",
+   "PHY F215",
+   "PHY F315",
+   "PHY F316",
+   "PHY F317",
+   "PHY F318",
+   "PHY F346",
+   "PHY F378",
+   "PHY F379",
+   "PHY F412",
+   "PHY F413",
+   "PHY F414",
+   "PHY F415",
+   "PHY F416",
+   "PHY F417",
+   "PHY F418",
+   "PHY F419",
+   "PHY F420",
+   "PHY F421",
+   "PHY F422",
+   "PHY F423",
+   "PHY F424",
+   "PHY F425",
+   "PHY F426",
+   "PHY F427",
+   "PHY F428",
+   "PHY F431",
+   "PHY F432",
+   "PHY F433",
+   "PHY F434",
+   "PHY F435",
+   "PHY F438",
+   "PHY G512"
+  ],
+  "id": "MSC-PHYSICS",
+  "list_evidence": [
+   "ev_6848d2f65d0e",
+   "ev_83d9fd7e2fd4"
+  ],
+  "list_heading": "PHYSICS",
+  "name": "M.Sc. Physics",
+  "units": {
+   "BIO F215": 3,
+   "BITS F316": 3,
+   "BITS F317": 3,
+   "BITS F386": 3,
+   "BITS F416": 3,
+   "BITS F417": 4,
+   "BITS F446": 3,
+   "EEE F426": 3,
+   "MATH F424": 4,
+   "MATH F456": 3,
+   "PHY F211": 4,
+   "PHY F212": 3,
+   "PHY F213": 3,
+   "PHY F214": 2,
+   "PHY F215": 3,
+   "PHY F241": 4,
+   "PHY F242": 3,
+   "PHY F243": 3,
+   "PHY F244": 2,
+   "PHY F311": 3,
+   "PHY F312": 3,
+   "PHY F313": 3,
+   "PHY F315": 3,
+   "PHY F316": 3,
+   "PHY F317": 3,
+   "PHY F318": 3,
+   "PHY F341": 3,
+   "PHY F342": 3,
+   "PHY F343": 3,
+   "PHY F344": 3,
+   "PHY F346": 3,
+   "PHY F378": 3,
+   "PHY F379": 3,
+   "PHY F412": 4,
+   "PHY F413": 4,
+   "PHY F414": 4,
+   "PHY F415": 4,
+   "PHY F416": 4,
+   "PHY F417": 4,
+   "PHY F418": 4,
+   "PHY F419": 4,
+   "PHY F420": 4,
+   "PHY F421": 4,
+   "PHY F422": 4,
+   "PHY F423": 4,
+   "PHY F424": 4,
+   "PHY F425": 4,
+   "PHY F426": 4,
+   "PHY F427": 3,
+   "PHY F428": 3,
+   "PHY F431": 3,
+   "PHY F432": 4,
+   "PHY F433": 3,
+   "PHY F434": 3,
+   "PHY F435": 3,
+   "PHY F438": 3,
+   "PHY G512": 3
+  }
+ },
+ "MSC-PHYSICS-SPECIALIZATION-IN-SPACE-SCIENCE-AND-TECHNOLOGY": {
+  "compulsory_electives": [],
+  "core": [
+   "PHY F211",
+   "PHY F212",
+   "PHY F213",
+   "PHY F214",
+   "PHY F241",
+   "PHY F242",
+   "PHY F243",
+   "PHY F244",
+   "PHY F311",
+   "PHY F312",
+   "PHY F313",
+   "PHY F341",
+   "PHY F342",
+   "PHY F343",
+   "PHY F344"
+  ],
+  "course_evidence": {
+   "CE F433": [
+    "ev_0288af1ed9f1"
+   ],
+   "ECE F472": [
+    "ev_5a3579d45119"
+   ],
+   "MATH F456": [
+    "ev_9aa66a023393"
+   ],
+   "ME F418": [
+    "ev_c5d8569351cc"
+   ],
+   "PHY F211": [
+    "ev_41c27f1b10a6"
+   ],
+   "PHY F212": [
+    "ev_86136da670e6"
+   ],
+   "PHY F213": [
+    "ev_06261d795425"
+   ],
+   "PHY F214": [
+    "ev_a28181e2e233"
+   ],
+   "PHY F215": [
+    "ev_7b56bbf73b85"
+   ],
+   "PHY F241": [
+    "ev_c4eac1a2cee6"
+   ],
+   "PHY F242": [
+    "ev_247aad5ab3a7"
+   ],
+   "PHY F243": [
+    "ev_11cb30581074"
+   ],
+   "PHY F244": [
+    "ev_ffbf81dea0ed"
+   ],
+   "PHY F311": [
+    "ev_7522ea90903c"
+   ],
+   "PHY F312": [
+    "ev_e850fab5f299"
+   ],
+   "PHY F313": [
+    "ev_08d9c8086877"
+   ],
+   "PHY F317": [
+    "ev_9e2be0039e9c"
+   ],
+   "PHY F319": [
+    "ev_f2955a452459"
+   ],
+   "PHY F320": [
+    "ev_7b257d7cfdee"
+   ],
+   "PHY F341": [
+    "ev_3e026d7715ca"
+   ],
+   "PHY F342": [
+    "ev_3deb74846255"
+   ],
+   "PHY F343": [
+    "ev_37ec7e3170c4"
+   ],
+   "PHY F344": [
+    "ev_6c8f6a5d7b74"
+   ],
+   "PHY F415": [
+    "ev_db619eb1226e"
+   ],
+   "PHY F436": [
+    "ev_789e7fad7945"
+   ],
+   "PHY F437": [
+    "ev_4b92d0b0f332"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "PHY",
+  "elective_groups": {},
+  "electives": [
+   "CE F433",
+   "ECE F472",
+   "MATH F456",
+   "ME F418",
+   "PHY F215",
+   "PHY F317",
+   "PHY F319",
+   "PHY F320",
+   "PHY F415",
+   "PHY F436",
+   "PHY F437"
+  ],
+  "id": "MSC-PHYSICS-SPECIALIZATION-IN-SPACE-SCIENCE-AND-TECHNOLOGY",
+  "list_evidence": [
+   "ev_41c27f1b10a6",
+   "ev_0288af1ed9f1"
+  ],
+  "list_heading": "PHYSICS WITH SPECIALIZATION IN SPACE SCIENCE AND TECHNOLOGY",
+  "name": "M.Sc. Physics specialization in Space Science and Technology",
+  "units": {
+   "CE F433": 4,
+   "ECE F472": 3,
+   "MATH F456": 3,
+   "ME F418": 3,
+   "PHY F211": 4,
+   "PHY F212": 3,
+   "PHY F213": 3,
+   "PHY F214": 2,
+   "PHY F215": 3,
+   "PHY F241": 4,
+   "PHY F242": 3,
+   "PHY F243": 3,
+   "PHY F244": 2,
+   "PHY F311": 3,
+   "PHY F312": 3,
+   "PHY F313": 3,
+   "PHY F317": 3,
+   "PHY F319": 3,
+   "PHY F320": 3,
+   "PHY F341": 3,
+   "PHY F342": 3,
+   "PHY F343": 3,
+   "PHY F344": 3,
+   "PHY F415": 4,
+   "PHY F436": 4,
+   "PHY F437": 4
+  }
+ },
+ "MSC-SEMICONDUCTOR-AND-NANOSCIENCE": {
+  "compulsory_electives": [],
+  "core": [
+   "SNS F211",
+   "SNS F212",
+   "SNS F213",
+   "SNS F214",
+   "SNS F241",
+   "SNS F242",
+   "SNS F243",
+   "SNS F244",
+   "SNS F311",
+   "SNS F312",
+   "SNS F313",
+   "SNS F341",
+   "SNS F342",
+   "SNS F343"
+  ],
+  "course_evidence": {
+   "BIO F417": [
+    "ev_224fc6310df9"
+   ],
+   "BIO G510": [
+    "ev_46e663c28137"
+   ],
+   "BIOT F416": [
+    "ev_363b241afadf"
+   ],
+   "BIOT F423": [
+    "ev_af84bdc0cfb5"
+   ],
+   "BITS F415": [
+    "ev_c10e18fb6e2e"
+   ],
+   "BITS F418": [
+    "ev_d76df52aea1f"
+   ],
+   "BITS F429": [
+    "ev_72a9b8249e77"
+   ],
+   "BITS F467": [
+    "ev_58ef9079ca38"
+   ],
+   "CHE F415": [
+    "ev_ac86e188eb85"
+   ],
+   "CHE F433": [
+    "ev_3c1d4cbf0632"
+   ],
+   "CHE F498": [
+    "ev_e55bd7fd54c0"
+   ],
+   "CHEM F223": [
+    "ev_2128ae552308"
+   ],
+   "CHEM F327": [
+    "ev_84377bd2236d"
+   ],
+   "CHEM F328": [
+    "ev_9079f0d96ffc"
+   ],
+   "CHEM F333": [
+    "ev_79135739a811"
+   ],
+   "CHEM F414": [
+    "ev_0b4bee28dd2c"
+   ],
+   "ECE F423": [
+    "ev_4cdbd1d191c3"
+   ],
+   "EEE F419": [
+    "ev_540ba5889cf8"
+   ],
+   "EEE F477": [
+    "ev_c3161afd4db0"
+   ],
+   "ME F423": [
+    "ev_953185496183"
+   ],
+   "ME F452": [
+    "ev_18f5b96638e5"
+   ],
+   "MEL G514": [
+    "ev_cad8a243cf76"
+   ],
+   "MF F442": [
+    "ev_0c52aa2205d7"
+   ],
+   "MST F333": [
+    "ev_82b974316507"
+   ],
+   "MST F337": [
+    "ev_4ec344df766e"
+   ],
+   "MST F338": [
+    "ev_40d613ac7d34"
+   ],
+   "MST F339": [
+    "ev_356736cce4f3"
+   ],
+   "MST G522": [
+    "ev_24056ce6cff8"
+   ],
+   "PHY F414": [
+    "ev_083a0b9fb2d9"
+   ],
+   "PHY F419": [
+    "ev_4c1bb023b8dd"
+   ],
+   "SNS F211": [
+    "ev_4d61864942e7"
+   ],
+   "SNS F212": [
+    "ev_11ac04b20a46"
+   ],
+   "SNS F213": [
+    "ev_7f5d0142de4c"
+   ],
+   "SNS F214": [
+    "ev_ba9688e6a2a3"
+   ],
+   "SNS F241": [
+    "ev_d785d884df04"
+   ],
+   "SNS F242": [
+    "ev_47664fd95aa8"
+   ],
+   "SNS F243": [
+    "ev_eba4d8efdc98"
+   ],
+   "SNS F244": [
+    "ev_09a5b8f2a9ae"
+   ],
+   "SNS F311": [
+    "ev_4f1308c1d6ed"
+   ],
+   "SNS F312": [
+    "ev_8a11b2fd0261"
+   ],
+   "SNS F313": [
+    "ev_b73fe902b526"
+   ],
+   "SNS F315": [
+    "ev_e873b6fb9de7"
+   ],
+   "SNS F341": [
+    "ev_65cf398dcdfd"
+   ],
+   "SNS F342": [
+    "ev_94c1a33d45d4"
+   ],
+   "SNS F343": [
+    "ev_ad026bfd231c"
+   ],
+   "SNS F345": [
+    "ev_0fe70243e0dd"
+   ]
+  },
+  "degree": "M.Sc.",
+  "discipline_prefix": "SNS",
+  "elective_groups": {},
+  "electives": [
+   "BIO F417",
+   "BIO G510",
+   "BIOT F416",
+   "BIOT F423",
+   "BITS F415",
+   "BITS F418",
+   "BITS F429",
+   "BITS F467",
+   "CHE F415",
+   "CHE F433",
+   "CHE F498",
+   "CHEM F223",
+   "CHEM F327",
+   "CHEM F328",
+   "CHEM F333",
+   "CHEM F414",
+   "ECE F423",
+   "EEE F419",
+   "EEE F477",
+   "ME F423",
+   "ME F452",
+   "MEL G514",
+   "MF F442",
+   "MST F333",
+   "MST F337",
+   "MST F338",
+   "MST F339",
+   "MST G522",
+   "PHY F414",
+   "PHY F419",
+   "SNS F315",
+   "SNS F345"
+  ],
+  "id": "MSC-SEMICONDUCTOR-AND-NANOSCIENCE",
+  "list_evidence": [
+   "ev_4d61864942e7",
+   "ev_224fc6310df9"
+  ],
+  "list_heading": "SEMICONDUCTOR AND NANOSCIENCE",
+  "name": "M.Sc. Semiconductor and Nanoscience",
+  "units": {
+   "BIO F417": 3,
+   "BIO G510": 5,
+   "BIOT F416": 3,
+   "BIOT F423": 3,
+   "BITS F415": 4,
+   "BITS F418": 4,
+   "BITS F429": 4,
+   "BITS F467": 3,
+   "CHE F415": 3,
+   "CHE F433": 3,
+   "CHE F498": 3,
+   "CHEM F223": 3,
+   "CHEM F327": 3,
+   "CHEM F328": 3,
+   "CHEM F333": 3,
+   "CHEM F414": 3,
+   "ECE F423": 3,
+   "EEE F419": 4,
+   "EEE F477": 3,
+   "ME F423": 4,
+   "ME F452": 3,
+   "MEL G514": 5,
+   "MF F442": 3,
+   "MST F333": 3,
+   "MST F337": 3,
+   "MST F338": 3,
+   "MST F339": 3,
+   "MST G522": 5,
+   "PHY F414": 4,
+   "PHY F419": 4,
+   "SNS F211": 3,
+   "SNS F212": 3,
+   "SNS F213": 3,
+   "SNS F214": 3,
+   "SNS F241": 3,
+   "SNS F242": 3,
+   "SNS F243": 4,
+   "SNS F244": 3,
+   "SNS F311": 3,
+   "SNS F312": 3,
+   "SNS F313": 4,
+   "SNS F315": 3,
+   "SNS F341": 3,
+   "SNS F342": 3,
+   "SNS F343": 3,
+   "SNS F345": 3
+  }
+ }
+}
