@@ -784,55 +784,55 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "attendance": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "case_study": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "lab": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "presentation": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "project": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "quiz": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
     "status": "stated",
     "value": true,
@@ -840,16 +840,16 @@
    },
    "viva": {
     "evidence": [
-     "ev_85d48973d2eb"
+     "ev_49c9ec53c84e"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    }
   },
   "compre": {
    "evidence": [
-    "ev_85d48973d2eb"
+    "ev_49c9ec53c84e"
    ],
    "status": "stated",
    "value": true,
@@ -861,7 +861,7 @@
   "description": null,
   "doc_id": "doc_558b7ebd1cf4",
   "evaluation": {
-   "complete": false,
+   "complete": true,
    "components": [
     {
      "date_raw": "Every class",
@@ -873,6 +873,17 @@
      "weight": 5.0,
      "weight_normalized_from_marks": false,
      "weight_raw": "5%"
+    },
+    {
+     "date_raw": "08/10 FN1",
+     "duration_min": 90,
+     "name": "Mid Sem Exam",
+     "nature": null,
+     "page": 2,
+     "type": "midsem",
+     "weight": 30.0,
+     "weight_normalized_from_marks": false,
+     "weight_raw": "30%"
     },
     {
      "date_raw": "To be announced",
@@ -898,17 +909,17 @@
     }
    ],
    "method": "table",
-   "total_weight": 70.0
+   "total_weight": 100.0
   },
   "evidence": {
    "course_codes": [
     "ev_ec2b7e08d937"
    ],
    "evaluation": [
-    "ev_85d48973d2eb"
+    "ev_49c9ec53c84e"
    ]
   },
-  "extraction_status": "partial",
+  "extraction_status": "ok",
   "file_codes": [
    "GS F233"
   ],
@@ -922,15 +933,17 @@
    "text": []
   },
   "midsem": {
+   "duration_min": 90,
    "evidence": [
-    "ev_85d48973d2eb"
+    "ev_49c9ec53c84e"
    ],
-   "status": "unknown",
-   "value": null,
-   "weight": null
+   "nature": null,
+   "status": "stated",
+   "value": true,
+   "weight": 30.0
   },
   "nc_policy": null,
-  "open_book_weight": null,
+  "open_book_weight": 0,
   "pages": 3,
   "scope": "The objective of the course is to make the students aware of the art and craft of policy analysis. This course covers theories, processes and techniques of public policy making, monitoring and evaluation. The course also covers the international agencies and the globalization of policy agenda.",
   "sha256": "03fd214e559f308928ecb29686058271354ec5fd063eac1569111e493e3142df",
@@ -1142,7 +1155,7 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "stated",
     "value": true,
@@ -1150,7 +1163,7 @@
    },
    "attendance": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -1158,7 +1171,7 @@
    },
    "case_study": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -1166,7 +1179,7 @@
    },
    "lab": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -1174,7 +1187,7 @@
    },
    "presentation": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -1182,7 +1195,7 @@
    },
    "project": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -1190,7 +1203,7 @@
    },
    "quiz": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "stated",
     "value": true,
@@ -1198,7 +1211,7 @@
    },
    "viva": {
     "evidence": [
-     "ev_0e5bbcf6c108"
+     "ev_598e96c2a5a9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -1207,7 +1220,7 @@
   },
   "compre": {
    "evidence": [
-    "ev_0e5bbcf6c108"
+    "ev_598e96c2a5a9"
    ],
    "status": "stated",
    "value": true,
@@ -1222,51 +1235,47 @@
    "complete": true,
    "components": [
     {
-     "date_raw": "10/10 AN2",
+     "date_raw": null,
      "duration_min": 90,
      "name": "Mid-semester Examination",
      "nature": null,
      "page": 2,
      "type": "midsem",
      "weight": 25.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "25"
     },
     {
-     "date_raw": "To be announced in class",
+     "date_raw": null,
      "duration_min": null,
      "name": "Quiz",
      "nature": null,
      "page": 2,
      "type": "quiz",
      "weight": 10.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "10"
     },
     {
-     "date_raw": "To be announced in class",
+     "date_raw": null,
      "duration_min": null,
      "name": "Project/Assignment",
      "nature": null,
      "page": 2,
      "type": "assignment",
      "weight": 30.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "30"
     },
     {
-     "date_raw": "16/12 AN",
+     "date_raw": null,
      "duration_min": 180,
-     "name": "Comprehensive Examination",
+     "name": "Comprehensive",
      "nature": null,
      "page": 2,
      "type": "compre",
      "weight": 35.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "35"
     }
    ],
-   "method": "table",
+   "method": "text",
    "total_weight": 100.0
   },
   "evidence": {
@@ -1277,7 +1286,7 @@
     "ev_2615ecae25d5"
    ],
    "evaluation": [
-    "ev_0e5bbcf6c108"
+    "ev_598e96c2a5a9"
    ],
    "makeup": [
     "ev_f68a0c5d2839",
@@ -1315,7 +1324,7 @@
   "midsem": {
    "duration_min": 90,
    "evidence": [
-    "ev_0e5bbcf6c108"
+    "ev_598e96c2a5a9"
    ],
    "nature": null,
    "status": "stated",
@@ -7831,7 +7840,7 @@
  "ho_1d321ef36b48": {
   "attendance": {
    "mandatory_statements": [],
-   "marks_component": null,
+   "marks_component": false,
    "min_percentage": null,
    "not_mandatory_statements": [],
    "statements": [
@@ -7842,72 +7851,72 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "attendance": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "case_study": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "lab": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "stated",
+    "value": true,
+    "weight": 20.0
    },
    "presentation": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "project": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "quiz": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "viva": {
     "evidence": [
-     "ev_04032462372f"
+     "ev_8d12b5693d27"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    }
   },
   "compre": {
    "evidence": [
-    "ev_04032462372f"
+    "ev_8d12b5693d27"
    ],
    "status": "stated",
    "value": true,
@@ -7919,7 +7928,7 @@
   "description": "Basic concepts related to heat transfer, mass transfer and flow of fluid, processes and equipment involved in extraction and filtration; mixing and granulation; size reduction and classification, evaporation and distillation, drying and crystallization, humidification and dehumidification. Materials of construction. Theory of compression and consolidation of solids.",
   "doc_id": "doc_fc23f9257494",
   "evaluation": {
-   "complete": false,
+   "complete": true,
    "components": [
     {
      "date_raw": "TBA",
@@ -7931,6 +7940,17 @@
      "weight": 10.0,
      "weight_normalized_from_marks": false,
      "weight_raw": "[10%]"
+    },
+    {
+     "date_raw": null,
+     "duration_min": null,
+     "name": "Lab component",
+     "nature": null,
+     "page": 4,
+     "type": "lab",
+     "weight": 20.0,
+     "weight_normalized_from_marks": false,
+     "weight_raw": "[20%]"
     },
     {
      "date_raw": "As announced in the timetable",
@@ -7956,7 +7976,7 @@
     }
    ],
    "method": "table",
-   "total_weight": 80.0
+   "total_weight": 100.0
   },
   "evidence": {
    "attendance": [
@@ -7969,13 +7989,13 @@
     "ev_d8b5730a3f92"
    ],
    "evaluation": [
-    "ev_04032462372f"
+    "ev_8d12b5693d27"
    ],
    "makeup": [
     "ev_3f898e7ba8a8"
    ]
   },
-  "extraction_status": "partial",
+  "extraction_status": "ok",
   "file_codes": [
    "BITS F219"
   ],
@@ -8003,7 +8023,7 @@
   "midsem": {
    "duration_min": 90,
    "evidence": [
-    "ev_04032462372f"
+    "ev_8d12b5693d27"
    ],
    "nature": "open_or_closed_book",
    "status": "stated",
@@ -8011,7 +8031,7 @@
    "weight": 30.0
   },
   "nc_policy": null,
-  "open_book_weight": null,
+  "open_book_weight": 0,
   "pages": 4,
   "scope": "This course introduces students to the fundamental principles and practical aspects of pharmaceutical engineering, with a focus on key unit operations involved in the development and manufacturing of pharmaceutical formulations. It covers a wide range of processes including size reduction and separation, drying, evaporation, distillation, mixing, filtration, centrifugation, extraction, compression, crystallization, and materials of plant construction. The course emphasizes the selection, operation, and application of various equipment used in the pharmaceutical industry.",
   "sha256": "1d321ef36b48917d631ed669661c51ac669478a3a526184faa80d0749bba7754",
@@ -12019,7 +12039,7 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -12027,7 +12047,7 @@
    },
    "attendance": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -12035,7 +12055,7 @@
    },
    "case_study": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -12043,7 +12063,7 @@
    },
    "lab": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -12051,7 +12071,7 @@
    },
    "presentation": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -12059,7 +12079,7 @@
    },
    "project": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "stated",
     "value": true,
@@ -12067,7 +12087,7 @@
    },
    "quiz": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "stated",
     "value": true,
@@ -12075,7 +12095,7 @@
    },
    "viva": {
     "evidence": [
-     "ev_4a568d683977"
+     "ev_0b86247880d9"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -12084,7 +12104,7 @@
   },
   "compre": {
    "evidence": [
-    "ev_4a568d683977"
+    "ev_0b86247880d9"
    ],
    "status": "stated",
    "value": true,
@@ -12099,67 +12119,73 @@
    "complete": true,
    "components": [
     {
-     "date_raw": null,
+     "date_raw": "August 24th, 2026 (Class hour)",
      "duration_min": 50,
-     "name": "Class Quiz 1",
+     "name": "Announced Class Quiz 1",
      "nature": "open_book",
      "page": 3,
      "type": "quiz",
      "weight": 5.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "5%"
     },
     {
-     "date_raw": null,
+     "date_raw": "September 23rd, 2026 (Class hour)",
      "duration_min": 50,
-     "name": "Class Quiz 2",
+     "name": "Announced Class Quiz 2",
      "nature": "open_book",
      "page": 3,
      "type": "quiz",
      "weight": 5.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "5%"
     },
     {
-     "date_raw": null,
+     "date_raw": "November 16th, 2026 (Class hour)",
      "duration_min": 50,
-     "name": "Class Quiz 3",
+     "name": "Announced Class Quiz 3",
      "nature": "open_book",
      "page": 3,
      "type": "quiz",
      "weight": 5.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "5%"
     },
     {
-     "date_raw": null,
+     "date_raw": "November 15th, 2026",
      "duration_min": null,
      "name": "Course Project",
      "nature": "open_book",
      "page": 3,
      "type": "project",
      "weight": 25.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "25%"
     },
     {
-     "date_raw": null,
+     "date_raw": "<TEST_1>",
      "duration_min": 90,
-     "name": "Mid-Semester",
+     "name": "Mid-Semester Examination",
      "nature": "open_book",
      "page": 3,
      "type": "midsem",
      "weight": 25.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "25%"
     },
     {
-     "date_raw": null,
+     "date_raw": "<TEST_C>",
      "duration_min": 180,
-     "name": "Comprehensive",
+     "name": "Comprehensive Examination",
      "nature": "open_or_closed_book",
-     "page": 3,
+     "page": 4,
      "type": "compre",
      "weight": 35.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "35%"
     }
    ],
-   "method": "text",
+   "method": "table",
    "total_weight": 100.0
   },
   "evidence": {
@@ -12170,7 +12196,7 @@
     "ev_7da3430c66f5"
    ],
    "evaluation": [
-    "ev_4a568d683977"
+    "ev_0b86247880d9"
    ],
    "makeup": [
     "ev_8bc76d5cb4c5"
@@ -12204,7 +12230,7 @@
   "midsem": {
    "duration_min": 90,
    "evidence": [
-    "ev_4a568d683977"
+    "ev_0b86247880d9"
    ],
    "nature": "open_book",
    "status": "stated",
@@ -16399,7 +16425,7 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "unknown",
     "value": null,
@@ -16407,7 +16433,7 @@
    },
    "attendance": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "unknown",
     "value": null,
@@ -16415,7 +16441,7 @@
    },
    "case_study": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "unknown",
     "value": null,
@@ -16423,7 +16449,7 @@
    },
    "lab": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "unknown",
     "value": null,
@@ -16431,7 +16457,7 @@
    },
    "presentation": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "unknown",
     "value": null,
@@ -16439,7 +16465,7 @@
    },
    "project": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "unknown",
     "value": null,
@@ -16447,7 +16473,7 @@
    },
    "quiz": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "stated",
     "value": true,
@@ -16455,7 +16481,7 @@
    },
    "viva": {
     "evidence": [
-     "ev_2cb4ac5ccb42"
+     "ev_26e52c2febcf"
     ],
     "status": "unknown",
     "value": null,
@@ -16464,11 +16490,11 @@
   },
   "compre": {
    "evidence": [
-    "ev_2cb4ac5ccb42"
+    "ev_26e52c2febcf"
    ],
-   "status": "stated",
-   "value": true,
-   "weight": 50.0
+   "status": "unknown",
+   "value": null,
+   "weight": null
   },
   "course_codes": [
    "ECON F214"
@@ -16479,63 +16505,48 @@
    "complete": false,
    "components": [
     {
-     "date_raw": "21st August, 2026",
+     "date_raw": null,
      "duration_min": 30,
      "name": "Quiz-1",
      "nature": null,
      "page": 5,
      "type": "quiz",
      "weight": 10.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "10 (20 Marks)"
     },
     {
-     "date_raw": "18th September, 2026",
+     "date_raw": null,
      "duration_min": 30,
      "name": "Quiz-2",
      "nature": null,
      "page": 5,
      "type": "quiz",
      "weight": 10.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "10 (20 Marks)"
     },
     {
-     "date_raw": "See the timetable",
+     "date_raw": null,
      "duration_min": 90,
-     "name": "Mid-Semester Examination",
+     "name": "Mid-Semester",
      "nature": null,
      "page": 5,
      "type": "midsem",
      "weight": 30.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "30 (60 Marks)"
     },
     {
-     "date_raw": "6th November, 2026",
+     "date_raw": null,
      "duration_min": 30,
      "name": "Quiz-3",
      "nature": null,
      "page": 5,
      "type": "quiz",
      "weight": 10.0,
-     "weight_normalized_from_marks": false,
      "weight_raw": "10 (20 Marks)"
-    },
-    {
-     "date_raw": "See the timetable",
-     "duration_min": 180,
-     "name": "Comprehensive Examination",
-     "nature": null,
-     "page": 5,
-     "type": "compre",
-     "weight": 50.0,
-     "weight_normalized_from_marks": false,
-     "weight_raw": "50 (100 Marks)"
     }
    ],
-   "method": "table",
-   "total_weight": 110.0
+   "method": "text",
+   "total_weight": 60.0
   },
   "evidence": {
    "attendance": [
@@ -16548,7 +16559,7 @@
     "ev_f0de33585045"
    ],
    "evaluation": [
-    "ev_2cb4ac5ccb42"
+    "ev_26e52c2febcf"
    ],
    "makeup": [
     "ev_9b0a82cd46c4",
@@ -16587,7 +16598,7 @@
   "midsem": {
    "duration_min": 90,
    "evidence": [
-    "ev_2cb4ac5ccb42"
+    "ev_26e52c2febcf"
    ],
    "nature": null,
    "status": "stated",
@@ -22261,15 +22272,15 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "status": "stated",
+    "value": true,
+    "weight": 35.0
    },
    "attendance": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
     "status": "stated",
     "value": true,
@@ -22277,7 +22288,7 @@
    },
    "case_study": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -22285,7 +22296,7 @@
    },
    "lab": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -22293,7 +22304,7 @@
    },
    "presentation": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -22301,7 +22312,7 @@
    },
    "project": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -22309,7 +22320,7 @@
    },
    "quiz": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -22317,7 +22328,7 @@
    },
    "viva": {
     "evidence": [
-     "ev_92eb2222c623"
+     "ev_94a0fe3ac629"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -22326,7 +22337,7 @@
   },
   "compre": {
    "evidence": [
-    "ev_92eb2222c623"
+    "ev_94a0fe3ac629"
    ],
    "status": "stated",
    "value": true,
@@ -22341,47 +22352,51 @@
    "complete": true,
    "components": [
     {
-     "date_raw": null,
+     "date_raw": "06/10/2026 AN1",
      "duration_min": 90,
      "name": "Mid-Semester Test",
      "nature": null,
      "page": 5,
      "type": "midsem",
      "weight": 30.0,
-     "weight_raw": "30"
+     "weight_normalized_from_marks": false,
+     "weight_raw": "30 %"
     },
     {
-     "date_raw": null,
+     "date_raw": "TBA",
      "duration_min": 120,
-     "name": "Comprehensive",
+     "name": "Comprehensive Examination",
      "nature": null,
-     "page": 5,
+     "page": 6,
      "type": "compre",
      "weight": 30.0,
-     "weight_raw": "30"
+     "weight_normalized_from_marks": false,
+     "weight_raw": "30 %"
     },
     {
-     "date_raw": null,
+     "date_raw": "07/12/26 FN",
      "duration_min": null,
-     "name": "and Participation)",
+     "name": "Class Assignments (5) (Presentation and Participation)",
      "nature": null,
-     "page": 5,
-     "type": "participation",
+     "page": 6,
+     "type": "assignment",
      "weight": 35.0,
-     "weight_raw": "35"
+     "weight_normalized_from_marks": false,
+     "weight_raw": "35 %"
     },
     {
      "date_raw": null,
      "duration_min": null,
      "name": "Attendance",
      "nature": null,
-     "page": 5,
+     "page": 6,
      "type": "attendance",
      "weight": 5.0,
-     "weight_raw": "05"
+     "weight_normalized_from_marks": false,
+     "weight_raw": "05 %"
     }
    ],
-   "method": "text",
+   "method": "table",
    "total_weight": 100.0
   },
   "evidence": {
@@ -22392,7 +22407,7 @@
     "ev_55e33c17bce1"
    ],
    "evaluation": [
-    "ev_92eb2222c623"
+    "ev_94a0fe3ac629"
    ],
    "makeup": [
     "ev_791362b4f43d"
@@ -22422,7 +22437,7 @@
   "midsem": {
    "duration_min": 90,
    "evidence": [
-    "ev_92eb2222c623"
+    "ev_94a0fe3ac629"
    ],
    "nature": null,
    "status": "stated",
@@ -34006,85 +34021,67 @@
  "ho_74a82361df0d": {
   "attendance": {
    "mandatory_statements": [],
-   "marks_component": false,
+   "marks_component": null,
    "min_percentage": null,
    "not_mandatory_statements": [],
    "statements": [],
-   "status": "none_found"
+   "status": "unknown"
   },
   "components_present": {
    "assignment": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    },
    "attendance": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    },
    "case_study": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    },
    "lab": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    },
    "presentation": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    },
    "project": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    },
    "quiz": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "stated",
-    "value": true,
-    "weight": 20.0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    },
    "viva": {
-    "evidence": [
-     "ev_0b76d200d95d"
-    ],
-    "status": "explicit_from_complete_table",
-    "value": false,
-    "weight": 0
+    "evidence": [],
+    "status": "unknown",
+    "value": null,
+    "weight": null
    }
   },
   "compre": {
-   "evidence": [
-    "ev_0b76d200d95d"
-   ],
-   "status": "stated",
-   "value": true,
-   "weight": 45.0
+   "evidence": [],
+   "status": "unknown",
+   "value": null,
+   "weight": null
   },
   "course_codes": [
    "BITS F225"
@@ -34092,44 +34089,10 @@
   "description": "Environment, human population, and industrialization; natural resources and the impact of man-made activities on them; structure and function of ecosystem, population ecology, biodiversity and its conservation, environmental pollution, social issues and the environment, and environmental impact assessment.",
   "doc_id": "doc_161c1251060a",
   "evaluation": {
-   "complete": true,
-   "components": [
-    {
-     "date_raw": "(50%Che+50% Bio)",
-     "duration_min": 30,
-     "name": "Mid Semester Test",
-     "nature": null,
-     "page": 4,
-     "type": "midsem",
-     "weight": 35.0,
-     "weight_normalized_from_marks": false,
-     "weight_raw": "35 % (70 M)"
-    },
-    {
-     "date_raw": "(Bio20%+Che 20%+60% Civil)",
-     "duration_min": 60,
-     "name": "Comprehensive Examination",
-     "nature": null,
-     "page": 4,
-     "type": "compre",
-     "weight": 45.0,
-     "weight_normalized_from_marks": false,
-     "weight_raw": "45 % (90 M)"
-    },
-    {
-     "date_raw": "(Bio30%+Civil 30%+ Che40%)",
-     "duration_min": 20,
-     "name": "Quiz (Announced)",
-     "nature": "closed_book",
-     "page": 4,
-     "type": "quiz",
-     "weight": 20.0,
-     "weight_normalized_from_marks": false,
-     "weight_raw": "20 % (40 M)"
-    }
-   ],
-   "method": "table",
-   "total_weight": 100.0
+   "complete": false,
+   "components": [],
+   "method": "text",
+   "total_weight": 0
   },
   "evidence": {
    "course_codes": [
@@ -34138,15 +34101,12 @@
    "description": [
     "ev_428aa5ebc8ec"
    ],
-   "evaluation": [
-    "ev_0b76d200d95d"
-   ],
    "makeup": [
     "ev_c8fdcb8fd8da",
     "ev_09785b9df9bf"
    ]
   },
-  "extraction_status": "ok",
+  "extraction_status": "no_evaluation",
   "file_codes": [
    "BITS F225"
   ],
@@ -34172,17 +34132,13 @@
    ]
   },
   "midsem": {
-   "duration_min": 30,
-   "evidence": [
-    "ev_0b76d200d95d"
-   ],
-   "nature": null,
-   "status": "stated",
-   "value": true,
-   "weight": 35.0
+   "evidence": [],
+   "status": "unknown",
+   "value": null,
+   "weight": null
   },
   "nc_policy": null,
-  "open_book_weight": 0,
+  "open_book_weight": null,
   "pages": 4,
   "scope": "The United Nations Conference on Environment and Development (UNCED) held in Rio De Janero in 1992, the 1994 conference on United Nations Framework Convention on Climate Change (UNFCCC), and a very recent 2015 Paris Agreement have created awareness among the people around the globe about the deteriorating condition of Earth’s environment. It has warned us not to be ignorant of the environmental issues. In lieu of the situation, the Hon’ble Supreme Court directed the UGC to introduce a basic course on environment for undergraduate students in India. The course is designed to cover all aspects of environment [Ecological including biotic (flora- fauna) and abiotic (air, water, soil & geography), social, economic and aesthetical]. The course is of interdisciplinary nature dealing with social, biological & engineering aspects of environment. The role of biotic and abiotic factors in the functioning of the environment, the impact of anthropogenic activities on the environment, different environmental pollutants, its impact and management strategies; and ecological, socio-political and economic issues will be discussed with appropriate real-life examples and case studies. The course would also provide insight into practical solutions to different environmental issues. Finally, important concepts of environmental impact assessment from all the above mentioned sources would be dealt with. The interested students can take the learnings forward from this point and enrich themselves further by doing other electives/projects in these areas.",
   "sha256": "74a82361df0dc3cd639a6310b4cfd0ceca2fa8c07c1a3e3c54cbb9e230f0a196",
@@ -35961,7 +35917,7 @@
  "ho_78465984cf24": {
   "attendance": {
    "mandatory_statements": [],
-   "marks_component": null,
+   "marks_component": false,
    "min_percentage": null,
    "not_mandatory_statements": [],
    "statements": [
@@ -35972,55 +35928,55 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "attendance": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "case_study": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "lab": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "presentation": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "project": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "quiz": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
     "status": "stated",
     "value": true,
@@ -36028,16 +35984,16 @@
    },
    "viva": {
     "evidence": [
-     "ev_bb10f66d1a54"
+     "ev_7319f5a7ad25"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    }
   },
   "compre": {
    "evidence": [
-    "ev_bb10f66d1a54"
+    "ev_7319f5a7ad25"
    ],
    "status": "stated",
    "value": true,
@@ -36049,8 +36005,19 @@
   "description": "Combinatorics is often described briefly as being about counting, and indeed counting is a large part of combinatorics. As the name suggests, however, it is broader than this: it is about combining things. Questions that arise include counting problems: “How many ways can these elements be combined?” But there are other questions, such as whether a certain combination is possible, or what combination is the “best” in some sense. This course presents the different methods to solve the counting problems. We will mainly focus on combinatorial approach instead of algebraic approach. SCOPE and OBJECTIVES: Combinatorics is a fascinating and a broad subject. It’s hard to classify Combinatorics, but a common theme is that it deals with structures that are, in some sense, finite or discrete. What sets Combinatorics apart from other branches of Mathematics is that it focuses on techniques rather than results. The way a Theorem is proved is of bigger importance than the statement of the Theorem itself. Combinatorial reasoning underlies all analysis of Computer Systems. It plays a similar role in Discrete Operation Research Problems and in Finite Probability. It is very much useful in the analysis of the speed and logical structure of Operation Research Algorithms to optimize efficient manufacturing or garbage collections. It has been proven an efficient tool for Graph Counting. COURSE LEARNING OUTCOMES: The course focuses on different techniques related to counting problems. At the end of the course, student will be aware of many existing methods used to solve counting problems and when these methods are applicable. TEXT BOOK: T1: Alan Tucker, Applied Combinatorics, John Wiley & Sons, 6th Edition, 2012. T2: Allenby and Slomson, How to Count, CRC Press, 2nd Edition, 2011. REFERENCE BOOKS: R1. W.D. Wallis and J.C. George, Introduction to Combinatorics, CRC Press, 2th Edition, 2017. BIRLA INSTITUTE OF TECHNOLOGY AND SCIENCE, Pilani Pilani Campus AUGS/ AGSR Division 2 R2. Richard A. Brualdi, Introductory Combinatorics, Pearson, 4th Edition 2008. R3. Miklos Bona, Introduction to Enumerative Combinatorics, Tata McGraw-Hill, 2007. COURSE PLAN: Week No. Module No. Description Reference (Sections) Learning outcomes 1",
   "doc_id": "doc_87388745f3e4",
   "evaluation": {
-   "complete": false,
+   "complete": true,
    "components": [
+    {
+     "date_raw": null,
+     "duration_min": null,
+     "name": "Mid-semester Exam",
+     "nature": "closed_book",
+     "page": 4,
+     "type": "midsem",
+     "weight": 35.0,
+     "weight_normalized_from_marks": false,
+     "weight_raw": "35%"
+    },
     {
      "date_raw": "To be Announced Later",
      "duration_min": null,
@@ -36075,7 +36042,7 @@
     }
    ],
    "method": "table",
-   "total_weight": 65.0
+   "total_weight": 100.0
   },
   "evidence": {
    "attendance": [
@@ -36088,14 +36055,14 @@
     "ev_aea598f1992b"
    ],
    "evaluation": [
-    "ev_bb10f66d1a54"
+    "ev_7319f5a7ad25"
    ],
    "makeup": [
     "ev_f3557e7a53b3",
     "ev_09e96524c491"
    ]
   },
-  "extraction_status": "partial",
+  "extraction_status": "ok",
   "file_codes": [
    "MATH F421"
   ],
@@ -36119,15 +36086,17 @@
    ]
   },
   "midsem": {
+   "duration_min": null,
    "evidence": [
-    "ev_bb10f66d1a54"
+    "ev_7319f5a7ad25"
    ],
-   "status": "unknown",
-   "value": null,
-   "weight": null
+   "nature": "closed_book",
+   "status": "stated",
+   "value": true,
+   "weight": 35.0
   },
   "nc_policy": "Below 20 marks out of 200 or completely missed any one of the exam components Attendance policy: Each student is expected to attend all classes and participate in all evaluation components. CHAMBER CONSULTATION HOUR: To be announced in the class. NOTICES: NALANDA web-site would be used to post cours",
-  "open_book_weight": null,
+  "open_book_weight": 45.0,
   "pages": 4,
   "scope": "Combinatorics is a fascinating and a broad subject. It’s hard to classify Combinatorics, but a common theme is that it deals with structures that are, in some sense, finite or discrete. What sets Combinatorics apart from other branches of Mathematics is that it focuses on techniques rather than results. The way a Theorem is proved is of bigger importance than the statement of the Theorem itself. Combinatorial reasoning underlies all analysis of Computer Systems. It plays a similar role in Discrete Operation Research Problems and in Finite Probability. It is very much useful in the analysis of the speed and logical structure of Operation Research Algorithms to optimize efficient manufacturing or garbage collections. It has been proven an efficient tool for Graph Counting. COURSE LEARNING OUTCOMES: The course focuses on different techniques related to counting problems. At the end of the course, student will be aware of many existing methods used to solve counting problems and when these methods are applicable. TEXT BOOK: T1: Alan Tucker, Applied Combinatorics, John Wiley & Sons, 6th Edition, 2012. T2: Allenby and Slomson, How to Count, CRC Press, 2nd Edition, 2011. REFERENCE BOOKS: R1. W.D. Wallis and J.C. George, Introduction to Combinatorics, CRC Press, 2th Edition, 2017. BIRLA INSTITUTE OF TECHNOLOGY AND SCIENCE, Pilani Pilani Campus AUGS/ AGSR Division 2 R2. Richard A. Brualdi, Introductory Combinatorics, Pearson, 4th Edition 2008. R3. Miklos Bona, Introduction to Enumerative Combinatorics, Tata McGraw-Hill, 2007. COURSE PLAN: Week No. Module No. Description Reference (Sections) Learning outcomes 1",
   "sha256": "78465984cf24bbf4c0153bebd64261ca4d7c07961785dcd4c31f4d2770861a10",
@@ -48043,7 +48012,7 @@
  "ho_9e7f01ab9b41": {
   "attendance": {
    "mandatory_statements": [],
-   "marks_component": null,
+   "marks_component": false,
    "min_percentage": null,
    "not_mandatory_statements": [],
    "statements": [
@@ -48054,55 +48023,55 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "attendance": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "case_study": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "lab": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "presentation": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "project": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    },
    "quiz": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
     "status": "stated",
     "value": true,
@@ -48110,16 +48079,16 @@
    },
    "viva": {
     "evidence": [
-     "ev_00656dd77fff"
+     "ev_9e66adcd3691"
     ],
-    "status": "unknown",
-    "value": null,
-    "weight": null
+    "status": "explicit_from_complete_table",
+    "value": false,
+    "weight": 0
    }
   },
   "compre": {
    "evidence": [
-    "ev_00656dd77fff"
+    "ev_9e66adcd3691"
    ],
    "status": "stated",
    "value": true,
@@ -48131,8 +48100,19 @@
   "description": "Introduction to oscillations, simple harmonic motion, superposition of harmonic oscillations, damped and forced oscillations, resonance and quality factor: transverse and longitudinal waves, wave speed in a stretched string, wave equation in one dimension, traveling solutions to the wave equation, energy transport in waves, standing waves, travelling sound waves; Interference of light waves, introduction to diffraction; concept of photon, photoelectric effect, Compton scattering; wave-particle duality, de Broglie hypothesis and matter waves; 1D Quantum wave functions: properties and applications; Pauli’s exclusion principle and multielectrons atoms, introduction to X-rays and Lasers.",
   "doc_id": "doc_135430cb9850",
   "evaluation": {
-   "complete": false,
+   "complete": true,
    "components": [
+    {
+     "date_raw": "07/10 AN2",
+     "duration_min": 90,
+     "name": "Mid-Semester test",
+     "nature": "closed_book",
+     "page": 3,
+     "type": "midsem",
+     "weight": 30.0,
+     "weight_normalized_from_marks": false,
+     "weight_raw": "30%"
+    },
     {
      "date_raw": "To be announced",
      "duration_min": 30,
@@ -48157,7 +48137,7 @@
     }
    ],
    "method": "table",
-   "total_weight": 70.0
+   "total_weight": 100.0
   },
   "evidence": {
    "attendance": [
@@ -48170,14 +48150,14 @@
     "ev_e8fae0e3d272"
    ],
    "evaluation": [
-    "ev_00656dd77fff"
+    "ev_9e66adcd3691"
    ],
    "makeup": [
     "ev_b92f34b21143",
     "ev_2a31c58d10c4"
    ]
   },
-  "extraction_status": "partial",
+  "extraction_status": "ok",
   "file_codes": [
    "PHY U102"
   ],
@@ -48202,15 +48182,17 @@
    ]
   },
   "midsem": {
+   "duration_min": 90,
    "evidence": [
-    "ev_00656dd77fff"
+    "ev_9e66adcd3691"
    ],
-   "status": "unknown",
-   "value": null,
-   "weight": null
+   "nature": "closed_book",
+   "status": "stated",
+   "value": true,
+   "weight": 30.0
   },
   "nc_policy": "30% of the average of the top three performers or 40% of the median, whichever is lower. 9. Chamber Consultation Hour: Will be announced in the class. Also, feel free to email me to seek a prior appointment. 10. Notices: On Google Classroom. 11. Make-up Policy: Stringent. Only in the most genuine ca",
-  "open_book_weight": null,
+  "open_book_weight": 40.0,
   "pages": 3,
   "scope": "This course introduces the fundamental concepts of classical and quantum waves, beginning with simple harmonic motion as the basis of oscillatory phenomena and progressing through mechanical waves, sound, interference, and diffraction. It then explores the transition from classical to quantum physics by examining the wave-particle nature of light and matter, culminating in an elementary introduction to quantum wave functions and their applications to atomic systems, X-rays, and lasers. Designed for undergraduate students with a basic knowledge of calculus, the course emphasizes physical intuition, conceptual understanding, and qualitative reasoning over advanced mathematical formalism. Its objective is to provide a unified understanding of wave phenomena across classical and quantum physics, establish the conceptual foundations of modern physics, and prepare students for advanced courses in optics, quantum mechanics, condensed matter physics, and related disciplines.",
   "sha256": "9e7f01ab9b41b0a8f9d5bc715a6fcdc384719c8a9685db00db17d2004095af34",
@@ -76091,7 +76073,7 @@
   "components_present": {
    "assignment": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "stated",
     "value": true,
@@ -76099,7 +76081,7 @@
    },
    "attendance": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -76107,7 +76089,7 @@
    },
    "case_study": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -76115,7 +76097,7 @@
    },
    "lab": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -76123,7 +76105,7 @@
    },
    "presentation": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -76131,7 +76113,7 @@
    },
    "project": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "stated",
     "value": true,
@@ -76139,7 +76121,7 @@
    },
    "quiz": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "stated",
     "value": true,
@@ -76147,7 +76129,7 @@
    },
    "viva": {
     "evidence": [
-     "ev_fcaf48962cf8"
+     "ev_94df167f6149"
     ],
     "status": "explicit_from_complete_table",
     "value": false,
@@ -76156,7 +76138,7 @@
   },
   "compre": {
    "evidence": [
-    "ev_fcaf48962cf8"
+    "ev_94df167f6149"
    ],
    "status": "stated",
    "value": true,
@@ -76171,67 +76153,73 @@
    "complete": true,
    "components": [
     {
-     "date_raw": null,
+     "date_raw": "[2 days per week ]",
      "duration_min": null,
-     "name": "discussions]",
+     "name": "[Class discussions]",
      "nature": null,
      "page": 4,
      "type": "participation",
      "weight": 10.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "[10%]"
     },
     {
-     "date_raw": null,
-     "duration_min": null,
+     "date_raw": "To be announced in the class",
+     "duration_min": 50,
      "name": "[Quiz, 2Nos]",
      "nature": null,
      "page": 4,
      "type": "quiz",
      "weight": 10.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "[10%]"
     },
     {
-     "date_raw": null,
-     "duration_min": null,
-     "name": "[Midterm",
+     "date_raw": "7th October, 2026, FN2",
+     "duration_min": 90,
+     "name": "[Midterm Examination]",
      "nature": "closed_book",
      "page": 4,
      "type": "midsem",
      "weight": 25.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "[25%]"
     },
     {
-     "date_raw": null,
+     "date_raw": "-",
      "duration_min": null,
      "name": "[Take Home]",
      "nature": "take_home",
      "page": 4,
      "type": "assignment",
      "weight": 10.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "[10%]"
     },
     {
-     "date_raw": null,
+     "date_raw": "[Midterm: 29/9/2026 Final Submission:28/11/2026]",
      "duration_min": null,
      "name": "[Course Project]",
-     "nature": null,
+     "nature": "open_book",
      "page": 4,
      "type": "project",
      "weight": 15.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "[15%]"
     },
     {
-     "date_raw": null,
+     "date_raw": "8rd December, 2026, AN",
      "duration_min": 180,
-     "name": "[Comprehensive",
+     "name": "[Comprehensive Examination]",
      "nature": "open_book",
-     "page": 4,
+     "page": 5,
      "type": "compre",
      "weight": 30.0,
+     "weight_normalized_from_marks": false,
      "weight_raw": "[30%]"
     }
    ],
-   "method": "text",
+   "method": "table",
    "total_weight": 100.0
   },
   "evidence": {
@@ -76242,7 +76230,7 @@
     "ev_33b86208e626"
    ],
    "evaluation": [
-    "ev_fcaf48962cf8"
+    "ev_94df167f6149"
    ],
    "makeup": [
     "ev_6949f9ba5376"
@@ -76274,9 +76262,9 @@
    ]
   },
   "midsem": {
-   "duration_min": null,
+   "duration_min": 90,
    "evidence": [
-    "ev_fcaf48962cf8"
+    "ev_94df167f6149"
    ],
    "nature": "closed_book",
    "status": "stated",
@@ -76284,7 +76272,7 @@
    "weight": 25.0
   },
   "nc_policy": null,
-  "open_book_weight": 40.0,
+  "open_book_weight": 55.0,
   "pages": 5,
   "scope": "Advanced structural analysis techniques and methods provide efficient means and tools for analysis and design of framed structures using matrix approach. Hence learning advance structural analysis will be very useful for structural analyst and designers using computer oriented approach. The basic objective of this course is to acquire the fundamental concepts of matrix methods of structural analysis and their implementation in development of computer programs for computer aided structural analysis of structures. By the end of the course, the students will be familiar with matrix methods of structural analysis using self-developed computer programs wherein both the concepts of flexibility method and stiffness method of structural analysis will be emphasized",
   "sha256": "f6362c97d164913bd0f0113f3f24285ab4ccbca663bfd811ce25980f6b094be3",

@@ -5597,6 +5597,16 @@
  {
   "evidence": [],
   "field": "evaluation",
+  "id": "rv_6c990dc7df2b",
+  "kind": "missing",
+  "message": "Evaluation scheme not found or not parseable",
+  "severity": "warning",
+  "status": "open",
+  "subject": "handout:handouts/040_BITS_F225.pdf"
+ },
+ {
+  "evidence": [],
+  "field": "evaluation",
   "id": "rv_fddbf379f3f7",
   "kind": "missing",
   "message": "Evaluation scheme not found or not parseable",
@@ -5799,18 +5809,6 @@
   "severity": "warning",
   "status": "open",
   "subject": "handout:handouts/033_BITS_F103.pdf"
- },
- {
-  "evidence": [
-   "ev_04032462372f"
-  ],
-  "field": "evaluation",
-  "id": "rv_f542ddfccf2b",
-  "kind": "unreliable",
-  "message": "Evaluation weights total 80.0% (expected 100%); presence/absence facts left unknown",
-  "severity": "warning",
-  "status": "open",
-  "subject": "handout:handouts/039_BITS_F219.pdf"
  },
  {
   "evidence": [
@@ -6138,12 +6136,12 @@
  },
  {
   "evidence": [
-   "ev_2cb4ac5ccb42"
+   "ev_26e52c2febcf"
   ],
   "field": "evaluation",
-  "id": "rv_d68f57c98b1c",
+  "id": "rv_71830e14637b",
   "kind": "unreliable",
-  "message": "Evaluation weights total 110.0% (expected 100%); presence/absence facts left unknown",
+  "message": "Evaluation weights total 60.0% (expected 100%); presence/absence facts left unknown",
   "severity": "warning",
   "status": "open",
   "subject": "handout:handouts/219_ECON_F214.pdf"
@@ -6231,18 +6229,6 @@
   "severity": "warning",
   "status": "open",
   "subject": "handout:handouts/296_GS_F223.pdf"
- },
- {
-  "evidence": [
-   "ev_85d48973d2eb"
-  ],
-  "field": "evaluation",
-  "id": "rv_de8711d4ad4e",
-  "kind": "unreliable",
-  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
-  "severity": "warning",
-  "status": "open",
-  "subject": "handout:handouts/299_GS_F233.pdf"
  },
  {
   "evidence": [
@@ -6363,18 +6349,6 @@
   "severity": "warning",
   "status": "open",
   "subject": "handout:handouts/367_MATH_F313.pdf"
- },
- {
-  "evidence": [
-   "ev_bb10f66d1a54"
-  ],
-  "field": "evaluation",
-  "id": "rv_713e633c801c",
-  "kind": "unreliable",
-  "message": "Evaluation weights total 65.0% (expected 100%); presence/absence facts left unknown",
-  "severity": "warning",
-  "status": "open",
-  "subject": "handout:handouts/371_MATH_F421.pdf"
  },
  {
   "evidence": [
@@ -6543,18 +6517,6 @@
   "severity": "warning",
   "status": "open",
   "subject": "handout:handouts/518_PHY_F422.pdf"
- },
- {
-  "evidence": [
-   "ev_00656dd77fff"
-  ],
-  "field": "evaluation",
-  "id": "rv_93d4065625f6",
-  "kind": "unreliable",
-  "message": "Evaluation weights total 70.0% (expected 100%); presence/absence facts left unknown",
-  "severity": "warning",
-  "status": "open",
-  "subject": "handout:handouts/523_PHY_U102.pdf"
  },
  {
   "evidence": [

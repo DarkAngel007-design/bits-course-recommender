@@ -86,6 +86,8 @@ def _header_info(table: list) -> tuple[int, dict] | None:
     for ri, row in enumerate(table[:4]):
         cells = [squash(c).lower() for c in row]
         joined = " ".join(c for c in cells if c)
+        if re.search(r"\d+(?:\.\d+)?\s*%|^\d+$", joined) or any(re.fullmatch(r"\d+(?:\.\d+)?", c) for c in cells if c):
+            continue  # a data row (numbers/percentages), not a header
         if re.search(r"weight|wt\.?\s*\(|marks|%|percentage", joined) and re.search(
                 r"component|evaluation|type|test|exam|module", joined):
             find = lambda rx: next((i for i, h in enumerate(cells) if re.search(rx, h)), None)

@@ -158,6 +158,8 @@ def parse_rules(query: str, profile_interests: list[str] | None = None) -> Inten
         if tok in PREFIXES and tok not in ("AI", "ML", "HUEL", "OPEL", "DEL", "CDC"):
             it.hard_filters.append(HardFilter(property="department", value=tok, source_text=tok))
     mi = re.search(r"(?:taught by|instructor|prof\.?|professor|dr\.?)\s+([a-z][a-z .]{2,40}?)(?:[,.?!]|$| and | who )", q)
+    if mi and mi.group(1).split()[0] in {"for", "of", "who", "the", "a", "an", "that", "is", "in", "with"}:
+        mi = None
     if mi:
         it.hard_filters.append(HardFilter(property="instructor", value=mi.group(1).strip().title(),
                                           source_text=mi.group(0).strip()))
@@ -182,7 +184,7 @@ def parse_rules(query: str, profile_interests: list[str] | None = None) -> Inten
     if mi:
         stripped = stripped.replace(mi.group(0), " ")
     noise = set(DAY_WORDS) | {"taught", "easy", "easiest", "chill", "gaps", "gap", "early", "compact", "classes",
-                              "morning", "grading", "grades", "workload", "ai", "ml", "suggestions", "options"} | set(NUM_WORDS)
+                              "morning", "grading", "grades", "workload", "ai", "ml", "suggestions", "options", "best", "good", "professor", "prof", "instructor", "teacher"} | set(NUM_WORDS)
     terms = [t.strip("-") for t in re.findall(r"[a-z][a-z+#-]{2,}", stripped)]
     terms = [t for t in terms if t not in noise and len(t) > 2]
     topic_words = {w for tid in it.topics for w in TAXONOMY[tid]["label"].lower().split()}

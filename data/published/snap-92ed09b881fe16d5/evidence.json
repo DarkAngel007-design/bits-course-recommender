@@ -186,17 +186,6 @@
   "pdf_page": 672,
   "printed_page": "VI-63"
  },
- "ev_00656dd77fff": {
-  "confidence": 0.6,
-  "doc_id": "doc_135430cb9850",
-  "excerpt": "Evaluation scheme: Tutorial Tests (Best 3 out of 4) 30%; Comprehensive Examination 40%",
-  "family": "handout",
-  "file": "handouts/523_PHY_U102.pdf",
-  "id": "ev_00656dd77fff",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 2,
-  "printed_page": null
- },
  "ev_006c6d5adf9a": {
   "confidence": 1.0,
   "doc_id": "doc_0ee23e970b7b",
@@ -1362,17 +1351,6 @@
   "parser": "bulletin.course_description@1.0.0",
   "pdf_page": 697,
   "printed_page": "VI-88"
- },
- "ev_04032462372f": {
-  "confidence": 0.6,
-  "doc_id": "doc_fc23f9257494",
-  "excerpt": "Evaluation scheme: [Continuous Evaluation] [10%]; [Mid Semester] [30%]; Comprehensive [40%]",
-  "family": "handout",
-  "file": "handouts/039_BITS_F219.pdf",
-  "id": "ev_04032462372f",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 3,
-  "printed_page": null
  },
  "ev_040d07188e7b": {
   "confidence": 1.0,
@@ -4256,17 +4234,6 @@
   "pdf_page": 118,
   "printed_page": null
  },
- "ev_0b76d200d95d": {
-  "confidence": 0.95,
-  "doc_id": "doc_161c1251060a",
-  "excerpt": "Evaluation scheme: Mid Semester Test 35 % (70 M); Comprehensive Examination 45 % (90 M); Quiz (Announced) 20 % (40 M)",
-  "family": "handout",
-  "file": "handouts/040_BITS_F225.pdf",
-  "id": "ev_0b76d200d95d",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 4,
-  "printed_page": null
- },
  "ev_0b7917f40665": {
   "confidence": 0.9,
   "doc_id": "doc_43a3d9b797f7",
@@ -4288,6 +4255,17 @@
   "parser": "bulletin.course_description@1.0.0",
   "pdf_page": 748,
   "printed_page": "VI-139"
+ },
+ "ev_0b86247880d9": {
+  "confidence": 0.95,
+  "doc_id": "doc_4d8b2b8ce196",
+  "excerpt": "Evaluation scheme: Announced Class Quiz 1 5%; Announced Class Quiz 2 5%; Announced Class Quiz 3 5%; Course Project 25%; Mid-Semester Examination 25%; Comprehensive Examination 35%",
+  "family": "handout",
+  "file": "handouts/095_CE_G545.pdf",
+  "id": "ev_0b86247880d9",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 3,
+  "printed_page": null
  },
  "ev_0b8aa1049109": {
   "confidence": 1.0,
@@ -5267,17 +5245,6 @@
   "parser": "timetable.row@1.0.0",
   "pdf_page": 16,
   "printed_page": "9"
- },
- "ev_0e5bbcf6c108": {
-  "confidence": 0.95,
-  "doc_id": "doc_7904431e651e",
-  "excerpt": "Evaluation scheme: Mid-semester Examination 25; Quiz 10; Project/Assignment 30; Comprehensive Examination 35",
-  "family": "handout",
-  "file": "handouts/198_DE_G531.pdf",
-  "id": "ev_0e5bbcf6c108",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 2,
-  "printed_page": null
  },
  "ev_0e64241ca447": {
   "confidence": 1.0,
@@ -14541,6 +14508,17 @@
   "pdf_page": 213,
   "printed_page": "IV-5"
  },
+ "ev_26e52c2febcf": {
+  "confidence": 0.6,
+  "doc_id": "doc_a09b8a27fafb",
+  "excerpt": "Evaluation scheme: Quiz-1 10 (20 Marks); Quiz-2 10 (20 Marks); Mid-Semester 30 (60 Marks); Quiz-3 10 (20 Marks)",
+  "family": "handout",
+  "file": "handouts/219_ECON_F214.pdf",
+  "id": "ev_26e52c2febcf",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 5,
+  "printed_page": null
+ },
  "ev_26f9fe1aeef7": {
   "confidence": 1.0,
   "doc_id": "doc_20f05fe9639f",
@@ -16553,17 +16531,6 @@
   "parser": "timetable.row@1.0.0",
   "pdf_page": 46,
   "printed_page": "37"
- },
- "ev_2cb4ac5ccb42": {
-  "confidence": 0.6,
-  "doc_id": "doc_a09b8a27fafb",
-  "excerpt": "Evaluation scheme: Quiz-1 10 (20 Marks); Quiz-2 10 (20 Marks); Mid-Semester Examination 30 (60 Marks); Quiz-3 10 (20 Marks); Comprehensive Examination 50 (100 Marks)",
-  "family": "handout",
-  "file": "handouts/219_ECON_F214.pdf",
-  "id": "ev_2cb4ac5ccb42",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 5,
-  "printed_page": null
  },
  "ev_2cc584abc4bc": {
   "confidence": 1.0,
@@ -27499,6 +27466,17 @@
   "pdf_page": 314,
   "printed_page": "IV-106"
  },
+ "ev_49c9ec53c84e": {
+  "confidence": 0.95,
+  "doc_id": "doc_558b7ebd1cf4",
+  "excerpt": "Evaluation scheme: Class discussions (Linked to attendance) 5%; Mid Sem Exam 30%; Assignment / Test 30%; Compre. Exam. 35%",
+  "family": "handout",
+  "file": "handouts/299_GS_F233.pdf",
+  "id": "ev_49c9ec53c84e",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 1,
+  "printed_page": null
+ },
  "ev_49ce99cdacbc": {
   "confidence": 1.0,
   "doc_id": "doc_0ee23e970b7b",
@@ -27663,17 +27641,6 @@
   "parser": "bulletin.prerequisite@1.0.0",
   "pdf_page": 685,
   "printed_page": "VI-76"
- },
- "ev_4a568d683977": {
-  "confidence": 0.95,
-  "doc_id": "doc_4d8b2b8ce196",
-  "excerpt": "Evaluation scheme: Class Quiz 1 5%; Class Quiz 2 5%; Class Quiz 3 5%; Course Project 25%; Mid-Semester 25%; Comprehensive 35%",
-  "family": "handout",
-  "file": "handouts/095_CE_G545.pdf",
-  "id": "ev_4a568d683977",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 3,
-  "printed_page": null
  },
  "ev_4a5719678e35": {
   "confidence": 0.6,
@@ -33151,6 +33118,17 @@
   "id": "ev_597f3f8e26e4",
   "parser": "handout.description@1.0.0",
   "pdf_page": 1,
+  "printed_page": null
+ },
+ "ev_598e96c2a5a9": {
+  "confidence": 0.95,
+  "doc_id": "doc_7904431e651e",
+  "excerpt": "Evaluation scheme: Mid-semester Examination 25; Quiz 10; Project/Assignment 30; Comprehensive 35",
+  "family": "handout",
+  "file": "handouts/198_DE_G531.pdf",
+  "id": "ev_598e96c2a5a9",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 2,
   "printed_page": null
  },
  "ev_59983ceb2191": {
@@ -42415,6 +42393,17 @@
   "pdf_page": 20,
   "printed_page": "13"
  },
+ "ev_7319f5a7ad25": {
+  "confidence": 0.95,
+  "doc_id": "doc_87388745f3e4",
+  "excerpt": "Evaluation scheme: Mid-semester Exam 35%; Announced Quizzes* 20%; Comprehensive Exam 45%",
+  "family": "handout",
+  "file": "handouts/371_MATH_F421.pdf",
+  "id": "ev_7319f5a7ad25",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 3,
+  "printed_page": null
+ },
  "ev_731c9f542168": {
   "confidence": 0.95,
   "doc_id": "doc_94332f48b188",
@@ -49620,17 +49609,6 @@
   "pdf_page": 706,
   "printed_page": "VI-97"
  },
- "ev_85d48973d2eb": {
-  "confidence": 0.6,
-  "doc_id": "doc_558b7ebd1cf4",
-  "excerpt": "Evaluation scheme: Class discussions (Linked to attendance) 5%; Assignment / Test 30%; Compre. Exam. 35%",
-  "family": "handout",
-  "file": "handouts/299_GS_F233.pdf",
-  "id": "ev_85d48973d2eb",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 1,
-  "printed_page": null
- },
  "ev_85d5d18cc1fa": {
   "confidence": 1.0,
   "doc_id": "doc_0ee23e970b7b",
@@ -52348,6 +52326,17 @@
   "pdf_page": 658,
   "printed_page": "VI-49"
  },
+ "ev_8d12b5693d27": {
+  "confidence": 0.95,
+  "doc_id": "doc_fc23f9257494",
+  "excerpt": "Evaluation scheme: [Continuous Evaluation] [10%]; Lab component [20%]; [Mid Semester] [30%]; Comprehensive [40%]",
+  "family": "handout",
+  "file": "handouts/039_BITS_F219.pdf",
+  "id": "ev_8d12b5693d27",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 3,
+  "printed_page": null
+ },
  "ev_8d152d24633d": {
   "confidence": 1.0,
   "doc_id": "doc_20f05fe9639f",
@@ -54713,17 +54702,6 @@
   "pdf_page": 623,
   "printed_page": "VI-14"
  },
- "ev_92eb2222c623": {
-  "confidence": 0.95,
-  "doc_id": "doc_f6441696f95f",
-  "excerpt": "Evaluation scheme: Mid-Semester Test 30; Comprehensive 30; and Participation) 35; Attendance 05",
-  "family": "handout",
-  "file": "handouts/302_GS_F245.pdf",
-  "id": "ev_92eb2222c623",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 5,
-  "printed_page": null
- },
  "ev_92f66a01c78d": {
   "confidence": 0.95,
   "doc_id": "doc_fa8cddd8c52c",
@@ -55362,6 +55340,17 @@
   "pdf_page": 63,
   "printed_page": "53"
  },
+ "ev_94a0fe3ac629": {
+  "confidence": 0.95,
+  "doc_id": "doc_f6441696f95f",
+  "excerpt": "Evaluation scheme: Mid-Semester Test 30 %; Comprehensive Examination 30 %; Class Assignments (5) (Presentation and Participation) 35 %; Attendance 05 %",
+  "family": "handout",
+  "file": "handouts/302_GS_F245.pdf",
+  "id": "ev_94a0fe3ac629",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 5,
+  "printed_page": null
+ },
  "ev_94a28913961d": {
   "confidence": 0.85,
   "doc_id": "doc_7e123485d0e0",
@@ -55493,6 +55482,17 @@
   "parser": "bulletin.course_description@1.0.0",
   "pdf_page": 703,
   "printed_page": "VI-94"
+ },
+ "ev_94df167f6149": {
+  "confidence": 0.95,
+  "doc_id": "doc_87b1879b67b1",
+  "excerpt": "Evaluation scheme: [Class discussions] [10%]; [Quiz, 2Nos] [10%]; [Midterm Examination] [25%]; [Take Home] [10%]; [Course Project] [15%]; [Comprehensive Examination] [30%]",
+  "family": "handout",
+  "file": "handouts/113_CE_G617.pdf",
+  "id": "ev_94df167f6149",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 4,
+  "printed_page": null
  },
  "ev_94e15d804a23": {
   "confidence": 1.0,
@@ -58914,6 +58914,17 @@
   "parser": "bulletin.programme_list@1.0.0",
   "pdf_page": 320,
   "printed_page": "IV-112"
+ },
+ "ev_9e66adcd3691": {
+  "confidence": 0.95,
+  "doc_id": "doc_135430cb9850",
+  "excerpt": "Evaluation scheme: Mid-Semester test 30%; Tutorial Tests (Best 3 out of 4) 30%; Comprehensive Examination 40%",
+  "family": "handout",
+  "file": "handouts/523_PHY_U102.pdf",
+  "id": "ev_9e66adcd3691",
+  "parser": "handout.evaluation@1.0.0",
+  "pdf_page": 2,
+  "printed_page": null
  },
  "ev_9e6ebbaaf1e9": {
   "confidence": 1.0,
@@ -69419,17 +69430,6 @@
   "parser": "timetable.section@1.0.0",
   "pdf_page": 82,
   "printed_page": "72"
- },
- "ev_bb10f66d1a54": {
-  "confidence": 0.6,
-  "doc_id": "doc_87388745f3e4",
-  "excerpt": "Evaluation scheme: Announced Quizzes* 20%; Comprehensive Exam 45%",
-  "family": "handout",
-  "file": "handouts/371_MATH_F421.pdf",
-  "id": "ev_bb10f66d1a54",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 3,
-  "printed_page": null
  },
  "ev_bb1258e312d9": {
   "confidence": 1.0,
@@ -93839,17 +93839,6 @@
   "parser": "timetable.section@1.0.0",
   "pdf_page": 106,
   "printed_page": "92"
- },
- "ev_fcaf48962cf8": {
-  "confidence": 0.95,
-  "doc_id": "doc_87b1879b67b1",
-  "excerpt": "Evaluation scheme: discussions] [10%]; [Quiz, 2Nos] [10%]; [Midterm [25%]; [Take Home] [10%]; [Course Project] [15%]; [Comprehensive [30%]",
-  "family": "handout",
-  "file": "handouts/113_CE_G617.pdf",
-  "id": "ev_fcaf48962cf8",
-  "parser": "handout.evaluation@1.0.0",
-  "pdf_page": 4,
-  "printed_page": null
  },
  "ev_fcb44dd31255": {
   "confidence": 0.85,

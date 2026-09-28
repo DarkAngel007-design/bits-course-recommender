@@ -1,0 +1,903 @@
+{
+ "_note": "SYNTHETIC golden profiles for testing and demos. They do not describe real students. Expected values were checked by hand against Bulletin 2025-26 pp. IV-1, IV-9 and IV-109 (B.E. Computer Science chart and lists).",
+ "cs_2025_sem5": {
+  "label": "Synthetic: B.E. CS, 2025 cohort, entering year III (sem 5)",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2025,
+   "programmes": [
+    "BE-COMPUTER-SCIENCE"
+   ],
+   "current_semester": 5,
+   "interests": [
+    "artificial intelligence",
+    "machine learning"
+   ],
+   "attempts": [
+    {
+     "course_code": "BITS F103",
+     "grade": "B"
+    },
+    {
+     "course_code": "BIO F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "CHEM F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "PHY F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F112",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F113",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "EEE F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS K101",
+     "grade": "GOOD"
+    },
+    {
+     "course_code": "MATH F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F214",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F222",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F213",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F215",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F241",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F212",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F225",
+     "grade": "B"
+    },
+    {
+     "course_code": "HSS F222",
+     "grade": "A-"
+    },
+    {
+     "course_code": "GS F221",
+     "grade": "A-"
+    }
+   ]
+  },
+  "expected": {
+   "scope": "resolved",
+   "categories": {
+    "GIR": {
+     "status": "met",
+     "required": [
+      17,
+      46
+     ]
+    },
+    "DC": {
+     "earned": [
+      7,
+      26
+     ],
+     "remaining": [
+      7,
+      22
+     ]
+    },
+    "DEL:BE-COMPUTER-SCIENCE": {
+     "required": [
+      4,
+      12
+     ],
+     "earned": [
+      0,
+      0
+     ]
+    },
+    "HUEL": {
+     "required": [
+      3,
+      8
+     ],
+     "earned": [
+      2,
+      6
+     ],
+     "remaining": [
+      1,
+      2
+     ]
+    },
+    "OPEL": {
+     "required": [
+      5,
+      15
+     ],
+     "earned": [
+      0,
+      0
+     ]
+    }
+   },
+   "obligations": [
+    "CS F351",
+    "CS F372",
+    "CS F301",
+    "CS F342"
+   ],
+   "backlog": []
+  }
+ },
+ "cs_2025_sem7": {
+  "label": "Synthetic: B.E. CS, 2025 cohort, entering year IV (sem 7) with DELs and an overflow elective",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2025,
+   "programmes": [
+    "BE-COMPUTER-SCIENCE"
+   ],
+   "current_semester": 7,
+   "interests": [
+    "security",
+    "networks"
+   ],
+   "attempts": [
+    {
+     "course_code": "BITS F103",
+     "grade": "B"
+    },
+    {
+     "course_code": "BIO F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "CHEM F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "PHY F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F112",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F113",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "EEE F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS K101",
+     "grade": "GOOD"
+    },
+    {
+     "course_code": "MATH F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F214",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F222",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F213",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F215",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F241",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F212",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F225",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F351",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F372",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F301",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F342",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F363",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F364",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F303",
+     "grade": "B"
+    },
+    {
+     "course_code": "HSS F222",
+     "grade": "B"
+    },
+    {
+     "course_code": "GS F221",
+     "grade": "B"
+    },
+    {
+     "course_code": "HSS F343",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F407",
+     "grade": "A"
+    },
+    {
+     "course_code": "BITS F464",
+     "grade": "A"
+    },
+    {
+     "course_code": "CS F425",
+     "grade": "A"
+    },
+    {
+     "course_code": "CS F429",
+     "grade": "A"
+    },
+    {
+     "course_code": "BITS F463",
+     "grade": "A"
+    }
+   ]
+  },
+  "expected": {
+   "scope": "resolved",
+   "categories": {
+    "DC": {
+     "status": "met"
+    },
+    "DEL:BE-COMPUTER-SCIENCE": {
+     "status": "met",
+     "earned": [
+      4,
+      12
+     ]
+    },
+    "HUEL": {
+     "status": "met"
+    },
+    "OPEL": {
+     "earned": [
+      1,
+      3
+     ]
+    }
+   }
+  }
+ },
+ "dual_econ_cs": {
+  "label": "Synthetic: M.Sc. Economics + B.E. CS dual degree, 2025 cohort, sem 5; CS F222-style shared courses",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2025,
+   "programmes": [
+    "MSC-ECONOMICS",
+    "BE-COMPUTER-SCIENCE"
+   ],
+   "current_semester": 5,
+   "interests": [
+    "finance"
+   ],
+   "attempts": [
+    {
+     "course_code": "BITS F103",
+     "grade": "B"
+    },
+    {
+     "course_code": "BIO F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "CHEM F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "PHY F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F112",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F113",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "EEE F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS K101",
+     "grade": "GOOD"
+    },
+    {
+     "course_code": "MATH F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F212",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F213",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F214",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F225",
+     "grade": "B"
+    },
+    {
+     "course_code": "MGTS F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F241",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F242",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F243",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F244",
+     "grade": "B"
+    }
+   ]
+  },
+  "expected": {
+   "scope": "resolved",
+   "curriculum": "DUAL-MSC-ECONOMICS+BE-COMPUTER-SCIENCE@bulletin-2025-26",
+   "categories": {
+    "GIR": {
+     "status": "met"
+    },
+    "DC:MSC-ECONOMICS": {
+     "earned": [
+      8,
+      24
+     ]
+    },
+    "DC:BE-COMPUTER-SCIENCE": {
+     "earned": [
+      0,
+      0
+     ]
+    },
+    "OPEL": {
+     "status": "met_by_rule"
+    }
+   },
+   "obligations": [
+    "ECON F311",
+    "ECON F312",
+    "ECON F313",
+    "CS F215",
+    "CS F214",
+    "CS F222",
+    "CS F213"
+   ]
+  }
+ },
+ "repeat_and_reports": {
+  "label": "Synthetic: repeat attempts, NC/W reports and an in-progress repeat",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2025,
+   "programmes": [
+    "BE-COMPUTER-SCIENCE"
+   ],
+   "current_semester": 4,
+   "interests": [],
+   "attempts": [
+    {
+     "course_code": "BITS F103",
+     "grade": "B"
+    },
+    {
+     "course_code": "BIO F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "CHEM F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "PHY F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F112",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F113",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "EEE F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F211",
+     "grade": "NC",
+     "attempt_order": 1
+    },
+    {
+     "course_code": "MATH F211",
+     "grade": "C",
+     "attempt_order": 2
+    },
+    {
+     "course_code": "CS F214",
+     "grade": "B",
+     "attempt_order": 1
+    },
+    {
+     "course_code": "CS F214",
+     "grade": "W",
+     "attempt_order": 2
+    },
+    {
+     "course_code": "CS F222",
+     "grade": "D",
+     "attempt_order": 1
+    },
+    {
+     "course_code": "CS F222",
+     "status": "in_progress",
+     "attempt_order": 2
+    },
+    {
+     "course_code": "CS F213",
+     "grade": "NC"
+    },
+    {
+     "course_code": "CS F215",
+     "status": "in_progress"
+    }
+   ]
+  },
+  "expected": {
+   "states": {
+    "MATH F211": "cleared",
+    "CS F214": "not_cleared",
+    "CS F222": "cleared",
+    "CS F213": "not_cleared",
+    "CS F215": "in_progress"
+   },
+   "repeat_in_progress": [
+    "CS F222"
+   ]
+  }
+ },
+ "missing_prereq": {
+  "label": "Synthetic: CS student without MATH F113 asking for MAC F313 (prerequisite MATH F113)",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2025,
+   "programmes": [
+    "BE-COMPUTER-SCIENCE"
+   ],
+   "current_semester": 5,
+   "interests": [],
+   "attempts": [
+    {
+     "course_code": "BITS F103",
+     "grade": "B"
+    },
+    {
+     "course_code": "BIO F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "CHEM F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "PHY F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F112",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "EEE F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F214",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F222",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F213",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F215",
+     "grade": "B"
+    },
+    {
+     "course_code": "ECON F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F211",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F241",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F212",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F225",
+     "grade": "B"
+    }
+   ]
+  },
+  "expected": {
+   "offering": "2026-27-S1:2652",
+   "status": "ineligible",
+   "failed_checks": [
+    "prerequisite"
+   ]
+  }
+ },
+ "cohort_2026": {
+  "label": "Synthetic: 2026 admission (credit-hour framework)",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2026,
+   "programmes": [
+    "BE-COMPUTER-SCIENCE"
+   ],
+   "current_semester": 1,
+   "interests": [],
+   "attempts": []
+  },
+  "expected": {
+   "scope": "unsupported"
+  }
+ },
+ "cohort_2023_unattested": {
+  "label": "Synthetic: 2023 admission without curriculum attestation",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2023,
+   "programmes": [
+    "BE-COMPUTER-SCIENCE"
+   ],
+   "current_semester": 7,
+   "interests": [],
+   "attempts": [
+    {
+     "course_code": "BITS F103",
+     "grade": "B"
+    },
+    {
+     "course_code": "BIO F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "CHEM F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "PHY F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F101",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F112",
+     "grade": "B"
+    },
+    {
+     "course_code": "CS F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F113",
+     "grade": "B"
+    },
+    {
+     "course_code": "MATH F102",
+     "grade": "B"
+    },
+    {
+     "course_code": "EEE F111",
+     "grade": "B"
+    },
+    {
+     "course_code": "BITS F102",
+     "grade": "B"
+    }
+   ]
+  },
+  "expected": {
+   "scope": "unresolved"
+  }
+ },
+ "goa_campus": {
+  "label": "Synthetic: Goa campus student",
+  "profile": {
+   "campus": "Goa",
+   "admission_year": 2025,
+   "programmes": [
+    "BE-MECHANICAL"
+   ],
+   "current_semester": 3,
+   "interests": [],
+   "attempts": []
+  },
+  "expected": {
+   "scope": "unsupported"
+  }
+ },
+ "incomplete_history": {
+  "label": "Synthetic: incomplete history (missing grade, unknown code, unrecognised grade)",
+  "profile": {
+   "campus": "Pilani",
+   "admission_year": 2025,
+   "programmes": [
+    "BE-ELECTRICAL-ELECTRONICS"
+   ],
+   "current_semester": 3,
+   "interests": [
+    "power"
+   ],
+   "attempts": [
+    {
+     "course_code": "BITS F103",
+     "grade": null
+    },
+    {
+     "course_code": "XYZ F999",
+     "grade": "A"
+    },
+    {
+     "course_code": "MATH F101",
+     "grade": "Z"
+    },
+    {
+     "course_code": "CS F111",
+     "grade": "A"
+    }
+   ]
+  },
+  "expected": {
+   "issues": [
+    "grade_missing",
+    "unknown_course",
+    "unknown_grade"
+   ],
+   "cleared": [
+    "CS F111",
+    "XYZ F999"
+   ]
+  }
+ }
+}
