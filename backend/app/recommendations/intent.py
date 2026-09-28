@@ -14,7 +14,7 @@ import os
 import re
 from typing import Literal
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 from ingestion.topics import TAXONOMY, resolve_interest  # shared taxonomy (no PDF dependencies)
 
@@ -32,6 +32,22 @@ class HardFilter(BaseModel):
     property: HardProperty
     value: bool | int | str
     source_text: str | None = Field(None, description="The query words this filter came from")
+
+    @model_validator(mode="after")
+    def _value_for_property(self) -> "HardFilter":
+        if self.property in ("midsem_present", "compre_present", "attendance_none"):
+            if type(self.value) is not bool:
+                raise ValueError(f"{self.property} requires a boolean")
+            if self.property == "attendance_none" and self.value is not True:
+                raise ValueError("attendance_none only supports true")
+        elif self.property == "units":
+            if type(self.value) is not int or self.value < 0:
+                raise ValueError("units requires a non-negative integer")
+        elif not isinstance(self.value, str) or not self.value.strip():
+            raise ValueError(f"{self.property} requires a non-empty string")
+        elif self.property in ("has_component", "no_component") and self.value not in COMPONENTS:
+            raise ValueError("unknown evaluation component")
+        return self
 
 
 class SoftPreference(BaseModel):

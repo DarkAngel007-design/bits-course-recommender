@@ -126,3 +126,43 @@ def test_degraded_mode_without_llm(client):
     out = client.post("/recommendations", headers=h, json={"profile_id": pid, "query": "DELs on AI"}).json()
     assert out["parser"] == "rules" and out["degraded"]
     assert client.get(f"/profiles/{pid}/requirements", headers=h).status_code == 200
+
+
+def test_repeated_recommendations_have_fresh_run_metadata(client):
+    from backend.app.profiles import db
+
+    pid, h = _create(client, "cs_2025_sem5")
+    body = {"profile_id": pid, "query": "DELs on AI", "use_llm": False}
+    first = client.post("/recommendations", headers=h, json=body).json()
+    second_response = client.post("/recommendations", headers=h, json=body)
+    assert second_response.status_code == 200
+    second = second_response.json()
+    edited_response = client.post("/recommendations", headers=h, json={
+        "profile_id": pid, "intent": first["parsed_intent"]})
+    assert edited_response.status_code == 200
+    edited = edited_response.json()
+    assert first["matches"] == second["matches"] == edited["matches"]
+    assert len({first["request_id"], second["request_id"], edited["request_id"]}) == 3
+    assert edited["parser"] == "edited" and edited["degraded"] is None
+    with db.session() as s:
+        rows = s.scalars(db.select(db.RunRow).where(db.RunRow.profile_id == pid)).all()
+    assert len(rows) == 3
+    assert {r.parser for r in rows} == {"rules", "edited"}
+
+
+@pytest.mark.parametrize("prop,value", [
+    ("units", "three"), ("units", True), ("midsem_present", "false"),
+    ("attendance_none", False), ("no_component", "made_up_component"),
+])
+def test_invalid_hard_filter_is_rejected(client, prop, value):
+    pid, h = _create(client, "cs_2025_sem5")
+    response = client.post("/recommendations", headers=h, json={
+        "profile_id": pid, "intent": {"hard_filters": [{"property": prop, "value": value}]}})
+    assert response.status_code == 422
+
+
+def test_solver_rejects_unknown_offerings(client):
+    pid, h = _create(client, "cs_2025_sem5")
+    response = client.post("/plans/solve", headers=h, json={
+        "profile_id": pid, "offering_ids": ["missing-offering"]})
+    assert response.status_code == 404

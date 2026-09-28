@@ -100,7 +100,7 @@ publication checks. Maintainers can publish another snapshot from the dashboard
 make test
 ```
 
-67 tests: golden synthetic profiles (single degree, dual degree, repeats and reports, missing
+74 tests: golden synthetic profiles (single degree, dual degree, repeats and reports, missing
 prerequisite, 2026 cohort, unattested cohort, other campus, incomplete history, minor
 exclusion), Hypothesis property tests (no double counting, determinism, status/check
 consistency), extraction fixtures (multi-page tables, shared prefixes, cancellations,
@@ -119,7 +119,7 @@ make eval
 ```
 
 Writes [docs/evaluation.md](docs/evaluation.md): extraction coverage, golden results,
-hard-rule violations (0), unresolved citations (0 of 576), latency (p95 ≈ 35 ms in-process)
+hard-rule violations (0), unresolved citations (0 of 576), latency (p95 ≈ 45 ms in-process)
 and hand-labelled ranking relevance.
 
 The Postman collection runs clean with newman (29 requests, 37 assertions) against a local

@@ -51,13 +51,18 @@ export default function IntentEditor({ intent, onChange, onRun }: { intent: any;
         const upd = (v: any) => set("hard_filters", intent.hard_filters.map((x: any, j: number) => j === i ? { ...x, value: v } : x));
         return (
           <div key={i} className="row filter">
-            <select value={f.property} onChange={(e) => set("hard_filters", intent.hard_filters.map((x: any, j: number) => j === i ? { property: e.target.value, value: HARD_PROPS[e.target.value].kind === "bool" ? true : "" } : x))}>
+            <select value={f.property} onChange={(e) => {
+              const property = e.target.value;
+              const kind = HARD_PROPS[property].kind;
+              const value = kind === "bool" ? true : kind === "comp" ? COMPS[0] : kind === "num" ? 3 : "";
+              set("hard_filters", intent.hard_filters.map((x: any, j: number) => j === i ? { property, value } : x));
+            }}>
               {Object.entries(HARD_PROPS).map(([k, v]) => <option key={k} value={k}>{v.label}</option>)}
             </select>
-            {meta_?.kind === "bool" && <select value={String(f.value)} onChange={(e) => upd(e.target.value === "true")}><option value="true">yes</option><option value="false">no</option></select>}
+            {meta_?.kind === "bool" && <select value={String(f.value)} onChange={(e) => upd(e.target.value === "true")}><option value="true">yes</option>{f.property !== "attendance_none" && <option value="false">no</option>}</select>}
             {meta_?.kind === "comp" && <select value={f.value} onChange={(e) => upd(e.target.value)}>{COMPS.map((c) => <option key={c}>{c}</option>)}</select>}
             {meta_?.kind === "text" && <input value={f.value} onChange={(e) => upd(e.target.value)} />}
-            {meta_?.kind === "num" && <input type="number" value={f.value} onChange={(e) => upd(Number(e.target.value))} />}
+            {meta_?.kind === "num" && <input type="number" min={0} step={1} value={f.value} onChange={(e) => upd(Number(e.target.value))} />}
             <button className="link" onClick={() => set("hard_filters", intent.hard_filters.filter((_: any, j: number) => j !== i))}>remove</button>
           </div>
         );

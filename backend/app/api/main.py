@@ -392,7 +392,10 @@ def recommendations(body: RecommendationRequest, x_profile_token: str | None = H
         out = db.dumps(recommend(prof, snap, intent, parser, degraded, body.plan_offering_ids,
                                  body.strict_prerequisites, body.check_schedule))
         _cache.put(key, out)
-    out = {**out, "profile_version": row.version, "query": body.query}
+    # Cache the calculation, but give every invocation its own audit record and
+    # parser metadata (an edited intent can share the same calculation).
+    out = {**out, "request_id": db.new_id("rec"), "parser": parser, "degraded": degraded,
+           "profile_version": row.version, "query": body.query}
     with db.session() as s:
         s.add(db.RunRow(id=out["request_id"], profile_id=row.id, profile_version=row.version,
                         dataset_version=snap.id, rules_version=snap.rules_version, query=body.query,
@@ -442,7 +445,10 @@ def plans_validate(body: PlanRequest, x_profile_token: str | None = Header(None)
 def plans_solve(body: PlanRequest, x_profile_token: str | None = Header(None)):
     snap = snapshot()
     load_profile(body.profile_id, x_profile_token)
-    offs = [snap.offerings[o] for o in body.offering_ids if o in snap.offerings]
+    missing = [o for o in body.offering_ids if o not in snap.offerings]
+    if missing:
+        raise HTTPException(404, f"unknown offering ids {missing}")
+    offs = [snap.offerings[o] for o in body.offering_ids]
     return db.dumps(solve(offs, _prefs(body.preferences), body.locked_sections))
 
 

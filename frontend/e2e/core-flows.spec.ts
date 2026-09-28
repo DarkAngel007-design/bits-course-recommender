@@ -22,6 +22,12 @@ test("profile -> progress -> recommendation -> evidence -> plan", async ({ page 
   await expect(first).toContainText("Counts as DEL");
   await expect(first).toContainText("Eligible");
 
+  // Repeating the same request must also succeed when the calculation is cached.
+  const repeated = page.waitForResponse((r) => r.url().endsWith("/recommendations") && r.request().method() === "POST");
+  await page.getByRole("button", { name: "Recommend", exact: true }).click();
+  expect((await repeated).status()).toBe(200);
+  await expect(first).toContainText("Eligible");
+
   // evidence drawer resolves to a document page
   await first.getByRole("button", { name: /Evidence/ }).click();
   const drawer = page.getByRole("dialog", { name: "Source evidence" });

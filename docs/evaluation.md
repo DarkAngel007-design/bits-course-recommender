@@ -29,7 +29,7 @@ Golden profiles: 9 — all expected results pass: **True**.
 | Runs with no verified match (honest empty result) | 6 |
 | Hard-rule violations in accepted results | **0** |
 | Citations checked / unresolved | 576 / **0** |
-| Recommendation latency p50 / p95 / max (ms, in-process) | 13.2 / 34.6 / 62.5 |
+| Recommendation latency p50 / p95 / max (ms, in-process) | 14.9 / 44.5 / 66.1 |
 | Requirement analysis latency p50 / p95 (ms, uncached) | 0.1 / 0.2 |
 
 ### Ranking relevance (hand-labelled, CS year-III profile)
