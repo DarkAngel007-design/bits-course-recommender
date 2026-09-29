@@ -49,3 +49,14 @@ def test_schema_rejects_unknown_operators():
         Intent.model_validate({"hard_filters": [{"property": "grade_leniency", "value": True}]})
     it = Intent.model_validate({"topics": ["artificial_intelligence", "not_a_topic"]})
     assert it.topics == ["artificial_intelligence"]
+
+
+@pytest.mark.parametrize("q", ["nothing with a midsem", "an AI DEL, nothing with a midsem and no 8am classes",
+                               "I don't want a midsem", "courses that do not have a mid-sem exam"])
+def test_negated_midsem_phrasings(q):
+    it = parse_rules(q)
+    assert ("midsem_present", False) in hard(it) and ("midsem_present", True) not in hard(it)
+
+
+def test_positive_midsem_still_parsed():
+    assert ("midsem_present", True) in hard(parse_rules("a DEL with a midsem"))

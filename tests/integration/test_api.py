@@ -9,7 +9,7 @@ from fastapi.testclient import TestClient
 os.environ["DATABASE_URL"] = f"sqlite:///{tempfile.mkdtemp()}/test.db"
 TEST_ADMIN_TOKEN = "test-maintainer-token-0123456789"
 os.environ["ADMIN_TOKEN"] = TEST_ADMIN_TOKEN
-os.environ.pop("ANTHROPIC_API_KEY", None)  # deterministic parser in tests
+os.environ["LLM_PROVIDER"] = "none"  # deterministic parser in tests
 os.environ.pop("ANTHROPIC_AUTH_TOKEN", None)
 
 from backend.app.api.main import app  # noqa: E402

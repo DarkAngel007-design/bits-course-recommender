@@ -24,6 +24,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ValidationError
 
+from .. import config  # noqa: F401  (loads .env before any os.environ reads)
 from ..academics.eligibility import evaluate_offering
 from ..academics.models import StudentProfile, normalize_code
 from ..academics.plan import validate_plan
@@ -154,7 +155,8 @@ def health():
 @app.get("/meta")
 def meta():
     snap = snapshot()
-    llm = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
+    from ..recommendations import llm as llm_mod
+    prov = llm_mod.provider()
     return {
         "api_version": API_VERSION,
         "dataset_version": snap.id,
@@ -162,7 +164,9 @@ def meta():
         "term": snap.term,
         "curriculum_edition": snap.manifest["curriculum_edition"],
         "coverage": snap.coverage,
-        "llm_enabled": llm,
+        "llm_enabled": prov is not None,
+        "llm_provider": prov,
+        "llm_model": llm_mod.model_name(prov),
         "programmes": sorted([{"id": p["id"], "name": p["name"], "degree": p["degree"]} for p in snap.programmes.values()],
                              key=lambda x: x["name"]),
         "dual_degrees": sorted([{"id": c["id"], "programmes": c["programmes"], "name": c["name"]}

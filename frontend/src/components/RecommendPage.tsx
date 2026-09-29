@@ -57,7 +57,7 @@ export default function RecommendPage() {
       </div>
       <div className="row small options">
         <label className="check"><input type="checkbox" checked={opts.use_llm && meta.llm_enabled} disabled={!meta.llm_enabled}
-          onChange={(e) => setOpts({ ...opts, use_llm: e.target.checked })} /> Use LLM to interpret {meta.llm_enabled ? "" : "(not configured)"}</label>
+          onChange={(e) => setOpts({ ...opts, use_llm: e.target.checked })} /> Use LLM to interpret {meta.llm_enabled ? `(${meta.llm_provider}: ${meta.llm_model})` : "(not configured)"}</label>
         <label className="check"><input type="checkbox" checked={opts.strict_prerequisites}
           onChange={(e) => setOpts({ ...opts, strict_prerequisites: e.target.checked })} /> Strict prerequisites
           <span className="muted" title="The authoritative prerequisite list is on an external portal that was not supplied. Strict mode treats courses without a printed prerequisite as needing verification."> (?)</span></label>
@@ -72,7 +72,7 @@ export default function RecommendPage() {
         <ScopeBanner scope={res.scope} />
         <section className="card intent">
           <div className="page-head">
-            <h3>How I read your request <span className="pill tiny">{res.parser === "llm" ? "LLM" : res.parser === "edited" ? "edited" : "rule-based"}</span></h3>
+            <h3>How I read your request <span className="pill tiny">{res.parser?.startsWith("llm") ? `LLM · ${res.parser.split(":")[1]}` : res.parser === "edited" ? "edited" : "rule-based"}</span></h3>
             {res.degraded && <span className="small muted">{res.degraded}: deterministic parser used</span>}
           </div>
           {intent && <IntentEditor intent={intent} onChange={setIntent} onRun={() => run({ intent, query })} />}

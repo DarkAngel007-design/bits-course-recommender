@@ -25,5 +25,8 @@ frontend/test-results/
 frontend/playwright-report/
 *.tsbuildinfo
 
+# Private notes (not for the repo)
+docs/INTERVIEW_PREP.md
+
 # Local Claude configuration
 .claude/

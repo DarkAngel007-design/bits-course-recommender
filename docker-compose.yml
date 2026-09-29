@@ -19,7 +19,10 @@ services:
       DATABASE_URL: postgresql+psycopg://recommender:recommender@db:5432/recommender
       ADMIN_TOKEN: ${ADMIN_TOKEN:?set ADMIN_TOKEN (16+ characters), e.g. export ADMIN_TOKEN=$(openssl rand -hex 16)}
       # Optional: enables LLM intent parsing. Kept server-side; never sent to the browser.
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-}
+      LLM_MODEL: ${LLM_MODEL:-}
     # Mount the supplied PDFs to enable "open PDF page" links on evidence (optional):
     # volumes: ["./dataset:/app/dataset:ro"]
 volumes:

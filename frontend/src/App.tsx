@@ -133,7 +133,7 @@ export default function App() {
         </div>
       </header>
       {!meta.llm_enabled && (
-        <div className="banner info">LLM not configured: natural-language queries use the deterministic parser.
+        <div className="banner info">LLM not configured (set GEMINI_API_KEY in .env): natural-language queries use the deterministic parser.
           Profile, progress and structured filters work fully.</div>
       )}
       <main>

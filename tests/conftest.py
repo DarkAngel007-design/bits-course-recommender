@@ -1,3 +1,9 @@
+import os
+
+os.environ["BCR_DISABLE_DOTENV"] = "1"  # tests are hermetic: never read a real .env / API keys
+for _k in ("GEMINI_API_KEY", "GOOGLE_API_KEY", "ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "LLM_PROVIDER"):
+    os.environ.pop(_k, None)
+
 import json
 from pathlib import Path
 

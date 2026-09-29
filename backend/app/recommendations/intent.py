@@ -10,13 +10,14 @@ The dashboard shows the interpreted intent and lets the student edit it before r
 from __future__ import annotations
 
 import logging
-import os
 import re
 from typing import Literal
 
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 from ingestion.topics import TAXONOMY, resolve_interest  # shared taxonomy (no PDF dependencies)
+
+from . import llm
 
 log = logging.getLogger(__name__)
 
@@ -98,8 +99,12 @@ PREFIXES = {"CS", "ECON", "EEE", "ECE", "MATH", "PHY", "CHEM", "BIO", "BITS", "H
             "MGTS", "INSTR", "BIOT", "MF", "PHA", "IS", "ENVS", "MST", "SNS", "DE", "MEL", "MPBA", "AN", "AUE"}
 
 
+NEG_PREFIX = (r"(no|without|zero|avoid|skip|nothing (?:with|having|that has|which has)|not? (?:have|having|with)|"
+              r"(?:do(?:es)?n'?t|do(?:es)? not) (?:want|have|need)|free of|lacking)")
+
+
 def _neg(q: str, pat: str) -> bool:
-    return bool(re.search(rf"\b(no|without|zero|avoid|skip|not? (?:have|having|with)|free of)\s+(?:an?\s+|any\s+|the\s+)?{pat}", q))
+    return bool(re.search(rf"\b{NEG_PREFIX}\s+(?:an?\s+|any\s+|the\s+|a\s+)?{pat}", q))
 
 
 def parse_rules(query: str, profile_interests: list[str] | None = None) -> Intent:
@@ -240,50 +245,57 @@ search_terms: a few extra interest keywords not covered by topics.
 count: number of courses requested (default 5)."""
 
 
-def parse_llm(query: str, profile_interests: list[str] | None = None) -> Intent | None:
-    if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
-        return None
+def _dedupe_filters(filters: list[HardFilter]) -> list[HardFilter]:
+    """Drop exact duplicates; a boolean flag keeps only its first value (never both True and False)."""
+    single = {"midsem_present", "compre_present", "attendance_none"}
+    out, seen = [], set()
+    for f in filters:
+        key = f.property if f.property in single else (f.property, str(f.value))
+        if key not in seen:
+            seen.add(key)
+            out.append(f)
+    return out
+
+
+def parse_llm(query: str, profile_interests: list[str] | None = None) -> tuple[Intent | None, str | None]:
+    """(intent or None, provider). The provider only fills the allow-listed Intent schema."""
+    topics = ", ".join(f"{k} ({v['label']})" for k, v in TAXONOMY.items())
+    user = f"Student interests from profile: {', '.join(profile_interests or []) or 'none'}\nRequest: {query}"
+    raw, prov = llm.call_json(SYSTEM.format(topics=topics), user, Intent)
+    if raw is None:
+        return None, prov
     try:
-        import anthropic
-    except ImportError:
-        return None
-    try:
-        client = anthropic.Anthropic(timeout=float(os.environ.get("LLM_TIMEOUT_S", "20")), max_retries=1)
-        topics = ", ".join(f"{k} ({v['label']})" for k, v in TAXONOMY.items())
-        user = f"Student interests from profile: {', '.join(profile_interests or []) or 'none'}\nRequest: {query}"
-        resp = client.messages.parse(
-            model=os.environ.get("LLM_MODEL", "claude-opus-5"),
-            max_tokens=2000,
-            system=SYSTEM.format(topics=topics),
-            output_config={"effort": "low"},
-            messages=[{"role": "user", "content": user}],
-            output_format=Intent,
-        )
-        if resp.stop_reason == "refusal" or resp.parsed_output is None:
-            log.warning("LLM intent parse returned no usable output (stop_reason=%s)", resp.stop_reason)
-            return None
-        return Intent.model_validate(resp.parsed_output.model_dump())  # re-validate topics/operators
-    except Exception as exc:  # network, auth, rate limit, schema: fall back to rules
-        log.warning("LLM intent parsing failed, using deterministic parser: %s", type(exc).__name__)
-        return None
+        return Intent.model_validate(raw.model_dump()), prov  # re-validate topics/operators/value types
+    except Exception as exc:
+        log.warning("LLM intent failed validation, using deterministic parser: %s", type(exc).__name__)
+        return None, prov
 
 
 def interpret(query: str, profile_interests: list[str] | None = None, use_llm: bool = True) -> tuple[Intent, str, str | None]:
-    """Return (intent, parser_used, degraded_reason)."""
-    if use_llm:
-        it = parse_llm(query, profile_interests)
-        if it is not None:
-            # deterministic safety net: never lose an explicit hard constraint the rules parser saw
-            rules = parse_rules(query, profile_interests)
-            if rules.topic_mode == "rank" and it.topics:
-                it.topic_mode = "rank"  # the request itself named no topic; interests only order results
-            have = {(f.property, str(f.value)) for f in it.hard_filters}
-            for f in rules.hard_filters:
-                if (f.property, str(f.value)) not in have and f.property in ("midsem_present", "attendance_none",
-                                                                             "compre_present"):
-                    it.hard_filters.append(f)
-            return it, "llm", None
-        reason = "LLM not configured" if not (os.environ.get("ANTHROPIC_API_KEY") or
-                                              os.environ.get("ANTHROPIC_AUTH_TOKEN")) else "LLM unavailable"
-        return parse_rules(query, profile_interests), "rules", reason
-    return parse_rules(query, profile_interests), "rules", None
+    """Return (intent, parser_used, degraded_reason). parser_used is 'rules', 'llm:<provider>' or 'edited'."""
+    if not use_llm:
+        return parse_rules(query, profile_interests), "rules", None
+    it, prov = parse_llm(query, profile_interests)
+    if it is not None:
+        # deterministic safety net: never lose an explicit hard constraint the rules parser saw
+        rules = parse_rules(query, profile_interests)
+        if rules.topic_mode == "rank" and it.topics:
+            it.topic_mode = "rank"  # the request itself named no topic; interests only order results
+        # Safety net: the rules parser is literal but reliable for these three flags. Add one only when the
+        # LLM said nothing about that property. If they disagree the LLM wins (it reads context such as
+        # "nothing with a midsem") but the disagreement is surfaced so the student can check the constraint.
+        by_prop = {f.property: f for f in it.hard_filters}
+        for f in rules.hard_filters:
+            if f.property not in ("midsem_present", "attendance_none", "compre_present"):
+                continue
+            mine = by_prop.get(f.property)
+            if mine is None:
+                it.hard_filters.append(f)
+            elif mine.value != f.value:
+                it.clarifications.append(
+                    f"The language model and the rule-based parser disagree on '{f.property}' "
+                    f"({mine.value} vs {f.value}); using {mine.value}. Check the constraint below.")
+        it.hard_filters = _dedupe_filters(it.hard_filters)
+        return it, f"llm:{prov}", None
+    reason = "LLM not configured" if prov is None else f"{prov} LLM unavailable"
+    return parse_rules(query, profile_interests), "rules", reason

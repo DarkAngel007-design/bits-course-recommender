@@ -61,7 +61,7 @@ docker compose up --build
 
 The compose file runs PostgreSQL 16 for profiles/plans and the app on port 8000. Set
 `ADMIN_TOKEN` (required, 16+ characters; compose refuses to start without it) and optionally
-`ANTHROPIC_API_KEY` in the environment first:
+`GEMINI_API_KEY` in the environment first:
 
 ```bash
 export ADMIN_TOKEN=$(openssl rand -hex 16)
@@ -142,11 +142,16 @@ npx newman run postman/BITS-Course-Recommender.postman_collection.json
 | `DATA_DIR` | `data/published` | Snapshot directory |
 | `RAW_DIR` | `dataset` | Optional; enables "open PDF page" links on evidence |
 | `ADMIN_TOKEN` | random per process | Maintainer endpoints (`X-Admin-Token`). No built-in default: if unset, a random token is generated and printed once in the server log; if set it must be 16+ characters |
-| `ANTHROPIC_API_KEY` | unset | Optional. Enables Claude intent parsing (`LLM_MODEL`, default `claude-opus-5`) |
+| `GEMINI_API_KEY` / `GOOGLE_API_KEY` | unset | Optional. Enables LLM query understanding via Google Gemini (free key: <https://aistudio.google.com/apikey>) |
+| `ANTHROPIC_API_KEY` | unset | Optional alternative provider (Claude) |
+| `LLM_PROVIDER` | auto | `gemini`, `anthropic` or `none`. Auto picks Gemini if its key is set, else Anthropic |
+| `LLM_MODEL` | `gemini-flash-latest` / `claude-opus-5` | Overrides the provider default model |
 | `CORS_ORIGINS` | `*` | Allowed browser origins |
 
-Credentials stay server-side. Only the query text and the profile's interests are sent to the
-LLM, never grades or history. Without a key (or when the call fails) the deterministic parser
+Credentials stay server-side (put them in a git-ignored `.env`; see `.env.example`). Only the query
+text and the profile's interests are sent to the LLM, never grades or history. Note that
+Gemini's free tier may use submitted content to improve Google products, so don't type anything
+sensitive into the query box when using it. Without a key (or when the call fails) the deterministic parser
 is used and the UI says so; profile, progress, structured filters and plans are unaffected.
 
 ## How recommendations are decided
