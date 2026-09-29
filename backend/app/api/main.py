@@ -12,6 +12,7 @@ from __future__ import annotations
 import hmac
 import logging
 import os
+import secrets
 import time
 from collections import OrderedDict
 from pathlib import Path
@@ -34,7 +35,21 @@ from ..scheduling.solver import Prefs, solve
 
 log = logging.getLogger("api")
 logging.basicConfig(level=os.environ.get("LOG_LEVEL", "INFO"))
-ADMIN_TOKEN = os.environ.get("ADMIN_TOKEN", "dev-admin-token")
+MIN_ADMIN_TOKEN_LEN = 16
+
+
+def _admin_token() -> tuple[str, bool]:
+    """Maintainer token. There is no built-in default: set ADMIN_TOKEN (>= 16 chars) for a stable
+    token, otherwise a random one is generated for this process and logged once at startup."""
+    tok = os.environ.get("ADMIN_TOKEN", "").strip()
+    if not tok:
+        return secrets.token_urlsafe(24), True
+    if len(tok) < MIN_ADMIN_TOKEN_LEN:
+        raise RuntimeError(f"ADMIN_TOKEN must be at least {MIN_ADMIN_TOKEN_LEN} characters")
+    return tok, False
+
+
+ADMIN_TOKEN, ADMIN_TOKEN_GENERATED = _admin_token()
 RAW_DIR = Path(os.environ.get("RAW_DIR", Path(__file__).resolve().parents[3] / "dataset"))
 API_VERSION = "1.0.0"
 
@@ -49,8 +64,9 @@ def _startup() -> None:
     db.init_db()
     snap = get_store().current()
     log.info("serving snapshot %s (%s), rules %s", snap.id, snap.term["label"], snap.rules_version)
-    if ADMIN_TOKEN == "dev-admin-token":
-        log.warning("ADMIN_TOKEN not set; using the development default")
+    if ADMIN_TOKEN_GENERATED:
+        log.warning("ADMIN_TOKEN not set: generated a one-time maintainer token for this process: %s "
+                    "(set ADMIN_TOKEN for a stable value)", ADMIN_TOKEN)
 
 
 @app.exception_handler(ValidationError)

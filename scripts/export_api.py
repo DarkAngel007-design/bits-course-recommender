@@ -95,9 +95,10 @@ collection = {
     "info": {"name": "BITS Course Recommender API", "schema":
              "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
              "description": "Run the folders in order. Profiles are synthetic. The owner token from 'Create profile' "
-                            "is stored automatically."},
+                            "is stored automatically. Set the adminToken collection variable to your server's ADMIN_TOKEN "
+                            "(or the one-time token printed in the server log) before running the Admin folder."},
     "item": items,
-    "variable": [{"key": "baseUrl", "value": "http://localhost:8000"}, {"key": "adminToken", "value": "dev-admin-token"},
+    "variable": [{"key": "baseUrl", "value": "http://localhost:8000"}, {"key": "adminToken", "value": ""},
                  {"key": "profileId", "value": ""}, {"key": "ownerToken", "value": ""}, {"key": "offeringId", "value": ""},
                  {"key": "planId", "value": ""}, {"key": "evidenceId", "value": ""}, {"key": "snapshotId", "value": ""}],
 }

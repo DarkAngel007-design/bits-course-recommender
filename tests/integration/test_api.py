@@ -7,6 +7,8 @@ import pytest
 from fastapi.testclient import TestClient
 
 os.environ["DATABASE_URL"] = f"sqlite:///{tempfile.mkdtemp()}/test.db"
+TEST_ADMIN_TOKEN = "test-maintainer-token-0123456789"
+os.environ["ADMIN_TOKEN"] = TEST_ADMIN_TOKEN
 os.environ.pop("ANTHROPIC_API_KEY", None)  # deterministic parser in tests
 os.environ.pop("ANTHROPIC_AUTH_TOKEN", None)
 
@@ -117,8 +119,26 @@ def test_overload_rejected(client, snap):
 
 def test_admin_requires_token(client):
     assert client.get("/admin/ingestion-runs").status_code == 403
-    r = client.get("/admin/ingestion-runs", headers={"X-Admin-Token": "dev-admin-token"})
+    r = client.get("/admin/ingestion-runs", headers={"X-Admin-Token": TEST_ADMIN_TOKEN})
     assert r.status_code == 200 and r.json()["snapshots"]
+
+
+def test_admin_rejects_default_and_short_tokens(client):
+    assert client.get("/admin/ingestion-runs", headers={"X-Admin-Token": "dev-admin-token"}).status_code == 403
+    assert client.get("/admin/ingestion-runs", headers={"X-Admin-Token": ""}).status_code == 403
+    import importlib
+
+    from backend.app.api import main
+    os.environ["ADMIN_TOKEN"] = "short"
+    try:
+        with pytest.raises(RuntimeError, match="at least"):
+            main._admin_token()
+        os.environ.pop("ADMIN_TOKEN")
+        tok, generated = main._admin_token()
+        assert generated and len(tok) >= 24
+    finally:
+        os.environ["ADMIN_TOKEN"] = TEST_ADMIN_TOKEN
+    importlib.invalidate_caches()
 
 
 def test_degraded_mode_without_llm(client):

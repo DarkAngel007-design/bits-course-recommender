@@ -17,7 +17,7 @@ services:
       db: {condition: service_healthy}
     environment:
       DATABASE_URL: postgresql+psycopg://recommender:recommender@db:5432/recommender
-      ADMIN_TOKEN: ${ADMIN_TOKEN:-change-me}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:?set ADMIN_TOKEN (16+ characters), e.g. export ADMIN_TOKEN=$(openssl rand -hex 16)}
       # Optional: enables LLM intent parsing. Kept server-side; never sent to the browser.
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
     # Mount the supplied PDFs to enable "open PDF page" links on evidence (optional):

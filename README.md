@@ -60,7 +60,12 @@ docker compose up --build
 ```
 
 The compose file runs PostgreSQL 16 for profiles/plans and the app on port 8000. Set
-`ADMIN_TOKEN` (and optionally `ANTHROPIC_API_KEY`) in the environment first.
+`ADMIN_TOKEN` (required, 16+ characters; compose refuses to start without it) and optionally
+`ANTHROPIC_API_KEY` in the environment first:
+
+```bash
+export ADMIN_TOKEN=$(openssl rand -hex 16)
+```
 
 ## Rebuilding the dataset from the PDFs
 
@@ -136,7 +141,7 @@ npx newman run postman/BITS-Course-Recommender.postman_collection.json
 | `DATABASE_URL` | `sqlite:///data/app.db` | Profiles, plans, run log. PostgreSQL: `postgresql+psycopg://…` |
 | `DATA_DIR` | `data/published` | Snapshot directory |
 | `RAW_DIR` | `dataset` | Optional; enables "open PDF page" links on evidence |
-| `ADMIN_TOKEN` | `dev-admin-token` | Maintainer endpoints (`X-Admin-Token`). Set it in any shared deployment |
+| `ADMIN_TOKEN` | random per process | Maintainer endpoints (`X-Admin-Token`). No built-in default: if unset, a random token is generated and printed once in the server log; if set it must be 16+ characters |
 | `ANTHROPIC_API_KEY` | unset | Optional. Enables Claude intent parsing (`LLM_MODEL`, default `claude-opus-5`) |
 | `CORS_ORIGINS` | `*` | Allowed browser origins |
 
